@@ -10,6 +10,6 @@ while true; do
     for f in $WEBTV_VIDEO_STORAGE_PATH*.mp4
     do
         echo "playing $f"
-        ffmpeg -fflags +discardcorrupt -re -i "$f" -vcodec copy -f mpegts -y video.pipe 2>/dev/null
+        ffmpeg -fflags +discardcorrupt -re -i "$f" -loglevel panic -vcodec copy -f mpegts -y video.pipe 2>/dev/null
     done
 done
