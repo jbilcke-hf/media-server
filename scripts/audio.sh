@@ -10,6 +10,6 @@ while true; do
     for f in $WEBTV_AUDIO_STORAGE_PATH*.mp3
     do
         echo "playing $f"
-        ffmpeg -re -i "$f" -vn -acodec copy -f mp3 -y audio.pipe 2>/dev/null
+        ffmpeg -fflags +discardcorrupt -re -i "$f" -vn -acodec copy -f mp3 -y audio.pipe 2>/dev/null
     done
 done
