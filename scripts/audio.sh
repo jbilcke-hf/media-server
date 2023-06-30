@@ -2,7 +2,11 @@
 
 echo "starting the audio collection stream.."
 while true; do
-    sleep 1
+    num_files=$(ls $WEBTV_AUDIO_STORAGE_PATH*.mp3 2> /dev/null | wc -l)
+    if [ $num_files -eq 0 ]
+    then
+        sleep 1
+    fi
     for f in $WEBTV_AUDIO_STORAGE_PATH*.mp3
     do
         echo "playing $f"
