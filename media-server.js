@@ -1,11 +1,13 @@
 const NodeMediaServer = require('node-media-server')
 
 const config = {
+  /*
   auth: {
     api: true,
     api_user: process.env.WEBTV_MEDIA_SERVER_USER,
     api_pass: process.env.WEBTV_MEDIA_SERVER_PASSWORD
   },
+  */
   rtmp: {
     port: 1935,
     chunk_size: 60000,
