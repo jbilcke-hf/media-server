@@ -1,15 +1,30 @@
 #!/bin/bash
 
-echo "starting the video collection stream.."
+echo "Starting the video collection stream.."
+current_count=$(ls $WEBTV_VIDEO_STORAGE_PATH*.mp4 2> /dev/null | wc -l)
+
 while true; do
-    num_files=$(ls $WEBTV_VIDEO_STORAGE_PATH*.mp4 2> /dev/null | wc -l)
-    if [ $num_files -eq 0 ]
-    then
-        sleep 1
+    new_count=$(ls $WEBTV_VIDEO_STORAGE_PATH*.mp4 2> /dev/null | wc -l)
+
+    if [ $new_count -ne $current_count ]; then
+        echo "Updating playlists..."
+        current_count=$new_count
+        files=($WEBTV_VIDEO_STORAGE_PATH*.mp4)
+        
+        # Re-create playlists
+        echo "ffconcat version 1.0" > list_a.txt
+        echo "ffconcat version 1.0" > list_b.txt
+        for (( i=0; i<${#files[@]}; i++ )); do
+            echo "file '${files[$i]}'"
+            if (( i%2 == 0 )); then
+                echo "file '${files[$i]}'" >> list_a.txt
+            else
+                echo "file '${files[$i]}'" >> list_b.txt
+            fi
+        done
+        echo "file './list_b.txt'" >> list_a.txt
+        echo "file './list_a.txt'" >> list_b.txt
     fi
-    for f in $WEBTV_VIDEO_STORAGE_PATH*.mp4
-    do
-        echo "playing $f"
-        ffmpeg -fflags +discardcorrupt -re -i "$f" -loglevel panic -vcodec copy -f mpegts -y video.pipe 2>/dev/null
-    done
+
+    sleep 1
 done
