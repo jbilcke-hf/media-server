@@ -7,8 +7,13 @@ mkdir -p $WEBTV_AUDIO_STORAGE_PATH
 echo "creating the playlists.." 
 echo "ffconcat version 1.0" > list_a.txt
 echo "ffconcat version 1.0" > list_b.txt
-echo "file './list_b.txt'" >> list_a.txt
-echo "file './list_a.txt'" >> list_b.txt
+echo "ffconcat version 1.0" > audio_list_a.txt
+echo "ffconcat version 1.0" > audio_list_b.txt
+
+echo "file 'list_b.txt'" >> list_a.txt
+echo "file 'list_a.txt'" >> list_b.txt
+echo "file 'audio_list_b.txt'" >> audio_list_a.txt
+echo "file 'audio_list_a.txt'" >> audio_list_b.txt
 
 echo "create the named pipes.."
 mkfifo video.pipe

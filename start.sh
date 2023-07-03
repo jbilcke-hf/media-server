@@ -11,7 +11,7 @@ node ./media-server.js &
 sleep 1
 
 # background process that creates an audio stream from audio files
-bash scripts/audio.sh &
+# bash scripts/audio.sh &
 
 # background process that creates a video stream from video files
 bash scripts/video.sh &
