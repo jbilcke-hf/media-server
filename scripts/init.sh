@@ -2,6 +2,7 @@
 
 echo "creating the storage folders.."
 mkdir -p $WEBTV_VIDEO_STORAGE_PATH
+mkdir -p $WEBTV_VIDEO_STORAGE_PATH_NEXT
 mkdir -p $WEBTV_AUDIO_STORAGE_PATH
 
 echo "creating the playlists.." 
