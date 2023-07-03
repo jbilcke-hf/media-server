@@ -1,13 +1,12 @@
 import { generateVideo } from './generateVideo.mts'
 import { downloadVideo } from './downloadVideo.mts'
 
-import { demo2 } from './prompts.mts'
+import { demo1 } from './prompts.mts'
 import { getStats } from './getStats.mts'
 
 const main = async () => {
-  /*
   console.log('Generating ideas..')
-  const ideas = demo2
+  const ideas = demo1
 
   console.log('Generating videos..')
 
@@ -32,7 +31,6 @@ const main = async () => {
   }
 
   console.log('Finished the full cycle')
-  */
   setTimeout(() => {
     main()
   }, 3000)
