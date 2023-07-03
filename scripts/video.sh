@@ -1,10 +1,13 @@
 #!/bin/bash
 
 echo "Starting the video collection stream.."
-current_count=$(ls $WEBTV_VIDEO_STORAGE_PATH*.mp4 2> /dev/null | wc -l)
+echo "listing files in $WEBTV_VIDEO_STORAGE_PATH*.mp4"
+current_count=0
 
 while true; do
     new_count=$(ls $WEBTV_VIDEO_STORAGE_PATH*.mp4 2> /dev/null | wc -l)
+
+    echo "there are $new_count videos files"
 
     if [ $new_count -ne $current_count ]; then
         echo "Updating playlists..."
