@@ -12,7 +12,7 @@ export const generateVideo = async (prompt: string, options?: {
 }) => {
   const seed = options?.seed || getRandomInt()
   const nbFrames = options?.nbFrames || 24
-  const nbSteps = options?.nbSteps || 10
+  const nbSteps = options?.nbSteps || 30
 
   const api = await client(videoSpaceApiUrl)
 

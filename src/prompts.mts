@@ -64,8 +64,109 @@ The output must be in JSON (here is the type signature:
 - I need: 10 captions
 - Input: ${input}`
 
-
-export const demo1 = [{
+export const moonshot = [
+  {
+    "input": "video of a car race, in various settings (race track at day, city at night, in the desert, canyons, british country side, las vegas, mountains, bridges etc). It features beautiful and highly-detailed supercars from various manufacturers, one per video. The camera should follow each car, but you can have various camera positions",
+    "captions": [
+      "4K Ultra HD video of a stylish Aston Martin racing on a sunny day, on a picturesque British countryside road bordered by traditional stone walls, ambient lighting, low angle camera following the car, shot on RED camera, trending on Artstation, ultra realistic, high quality",
+      "Highly detailed 3D render of a sleek Lamborghini roaring in the heart of a brightly lit Las Vegas strip at night, neon lights reflecting off its shiny surface, aerial view, captured on an Unreal Engine, trending on Artstation, ultra-realistic, CGI",
+      "8K Ultra HD video of a state-of-the-art Ferrari zipping through the bustling city streets of New York at twilight, shining under the glow of city lights and towering skyscrapers, wide-angle shot captured on a Blackmagic URSA Mini Pro, high quality, highly detailed, trending on Artstation",
+      "4K Ultra HD video of a high-performance Bugatti making its mark on a grueling desert landscape, contrast of the bright blue sky and golden sands, shot from a low angle with a following camera, vibrant colours, shot on Arri Alexa, hyper-realistic, trending on Artstation",
+      "Crisp 8K UHD video of a stunning McLaren navigating the narrow, winding roads of a rustic canyon, at sunset, the orange tones of the setting sun reflecting on the car surface, aerial view camera following the car, shot using a Phantom Flex4K, hyper-realistic, trending on Artstation",
+      "4K UHD video of a robust Jeep Wrangler effortlessly traversing the rugged mountain terrain, accent lighting on the sleek exterior, showcasing the power and fortitude of the vehicle, shot with a fisheye view on a RED Dragon, high detailed, trending on Artstation",
+      "Realistic 3D render of a vibrant Porsche 911 racing over a modern cityscape at dawn under mood lighting, skimmed by skyscrapers, aerial shot, rendered on Octane, trending on Artstation, CGI, photorealistic, high details",
+      "8K UHD video of an elegant Bentley Continental cruising down the highway, showcasing its grace against the cityscape backdrop under the morning sky, long shot, recorded with the Blackmagic URSA Mini Pro, hyper-realistic, trending on Artstation",
+      "4K UHD video of an opulent Masarati breezing through a coastal town, the golden afternoon sun creating a soft ambient light, casual and tranquil, ultra-wide angle following shot captured on a Canon EOS, highly detailed, high quality, hyper-realistic, trending on Artstation",
+      "Ultra HD 3D render of a classic Ford Mustang GT, racing on a moody, rain-soaked street under the dark, stormy sky, low angle shot, rendered on Houdini, realistic rain effects, studio quality, high details, CGI",
+      "High detailed 8K UHD video of a Chevrolet Camaro, driving through a lively city in the twilight, ambient artificial and natural light, bokeh effect in the background, aerial following shot, shot on RED Dragon, hyper realistic, trending on Artstation",
+      "4K UHD video of a sleek Audi R8 driving through a snowy mountain path, the white of the snow contrasting with the vehicle’s vibrant hue, highly detailed, captured during the sunrise on a Sony Venice, hyper realistic, trending on Artstation, studio quality"
+    ]
+  },
+  {
+    "input": "video of astronauts landing on moon, surveying the area, exploring the moon, old probes and moon robots, building a base etc",
+    "captions": [
+      "Video footage > Astronauts inside their space shuttle, prepping for the moon landing > Full of suspense > Close-up view from inside the shuttle, visible shaking and noises > GoPro Hero 9, 4K resolution > High Quality, Authentic Video, astronautical",
+      "Video footage > View of the moon surface as they approach, crater details visible > Dramatic and intense > Aerial view, switching between wide-angle and closer frames > Sony PXW-Z150, 4K resolution > Stunning, Detailed high quality, adrenaline-filled",
+      "HD video > Landing module touching down on moon's surface, dust kicking up > Realistic, intense > Wide-angle view, low angle shot > Sony PXW-Z150, 4K resolution > Authentic, High Quality, Historic Moment",
+      "HD video > Astronauts debarking module, stepping out on lunar landscape > Emotion-filled, docu-style > Long shot, slow zoom towards astronauts' faces > Sony PXW-Z150, 4K resolution > Emblematic, Inspiring, High Definition",
+      "HD video > Astronauts planting a flag on the moon, moment of accomplishment, flags flutters in the low-gravity atmosphere > Patriotic, realistic > Wide-angle, full-body shot > Canon C300, 4K resolution > Award Winning, Incredible, High Quality",
+      "HD video > Astronauts surveying the lunar area with some devices > Scientific, exciting > Medium shot, shot from behind > Canon C300, 4K resolution > Detailed, High Quality, analytical",
+      "3D Animation > Visual representation of the moon topography, showing the route the astronauts will go > Futuristic, informative > Aerial view > Rendered in Blender > Detailed, Informational, High Quality",
+      "3D Animation > Astronauts starting their lunar journey, suited up and equipment at hand > adventure-filled, realistic > Dynamic view, both close-ups and wide-angles > Rendered in Blender > Prime, Adventure, Exploration",
+      "3D Animation > Astronauts discovering old probes and moon robots > surprised, futuristic > Medium shot, from a low angle > Rendered in Blender > Striking, Detailed, Archival",
+      "3D Animation > Astronauts working around old probes, taking samples > investigative, scientific > Cinematic, switching between over the shoulder and close-up frames > Rendered in Blender > High Quality, Explorer, Detailed",
+      "3D Animation > Finding remnants of old moon base, building sense of discovery > Mystical, suspenseful > Panning wide shot > Rendered in Unreal Engine 4 > Superb, Mysterious, Abandoned Base",
+      "3D Animation > Astronauts exploring the abandoned base, flashlight illuminating the place > Atmospheric, eerie > Low Light, close up shots > Rendered in Unreal Engine 4 > Detailed, Frightening, Eerie",
+      "3D Animation > Discovery of a map layout for a new base, planning stage > Exciting, futuristic > Close view on digital map > Rendered in Unreal Engine 4 > High Quality, Ingenious, Detailed",
+      "3D Animation > Astronauts constructing new living modules, bustling activity > Effortful, teamwork > Wide shots with close ups > Rendered in Blender > High Quality, Resourceful, Industrious",
+      "HD video > Time-lapse of the base being built, day and night shifts > Impressive, futuristic > Aerial view, night vision > Canon C300, 4K resolution > Ingenious, Award Winning, Incredible",
+      "HD video > Astronaut team taking a break, looking at Earth on the horizon > Reflective, serene > Wide-angle, slow pans and zooms > Sony PXW-Z150, 4K resolution > Dreamy, High Quality, Calm",
+      "HD video > Night falling on the moon base, lights flickering on > Atmospheric, breathtaking > Long shot, glowing lights > Canon C300, 4K resolution > Striking, Night Time, High Quality",
+      "3D Animation > View of their completed moon base, pride in their accomplishment > Futuristic, impressive > Bird eye view, lit-up base > Rendered in Blender > High Detailed, Stunning, Awe-Inspiring",
+      "3D Animation > Shot circling around the moon base, detailed look at modules > Detailed, informative > Wide-angle > Rendered in Unreal Engine 4 > High Quality, Architectural, Breathtaking",
+      "HD video > Astronaut team raising their helmets in celebration, Earth visible in the background > Triumphant, inspiring > Close-up shots, with depth of field > Sony PXW-Z150, 4K resolution > Celebratory, Uplifting, High Quality"
+    ]
+  },
+  {
+    "input": "video of pirates sailing on a ship, walking on ropes, attacking a ship, shooting with cannon, having a party with the gold, sailing with dolphin, in beautiful day settings, with a night party",
+    "captions": [
+      "Photorealistic video sequence of pirates setting sail on a ship, turquoise sea around them, shot in bright daylight, Canon EOS camera, 4k resolution, high quality, hyper realistic details",
+      "Highly detailed video track of pirates hoisting the sails, climbing up the ropes with ease, midday sun casting long shadows, shot with Canon EOS, award-winning visuals, ultra-HD 4k, trending on artstation",
+      "Cinematic video of the pirate crew working together, tending the ship while sailing on the open sea, beautiful clear skies backdrop, Canon EOS, studio quality, 4K, high details, seamless transition",
+      "Vivid video of a sudden ship on the horizon, pirates preparing for an attack, tension building atmosphere, captured with Canon EOS, ultra-realistic, 4K resolution, high detailed skin",
+      "Dynamic video displaying the pirates attacking the ship, strong visual storytelling, real-world action, shot using Canon EOS, high-quality visuals, hyper-realistic, 4k, grainy detail",
+      "Explosive video sequence of pirates firing cannons, smoke billowing around, dazzling sunlight backlighting the scene, Canon EOS recording, Ultra-wide perspective, 4K resolution, octane render quality",
+      "Stunning video of the aftermath, showing the pirates rejoicing with captured gold, bright daylight projecting golden hues, captured Canon EOS, award-winning, hyper-realistic, trending on artstation, 4k",
+      "Cinematic video transition to dusk, pirates starting a party on the ship, jovial atmosphere, real-world footage, shot with Canon EOS, ultra HD visuals, studio quality, high details, seamless transition",
+      "Aesthetic video of pirates, merrily celebrating their victory around a bonfire, moonlit scene, Canon EOS, award-winning visuals, high details, photorealistic, ultra-high-definition 4k, perfect composition",
+      "Memorable video of pirates sharing stories, drinking and singing sea shanties, providing insight into their camaraderie, shot with Canon EOS, ultra-realistic, high detailed skin, ambient lighting",
+      "Poetic video of the pirate ship sailing alongside dolphins at dawn, harmonious connection with nature, shot with Canon EOS, trending on artstation, ultra HD, high details, photorealistic render",
+      "Surreal video of the ship disappearing into the horizon as night blankets the ocean, end of an epic journey, Canon EOS, wide-angle view, award-winning, 4k quality, high-level detailing"
+    ]
+  },
+  {
+    "input": "video of astronauts landing on Mars, surveying the area, exploring mars, exploring caves, building a base etc",
+    "captions": [
+      "Video footage of astronauts landing on Mars in a high-tech spacecraft, realistic 3D render, first-person view, Ultra HD 4k resolution, shot on RED Scarlet-W Helium 8K camera, highly detailed, award winning",
+      "Video of astronauts opening the spacecraft hatch, revealing the Martian landscape, 3D render, panoramic view, Ultra HD 4k footage, shot on RED Scarlet-W Helium 8K camera, ambient lighting, trending on artstation",
+      "Video of astronauts stepping onto the Martian soil, their boots imprinting the surface, surrealistic 3D render, close-up view, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, ambient Mars-lighting, highly detailed",
+      "Realistic 3D render video of astronauts setting up flags and surveying the Martian area, distant view, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, crepuscular rays lighting, breathtaking, trending on artstation",
+      "Video of astronauts using high-tech equipment for surface-check on Mars, 3D render, close-up, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, complex lighting setup, highly detailed, high quality",
+      "Astronauts video recording Martian rocks and surface, 3D render, fisheye view, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, ambient lighting, high details, stunning, trending on artstation",
+      "Exploring Mars video: Astronauts walking on vast Martian plains, 3D render, long shot, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, soft Mars-light, breathtaking visuals, featured on cgsociety",
+      "Video of astronauts discovering a Martian cave entrance, cinematic 3D render, medium shot, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, shadow lighting, highly detailed, award-winning",
+      "Video of astronauts using flashlights to explore dark Martian cave, realistic 3D render, first-person view, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, spotlight style, highly detailed, high quality",
+      "Video of astronauts discovering strange formations in Martian caves, 3D render, wide-angle, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, unique ambient lighting, highly detailed, trending on artstation",
+      "Realistic 3D render video of astronauts exiting caves with samples, long shot, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, direct sunlight, impressive visuals, award-winning",
+      "Video of astronauts documenting Martian surface and environment, 3D render, extreme close-up on the camera equipment, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, high quality, highly detailed",
+      "Astronaut communicating with base on earth, 3D render video, close-up on the astronaut's face, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, ambient lighting on Mars, high quality",
+      "Video showing astronauts assembling temporary shelter on Mars, 3D render, time-lapse style, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, ambient Mars light, impressive details, high quality",
+      "Video of astronauts assembling life support systems for the Martian base, 3D render, wide-angle view, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, dim Mars-light, high quality, trending on artstation",
+      "Video of astronauts gathering and studying Martian rock samples inside the base, 3D render, fisheye view, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, detailed indoor lighting, stunning details, high quality",
+      "Astronauts video documenting base setup and operating 3D printers, awe-inspiring 3D render, wide-angle shot, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, trending on artstation, epic composition, 4K",
+      "Video of astronauts unboxing and setting up solar panels outside the base, realistic 3D render, long shot, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, intricate details, high quality, trending on artstation",
+      "Video of astronaut performing a spacewalk on Mars, surrealistic 3D render, POV Footage, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, soft Mars-light, breathtaking view, award-winning",
+      "Video of Martians terrain seen from Rover's camera, 3D render, fisheye view, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, martian dust, highly detailed, high quality",
+      "Astronaut making repairs to the Martian base, 3D render video, fisheye view, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, gloomy ambient light, high details, stunning, award winning",
+      "Video of astronauts monitoring Mars from base, 3D render, medium shot, Ultra HD 4k, shot on RED Scarlet-W Helium 8K camera, interior light setup, high details, stunning, trending on artstation",
+    ]
+  },
+  {
+    "input": "a adventure movie about a treasure hunter who discover a new pharaoh, the adventure takes them in the nile, desert, mountain, and the even have to go to greece",
+    "captions": [
+      "3D animation > Treasure hunter reading ancient map in torchlight, adorned with golden hieroglyphics, inside a mysterious Egyptian tomb > Surreal, richly detailed > Close-up > Rendered with Unreal Engine > High detail, glowing, ambient lighting, breath-taking, cinematic, realistic, award-winning",
+      "3D animation > Panoramic view of the majestic river Nile bathed in the warm glow of a setting sun, with treasure hunter's boat in the foreground > Hyper-realistic, ambient lighting > Wide-angle long shot > Rendered with Unreal Engine > 4K resolution, highly detailed, breathtaking, award-winning",
+      "3D animation > A chase scene with treasure hunter riding on camelback through the sandy desert dunes under scorching sunlight > Fast paced, realistic > Aerial view > Rendered with Unreal Engine > High detail, direct sunlight, cinematic, trending on artstation",
+      "3D animation > Treasure hunter unlocking an intricate, cobweb-laden ancient lock with hieroglyphs on a wooden treasure chest > Detailed, ambient lighting > Extreme close-up > Rendered with Unreal Engine > High detail, dusty environment, suspenseful, award-winning",
+      "3D animation > Grand reveal of newly discovered Pharaoh's golden sarcophagus adorned with precious gemstones > Majestic, detailed > Wide shot > Rendered with Unreal Engine > Breathtaking, award-winning, tron light, vibrant colors, hyper-realistic",
+      "3D animation > Treasure hunter and crew navigating treacherous mountain pass, with blizzard conditions swirling around them > Realistic, highly detailed > Wide-angle view > Rendered with Unreal Engine > 4K resolution, ultra realistic, atmospheric, award-winning",
+      "3D animation > Close-up of the treasure hunter's astonished face, eyes reflecting the gleam of the discovered treasure > Realistic, highly detailed > Extreme close-up > Rendered with Unreal Engine > 4K resolution, dramatic lighting, award-winning, breathtaking",
+      "3D animation > An intense standoff scene at a rustic Greek tavern, with treasure hunters and adversaries > Filmic, ambient lighting > Wide shot > Rendered with Unreal Engine > High detail, atmospheric, cinematic, trending on artstation",
+      "3D animation > Treasure hunter sailing on the Aegean Sea towards an ancient Greek island, under a beautiful dusk sky > Majestic, detailed > Wide-angle long shot > Rendered with Unreal Engine > 4K resolution, ultra realistic, breathtaking, award-winning",
+      "3D animation > Final scene of victorious treasure hunter holding high the discovered artifact under the moonlit night sky > Triumph, highly detailed > Low angle, close-up > Rendered with Unreal Engine > High detail, moonlight, cinematic, trending on artstation"
+    ]
+  },
+  {
   "input": "underwater footage of fishes around coral",
   "captions": [
     "4K video of a school of colorful clownfish dancing energetically around a vibrant coral reef, captured on a GoPro Hero Black",
@@ -108,6 +209,30 @@ export const demo1 = [{
     "Real-life video of a cyclist racing downhill on mountain terrain, shot during sunrise, reflecting an adventurous and fast-paced style, recorded with a GoPro Hero9 in 4k resolution, exhibiting high details and trendiness on artstation.",
     "Real-world soccer footage of a player performing a bicycle kick, under floodlights, offering a unique and dramatic style, captured with a Red Epic Dragon at 4k resolution, showing high-quality motion and trending on artstation.",
     "Slow motion basketball footage of a player swishing a three-point shot in a packed stadium, at night, showcasing a competitive and passion-filled style, filmed with an Arri Alexa at 4k resolution, delivering ultra-high details and a trending phenomenon on artstation."
+  ]
+},
+{
+  "input": "video footage of a platform video game, the player goes through various level. The video is a 2D platformer but with a 3D rendering. Levels are ice, desert, forest, city, mountain, moon etc",
+  "captions": [
+    "3D render of a 2D platform video game, showcasing a player navigating an icy level filled with snowflakes and ice blocks, under a soft, blue ambient lighting. The scenario is semi-realistic with game-themed design. The scene is captured from a side-on perspective. High-quality in-game engine render, award-winning, featured on artstation.",
+    
+    "Perfect 3D rendering of a 2D platform video game, a player cruising through a desert level surrounded by sand dunes and prickly cactus plants under blazing bright sunlight. The style retains an animated charm but with a hyper-realistic touch. Camera angle remains at a side-view. High-quality in-game engine render, with fascinating details, similar to CGI, trending on artstation.",
+
+    "In-game 3D render footage of a 2D platform game, the player is jumping through a vibrant forest level filled with diverse flora and fauna under ambient sunlight. The style is a mix of cartoon and realism. Detailed side view of the level. Game development engine used for perfect detailing and realistic shadows. Consistent camera angle, cinematic quality, featured on artstation.",
+
+    "3D render animation of a 2D platform video game, a player dashing through an urban city filled with skyscrapers, traffic lights, and moving vehicles. Neon city lights create an atmospheric scene. The art style is a blend of hyper-realism and game art. Maintains a side viewing angle. The level is vibrant and densely populated. Game developer rendering, lifelike consistency, trending on artstation.",
+
+    "3D game engine footage of a 2D platform game, displaying a player progressing through a rocky mountain level. Weather effects like winds can be seen influencing gameplay. Realistic, though retaining the charm of a game. The scene remains consistently side-viewed. Masterfully detailed, epic gaming design, consistent camera type, featured on Artstation.",
+
+    "High-quality 3D game engine render showcasing a 2D platform game. The player is seen leaping through moon level. The environment is applied with moon-like craters and space in the backdrop symbolizing low gravity. The style blends reality and game aesthetics. Presented from the side-angle, keeping a consistent camera. Unreal engine quality, intricate detailing, highlighted on artstation.",
+
+    "3D rendered footage of a 2D platform game, the player navigating through an underwater level filled with aquatic flora and fauna under soft, blue lighting. The style is semi-realistic with game-themed design. The scene is captured side-on. High-quality in-game engine render, award-winning, featured on artstation.",
+
+    "Video game landscape render, displaying a 2D platform game in a 3D style. The player is journeying through a mystic forest level filled with magical creatures and glowing plants under a ethereal ambient lighting. Scene is captured at a consistent side-view. High details, using game development engine, trending on artstation.",
+
+    "Footage from a 3D rendered 2D platform game, showing a player crossing a volcanic level filled with erupting volcanoes and flowing lava streams. Lighting effects to simulate glow from lava and sparks. Presented at a constant side angle. Highly detailed, unreal engine quality, award-winning, featured on artstation.",
+
+    "3D game engine render of a 2D platform video game, a player maneuvering through a space station level filled with high-tech gadgets and laser traps. Futuristic lighting and science fiction based style. Side-view camera angle maintained. Hyper-realistic detailing, consistent camera type, highlighted on artstation."
   ]
 },
 {
