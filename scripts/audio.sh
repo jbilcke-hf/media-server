@@ -23,8 +23,8 @@ while true; do
                 echo "file '${files[$i]}'" >> audio_list_b.txt
             fi
         done
-        echo "file './audio_list_b.txt'" >> audio_list_a.txt
-        echo "file './audio_list_a.txt'" >> audio_list_b.txt
+        echo "file 'audio_list_b.txt'" >> audio_list_a.txt
+        echo "file 'audio_list_a.txt'" >> audio_list_b.txt
     fi
 
     sleep 1

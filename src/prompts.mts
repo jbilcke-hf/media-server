@@ -4,7 +4,7 @@ export interface Scene {
   captions: string[]
 }
 
-export const systemPrompt = `You are a helpful assistant working for a TV channel. You catalogued thousand of video snippets on various topics. You also know how stable diffusion works (an AI model to generate image using captions similar to those of image banks and image datasets), and how to prompt it "adding things like "photo of a beautiful cat drinking milk, in a trailer park, with boho style outdoor space with 60s, furnishings, mystical objects, candles, van and lights on, sunset, Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, trending on artstation.." etc.
+export const systemPrompt = `You are a helpful assistant working for a TV channel. You catalogued thousand of video snippets on various topics. You also know how stable diffusion works (an AI model to generate image using captions similar to those of image banks and image datasets), and how to prompt it, adding things like "photo of a beautiful cat drinking milk, in a trailer park, with boho style outdoor space with 60s, furnishings, mystical objects, candles, van and lights on, sunset, Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, trending on artstation.." etc.
 
 # Here is a more complete guide for prompting:
 
@@ -62,9 +62,136 @@ The output must be in JSON (here is the type signature:
 
 # Parameters
 - I need: 10 captions
-- Input: ${input}`
+- Input: ${input}  (note: add the keywords "cinematic", "imax", "movie", "film grain" to help the AI generator)`
 
 export const moonshot = [
+  {
+    "input": "documentary footage of dinosaurs running in the nature among visitors of a dinosaur park, on an island, featuring 6 different sorts of dinosaurs, predators or not etc, going to water places, hunting other dinosaurs. The settings if beautiful and marvelous, like a tropical island, but there are also rivers, mountains, night scene with rain etc with a big trex. To give an intense atmosphere, all the scenes should have fog or mist, an various light tricks such as gods ray, shadows etc (note: add the keywords 'cinematic', 'imax', 'movie', 'film grain' to help the AI generator)",
+    "captions": [
+      "Cinematic IMAX footage of assorted dinosaurs moving dynamically in a dense tropical forest, shot in a documentary style, with the hazy sunlight breaking through the canopy, creating fascinating shadows and god's rays. Filmed with ARRI Alexa camera emphasizing the film grain texture and the movie-like atmosphere.",
+      "Cinematic IMAX footage of a pack of velociraptors stalking through the tall grass of the dinosaur park, hunting prey in a synergistic manner, under the natural, tropical daylight. Filmed with ARRI Alexa camera to capture the fine film grain details and the movie-like atmosphere.",
+      "Cinematic IMAX footage of visitors observing Brachiosaurus at the riverside of the dinosaur park, enormous creatures peacefully eating foliage in a tropical setting contrasting with the potential dangers of predators. Captured with ARRI Alexa camera, showing the realistic film grain details and creating a suspenseful, movie-like atmosphere.",
+      "Cinematic IMAX footage of a rugged mountainside depicting a herd of Triceratops grazing, under the scattered lighting caused by the cloudy skies, shot in a documentary style. Filmed with the ARRI Alexa camera enhancing the realistic film grain aesthetic.",
+      "Cinematic IMAX footage showing the intense scene of Pterodactyls flying high above the island, basking in the fading sunlight. Taken with ARRI Alexa camera highlighting the delicate film grain texture and completing the movie narrative with a splendid bird's eye view shot.",
+      "Beautiful night scene filmed in cinematic IMAX of the dinosaur park amid light rain, creating an eerie but fascinating atmosphere through the misty jungle. Captured with ARRI Alexa camera to enhance the film grain texture.",
+      "Cinematic IMAX snippet of a T-Rex making its terrifying appearance in the misty night, eyes glowing, reflecting the fear of unseen visitors. Filmed using the ARRI Alexa camera to emphasize movie-like atmosphere and capture detailed grain texture.",
+      "Cinematic IMAX capture of a pack of Gallimimus wildly running past the visitors amidst the foggy morning, creating captivating dynamics. Filmed with an ARRI Alexa camera capturing the film grain detail to enhance the movie-like atmosphere.",
+      "Cinematic IMAX footage of visitors marveling at the sight of Parasaurolophus feeding by the riverside amidst a tropical backdrop. Filmed with ARRI Alexa camera, achieving a stunning film grain texture and a narrative documentary style.",
+      "An emotionally charged scene in cinematic IMAX of a Triceratops defending its young against a pack of Velociraptors under the intensity of tropical sunlight. Filmed using ARRI Alexa camera, capturing high detail and film grain texture that evokes a movie-like atmosphere.",
+      "Cinical IMAX scene of the trepid visitors witnessing a herd of Brachiosaurus moving slowly beyond the foggy horizon, shot with an ARRI Alexa camera to achieve a stunning film grain texture and a compelling atmosphere.",
+      "The iconic, suspense-filled scene filmed in cinematic IMAX of a T-Rex silhouette appearing amid the mist, leaving footprints in the mud as it approaches visitors. Captured with ARRI Alexa camera, celebrating the film grain and creating a movie-like climactic moment."
+    ]
+  },
+  {
+    "input": "documentary footage of dinosaurs running in the nature among visitors of a dinosaur park, on an island, featuring 6 different sorts of dinosaurs, predators or not etc, going to water places, hunting other dinosaurs. The settings if beautiful and marvelous, like a tropical island, but there are also rivers, mountains, night scene with rain etc with a big trex",
+    "captions": [
+      "IMAX film footage of a pack of Gallimimus running swiftly through a lush, tropical forest on a mesmerizing island, daylight, Canon EOS camera, film grain, high details, award-winning, ultra-wide angle, panoramic, trending on ArtStation, cinematographic quality.",
+      "Cinematic documentary video of Triceratops drinking peacefully from a purling stream amidst verdant vegetation, daylight, Canon EOS, high quality, incredible depth of field, trending on ArtStation, soft ambient lighting creating serene mood, film grain.",
+      "High definition IMAX footage of a Velociraptor in its natural habitat, stalking keenly among the dense undergrowth, daylight, Canon EOS, hyper-realistic, high detail, depth of field, soft lighting from afternoon sun, film grain.",
+      "Stunning cinematic film of a majestic Brachiosaurus strolling along the banks of a sprawling river, casting a long shadow in the sunset, Canon EOS, award-winning, ambient lighting, ultra-wide angle, hyper-realistic, high detail, film grain.",
+      "Breathtaking night scene of a T-Rex hunting in the rain, thunder lighting up the dramatic scene, Canon EOS film footage, imax quality, soft backlighting creating stunning silhouette, high detail, film grain, trending on ArtStation.",
+      "Documentary film footage of a herd of Parasaurolophus grazing peacefully under the gentle rays of the morning sun, Canon EOS, imax quality, high detail with soft ambient lighting, ultra-realistic, film grain, trending on ArtStation.",
+      "Immersive IMAX footage of visitors exploring the dinosaur park, wide-eyed at the sight of the marvelous creatures in a vibrant tropical setting, Canon EOS, high detail, depth of field, trending on ArtStation, film grain.",
+      "Ultra-realistic high definition film footage documenting the feeding habits of a Carnotaurus at dusk, Canon EOS, imax quality, incredible depth of field, accent lighting highlighting the dinosaur's raw power, film grain.",
+      "Cinematic scene of a Diplodocus raising its long neck to feast on the tree tops, captured in the warm afternoon golden hour, Canon EOS, high detail, ultra-realistic, ambient lighting, film grain, trending on ArtStation.",
+      "Late night footage of a pack of Velociraptors working together to bring down a larger prey in the pouring rain, Canon EOS, imax quality, film grain, intense backlight creating striking contrast, high detail, trending on ArtStation.",
+      "Aerial view of the dinosaur park showing the extent of the tropical island with diverse settings, from mountains to rivers and dense forests, captured in IMAX quality, Canon EOS, high detail, film grain, trending on ArtStation.",
+      "Dramatic closure footage of a mighty T-Rex claiming its territory among the lesser beings, against the setting sun, Canon EOS, imax quality, stunning backlighting, high detail, ultra-realistic, film grain, trending on ArtStation."
+    ]
+  },
+  {
+    "input": "documentary footage of an intense race on a race track, with the camera posted on various places (fixed, drone, onboard, showing the pilot, or the race, moving etc), showing the F1 cars racing, some accidents, smoke, people in acclaim, and the final celebration",
+    "captions": [
+        "Documentary footage of racing F1 cars at breakneck speed on a racetrack, capturing the intensity and thrill of the competition, cinematic style, shot from a fixed, high angle view, filmed with IMAX cameras with a touch of film grain for that classic documentary feel, high details, studio quality, high definition, 4k resolution.",
+        "Real world footage of a sudden accident on the track, suspenseful and dramatic, capturing the unexpected twists of racing, cinematic style, shot from a medium leveling zooming in to the accident, using IMAX cameras with subtle film grain details, high details, studio quality, high resolution, 4k.",
+        "Documentary footage of a pilot reacting swiftly to the accident, capturing raw emotions and quick thinking, cinematic style, extreme close-up shot inside the cockpit, using IMAX cameras, with film grain added for an intense, movie-like feel, high details, studio quality, RAW photo, 4k resolution.",
+        "Movie-like documentary of a F1 car skidding, trails of smoke billowing behind, adding to the drama and excitement of the race, cinematic style, wide-angle, shot from a drone, using IMAX cameras, with an element of film grain for a raw and gritty effect, high details, studio quality, 4k resolution.",
+        "Documentary film of thousands of fans watching the race with bated breath, capturing the shared tension and anticipation, cinematic style, long shot, filmed from an aerial drone, using IMAX cameras, with a touch of film grain for a vintage documentary feel, high details, studio quality, RAW photo, 4k resolution.",
+        "Footage of a F1 car racing towards the finish line, showing the determination and high speed adrenaline rush, cinematic style, filmed from a high-speed following drone, using IMAX cameras, with a film grain filter for a cinematic feel, high details, studio quality, RAW photo, 4k resolution.",
+        "Documentary shot of the winning F1 car crossing the finish line, capturing the climactic moment of ultimate victory, cinematic style, extreme long-shot, shot from a stable fixed point, using IMAX cameras, with visible film grain for a vintage movie effect, high details, studio quality, RAW photo, 4k resolution.",
+        "Cinematic documentary footage of the winner's joyous celebration, capturing the ecstasy of victory, cinematic style, close-up shot of the pilot, filmed with IMAX cameras, with film grain for an authentic documentary feel, high details, studio quality, RAW photo, 4k resolution.",
+        "Film footage of an emotional pilot raising the trophy, capturing sheer joy and victory, cinematic style, low angle, shot using IMAX cameras, with subtle film grain added for a more authentic and dramatic feel, high details, studio quality, RAW photo, 4k resolution.",
+        "Documentary footage of the crowning ceremony, capturing the euphoria and pride of the winner, cinematic style, long shot, filmed from a wide angle with IMAX cameras, with a sprinkle of film grain for a sweepingly cinematic effect, high details, studio quality, RAW photo, 4k resolution.",
+        "Film footage of cheering crowd applauding the victor, capturing the contagious excitement and team spirit, cinematic style, shot overhead from a drone, using IMAX cameras, and a film grain filter for a raw documentary vibe, high details, studio quality, RAW photo, 4k resolution.",
+        "Cinematic and emotional documentary footage of victorious team hugging and celebrating, capturing the essence of triumph and unity, cinematic style, close-up shot, filmed using IMAX cameras, with visible film grain for an authentic feel, high details, studio quality, RAW photo, 4k resolution."
+    ]
+  }, {
+    "input": "documentary footage of aquatic life, featuring squids of various size and color, dolphines, whales, orca, and sharks",
+    "captions": [
+        "cinematic footage of a colossal squid dashing through the deep-sea, in an elegant dance, surrounded by an army of neon-colored fish, in the depth of pristine ocean, filmed with IMAX camera, high granularity, added film grain effect, high quality widescreen composition, winner of multiple awards",
+        "high-quality IMAX film capturing a pod of playful dolphins, dashing through azure clear water, near the surface, accentuated by natural sunlight filtering through water, shot in landscape, maintaining the film grain consistency, cinematic composition, engulfed in the richness of marine life",
+        "captivating movie footage, a curious orca inspecting a deep-sea explorer vehicle, in dark water illuminated only by the submarine's lights, reflection playing off the whale's skin, gritty texture, film grain effect, captured on IMAX, showcasing the cinematic aspect of marine exploration",
+        "beautiful scene of a shark in the soft twilight of dusk, depicting its powerful elegance, patrolling near a coral reef, evocative lighting, adding depth to the visual narrative, shot on IMAX, dramatic cinematic texture, retaining film grain technique throughout",
+        "cinematic exploration of a deep-sea squid courtship ritual, vibrant with hues, captured in the alien-like landscape of the ocean floor, filmed with enhanced light to highlight the bioluminescent spectacle, on IMAX, accentuated with a film grain effect for vintage aesthetic",
+        "panoramic IMAX capture of a school of dolphins doing aquabatics, high contrast against the midday sun, immersion in natural world, with subtle film grain effect, timeless cinema aesthetic, 4k, maintaining the visual consistency across the series",
+        "lush video rendering of a pod of orcas hunting in coordination, stunning visuals accompanied by dramatic, natural lighting of the setting sun, maintaining the IMAX film grain, showcasing the fast-paced drama inherent in nature's theatre, truly cinematic",
+        "awesome movie of millions of neon colored squids migrating, shot at twilight, with a backdrop of the sun setting, creating a silhouette effect, enhancing the film's cinematic appeal, IMAX screen, consistent film grain, award-winning quality",
+        "cinematic capture of a humpback whale breaching, bright sunlight adding a sense of majesty, awe-inspiring raw power of the ocean's giant, filmed using IMAX, with customary film grain effect, wide-angle shot, breathtaking detail that elevates the quality of the footage",
+        "film footage of mysterious shadows from a shiver of sharks passing overhead, as seen from the deep-sea floor, IMAX panoramic view utilizing natural lighting contrasts unique to marine environments, consistent film grain style, contributing a more cinematic, intimate look into marine life",
+        "IMAX epic scale film of rare blue whale and its calf, graceful despite their enormous size, leaving a trail of bioluminescent algae in their wake, sunrise ambiance lighting, film grain technique applied consistently",
+        "immersive footage of an orca leaping out of water against a blazing sunset, frozen in mid-air, a moment that epitomizes the wild, free spirit of marine life, shot with IMAX, grainy film texture, consistent with prior captures, culminating this series of nature's wonders"
+    ]
+},
+  {
+    "input": "cinematic scenes from a movie about knights, with beautiful scene from various medieval scenes, in the forest, abbey, with an attack of a castle featuring various castle assault techniques and machines, horse fighting, sword fighting, knights in armor",
+    "captions": [
+      "Film sequence of a company of armored knights riding through an enchanted ancient forest. Lighting is ambient with dappled sunlight filtering through the towering trees. Filmed with an IMAX camera, cinematic style, high quality movie CGI, highly detailed, trending on artstation.",
+    
+      "Film footage of an ancient abbey nestled amidst the verdant forest. Features details like towering spires, stained glass windows, with monks going about their day in the soft morning light. Captured with an IMAX camera, emphasizing the film grain, ultra wide-angle view, raw photo, high detailed structure.",
+  
+      "Film sequence of knights engaged in conversation in the abbey's courtyard, debating strategies for impending battle. Ambient lighting with a dramatic undercurrent, shot with an IMAX camera in a realistic CGI medieval setting, movie style, detailed armor design, cinematic.",
+  
+      "Film shot of knights in shining armor practicing sword fighting in an open field, with lush grass and vibrant sunset. Captured in 4k with an IMAX camera, featuring cinematic style, film grain, detailed, realistic CGI, trending on artstation.",
+  
+      "Cinematic frame of an imposing castle at dusk, with detail highlighted in the last rays of sunlight. Shot with IMAX camera, panoramic view, medieval CGI setting, with a sensation of impending action, high detailed, trending on artstation, cinematic.",
+  
+      "Film footage of preparing for the castle assault, featuring various medieval war machines like trebuchets, battering rams, and ballistae. Richly detailed with IMAX camera, dusk lighting, cinematic CGI, trending on artstation, high quality.",
+  
+      "Film sequence of the castle under siege, the air filled with flaming arrows. Night scene lit by firelight with IMAX camera, capturing the gritty reality of medieval warfare, high quality CGI, cinematic, film grain, stunning battlefield detail, trending on artstation.",
+  
+      "Film footage of a brave knight leading the charge into the castle, the clashing swords and the chaos of battle. Night lighting, high detailed armor, filmed with an IMAX camera, capturing the raw essence of a medieval battle, CGI, cinematic.",
+  
+      "Film shot of a powerful warhorse in the heat of the battle, with a knight poised for attack. The frame is filled with the realism of a horse charge, captured with an IMAX camera, moonlight casting long shadows, cinematic, CGI, film grain, trending on artstation.",
+  
+      "Film sequence of a heroic knight in a one-on-one duel under the moonlight, swinging his sword with raw power. Shot with an IMAX camera, focus on the knight, cinematic, high quality CGI, close-up action, dramatic lighting, film grain, trending on artstation.",
+  
+      "Film shot of the aftermath of the battle, featuring the destroyed castle at dawn. Captured in 4k with an IMAX camera, showcasing the beautiful wreckage, ambient sunrise lighting, film grain, cinematic, highly detailed, medieval CGI, trending on artstation.",
+  
+      "Ending film sequence of victorious knights standing amidst the ruins, the sun rising in the background casting a golden hue. Shot with an IMAX camera, panoramic view, stunning battlefield detail, film grain, CGI, high quality, cinematic, trending on artstation."
+    ]
+  },
+  {
+    "input": "cinematic scenes from an end of the world movie, with meteors hitting san francisco, seen from a plane, a massive los angeles earthquake which breaks bridges, the sea rising creating a giant tsunami, new york under a massive storm and ice storm, las vegas with a big sandstorm etc",
+    "captions": [
+      "Cinematic real-life footage of meteors streaking across the sky, descending towards San Francisco, shot from a bird's eye view perspective in an airplane, dusk lighting, IMAX, film grain, 4k, high detail, high quality, wide-angle camera, trending on artstation.",
+      "Cinematic real-life footage of the impact and resulting fiery explosion as meteors hit San Francisco, heavily dramatized, dusk lighting, IMAX, film grain, 8K UHD, direct sunlight lighting, wide-angle lens, trending on artstation, high quality, award winning.", 
+      "Cinematic real-life footage of the San Francisco skyline changing drastically as buildings crumble under meteor impacts, dusk lighting, IMAX, film grain, 4K, wide-angle lens, detailed destruction, high quality, trending on artstation.", 
+      "Cinematic real-life footage of a violent earthquake breaking Los Angeles' bridges, ambient lighting, focusing on a bridge as it trembles and finally collapses, IMAX, film grain, 8K UHD, ultra wide-angle view, trending on artstation, award winning, studio quality.",
+      "Cinematic real-life footage, showcasing a massive sea level rise, poised to create a giant tsunami. Los Angeles in the background, late evening lighting, IMAX, film grain, 8K UHD, ultra wide-angle view, trending on artstation, high detailed skin, award winning.",
+      "Cinematic real-life footage of a huge tsunami wave cresting, about to engulf the Los Angeles coastline, twilight lighting, IMAX, film grain, 4K, wide-angle view, detailed water dynamics, high quality, trending on artstation.",
+      "Cinematic real-life footage of New York under a massive storm seen from a helicopter. Dark lighting with occasional flashes of lightning, IMAX, film grain, 8K UHD, wide-angle view, ultra-realistic rain effect, high quality, trending on artstation.",
+      "Cinematic real-life footage of sideways heavy rain brought by a storm in New York, midday, blinding light by street lamps reflected on drenched structures, IMAX, film grain, 4k, wide-angle, high detail, high quality, trending on artstation.",
+      "Cinematic real-life footage depicting an ice storm swiftly enveloping New York, severely reducing visibility, under a pale light, IMAX, film grain, 8k UHD, ultra wide-angle, highly detailed, high quality, trending on artstation, surreal.",
+      "Cinematic real-life footage of Las Vegas caught in a massive sandstorm, restricting visibility and covering everything in a curtain of dust, late afternoon ambient lighting, IMAX, film grain, 4k, ultra-wide angle view, dust particle effects, high quality, trending on artstation.",
+      "Cinematic footage of sand piling up on the Las Vegas strip due to a sandstorm, engulfing iconic landmarks, late afternoon lighting, IMAX, film grain, 8k UHD, ultra wide-angle, highly detailed, high quality, trending on artstation, award-winning.",
+      "Cinematic real-life footage of a drone shot of Las Vegas' transformation under the mighty sandstorm. Golden light of the setting sun peeking through the storm, IMAX, film grain, 8k UHD, wide-angle lens, high detailed skin, trending on artstation, award winning."
+    ]
+  },
+  {
+    "input": "Animal documentary about the Savanna, showing various video snippets of animals such as hippo, elephants, tigers, eating, drinking, hunting, running etc.. in various places",
+    "captions": [
+      "Video footage of a large, majestic elephant, grazing in the long, golden grass of the savanna, bathed in the warm light of the late afternoon sun, filmed with a Sony PXW-FS7, in 4k, ultra realistic, depth of field view, ambient lighting, highly detailed, award-winning",
+      "RAW video of a slow-moving hippo, submerging in the murky waters of a savanna waterhole, dust motes dancing in the ambient light, shot with a Canon EOS C300 Mark II, in 4k, studio quality, detailed texture of the hippo skin, direct sunlight, trending on artstation",
+      "Video clip of a group of tigers, lounging under the shade of acacia trees, detailed texture of the tiger stripes and fur glistening under the soft light, captured with a Panasonic AG-DVX200, high quality, realistic, ultra wide-angle view, soft lighting, breathtaking",
+      "High-quality video of a herd of elephants, moving majestically across the savanna plain, caught in the golden light of dusk, shot on RED Epic Dragon, 6k, wide-angle, ultra-realistic, backlight, award-winning",
+      "RAW video footage of a lone cheetah, crouched in the tall grass, deeply focused on its hunt, sun rays highlighting its intricate coat pattern, filmed with Sony Alpha A7S, 4k ultra HD, close up shot, detailed texture of the cheetah’s skin, direct sunlight, highly detailed, stunning",
+      "Video sequence of a lively group of meerkats, scurrying around their burrow dug into the dry, cracked ground of the savanna, captured on film using Canon C200 Cinema Camera, 4k resolution, realistic, ambient lighting, close-up, highly detailed, breathtaking",
+      "Video capture of a leaping gazelle, mid-air, with the vast savanna spreading in the backdrop, caught on a RED Weapon 8k S35, ultra realistic, 8k UHD, ambient lighting, wide-angle view, captivating wildlife moment, trending on artstation",
+      "RAW video footage of a lioness, stalking her prey in the shadowy savanna undergrowth, filmed with a Panasonic AU-EVA1, 5.7k, high quality, backlight creating a dramatic contrast, close-up, highly detailed, high dynamic color range, stunning",
+      "Video snippet of a circling group of vultures, silhouetted against the fading orange of the evening sky, taken with a Canon XF705, 4k UHD, aerial view, detailed texture of the birds, direct sunlight, ambient lighting, highly detailed, championship winning shot",
+      "Video capture of an epic scene of stampeding wildebeest, in a cloud of dust across the plain at dusk, captured on a Sony FX9 XDCAM 6K, massive scale, high quality, direct sunlight, ambient lighting, highly detailed, award winning"
+    ]
+  },
   {
     "input": "video of a car race, in various settings (race track at day, city at night, in the desert, canyons, british country side, las vegas, mountains, bridges etc). It features beautiful and highly-detailed supercars from various manufacturers, one per video. The camera should follow each car, but you can have various camera positions",
     "captions": [
