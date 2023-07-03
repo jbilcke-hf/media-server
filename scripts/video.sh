@@ -7,9 +7,9 @@ current_count=0
 while true; do
     new_count=$(ls $WEBTV_VIDEO_STORAGE_PATH*.mp4 2> /dev/null | wc -l)
 
-    echo "there are $new_count videos files"
-
     if [ $new_count -ne $current_count ]; then
+        echo "there are $new_count videos files"
+
         echo "Updating playlists..."
         current_count=$new_count
         files=($WEBTV_VIDEO_STORAGE_PATH*.mp4)

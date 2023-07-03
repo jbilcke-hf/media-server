@@ -5,10 +5,10 @@ current_count=0
 
 while true; do
     new_count=$(ls $WEBTV_AUDIO_STORAGE_PATH*.mp3 2> /dev/null | wc -l)
-    
-    echo "there are $new_count audio files"
 
     if [ $new_count -ne $current_count ]; then
+        echo "there are $new_count audio files"
+
         echo "Updating audio playlists..."
         current_count=$new_count
         files=($WEBTV_AUDIO_STORAGE_PATH*.mp3)
