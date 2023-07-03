@@ -66,6 +66,55 @@ The output must be in JSON (here is the type signature:
 
 export const moonshot = [
   {
+    "input": "Blade Runner style movie with a detective exploring a cyberpunk city",
+    "captions": [
+      "cinematic 3D render of an aerial view of a futuristic cyberpunk city during the day, flying cars moving, japanese and chinese characters on neon signs, a high volume of pedestrians and droids, constant dreary rain, Blade Runner style architecture, IMAX quality, high resolution, panoramic lens, film grain",
+      "cinematic 3D render of a curious detective exploring the bustling cyberpunk city streets under daylight, with neon signs in chinese and japanese, rain continuously pouring down, in Blade Runner style, IMAX quality, high resolution, street-level view, film grain",
+      "film-quality 3D render of the cyberpunk city under daylight, focusing on a Japanese style noodle stall with the detective ordering food, rainy condition persisting, bathed in the glow of a sea of neon signs, Blade Runner vibes, IMAX quality, high resolution, close-up view of the detective, film grain",
+      "cinematic 3D render of a detective entering a high tech corporate building in the cyberpunk city, vertical neon signs in chinese and japanese, during the day, constant rain presence, fluent Blade Runner aesthetic, IMAX spectacle, high resolution, isotropic pattern, film grain",
+      "IMAX worthy 3D rendering of a neon lit cyberpunk cityscape at night, flying cars hovering, skyscrapers adorned with chinese and japanese holographic projections, ceaseless rain adding reflections on the ground, in a Blade Runner style narrative, high resolution, aerial view, film grain",
+      "cinematic 3D rendering of the detective entering a techno club with multi-coloured neon lights at night, the rain still pouring outside, surrounded by robots performing maintenance, Blade Runner aesthetic all around, IMAX feature film quality, high resolution, wide-angle, film grain",
+      "cinematic 3D render of a detective gazing at a massive neon billboard featuring a japanese pop star on a rainy night in the cyberpunk city, skyscrapers towering overhead, Blade Runner influences prominent, IMAX film quality, high resolution, low angle shot, film grain",
+      "film-quality 3D rendering of a detective boarding a flying car amidst the labyrinth of neon-lit towers in the cyberpunk city, filled with the glow of chinese and japanese inscriptions, the rain has no rest, clear Blade Runner fantasy, IMAX sensation, high resolution, panoramic view, film grain",
+      "Movie scene of a gloomy detective in a trench coat walking amidst the buzzing neon lights of a cyberpunk city under constant rain captured in brilliant IMAX quality showcasing intricate details from Canon EOS",
+      "Film sequence of the detective running after a suspicious figure in a labyrinthine alleyway under neon signs in Kanji, captured in cinematic glory with precise film grain texture",
+      "Movie footage of the detective entering an eatery lit with fluorescent lights with patrons including humans and robots, the chatter of people and synth music filling the air, brought alive in ultra-realistic IMAX quality",
+      "Cinematic scene of the detective engaged in a tense conversation with a humanoid robot waitress, the reflective sheen on her metallic face captured beautifully under neon lighting with real-time film grain effects",
+      "Movie still of the detective descending into a subway as glowing neon lights reflect off the rain-soaked pavement, the mood set with ambient lighting, the scene shot in stunning IMAX quality with cinematic film grain",
+      "Cinematic sequence of the detective chasing a suspect through a crowded subway train, the details of the handshake and animated advertising holograms around them rendered in high-definition with a Canon EOS",
+      "Movie scene of the detective looking out of a high rise at the skyline of the cyberpunk city, neon lit skyscrapers piercing the misty rainy scene, shot in breathtaking IMAX quality, with film grain for the vintage touch",
+      "Film footage of the detective, back in his apartment, pondering the clues while looking at futuristic computer screens showing 3D data, the room bathed in ambient neon light, scene captured in cinematic IMAX with generous film grain",
+      "Cinematic footage of a cyberpunk city, filled with towering skyscrapers and endless neon signs, Chinese and Japanese influences visible in the architecture and signage, bustling with flying cars, under a perpetual rain, reflecting the city lights. Shot in the style of a film noir documentary, spotlight accent lighting, wide-angle view, with IMAX film grain",
+
+      "Shot of animated humanoid robots and human citizens bustling through the rain-slick streets of the city. Fragrant, smoky street food stalls adding to the ambient fog and neon light effects. Noir movie style, low angle view, hyper-realistic, IMAX, digital, cinematic",
+  
+      "Shot of the labyrinthine back-alleys of the city, filled with mysteries and shadowy figures. The narrow alleyways are lit by a surplus of neon signs, producing a hypnotic color page, rain pouring down in heavy sheets, creating a surreal watercolor effect. Mysterious and ominous in a Noir film style, aerial view, IMAX, cinematic",
+  
+      "Time lapse shot of day transitioning into night in the cyberpunk city. The sun sets behind the towering skyscrapers and neon lights start to dominate the landscape. Rain keeps falling, creating shiny surfaces and mirror-like reflections filling the frame. Straight out of Blade Runner, panoramic, IMAX, cinematic, film grain",
+  
+      "Aerial footage of the city at night, a breathtaking spectacle of neon light and rain-swept streets. Flying cars dart in between glowing skyscrapers under a thick layer of fog and mist. Filmed in a documentary style but heavily reminiscent of science-fiction movies, ultra wide-angle shot, IMAX, cinematic",
+  
+      "Close-up shot of a humanoid robot submerged in the rain, its metallic surface reflecting the neon lights from the surroundings. Its robotic eyes show a mixture of humanlike emotion and cold, mechanical calculation. Noir movie influence, depth of field view, IMAX, ultra-realistic, cinematic, film grain",
+  
+      "A stunning shot of a large city square, filled with massive electronic billboards broadcasting colorful advertisements. Thousands of citizens, both humans and robots, throng the space despite the rain. Evocative of classic film noir but with a cyberpunk twist, wide-angle view, IMAX, cinematic",
+  
+      "Final shot of a noir-inspire, panoramic view of the sprawling, rain-soaked city from a high vista point. The cityscape stretches out towards a horizon filled with sprawling factories and dark rain clouds. Bright, neon lights slice through the fog and mist, hyperrealistic, ultra wide-angle, IMAX, cinematic, film grain"
+    ]
+  },
+  {
+    "input": "a feudal japan movie, showing ninjas, samurai, in beautiful settings such as cherry blossom, japanese mountains. Lot of landscape shots in the mist, lot of haze, fog, light effects, sunsets, god's rays etc cherry blossom leave falling etc it is very cinematic",
+    "captions": [
+      "Film footage of a mysterious samurai standing alone among cherry blossom trees, pink petals softly falling, golden sunset light diffusing through the fog, in a serene Japanese mountain scenery, cinematic movie, on IMAX camera, wide-angle, high detail, ambient lighting, in 4k, trending on artstation.",
+      "Film footage of ninjas stealthily moving through the thick fog in a dense bamboo forest, swift yet unseen, shrouded in mystery and suspense, on a cool dusk in feudal Japan, cinematic movie, shot on IMAX camera, ultra-wide-angle view, high detailed with film grain effects, enhanced ambient lighting, in 4K, trending on artstation.",
+      "Film footage showing an aerial view of the rugged landscape of Japanese mountains veiled by mist, the golden sunlight piercing through and creating crepuscular rays, cinematic movie, seen through IMAX camera, ultra-realistic, high details, with film grain effects, soft ambient lighting, rendered in 4K, trending on artstation.",
+      "Film footage of a bloody samurai duel under the falling cherry blossom, their swords clashing and sparking beneath the crimson sunset, in a quiet temple courtyard, set in feudal Japan, cinematic movie, IMAX camera, in ultra-wide-angle, ambient lighting focus, highly detailed with film grain, in 4K, trending on artstation.",
+      "Film footage of an intense ninja training sequence, in a serene water garden framed by a mountainous backdrop, during the golden hour, filled with mist and god's rays, part of a cinematic movie, captured on IMAX camera, using wide-angle view, high detail, ambient lighting, adding film grain effects, in 4k resolution, trending on artstation.",
+      "Film footage of a samurai walking a lonely path leading to a majestic Japanese castle, lit under the haunting glow of a full moon amidst an ocean of mist, cinematic movie, filmed on IMAX camera, ultra-wide-angle, high detailed, bathed in soft moonlit ambient lighting, 4k resolution, film grain effect, trending on artstation.",
+      "Film footage showcasing a dramatic sunset over a cherry blossom covered mountain range in feudal Japan, a samurai silhouetted against the fiery skies, from a cinematic movie, on IMAX camera, wide-angle, superbly detailed, ambient lighting, 4k resolution, film grain effects, trending on artstation.",
+      "Film footage of ninjas and samurais clashing on an ancient, weather-beaten stone bridge over a raging river, amidst a torrential downpour, from a cinematic movie, filmed on IMAX camera, ultra-wide angle view, high detailed rainfall, ambient stormy lighting, 4k, film grain effects, trending on artstation."
+    ]
+  },
+  {
     "input": "documentary footage of bandits riding horses in the desert, very cinematic, they go past desert mountains, cactus, canyons, it is very cinematic, with sunsets, light effets, mist, fog etc",
     "captions": [
       "Real-world footage of bandits guiding their horses over a vast desert terrain under the blazing sun, film grain style, grand sweeping aerial view, capturing the contrast between the riders and the open desert, captured with IMAX camera, cinematic, movie quality, high details.",
