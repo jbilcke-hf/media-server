@@ -5,7 +5,7 @@ bash ./scripts/init.sh
 
 # ------ background processes ---------
 
-# starts the streaming server
+# starts the streaming server first, otherwise ffmpeg won't find it
 node ./media-server.js &
 
 sleep 1
@@ -23,4 +23,6 @@ bash scripts/stream.sh &
 
 sleep 1
 
-npm run start
+# here we have the possibility of using multiple workers
+# buf if we do that, we will have to split the workload (split the prompts)
+WEBTV_WORKER_INSTANCE_ID=1 npm run start

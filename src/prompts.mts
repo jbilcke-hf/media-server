@@ -1,6 +1,8 @@
 
 export interface Scene {
+  id?: string // TODO: make it mandatory
   input: string
+  audio?: string // TODO: make it mandatory
   captions: string[]
 }
 
@@ -70,7 +72,7 @@ The output must be in JSON (here is the type signature:
 - Input: a movie about a police car chase in Los Angeles (NOT a 3D render!), in term of total timeline film starts at golden hour, then sunset, then night. There is a light rain, the ground is wet. We can see a police car going at speed after a red lambo (to help the AI generator, you must mention police car and the rend lambo in ALL videos shots!). The police car has its lights on, reflecting on the wet ground. The police chase the lambo across all los angeles, including some iconic places. More police cars should join the chase, and even a helicopter at some point. We should see the light of the helicopter ont he ground, like in movies. Everything should be enveloped in a mist, haze, fog, wet ground. The camera should alternate between point of view to give it an intense, fast paced style (drone shots, helicopter shot etc). Please always mention (for each video) the time era and period, clothes of the characters, colors and textures, background, camera positions (note: add the keywords "cinematic", "imax", "movie", "film grain" to help the AI generator)
 */
 
-export const demoPrompts = [
+export const demoPrompts: Scene[] = [
   {
     "input": "Slow-mo footage of various objects falling and exploding or being hit by bullets. Very colorful, dramatic lighting, mesmerizing.",
     "captions": [

@@ -1,3 +1,4 @@
+import { v4 as uuid } from 'uuid'
 import { generateVideo } from './generateVideo.mts'
 import { upscaleVideo } from './upscaleVideo.mts'
 import { keepVideo } from './keepVideo.mts'
@@ -5,15 +6,20 @@ import { keepVideo } from './keepVideo.mts'
 import { demoPrompts } from './prompts.mts'
 import { getStats } from './getStats.mts'
 import { enhanceVideo } from './enhanceVideo.mts'
+import { callZeroscope } from './callZeroscope.mts'
+import { downloadVideo } from './downloadVideo.mts'
 
 const main = async () => {
   console.log('Generating ideas..')
   const ideas = demoPrompts
 
-  console.log('Generating videos..')
+  console.log('Generating videos sequences..')
+  const instanceId = process.env.WEBTV_WORKER_INSTANCE_ID || '0'
 
   for (const { input, captions } of ideas) {
-    console.log(`\nVideo to generate: ${input}`)
+    console.log(`\nVideo sequence to generate: ${input}`)
+
+    const sequenceId = uuid()
 
     const silentVideos: string[] = []
 
@@ -21,30 +27,34 @@ const main = async () => {
     const videoDurationInSecs = 3
 
     for (const caption of captions) {
-      console.log(`- generating video.. prompt: ${caption}`)
+      console.log(`- generating shot: ${caption}`)
       try {
-        const rawVideo = await generateVideo(caption)
+        const generatedVideoUrl = await callZeroscope(caption)
 
-        console.log(`- downloaded ${rawVideo}`)
+        const videoName = `inst_${instanceId}_seq_${sequenceId}_shot_${Date.now()}.mp4`
+
+        console.log(`- downloading ${videoName} from ${generatedVideoUrl}`)
+        await downloadVideo(generatedVideoUrl, videoName)
+
+        console.log(`- downloaded ${videoName}`)
 
         console.log('- upscaling video..')
       
-        let upscaledVideo = rawVideo
         try {
-          upscaledVideo = await upscaleVideo(rawVideo, caption)
+          await upscaleVideo(videoName, caption)
         } catch (err) {
           // upscaling is finicky, if it fails we try again
           console.log('- trying again to upscale video..')
-          upscaledVideo = await upscaleVideo(rawVideo, caption)
+          await upscaleVideo(videoName, caption)
         }
 
         console.log('- enhancing video..')
-        const enhancedVideo = await enhanceVideo(upscaledVideo)
+        await enhanceVideo(videoName)
 
         console.log('- saving final video..')
-        await keepVideo(enhancedVideo, process.env.WEBTV_VIDEO_STORAGE_PATH_NEXT)
+        await keepVideo(videoName, process.env.WEBTV_VIDEO_STORAGE_PATH_NEXT)
 
-        silentVideos.push(enhancedVideo)
+        silentVideos.push(videoName)
 
         console.log('- done!')
       } catch (err) {

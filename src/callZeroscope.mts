@@ -22,10 +22,7 @@ export const callZeroscope = async (prompt: string, options?: {
     nbSteps, // 10, (numeric value between 10 and 50) in 'Number of inference steps' Slider component
   ]) as any
   
-  const { name, orig_name } = rawResponse?.data?.[0]?.[0] as { name: string, orig_name: string }
+  const { name } = rawResponse?.data?.[0]?.[0] as { name: string, orig_name: string }
 
-  return {
-    url: `${videoSpaceApiUrl}/file=${name}`,
-    name: orig_name
-  }
+  return `${videoSpaceApiUrl}/file=${name}`
 }

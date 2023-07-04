@@ -3,9 +3,7 @@ import fs from 'node:fs'
 
 import tmpDir from 'temp-dir'
 
-export const downloadVideo = async (remoteUrl: string, options?: { fileName: string; }): Promise<string> => {
-
-  const fileName = options?.fileName || `${Date.now()}.mp4`
+export const downloadVideo = async (remoteUrl: string, fileName: string): Promise<string> => {
 
   const filePath = path.resolve(tmpDir, fileName)
 

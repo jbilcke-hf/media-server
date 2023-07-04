@@ -59,7 +59,9 @@ export async function upscaleVideo(fileName: string, prompt: string) {
   const tmpFileName = `${fileName}_xl`
 
   // console.log('downloading file from space..')
-  await downloadVideo(upscaledFileUrl, { fileName: tmpFileName })
+  console.log(`- downloading ${fileName} from ${upscaledFileUrl}`)
+
+  await downloadVideo(upscaledFileUrl, tmpFileName)
 
   const tmpFilePath = path.join(tmpDir, tmpFileName)
   const filePath = path.join(tmpDir, fileName)
