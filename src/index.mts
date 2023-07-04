@@ -1,5 +1,4 @@
 import { generateVideo } from './generateVideo.mts'
-import { downloadVideo } from './downloadVideo.mts'
 import { upscaleVideo } from './upscaleVideo.mts'
 import { keepVideo } from './keepVideo.mts'
 
@@ -20,7 +19,7 @@ const main = async () => {
       console.log(`- generating video.. prompt: ${caption}`)
       try {
         const rawVideo = await generateVideo(caption)
-        // const rawVideo = '1688471218595.mp4'
+
         console.log(`- downloaded ${rawVideo}`)
 
         console.log('- upscaling video..')
