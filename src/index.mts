@@ -1,5 +1,4 @@
 import { v4 as uuid } from 'uuid'
-import { generateVideo } from './generateVideo.mts'
 import { upscaleVideo } from './upscaleVideo.mts'
 import { keepVideo } from './keepVideo.mts'
 
