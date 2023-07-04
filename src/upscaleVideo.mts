@@ -10,6 +10,7 @@ export async function upscaleVideo(fileName: string, prompt: string) {
   
   const browser = await puppeteer.launch({
     // headless: true,
+    protocolTimeout: 800000,
   })
 
   const spaceUrl = `https://jbilcke-hf-zeroscope-xl.hf.space`
@@ -49,7 +50,7 @@ export async function upscaleVideo(fileName: string, prompt: string) {
   */
 
   await page.waitForSelector('a[download="xl_result.mp4"]', {
-    timeout: 800000, // need to be larg eenough in case someone else attemps to use our space
+    timeout: 800000, // need to be large enough in case someone else attemps to use our space
   })
 
   const upscaledFileUrl = await page.$$eval('a[download="xl_result.mp4"]', el => el.map(x => x.getAttribute("href"))[0])
