@@ -3,9 +3,9 @@ import fs from 'node:fs'
 
 import tmpDir from 'temp-dir'
 
-export const keepVideo = async (fileName: string): Promise<string> => {
+export const keepVideo = async (fileName: string, targetDirPath: string): Promise<string> => {
   const sourceFilePath = path.join(tmpDir, fileName)
-  const targetFilePath = path.join(process.env.WEBTV_VIDEO_STORAGE_PATH_NEXT, fileName)
+  const targetFilePath = path.join(targetDirPath, fileName)
 
   await fs.promises.copyFile(sourceFilePath, targetFilePath)
   try {

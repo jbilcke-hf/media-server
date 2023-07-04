@@ -72,120 +72,33 @@ The output must be in JSON (here is the type signature:
 
 export const demoPrompts = [
   {
-    "input": "A real movie about evil mages and orcs attacking a castle of knights, in the style of Michael Bay. Some scenes include: cutting down trees, building siege weapons at night, attacking the castle in the morning, sending a dragon to attack, knights defending, a huge battle outside the castle, and the aftermath of the battle.",
+    "input": "Slow-mo footage of various objects falling and exploding or being hit by bullets. Very colorful, dramatic lighting, mesmerizing.",
     "captions": [
-      "High definition cinematic film of evil mages and orcs in a dense forest, surreptitiously cutting down trees under the concealment of a moonlit night, panoramic view, shot on IMAX, with film grain effect, in the style of a Michael Bay movie.",
-      "Realistic footage of orcs industriously building siege weapons from the fallen trees, under a cobalt sky dotted with glistening stars, using medium-wide lens shot, incorporating surrealistic lighting details, on a DSLR, trending on ArtStation.",
-      "Dramatic movie film of the first light of dawn breaking over the horizon, casting an eerie glow on the orcs gearing up for the onslaught, majestic aerial view shot on a high resolution IMAX camera, with, additional dynamic camera effects and washed colors.",
-      "Full-length film footage of the orcs initiating their violent attack on the castle, catapulting flaming rocks across the sky, grand wide-angle shot, with enriching detail and film grain effect, recorded with high end Canon EOS, maintaining the Michael Bay style.",
-      "Brilliant movie scene depicting a blood-chilling summoning of a fire-breathing dragon by the mages, focus on the sparkling golden hour, extreme long-shot using a DSLR camera, imbued with a surrealistic style, maintaining high details and trending on ArtStation.",
-      "Award-winning film scene of the dragon soaring high above, drawing fiery circles around the besieged castle, aerial view shot on IMAX, with dynamic camera effects, enlightened with the golden hour's light, realistic with a film grain effect.",
-      "High-quality movie footage of the knights' valiant defense against the siege, dramatic archers taking aim under direct sunlight, medium wide-angle shot with DSLR, capturing the Michael Bay style with high details, graceful panoramic sweeping of the camera, trending on ArtStation.",
-      "In the real-life scenery of the film, the knight's skyward arrows strike the dragon in a shower of sparks, ultra-wide angle lens view taken at the edge of sunset, shot in a Canon EOS, in a style that is cinematic, filled with magical realism and grandeur.",
-      "Epic battle scene in the movie with knights clashing with the orc army outside the castle, powerful low-angle shot, under the dramatic dusk light, shot on IMAX showcasing cinematic bokeh and film grain effect, in a Michael Bay styled frenzy.",
-      "Captivating film scene of the knights making a glorious stand against the relentless orc warriors, dramatic strobe lighting, wide angle shot capturing the action at ground level, recorded with a high-end Canon EOS, adding a gritty realism in-line with Michael Bay's signature style.",
-      "Intense movie sequence of the final strike by the knights, sudden ambush on the orcs under an overpowering strobe light, DSLR close-ups capturing the shock and surprise, Michael Bay's style of dynamic camera effects and intense film grain applied.",
-      "Dramatic end to the battle in the film with the knights emerging victorious, golden hour light creating a divine aura, wide-angle shot on IMAX showing the grandeur, maintaining high details with a gritty film grain effect in Michael Bay's style.",
-      "Haunting film footage of the battlefield aftermath, shrouded in an ethereal mist, graceful aerial view shot on a DSLR capturing the mystical ambience, surrealistic lighting details, complete with a Michael Bay style film grain effect.",
-      "Beautiful morning light after the battle in the movie, ambient light piercing through the dissipating fog, dramatic wide-angle shot on IMAX, with high detail and film grain effect, showcasing the cinematic Michael Bay style.",
-      "Cinematic film closure with the misty aftermath, portraying the fading echoes of the fierce battle, panoramic camera sweep, shot on Canon EOS, the moody gray sky contributing to the surrealistic style, film grain effect maintaining visual consistency with the Michael Bay style."
-    ]
-  },
-  {
-    "input": "a movie shot in a Michael Bay style, about an alien ship destroying Los Angeles",
-    "captions": [
-      "cinematic shot of the misty streets of Los Angeles during the early morning, drone camera, ambient lighting, foggy, wide-angle, film grain, Michael Bay style, cinematic, imax, movie, high quality",
-    
-      "cinematic wide-angle drone shot of an airplane taking off in the misty sunrise Los Angeles, ambient lighting, film grain, Michael Bay style, cinematic, imax, movie, high quality",
-    
-      "photorealistic multi-kilometer wide alien spaceship hovering over Los Angeles at dawn, ultra wide-angle, detailed fog effect, dramatic lighting, cinematic, imax, movie, Michael Bay style, film grain",
-     
-      "photorealistic extreme long shot of a light beam shooting down from the alien ship impacting Los Angeles, ambient lighting, foggy, Michael Bay style, cinematic, imax, movie, film grain",
-     
-      "photorealistic abd cinematic shot of a colossal explosion in Los Angeles caused by the alien ship's light beam, Michael Bay style, ambient lighting, wide-angle, film grain, cinematic, imax, movie, high quality",
-     
-      "photorealistic cars and debris being launched into the air amid the alien chaos in Los Angeles, ultra wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "photorealistic citizens of Los Angeles running from destruction, ambient lighting, foggy, ultra wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "photorealistic military leaders strategizing a response, ambient lighting, close-up, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "photorealistic armada of jets departing to engage the alien ship attack, late morning light, ambient lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "photorealistic jet planes ascending towards the floating alien ship, ambient lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "photorealistic jet squadron maneuvering in formation, ambient lighting, extreme long-shot, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "photorealistic video, dynamic chase between the jet planes and the alien ship over LA, noon sunlight, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "photorealistic jet plane narrowly avoiding alien fire in a dramatic canyon chase, ambient lighting, extreme close-up, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "photorealistic jet plane taking a daring shot at the alien ship, intense sunlight, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "photorealistic graphic video of the alien ship starting to fall apart under the onslaught of the jet planes, direct sunlight, extreme long-shot, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "photorealistic alien mothership exploding brilliantly in the Los Angeles atmosphere, ambient lighting, extreme long-shot, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "photorealistic jet planes flying away from the explosion, dramatic lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "photorealistic close-up of a jet pilot celebrating the victory against the alien ship, ambient lighting, Michael Bay style, cinematic, imax, movie, film grain",
-     
-      "photorealistic video of the citizens of Los Angeles cheering as the jet planes fly over the city during the golden hour, ambient lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "photorealistic video of the joyous celebration in Los Angeles, with American flags waving in the golden sunset, God's rays, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "photorealistic celebration scene of 4th of July in Los Angeles, firework lights, ambient lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "dramatic shot of the jubilant crowds under the fireworks in Los Angeles, ambient lighting, extreme long-shot, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "video of a jet plane doing a victory flyover with smoke trails and fireworks lighting up the evening sky, Michael Bay style, ambient lighting, extreme long-shot, film grain, cinematic, imax, movie, high quality",
-     
-      "video of a jet plane landing with a golden sunset in the background, ambient lighting, close-up, film grain, cinematic, imax, movie, Michael Bay style, high quality",
-     
-      "cinematic drone video of the calm after the storm in Los Angeles at dusk, ambient lighting, ultra wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality"
-    ]
-  },
-  {
-    "input": "a short advert for pasta, with grocery shopping, cooking, dining, and a product display in a movie style",
-    "captions": [
-      "Photograph of a bustling grocery store with a focus on the pasta aisle, vivid colors and rich details, shot in a wide-angle, cinematic style, Canon 5D Mark III, high resolution, movie quality with a hint of film grain, trending on ArtStation, featured.",
-      "Wide-angle photograph of a hand reaching out to pick a pasta packet off a shelf, lots of natural light, complex yet elegantly composed, using a Canon 5D Mark III, high details, cinema level quality, IMAX and film grain effect, trending on ArtStation, award-winning",
-      "Photograph of a cozy kitchen setup, rustic style with warm ambient lighting, lots of details, shot in Canon 5D Mark III, cinematic, IMAX, grainy film effect, high resolution, featured on ArtStation, award-winning quality.",
-      "Detailed close-up photograph of a kitchen counter with raw pasta, fresh ingredients beside, dynamic lighting, Canon 5D Mark III, cinematic, IMAX, strong film grain texture, hyper-realistic, showcased on ArtStation, movie quality, breathtaking.",
-      "High-resolution photograph of steaming pasta tossed in the air, captured in a freeze motion, vibrant colors, shot using Canon 5D Mark III, cinematic style, IMAX shot with a film grain effect, trending on ArtStation, high quality, award winning.",
-      "Photograph of a candlelit dinner table setup, with freshly cooked pasta served, romantic ambiance, shot using Canon 5D Mark III, cinema style composition with an IMAX feel and film grain effect, high detail, critically acclaimed, showcased on ArtStation.",
-      "Photograph of a couple enjoying their pasta dinner, warm ambient lighting, nostalgic feel, shot using Canon 5D Mark III, cinematic approach, IMAX, strong film grain, beautiful composition, photo-realistic, trending on ArtStation, award-winning.",
-      "Artful close-up photograph of a packet of pasta, elegantly positioned with a strong depth of field, shot in a professional studio using Canon 5D Mark III, cinematic style, IMAX, high quality with a film grain effect, movie-like, award-winning, featured on ArtStation."
-    ]
-  },
-  {
-    "input": "real movie about sailships and pirates",
-    "captions": [
-      "Real movie footage of a grand sailship navigating in the calm turquoise Caribbean sea during sunrise, Canon EOS, ambient lighting, stunning, awe-inspiring, wide-angle, high details, cinematic, IMAX, film grain, trending on artstation",
-      "Genuine film sequence showing the detailed craftsmanship and beauty of the ship's hull, sails, and mast, direct sunlight highlighting every nuance, Canon EOS, high quality, studio quality, 4k, ultra realistic, cinematic, IMAX, depth of field, trending on artstation",
-      "Film footage of a pirates looking out towards at the endless expanse of the sea from the ship deck, warm orange color due to the setting sun, Canon EOS, backlight, award winning, wide-angle, cinematic, film grain, IMAX, trending on artstation",
-      "A real movie scene featuring an aerial view of the sailship gracefully navigating near a beautiful tropical coast, cloudy sky promising an impending storm, Canon EOS, aerial view, natural lighting, epic composition, cinematic,detail, IMAX, film grain, trending on artstation",
-      "Genuine film footage of the ship's crew hoisting the sails in unison, the crisp audacity of the white sails against the soft hues of the evening sky, Canon EOS, high detail, beautiful, cinematic, IMAX, film grain, direct sunlight",
-      "Real movie scene capturing the tension brewing as a rival pirate ship emerges from the fog, the calm before the storm, Canon EOS, ambient lighting, detail, cinema quality, wide-angle, IMAX, cinematic, film grain",
-      "Film footage of the cannon's firing, wooden splinters flying in every direction, in ther fog, dramatic and terrifying, Canon EOS, spotlights, high detail, grainy, cinematic, IMAX, ultra realistic",
-      "Genuine cinematic frame of the enemy ship close up, in the fog, brilliantly illuminated by the chaotic dim light amid the darkness of the storm, Canon EOS, dramatic lighting, award winning, wide-angle, highly detailed, cinematic, IMAX, ultra high definition",
-      "Real movie footage of the fierce melee onboard, swords clashing, hazy mist, shouting of men and the roar of the storm intertwining into a catastrophic symphony,Canon EOS, soft lighting, fast action, widescreen, cinematic, IMAX, trending on artstation",
-      "Genuine film footage of a courageous sailor taking on many pirates, hazy mist, dynamic camera capturing the intensity and thrill, Canon EOS, ambient lighting soft, dynamic action, wide-angle, close-up shots, cinematic, IMAX, trendsetting",
-      "Real film depiction of a pirate boarding the ship using ropes, hazy mist, a face-off with the ship's captain seems inevitable, Canon EOS, ambient lighting, cinematic, wide angle, high detail, IMAX",
-      "Cinematic movie scene showing the hero pirate dodging sword strikes majestically at the helm, 360-camera panning emphasizing the danger and thrill dangling from the edge, Canon EOS, backlight, award winning, ultra realistic, cinematic, IMAX, remarkable composition",
-      "Intriguing film footage detailed shot of a treasure map spread out on a wooden table, lamp light flickering in the wind, Canon EOS, candlelight, close-up, high details, ultra realistic, cinematic, IMAX, trending on artstation",
-      "Real movie scene depicting the victorious pirates celebrating, drinking and dancing around the fire, god's rays filtered through the sails, Canon EOS, direct sunlight, cinematic, wide angle view, IMAX",
-      "Film footage of the sun rising over the calm sea, a new day beckoning the pirates to set sail in search of their destinations, Canon EOS, dramatic sunlight, 4k, UHD, wide-angle, beautiful, cinema quality, cinematic, IMAX, film grain",
-      "Genuine film sequence of the pirate captain steering the wheel of the ship, hazy mist, wind in his hair and purpose in his eyes, Canon EOS, backlight, ultra realistic, close up, high detail, cinematic, IMAX",
-      "A film capture in the midst of a storm, gigantic waves crashing onto the ship, fear and determination etched onto the sailors' faces, Canon EOS, ultra wide-angle, high details, highly dramatic, cinematic, IMAX, grainy",
-      "Real movie footage of a burly pirate looking towards the horizon with his telescope, golden hour adding to the dramatic feel, Canon EOS, ambient lighting, wide angle, high detailed skin, cinematic, IMAX, film grain, trending on artstation",
-      "Film capture of crew members repairing the sail, seen from a low angle, sunlight streaming in through the tears, Canon EOS, backlight, close-up, cinematic, IMAX, highly detailed, film grain",
-      "Captivating movie scene featuring an aerial shot of the ship leaving a trail in the vast ocean, sunset painting the sky, Canon EOS, ambient lighting, aerial view, cinematic, long-shot, 4k UHD, IMAX",
-      "Gritty film footage of the ship's flag flying high, seen against the backdrop of the tempestuous sea and stormy skies, Canon EOS, backlight, award winning, wide-angle, high detail, cinematic, IMAX, trending on artstation",
-      "Real movie capture of a swordfight on the ship's plank, edge-of-the-seat scene with dynamic camera movements, Canon EOS, ambient lighting, wide-angle, detailed strokes, cinematic, IMAX, film grain",
-      "Film footage of victorious pirates uncovering a treasure chest, their faces glowing in delight, Canon EOS, ambient lighting, high detail, beautiful, cinematic, IMAX, film grain",
-      "Genuine film sequence of a pirate holding a gleaming gold coin against the twilight sky, Canon EOS, backlight, cinematic, extreme close-up, detailed textures, IMAX, trending on artstation",
-      "Award-winning movie scene capturing the sailship on the horizon as the day ends on the Caribbean, stunning, divine, Canon EOS, ambient lighting, epic composition, ultra wide-angle, high details, cinematic, IMAX, film grain, trending on artstation"
+      "Real world movie footage of a red watermelon falling into sharp spikes, slow motion, exploding into small pieces, surrounded by dramatic lighting and haze, IMAX 8k uhd, high detail, trending on artstation.",
+      "Film video of a blue balloon filled with yellow paint, being hit by a bullet, slow motion explosion, colorful splatter, dramatic lighting with god's rays illuminating the scene, cinematic style, high detailed, filmed with IMAX camera.",
+      "Movie showing a green pumpkin falling into a bed of nails, slow-mo explosion with chunks flying all over, ambient fog adding to the dramatic lighting, filmed with IMAX camera, 8k ultra high dhefinition, high quality, trending on artstation.",
+      "Film capture of close-up of bullet hitting green glass bottle filled with red wine, slow-motion explosion with shards and liquid flying, dramatic backlighting, shot from a low angle with IMAX camera, high cinematic quality, with film grain effect.",
+      "Video of a pink paint powder bag falling, bullet impact causing a slow-mo explosion of particles, beautiful chaos, dramatic lighting with strobe effects, shot with IMAX camera, high detailed, 8k uhd, cinematic grain, popular on artstation.",
+      "Real-time movie of a white ceramic vase falling onto concrete, slow-mo explosion of fragments, dust cloud, dynamic lighting creating protruding shadows, IMAX camera capture, 8k uhd, film grain, trending on Artstation.",
+      "Colorful slow-mo film capture of bright orange basketball falling into sharp blades, tearing and cracking, dramatic lighting with sharp edge lighting, shot using IMAX camera, high quality with added film grain, 8k uhd.",
+      "Movie shot of champagne bottle falling and hitting a corner, slow-mo explosion creates a storm of bubbles and glass, enchanted by dramatic ambient light, shot in high definition with IMAX camera, film grain effect added, ultra high resolution.",
+      "Cinematic video capture of an electronic TV falling from height, slow-mo explosion as it hits the ground releasing a cloud of sparks and fragments, surrounded by moody backlighting, IMAX camera shot, 8k uhd resolution, film grain texture.",
+      "Slow-mo movie of a jelly-filled donut shot by a bullet, dough and sweet filling flies out, vibrant colors against dark background lighting, captured by an IMAX camera, ultra high resolution, film grain effect.",
+      "Video of a plastic water bottle filled with ink, bullet hitting causes a slow-mo explosion, ink splatter creates a beautiful pattern, dramatic lighting with spotlight, ultra high definition IMAX footage, film grain effect.",
+      "Film of a tin can falling onto a bed of nails, slow motion explosion as it punctures and twists, backlit by dramatic lighting for contrast, captured with an IMAX camera, 8k uhd resolution, film grain texture.",
+      "Movie footage of a halloween pumpkin hit by bullet in slow motion, exploding into fragments, ambient fog enhancing the dramatic lighting, shot from a low angle with an IMAX camera with film grain added, high quality details.",
+      "Real world video capture of slow-motion bullet hitting a glass cube, chaotic explosion of glass shards in dazzling array of light, showing cinematic dramatic lighting, filmed with IMAX camera, high definition with film grain effect.",
+      "Slow-mo movie clip of a ripe tomato falling onto an array of sharp blades, spray of juice and seeds, dramatic lighting from below, shot in high definition on IMAX camera, trending on Artstation, film grain effect.",
+      "Film capture of a can of paint falling, bullet impact causing beautiful slow-mo explosion of droplets, enhanced drama by backlighting, shot with an IMAX camera, ultra high definition, film grain effect.",
+      "Cinematic footage of a globe-shaped glass lamp falling, bullet impact crushing into a slow-motion explosion of tiny bright shards, dramatic ambient lighting, IMAX camera capture, high detail with film grain effect.",
+      "High resolution video of a bunch of grapes falling onto a bunch of nails, slow-mo explosion of juice droplets, dramatic backlighting for contrast, captured by IMAX camera, 8k uhd resolution, film grain texture.",
+      "Filmed video of ripe papaya bullet-hit in stunning slow-motion, rich color spray and seeds dance in the air, enhanced by dramatic side lighting, shot in ultra high definition using IMAX camera with film grain effect.",
+      "Real-life movie of beer bottle explosion in slow-mo as it is hit by a bullet, foam and shards flying, dramatic lighting emphasizing the chaos, filmed with IMAX camera, 8k uhd, high detail, film grain, trending on Artstation.",
+      "Slow-mo film capture of a yellow balloon filled with red paint hit by bullet creating a beautiful splatter, lit dramatically by god's rays, captured with an IMAX camera, high definition, film grain effect.",
+      "Movie shot of a crystal owl figurine fallen and exploded into thousands of slow-mo flying shards, dancing in dramatic ambient light, captured with IMAX camera, high resolution, film grain effect.",
+      "Footage of a bullet hitting a soda can in slow motion, wild explosion of fizz, dramatic top light creating god's rays, filmed by an IMAX camera, film grain effect.",
+      "Video of bullet piercing an apple in slow-mo, spray of juice and pieces, low dramatic light highlighting the explosion, shot with IMAX camera, ultra high definition, film grain, trending on Artstation.",
+      "Film sequence of a clock falling, hitting the ground in slow-motion, exploding into mechanical pieces, splashes of dramatic side light, captured using IMAX camera, high definition with film grain effect."
     ]
   },
   {
@@ -242,7 +155,6 @@ export const demoPrompts = [
       "Cinematic movie snippet of a green Lamborghini crossing a mountain bridge under the vibrant ambient lights, caught by a low angle, rotating camera, in IMAX, with grainy film texture, high quality."
     ]
   },
-
   {
     "input": "movie documentary, northern hemisphere animals, dramatic camera movements, golden hour light, atmospheric effects",
     "captions": [
@@ -301,6 +213,36 @@ export const demoPrompts = [
       "Real world footage of a giraffe elegantly feeding from an acacia tree's highest branches, the warm sunset glow illuminating its form, foggy environment, captured by a tracking shot with an IMAX movie camera, noticeable film grain.",
       "Cinematic film capture of a pride of lions engaging in play, their antics contrasting with the dramatic colors of the setting sun, misty atmosphere, shot through a tracking camera lens of an IMAX camera, displaying visible film grain.",
       "Movie shot of a beautiful African sunset on the plains, the colors of the sky melting into the golden savannah, foggy environment creating a moody, dreamy scene, wide-angle shot, captured with cinematic IMAX camera, with visible film grain."
+    ]
+  },
+  {
+    "input": "a movie about an island featuring real live dinosaurs with people in safari-like situation",
+    "captions": [
+      "Real-life movie scene of a long drone shot starting with a view of a dense forest on a mysterious island, sturdy trees of deep green hue standing tall, filtering the sunlight to create god's rays with an air thick with mist, haze, and the occasional mystery bird flying past, foggy, dramatic lighting, using cinematic 4k, imax, aesthetically color-graded, movie, film grain.",
+      
+      "Movie footage of a rugged safari jeep getting ready to embark, parked amidst the dew-drenched, verdant foliage; people, adventurous yet cautious, dressed in typical safari gear, khaki clothing and wide-rimmed hats and sunglasses. Camera flying by, breathtaking high quality, detailed, 4k imax, highly dramatic, movie-like vibe, film grain.",
+  
+      "Cinematic, 4k wide-angle view of the safari jeep entering the dense jungle, its path lit by the shafts of sunlight piercing through the gaps of towering tree canopy, laced with fog and mystery. The excited faces of the people become visible, spotlighting fear-cum-excitivity, imax, atmospheric, movie, film grain.",
+  
+      "Movie footage of a large herd of Triceratops casually grazing in the plains, they look majestic with vivid skin tones and large horns, under ambient sunlight, people in jeep watching in awe, foggy, dramatic lighting, 4k, cinematic, imax, high-quality movie, film grain.",
+  
+      "Film shot of Diplodocus eating among tree tops, their long necks stretching around giant trees, their scales, ancient and detailed in greenish tan, glistening under the sun rays, a picture of calm in the primal wild. Movie, film grain, stunning imax, 4k, hyperrealistic, foggy, dramatic lighting.",
+  
+      "In the movie, a close-up for the first human-dinosaur interaction, a young woman extends her hand cautiously to touch a baby Triceratops. The baby dinosaur's skin, rough yet enchanting. Image is clear, full of delight, 4k, enhanced by imax, rich color grading, movie, film grain.",
+  
+      "Bird-eye movie view of a gigantic Raptor walking leisurely past the safari jeep, its eyes, sharp and scary. The reflection on its skin is vivid, showing rough textures, charged up with fear and exhilaration. Dynamic god rays, cinematic, trendy, high details, imax, 4k, movie, film grain.",
+  
+      "Cinematic shot of people hiding behind a big dinosaur, tactfully keeping silent as they hear the heavy steps of another predator nearby, with soft tension-enhancing light from a setting sun, they move carefully. Surroundings dimly lit, enhanced misty, high-quality movie scene, film grain.",
+  
+      "Movie depiction of sudden chaos as they are chased by a T-Rex. The jeep accelerates, bumping on the uneven jungle terrain, a close call with the massive, roaring predator; the camera following, dramatic, high adrenaline, gritty, richly color-graded, cinematic, 4k, imax, stylish movie, film grain.",
+  
+      "In the movie, a close-up of T-Rex roaring in frustration as the folks escape, its reptilian skin glistening with sweat, sunlit smoggy air filling the frame, the perfect scary dinosaur, dynamic storytelling, foggy, breathtaking, stunning, trendy, cinematic, 4k, imax.",
+  
+      "Movie shot of the relief washed across faces in the jeep as they escape the T-Rex; backlit by the subtle, warm glow of a setting sun peeking through the dense jungle leaves; high-quality, 4k, imax, foggy movie footage enhanced by dramatic lighting and film grain.",
+  
+      "Film scene showing a pack of colorful Parasaurolophus, ambling by a lake, their head crests distinct and shimmering in the golden evening light; the observers in the jeep watching in wonder, high quality details, foggy weather, dramatic lighting, cinematic, 4k, imax, movie, film grain.",
+  
+      "Cinematic movie view of the Safari jeep driving towards the horizon under a breathtaking sunset, the sky splashed with warm hues, silhouetting the gigantic Brachiosaurus feeding on tall trees, magnificently detailed, perfect end-of-day lighting, stunning movie finale, with imax, 4k resolution, film grain."
     ]
   },
   {
@@ -410,6 +352,40 @@ export const demoPrompts = [
       "Film Footage showing a low-pass drone shot of the calm Californian bay during sunset, shot on an ALEXA Mini LF, cinematic, IMAX, movie, film grain, high quality.",
       "Movie Clip showing a stunning overhead view of the race car vanishing into the horizon, drone slowly ascending, taken with a DJI Mavic Air, cinematic, IMAX, movie, film grain.",
       "Film Footage of a smooth drone flyby of the Golden Gate Bridge, clear sky reflecting on the tranquil bay, silhouette moment during sunset, shot on a DJI Inspire 1, film grain, cinematic, IMAX, trending on Artstation."
+    ]
+  },
+  {
+    "input": "a movie documentary with drone footage of various american landscapes",
+    "captions": [
+      "Real world footage of a breathtaking aerial view over the vibrant green forests of Yosemite Park, dappled with early morning mist. Shadows and light play across the scene in a dramatic manner, captured in a cinematic style with a GoPro Hero 9 Black, highlighting surreal textures and colors against the soft morning haze. Film grain, cinematic, imax, movie",
+      
+      "Film shot of a captivating flight above the Grand Canyon, ledges and plateaus etched in orange and red. Deep shadows contrast with the fiery landscape under the midday sun, shot with DJI Phantom 4 Pro. The camera rotates to capture the vastness, textures and colors, in imax quality. Film grain, cinematic, movie",
+      
+      "In-motion shot of the melancholic Death Valley, a desolated landscape under the relentless heat. The drone grazes the golden sand dunes, capturing every grain and texture with high detailed skin, with a Canon EOS 5D Mark IV. Cinematic style, imax, film grain, movie",
+  
+      "Dynamic drone footage of the calm and reflective surface of a lake in the midst of a lush forest in Lassen Volcanic Park at sunset. The drone dips low, almost touching the water, with lights and colors from the setting sun illuminating the breathtaking landscape. Shot with Sony A7 III, with soft light creating a cinematic atmosphere. Film grain, imax, movie",
+  
+      "Aerial shot of a serene morning in the open fields of California coast, as the drone glides over the rolling green hills under the first light. Flowers pepper the scene as the dew reflects the morning sun. Captured in a breathtaking cinematic style with DJI Mavic Pro 2, the vibrant colors and gentle textures of nature spring to life. Film grain, imax, movie",
+  
+      "Cinematic capture of the sprawling cityscape of New York in the evening, with the drone roaming above the rivers and between the towering skyscrapers, captured in a dramatic style with GoPro Hero 9 Black. Night view with city lights illuminating the building textures and colors, creating a striking contrast with the dark sky. Film grain, imax, movie",
+  
+      "Documentary-style shot of the Yosemite Park waterfall during peak flow, with mist and rainbow playing around the cascade. Captured with drama and detail using DJI Phantom 4 Pro, a cinematic masterpiece. The camera spins for a dynamic composition, against the vibrant colors of the undisturbed nature. Film grain, imax, movie",
+  
+      "Aerial footage of the frozen peaks of the San Francisco mountains, draped in snow. Under the dull grey sky, the stark white snow brings out finer details and textures. Shot with a DJI Inspire 2 for a cinematic and dramatic representation of winter in full display", "Film grain, imax, movie",
+  
+      "A strong dramatic shot of the silhouette of a lone Joshua tree against the fiery sunset in the Death Valley. The stark contrast and spectacular colors make for a surreal scene, shot with Canon EOS 5D Mark IV. The grains of sand catch the light, adding a textural depth to the scene. Film grain, cinematic, imax, movie",
+  
+      "Cinematic shot of the rocky terrains and clear blue lakes of the National Parks in California, amplified by the sunlight that dapples through the trees. Captured in stunning quality with a GoPro Hero 9 Black. The play of light and shadow adds character to the landscape, with colors and textures beautifully presented. Film grain, imax, movie",
+      
+      "Drone footage of the ominous storm brewing over the Grand Canyon, with dark clouds casting dramatic shadows over the terrain. Captured in awe-inspiring detail with a DJI Mavic Pro 2, the strong contrast of colors and textures makes the scene almost surreal. Film grain, imax, movie",
+  
+      "In-motion shot of the serene Californian farmlands, bathed in the warm glow of the setting sun, with golden wheat fields. Filmed with a Canon EOS 5D Mark IV for breathtaking high-definition quality, showcasing nature's vivid colors and textures. Film grain, cinematic, imax, movie",
+  
+      "Aerial footage of a quiet morning at the coast of California, with waves gently crashing against the rocky shore. A startling sunrise illuminates the coast with vibrant colors, captured beautifully with a DJI Phantom 4 Pro. Colors and textures of the landscape come alive under the soft morning light. Film grain, cinematic, imax, movie",
+  
+      "Crisp footage of a winter sunrise in the Sierra Nevada mountains, filmed with a GoPro Hero 9 Black. A palette of cool hues paints the snowy landscape, with the sun peeking through the mountains adding a warm glow. The camera executes a slow pan to capture the dramatic lighting and textures. Film grain, imax, movie",
+  
+      "Documentary-style capture of a foggy morning in Lassen Volcanic Park, with the drone gliding close to the ground, capturing fine details of the misty environment with a Sony A7 III. The composition carries a mystic allure, with textures, shadows and colors beautifully highlighted in cinematic style. Film grain, imax, movie"
     ]
   },
   {
@@ -599,6 +575,36 @@ export const demoPrompts = [
     ]
   },
   {
+    "input": "movie documentary, dramatic lighting, luxury homes, cinematic shots, characters, time period, colors, textures, background, camera positions, cinematic, imax, movie, film grain",
+    "captions": [
+      "Real footage of a drone hovering over a stunning old-world estate in New York, capturing the gothic architecture in dramatic lighting with an IMAX camera, adding film grain for a cinematic feel.",
+      "Cinematic movie of a 2000s period penthouse with minimalistic interiors shot from a drone using an IMAX camera in stunning monochrome colors with film grain.",
+      "A drone-shot video capture of a retro 1970s New York townhouse, with an intricate brick facade, white snow dressing the rooftop and sidewalks, all in soft sepia tones under an early morning light, shot using an IMAX camera, with added film grain.",
+      "Real movie footage of an IMAX camera capturing sunset over a large contemporary estate with floor-to-ceiling windows in dramatic lighting, creating an enchanting scenic view with film grain effect.",
+      "Drone footage of a conservatively designed New York mansion, seen in the mysterious late-night light, casting strong patterns and shades, filmed with an IMAX camera adding a cinematic film grain.",
+      "Bird's eye view real footage of a series of luxury homes along the coastline, taken during the golden hour, showcasing a play of vibrant colors, shot using an IMAX camera with a film grain effect for a movie-like feel.",
+      "A low evening sunlight casting large dramatic shadows over a New York penthouse, captured in an aerial drone shot with a cinematic IMAX camera technique and a stately film grain.",
+      "A flyover shot of a cluster of luxury houses on a New York hillside, with fall colors adding vibrance to the scene, captured with stunning clarity by an IMAX camera and presented with artistic film grain.",
+      "Drone footage showcasing a modernist architectural marvel of a home in New York, under a dramatic moonlit night, captured through an IMAX camera and adding film grain for a unique cinematic experience.",
+      "Video of a sun-drenched penthouse with art deco styling, captured in the glory of a New York summer day, filmed using an IMAX camera with film grain for a true cinematic look.",
+      "An aerial shot of an estate nestled in a lush, manicured garden, filmed in a documentary style with dramatic lighting, using an IMAX camera, boasting colors and clear textures, and presented with an authentic film grain.",
+      "Drone footage of a luxurious New York penthouse in the heart of the city, featuring floor-to-ceiling windows and a rooftop garden, captured in twilight with dramatic lighting from an IMAX camera and added film grain to enhance cinematic quality.",
+      "Night time shot of majestic townhouses, shining under the city lights, shot from a bird's eye view with an IMAX camera, capturing rich textures and sprinkling film grain to create a movie effect.",
+      "Video capture of an extravagant mansion with beautifully landscaped grounds, in the rich glow of a New York sunset, shot using a high-quality IMAX camera and manipulated for a film grain appearance for a cinematic mood.",
+      "A real movie documenting the majesty of a brownstone New York mansion at dawn, caught by a drone camera in cool blue tones with slight film grain, enhancing the cinematic ambiance.",
+      "Footage from a slowly moving drone over the rooftop swimming pool of an ultra-modern penthouse under the midday sun, shot using an IMAX camera, capturing the place's texture and colors, sprinkled with film grain for a cinematic touch.",
+      "An extreme long-shot of a sprawling estate in New York during autumn, showcasing radiant fall colors, captured in all its glory with an IMAX camera with added film grain for a movie-like experience.",
+      "A bird's eye view of the architectural diversity of luxury homes in New York, shot during a cloudy day with stark shadows and dramatic contrast by an IMAX camera, supplemented with film grain for a cinematic feel.",
+      "Rotating drone footage of a tiered penthouse in the evening twilight, showcasing a silhouette against the city skyline, filmed on an IMAX camera with added film grain for a cinematic look.",
+      "Captivating footage of a New York beach house at sunset, showcasing a perfect blend of colors and textures, filmed with dramatic lighting using an IMAX camera and layered with film grain for a movie effect.",
+      "An aerial shot documenting a neoclassical mansion at daybreak . The rolling morning fog, dew-laden garden, and majestic structure all lit in soft, diffused light captured with an IMAX camera with film grain giving a storybook feel.",
+      "A panoramic shot of a string of multi-storey luxury homes at dusk in New York, a cinematic showcase of modern and traditional architecture in dimly lit settings, all filmed using an IMAX camera and presented with film grain.",
+      "Drone footage of a lavish brownstone townhouse amid a snowy day, the white covering contrasting the rich brown of the architecture, shot using an IMAX camera, enhancing the chill in the air, sprinkled with film grain for a cinematic effect.",
+      "A monochrome capture of a breathtaking penthouse during an overcast day, the somber mood established by the cloud-filled sky casting dramatic shadows, shot with an IMAX camera with added film grain for an old-world cinematic feel.",
+      "A video snippet of a drone descending towards a lit-up mansion during a starry night, transforming the scene into an illuminating spectacle captured through an IMAX camera in high detail with film grain overlaid for the cinematic finale."
+    ]
+  },
+  {
     "input": "a movie about gladiators in an arena, the gladiators are fighting against each other, they are very victorious, the emperor watches them and the crowd cheer",
     "captions": [
       "Footage of an epic gladiator fight in an ancient roman arena, full of courageous warriors clashing with each other in intense battles, with the emperor intensely watching, the Rome era clothing and worn stone textures omnipresent, during golden hour, taken with IMAX camera, with cinematic grading, atmospheric lighting, and touch of film grain, trending on artstation.",
@@ -669,6 +675,67 @@ export const demoPrompts = [
     ]
   },
   {
+    "input": "a movie documentary about marine life",
+    "audio": "background music for a documentary about underwater, marine exploration",
+    "captions": [
+      "Film footage of a kaleidoscopic array of clownfish darting around vibrant, hued corals, with sunlight streaking through the crystal-clear water. Cinematic IMAX style with film grain. Focus on triadic colour scheme, ambient lighting, highly detailed.",
+      "Movie clip of emperor angelfish gliding serenely among waving sea anemone fronds, capturing their vibrant pigments and unique patterns. Ambient sunlight filters through overhead, enhancing brilliant colours, lending a cinematic look. Captured in IMAX, high quality with adherence to film grain and ultra wide-angle view.",
+      "Film capture of a curious sea turtle inspecting corals, poetically capturing the essential harmony of marine life. Captures in IMAX, with ambient underwater lighting enhancing turtle's intricate designs and coral's vivid hues. Film grain and ultra realistic.",
+      "Film footage of a gigantic blue whale dispersing a school of small fishes as it majestically traverses the blue abyss. Taken in cinematic IMAX style, capturing the enormity and the mesmerizing shadows playing over its skin. Film grain, high detail, massive scale.",
+      "Movie clip showcasing a dolphin pod playfully leaping out of the iridescent ocean surface against setting sun, a masterstroke in visual storytelling. Captured in hi-res IMAX, with backlit lighting, film grain, and wide-angle view.",
+      "Film footage of a mesmerizing display of cuttlefish changing pigmentation rapidly, the hues dancing over their bodies in a hypnotic pattern. Shot in IMAX for cinematic feel, artful composition with ambient lighting and film grain.",
+      "Short movie clip of electric eels amidst murky aquatic foliage, their bodies glowing eerily. Shot in crisp IMAX detail, film grain used artistically to establish tension, ambient lighting highlighting bodies' natural luminescence.",
+      "Natural filmic sequence of a school of sardines forming a swirling, silver cyclone providing a surreal spectacle. The precision of their coordinated patterns mirrored in the sparkling underwater sunlight. Captured in 4k IMAX, with wide-angle view and film grain.",
+      "Movie shot capturing herd of sea otters floating lazily on the glittering surface, their fur beautifully glossy in the sunlight. Filmed in IMAX, ambient light lending an air of tranquility, complemented by film grain and ultra-realistic detailing.",
+      "Film capture of a sea slug gliding over a rock, intriguing textures and vibrant colours highlighted beautifully against the rock's rough contrast. Shot in cinematic IMAX, high-definition, detail focused with ambient lighting.",
+      "Movie shot capturing a moray eel emerging ominously from coral crevices, lending a sense of foreboding despite the tranquil surroundings. Filmed in IMAX, cinematic, detail focused with film grain, accent lighting on eel.",
+      "Film footage of playful seals cavorting amid floating ice chunks in blue waters, provides a touching spectacle against stark white. Captured in cinematic IMAX, ultra-realistic, studio quality, accentuating contrast between subjects.",
+      "Short movie shot of an orca pod gracefully weaving through icy depths. Filmed in IMAX, ambient lighting, with a focus on orcas' glossy black skins and ice blue waters. Cinematic flair with a touch of film grain.",
+      "Majestic film sequence of a lone hammerhead shark patrolling the eerie silence of the deeper oceans. IMAX, ambient lighting, ultra-wide shot to enforce solitude, high detailed shark and ocean floor detail.",
+      "Film capture of a symphony of jellyfishes gently pulsating through mild currents, mirrored light reflecting off their gelatinous bodies. Cinematic IMAX, ultra-realistic, ambient backlighting enhancing hues, consciously applied film grain.",
+      "Short movie sequence showcasing stingrays brushing against ocean floor, stirring up trails of fine sand - a poetic capture of aquatic life. Filmed in IMAX, detail focused, ambient lighting to establish mood, cinematic feel with film grain.",
+      "Film footage of an ethereal octopus swimming against a backdrop of vibrant coral reef, its flexible movements capturing attention. Captured in cinematic IMAX, high-definition detail, ambient backlit lighting creating intricate shadow play, applied film grain.",
+      "Small school of lionfish roaming near rocky outcrop, their dazzling array of colours contrasted against gloomy surroundings. IMAX, ambient underwater light to bring out their intricate patterns, cinematic with film grain.",
+      "Recording of hunting tiger sharks, their sleek bodies gliding in perfect harmony with the waters, nature's hunters in their full glory. Shot in cinematic IMAX, high-definition detail, enhanced by ambient lighting and film grain.",
+      "Short sequence showcasing underwater, vibrant colours of starfish against a rugged seabed lends a tactile realism to the scene. Filmed in cinematic IMAX, ambient lighting, ultra high-def resolution with film grain.",
+      "Cinematic panorama of vast shoal of countless marine species exhibiting the mesmerising, unscripted choreography of marine life. Shot in IMAX, high quality, studio detailing, and ambient lighting with film grain.",
+      "Short footage of a pufferfish navigating the undersea maze of coral reefs, its curious eyes surveilling the surroundings. Filmed in cinematic IMAX, finely detailed pufferfish, ambient lighting to highlight colours, with film grain to retain natural aesthetic.",
+      "Prismatic spectrum of reef life, captured in a single, sweeping cinematic shot. An underwater rainbow of creatures of every shape and colour. Shot in IMAX, illuminated by ambient underwater light, ultra-high resolution and film grain.",
+      "Movie clip of a humpback whales swimming through god's rays towards the surface, a stunning symphony of the monumental and the minute. Filmed in breathtaking IMAX clarity, ultra-detailed, ambient lighting, and film grain.",
+      "Cinematic film capture of the sun setting on the ocean horizon, casting a golden sheen on the sprawling water surface, symbolising end of the marvelous odyssey. Shot in IMAX, ambient light, focused clarity and film grain."
+    ]
+  },
+  {
+    "input": "a movie documentary about house construction",
+    "captions": [
+      "Film footage of architect working on blueprints of a house with pencil. Style is black and white vintage, focus on the architect. Camera is Canon EOS 7D, grainy and high details. Keywords include cinematic, imax, movie, film grain, award-winning, high quality.",
+      "Drone footage of an empty piece of land at dawn with a measuring tape and stakes. Skies are purple with the early morning light. Camera DJI Phantom 4 Pro using wide angle, trending on artstation.",
+      "Film footage of land surveyors, using theodolite and other topography equipment under direct sunlight, captured with Canon EOS 7D in a mid-shot, providing high details of the characters in action. Keywords are cinematic, imax, movie, film grain.",
+      "Film of time-lapse showing construction workers excavating and flattening the site, under strong, direct sunlight. Camera is Canon EOS 7D with high details. Keywords are cinematic, imax, movie, film grain and work in progress.",
+      "Drone mid-air shot of a team of builders pouring the house foundations in clear day. Camera DJI Phantom 4 Pro, wide angle, crisp and clear, with high details. Keywords include cinematic, imax, movie, documentary, film grain.",
+      "Film of time-lapse focus on a concrete mixer and workers pouring concrete into the foundation ditch, under ambient lighting. Camera Canon EOS 7D in a close-up shot, showcasing the texture and color of the concrete mixture. The additional keywords are award-winning, high quality, cinematic, imax, movie, film grain.",
+      "Aerial view of completed house foundation with Canon EOS 7D DSLR. Crisp quality with triadic color scheme showcasing the raw foundation. Additional keywords include cinematic, imax, movie, film grain, trending on artstation.",
+      "Film using Canon EOS 7D showing construction workers building walls, with incredible attention to textures and colors of the bricks and mortar under natural lighting. Key terms are cinematic, imax, movie, film grain, high details.",
+      "Drone footage of builders installing the roof under a clear blue sky, showing a comprehensive aerial view of the construction site. Camera DJI Phantom 4 Pro uses wide angle lens to capture this scene, with keywords such as cinematic, imax, and movie.",
+      "Close-up film footage of an electrician installing wiring, Canon EOS 7D captures high details of color-coded wires and hand movements in strong light. Keywords include cinematic, imax, movie, film grain, documentary, award-winning.",
+      "Film of a plumber at work installing pipes under natural lighting, focuses on the character's expressions and hand movements, Canon EOS 7D, with addition of cinematic, imax, movie, film grain keywords.",
+      "Aerial drone footage of a completed house frame at sunset, with coppery lighting bathing the scene. DJI Phantom 4 Pro captures this golden hour moment in the progressing construction scene. Keywords include cinematic, imax, movie, documentary, film grain, and stunning.",
+      "Film footage showing the process of painting the house white, under soft artificial lighting. Canon EOS 7D captures the transformation of the walls, with keywords including cinematic, imax, movie, film grain, documentary.",
+      "Film footage at a close-up angle of texture being added to the walls under ambient construction-site lighting. Captured with Canon EOS 7D, showcasing the depth and texture of the material. The keywords include cinematic, imax, movie, film grain, and documentary.",
+      "Drone footage of the construction site at dusk, covered in a soft purple and orange hue, showcasing the progress of the house build. Captured by DJI Phantom 4 Pro in a sweeping shot, with high details, keywords are cinematic, imax, movie, film grain, documentary, and beautiful.",
+      "Film footage of kitchen installation, focusing on detailed carpentry work under soft ambient lamp, shot with Canon EOS 7D. Additional keywords are cinematic, imax, movie, film grain, award-winning, high quality.",
+      "Close-up film footage of designer choosing materials for the interior, Canon EOS 7D captures the array of wood and fabric samples. Under ambient lighting, with keywords cinematic, imax, movie, film grain, high end furnishing.",
+      "Film footage of the interior decorator placing rugs, furniture, and other items in the house. Canon EOS 7D, ambient lighting, static shot. Keywords: cinematic, imax, movie, film grain, high quality materials and furniture.",
+      "Drone footage of the completely built house from various angles under a soft afternoon glow. Captured in DJI Phantom 4 Pro, 360-degree sweep, high details, with keyword cinematic, imax, movie, film grain, architecture.",
+      "Film of close-ups revealing details of the finished interior under ambient lighting, Canon EOS 7D. Each shot showcases the rich details of the woodwork, the textures on the fabrics, and the elegant fixtures. Keywords: cinematic, imax, movie, film grain, high-end interior.",
+      "Drone footage of the completed house from a high vantage point showing the surrounding terrain under the setting sun. Camera is DJI Phantom 4 Pro, highlighting the house's lush garden and driveway. Additional keywords found in cinematic, imax, movie, film grain, award-winning.",
+      "Film of the architect reviewing and approving the work inside the finished house. Canon EOS 7D captures the moment under ambient lighting, middle shot, focusing on the architect's satisfied expression. Additional keywords used include cinematic, imax, movie, film grain, award-winning.",
+      "Film footage of a happy family visiting their completed home for the first time. Canon EOS 7D captures the heartwarming scene, soft lighting envelops this new chapter in their lives. Keywords include cinematic, imax, movie, film grain, high quality, trending on Artstation.",
+      "Drone footage of the newly built house with the family in the garden, captured under the soft twilight glow. The DJI Phantom 4 Pro films a wide-angle shot of the house and its surroundings. Additional keywords include cinematic, imax, movie, film grain, award-winning.",
+      "Film footage of the house lit up at night, seen from various angles, Canon EOS 7D captures the tranquil scene in its high-quality, bokeh, night lights, and adds the cinematic touch to the documentary. Keywords include cinematic, imax, movie, film grain, award-winning, beautiful, trending on Artstation."
+    ]
+  },
+  {
     "input": "an anime movie in the style of Studio Ghibli and Miyazaki, showing a magical panda becoming friend with a black cat. The panda can transform into various people and objects. Set in feudal japan, they go on adventures in beautiful japanese landscape. We can see leaves of cherry blossom, beautify japanese mountains, plains, rivers, traditional japanese settings. In nearly all scenes we should have dynamic camera effects (eg. rotating around the scene), as well as mist, haze or fog effect. To add to the mystic, each some scenes should have dramatic light effects, such as golden hour, god's ray.",
     "captions": [
       "Magical panda and black cat making friends in a picturesque Japanese landscape, Studio Ghibli style > Cinematic, picturesque composition > IMAX camera panning around the scene > Award-winning, high quality, trending on Artstation, cinematic, movie, dramatic lighting, golden hour, god's rays, film grain",
@@ -696,6 +763,123 @@ export const demoPrompts = [
       "Panda transforming from umbrella into a humble knight, black cat by his side, Studio Ghibli style > Cinematic, high detail composition > IMAX camera rotating >  High quality, cinematic, IMAX, movie, dramatic lighting, film grain",
       "Knight panda and black cat bravely approaching the castle, Studio Ghibli style > Adventurous, grand scale composition > IMAX camera tracking them > High quality, dynamic camera effects, cinematic, IMAX, movie, spotlight effect, film grain",
       "Knight panda and black cat standing before the castle gates, ready for their next adventure, Studio Ghibli style > Climactic composition > IMAX camera zooming out > High quality, cinematic, IMAX, movie, god's rays, film grain"
+    ]
+  },
+  {
+    "input": "A real movie about evil mages and orcs attacking a castle of knights, in the style of Michael Bay. Some scenes include: cutting down trees, building siege weapons at night, attacking the castle in the morning, sending a dragon to attack, knights defending, a huge battle outside the castle, and the aftermath of the battle.",
+    "captions": [
+      "High definition cinematic film of evil mages and orcs in a dense forest, surreptitiously cutting down trees under the concealment of a moonlit night, panoramic view, shot on IMAX, with film grain effect, in the style of a Michael Bay movie.",
+      "Realistic footage of orcs industriously building siege weapons from the fallen trees, under a cobalt sky dotted with glistening stars, using medium-wide lens shot, incorporating surrealistic lighting details, on a DSLR, trending on ArtStation.",
+      "Dramatic movie film of the first light of dawn breaking over the horizon, casting an eerie glow on the orcs gearing up for the onslaught, majestic aerial view shot on a high resolution IMAX camera, with, additional dynamic camera effects and washed colors.",
+      "Full-length film footage of the orcs initiating their violent attack on the castle, catapulting flaming rocks across the sky, grand wide-angle shot, with enriching detail and film grain effect, recorded with high end Canon EOS, maintaining the Michael Bay style.",
+      "Brilliant movie scene depicting a blood-chilling summoning of a fire-breathing dragon by the mages, focus on the sparkling golden hour, extreme long-shot using a DSLR camera, imbued with a surrealistic style, maintaining high details and trending on ArtStation.",
+      "Award-winning film scene of the dragon soaring high above, drawing fiery circles around the besieged castle, aerial view shot on IMAX, with dynamic camera effects, enlightened with the golden hour's light, realistic with a film grain effect.",
+      "High-quality movie footage of the knights' valiant defense against the siege, dramatic archers taking aim under direct sunlight, medium wide-angle shot with DSLR, capturing the Michael Bay style with high details, graceful panoramic sweeping of the camera, trending on ArtStation.",
+      "In the real-life scenery of the film, the knight's skyward arrows strike the dragon in a shower of sparks, ultra-wide angle lens view taken at the edge of sunset, shot in a Canon EOS, in a style that is cinematic, filled with magical realism and grandeur.",
+      "Epic battle scene in the movie with knights clashing with the orc army outside the castle, powerful low-angle shot, under the dramatic dusk light, shot on IMAX showcasing cinematic bokeh and film grain effect, in a Michael Bay styled frenzy.",
+      "Captivating film scene of the knights making a glorious stand against the relentless orc warriors, dramatic strobe lighting, wide angle shot capturing the action at ground level, recorded with a high-end Canon EOS, adding a gritty realism in-line with Michael Bay's signature style.",
+      "Intense movie sequence of the final strike by the knights, sudden ambush on the orcs under an overpowering strobe light, DSLR close-ups capturing the shock and surprise, Michael Bay's style of dynamic camera effects and intense film grain applied.",
+      "Dramatic end to the battle in the film with the knights emerging victorious, golden hour light creating a divine aura, wide-angle shot on IMAX showing the grandeur, maintaining high details with a gritty film grain effect in Michael Bay's style.",
+      "Haunting film footage of the battlefield aftermath, shrouded in an ethereal mist, graceful aerial view shot on a DSLR capturing the mystical ambience, surrealistic lighting details, complete with a Michael Bay style film grain effect.",
+      "Beautiful morning light after the battle in the movie, ambient light piercing through the dissipating fog, dramatic wide-angle shot on IMAX, with high detail and film grain effect, showcasing the cinematic Michael Bay style.",
+      "Cinematic film closure with the misty aftermath, portraying the fading echoes of the fierce battle, panoramic camera sweep, shot on Canon EOS, the moody gray sky contributing to the surrealistic style, film grain effect maintaining visual consistency with the Michael Bay style."
+    ]
+  },
+  {
+    "input": "a movie shot in a Michael Bay style, about an alien ship destroying Los Angeles",
+    "captions": [
+      "cinematic shot of the misty streets of Los Angeles during the early morning, drone camera, ambient lighting, foggy, wide-angle, film grain, Michael Bay style, cinematic, imax, movie, high quality",
+    
+      "cinematic wide-angle drone shot of an airplane taking off in the misty sunrise Los Angeles, ambient lighting, film grain, Michael Bay style, cinematic, imax, movie, high quality",
+    
+      "photorealistic multi-kilometer wide alien spaceship hovering over Los Angeles at dawn, ultra wide-angle, detailed fog effect, dramatic lighting, cinematic, imax, movie, Michael Bay style, film grain",
+     
+      "photorealistic extreme long shot of a light beam shooting down from the alien ship impacting Los Angeles, ambient lighting, foggy, Michael Bay style, cinematic, imax, movie, film grain",
+     
+      "photorealistic abd cinematic shot of a colossal explosion in Los Angeles caused by the alien ship's light beam, Michael Bay style, ambient lighting, wide-angle, film grain, cinematic, imax, movie, high quality",
+     
+      "photorealistic cars and debris being launched into the air amid the alien chaos in Los Angeles, ultra wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "photorealistic citizens of Los Angeles running from destruction, ambient lighting, foggy, ultra wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "photorealistic military leaders strategizing a response, ambient lighting, close-up, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "photorealistic armada of jets departing to engage the alien ship attack, late morning light, ambient lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "photorealistic jet planes ascending towards the floating alien ship, ambient lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "photorealistic jet squadron maneuvering in formation, ambient lighting, extreme long-shot, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "photorealistic video, dynamic chase between the jet planes and the alien ship over LA, noon sunlight, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "photorealistic jet plane narrowly avoiding alien fire in a dramatic canyon chase, ambient lighting, extreme close-up, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "photorealistic jet plane taking a daring shot at the alien ship, intense sunlight, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "photorealistic graphic video of the alien ship starting to fall apart under the onslaught of the jet planes, direct sunlight, extreme long-shot, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "photorealistic alien mothership exploding brilliantly in the Los Angeles atmosphere, ambient lighting, extreme long-shot, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "photorealistic jet planes flying away from the explosion, dramatic lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "photorealistic close-up of a jet pilot celebrating the victory against the alien ship, ambient lighting, Michael Bay style, cinematic, imax, movie, film grain",
+     
+      "photorealistic video of the citizens of Los Angeles cheering as the jet planes fly over the city during the golden hour, ambient lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "photorealistic video of the joyous celebration in Los Angeles, with American flags waving in the golden sunset, God's rays, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "photorealistic celebration scene of 4th of July in Los Angeles, firework lights, ambient lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "dramatic shot of the jubilant crowds under the fireworks in Los Angeles, ambient lighting, extreme long-shot, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "video of a jet plane doing a victory flyover with smoke trails and fireworks lighting up the evening sky, Michael Bay style, ambient lighting, extreme long-shot, film grain, cinematic, imax, movie, high quality",
+     
+      "video of a jet plane landing with a golden sunset in the background, ambient lighting, close-up, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "cinematic drone video of the calm after the storm in Los Angeles at dusk, ambient lighting, ultra wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality"
+    ]
+  },
+  {
+    "input": "a short advert for pasta, with grocery shopping, cooking, dining, and a product display in a movie style",
+    "captions": [
+      "Photograph of a bustling grocery store with a focus on the pasta aisle, vivid colors and rich details, shot in a wide-angle, cinematic style, Canon 5D Mark III, high resolution, movie quality with a hint of film grain, trending on ArtStation, featured.",
+      "Wide-angle photograph of a hand reaching out to pick a pasta packet off a shelf, lots of natural light, complex yet elegantly composed, using a Canon 5D Mark III, high details, cinema level quality, IMAX and film grain effect, trending on ArtStation, award-winning",
+      "Photograph of a cozy kitchen setup, rustic style with warm ambient lighting, lots of details, shot in Canon 5D Mark III, cinematic, IMAX, grainy film effect, high resolution, featured on ArtStation, award-winning quality.",
+      "Detailed close-up photograph of a kitchen counter with raw pasta, fresh ingredients beside, dynamic lighting, Canon 5D Mark III, cinematic, IMAX, strong film grain texture, hyper-realistic, showcased on ArtStation, movie quality, breathtaking.",
+      "High-resolution photograph of steaming pasta tossed in the air, captured in a freeze motion, vibrant colors, shot using Canon 5D Mark III, cinematic style, IMAX shot with a film grain effect, trending on ArtStation, high quality, award winning.",
+      "Photograph of a candlelit dinner table setup, with freshly cooked pasta served, romantic ambiance, shot using Canon 5D Mark III, cinema style composition with an IMAX feel and film grain effect, high detail, critically acclaimed, showcased on ArtStation.",
+      "Photograph of a couple enjoying their pasta dinner, warm ambient lighting, nostalgic feel, shot using Canon 5D Mark III, cinematic approach, IMAX, strong film grain, beautiful composition, photo-realistic, trending on ArtStation, award-winning.",
+      "Artful close-up photograph of a packet of pasta, elegantly positioned with a strong depth of field, shot in a professional studio using Canon 5D Mark III, cinematic style, IMAX, high quality with a film grain effect, movie-like, award-winning, featured on ArtStation."
+    ]
+  },
+  {
+    "input": "real movie about sailships and pirates",
+    "captions": [
+      "Real movie footage of a grand sailship navigating in the calm turquoise Caribbean sea during sunrise, Canon EOS, ambient lighting, stunning, awe-inspiring, wide-angle, high details, cinematic, IMAX, film grain, trending on artstation",
+      "Genuine film sequence showing the detailed craftsmanship and beauty of the ship's hull, sails, and mast, direct sunlight highlighting every nuance, Canon EOS, high quality, studio quality, 4k, ultra realistic, cinematic, IMAX, depth of field, trending on artstation",
+      "Film footage of a pirates looking out towards at the endless expanse of the sea from the ship deck, warm orange color due to the setting sun, Canon EOS, backlight, award winning, wide-angle, cinematic, film grain, IMAX, trending on artstation",
+      "A real movie scene featuring an aerial view of the sailship gracefully navigating near a beautiful tropical coast, cloudy sky promising an impending storm, Canon EOS, aerial view, natural lighting, epic composition, cinematic,detail, IMAX, film grain, trending on artstation",
+      "Genuine film footage of the ship's crew hoisting the sails in unison, the crisp audacity of the white sails against the soft hues of the evening sky, Canon EOS, high detail, beautiful, cinematic, IMAX, film grain, direct sunlight",
+      "Real movie scene capturing the tension brewing as a rival pirate ship emerges from the fog, the calm before the storm, Canon EOS, ambient lighting, detail, cinema quality, wide-angle, IMAX, cinematic, film grain",
+      "Film footage of the cannon's firing, wooden splinters flying in every direction, in ther fog, dramatic and terrifying, Canon EOS, spotlights, high detail, grainy, cinematic, IMAX, ultra realistic",
+      "Genuine cinematic frame of the enemy ship close up, in the fog, brilliantly illuminated by the chaotic dim light amid the darkness of the storm, Canon EOS, dramatic lighting, award winning, wide-angle, highly detailed, cinematic, IMAX, ultra high definition",
+      "Real movie footage of the fierce melee onboard, swords clashing, hazy mist, shouting of men and the roar of the storm intertwining into a catastrophic symphony,Canon EOS, soft lighting, fast action, widescreen, cinematic, IMAX, trending on artstation",
+      "Genuine film footage of a courageous sailor taking on many pirates, hazy mist, dynamic camera capturing the intensity and thrill, Canon EOS, ambient lighting soft, dynamic action, wide-angle, close-up shots, cinematic, IMAX, trendsetting",
+      "Real film depiction of a pirate boarding the ship using ropes, hazy mist, a face-off with the ship's captain seems inevitable, Canon EOS, ambient lighting, cinematic, wide angle, high detail, IMAX",
+      "Cinematic movie scene showing the hero pirate dodging sword strikes majestically at the helm, 360-camera panning emphasizing the danger and thrill dangling from the edge, Canon EOS, backlight, award winning, ultra realistic, cinematic, IMAX, remarkable composition",
+      "Intriguing film footage detailed shot of a treasure map spread out on a wooden table, lamp light flickering in the wind, Canon EOS, candlelight, close-up, high details, ultra realistic, cinematic, IMAX, trending on artstation",
+      "Real movie scene depicting the victorious pirates celebrating, drinking and dancing around the fire, god's rays filtered through the sails, Canon EOS, direct sunlight, cinematic, wide angle view, IMAX",
+      "Film footage of the sun rising over the calm sea, a new day beckoning the pirates to set sail in search of their destinations, Canon EOS, dramatic sunlight, 4k, UHD, wide-angle, beautiful, cinema quality, cinematic, IMAX, film grain",
+      "Genuine film sequence of the pirate captain steering the wheel of the ship, hazy mist, wind in his hair and purpose in his eyes, Canon EOS, backlight, ultra realistic, close up, high detail, cinematic, IMAX",
+      "A film capture in the midst of a storm, gigantic waves crashing onto the ship, fear and determination etched onto the sailors' faces, Canon EOS, ultra wide-angle, high details, highly dramatic, cinematic, IMAX, grainy",
+      "Real movie footage of a burly pirate looking towards the horizon with his telescope, golden hour adding to the dramatic feel, Canon EOS, ambient lighting, wide angle, high detailed skin, cinematic, IMAX, film grain, trending on artstation",
+      "Film capture of crew members repairing the sail, seen from a low angle, sunlight streaming in through the tears, Canon EOS, backlight, close-up, cinematic, IMAX, highly detailed, film grain",
+      "Captivating movie scene featuring an aerial shot of the ship leaving a trail in the vast ocean, sunset painting the sky, Canon EOS, ambient lighting, aerial view, cinematic, long-shot, 4k UHD, IMAX",
+      "Gritty film footage of the ship's flag flying high, seen against the backdrop of the tempestuous sea and stormy skies, Canon EOS, backlight, award winning, wide-angle, high detail, cinematic, IMAX, trending on artstation",
+      "Real movie capture of a swordfight on the ship's plank, edge-of-the-seat scene with dynamic camera movements, Canon EOS, ambient lighting, wide-angle, detailed strokes, cinematic, IMAX, film grain",
+      "Film footage of victorious pirates uncovering a treasure chest, their faces glowing in delight, Canon EOS, ambient lighting, high detail, beautiful, cinematic, IMAX, film grain",
+      "Genuine film sequence of a pirate holding a gleaming gold coin against the twilight sky, Canon EOS, backlight, cinematic, extreme close-up, detailed textures, IMAX, trending on artstation",
+      "Award-winning movie scene capturing the sailship on the horizon as the day ends on the Caribbean, stunning, divine, Canon EOS, ambient lighting, epic composition, ultra wide-angle, high details, cinematic, IMAX, film grain, trending on artstation"
     ]
   },
 ]
