@@ -74,120 +74,6 @@ The output must be in JSON (here is the type signature:
 
 export const demoPrompts: Scene[] = [
   {
-    "input": "Slow-mo footage of various objects falling and exploding or being hit by bullets. Very colorful, dramatic lighting, mesmerizing.",
-    "captions": [
-      "Real world movie footage of a red watermelon falling into sharp spikes, slow motion, exploding into small pieces, surrounded by dramatic lighting and haze, IMAX 8k uhd, high detail, trending on artstation.",
-      "Film video of a blue balloon filled with yellow paint, being hit by a bullet, slow motion explosion, colorful splatter, dramatic lighting with god's rays illuminating the scene, cinematic style, high detailed, filmed with IMAX camera.",
-      "Movie showing a green pumpkin falling into a bed of nails, slow-mo explosion with chunks flying all over, ambient fog adding to the dramatic lighting, filmed with IMAX camera, 8k ultra high dhefinition, high quality, trending on artstation.",
-      "Film capture of close-up of bullet hitting green glass bottle filled with red wine, slow-motion explosion with shards and liquid flying, dramatic backlighting, shot from a low angle with IMAX camera, high cinematic quality, with film grain effect.",
-      "Video of a pink paint powder bag falling, bullet impact causing a slow-mo explosion of particles, beautiful chaos, dramatic lighting with strobe effects, shot with IMAX camera, high detailed, 8k uhd, cinematic grain, popular on artstation.",
-      "Real-time movie of a white ceramic vase falling onto concrete, slow-mo explosion of fragments, dust cloud, dynamic lighting creating protruding shadows, IMAX camera capture, 8k uhd, film grain, trending on Artstation.",
-      "Colorful slow-mo film capture of bright orange basketball falling into sharp blades, tearing and cracking, dramatic lighting with sharp edge lighting, shot using IMAX camera, high quality with added film grain, 8k uhd.",
-      "Movie shot of champagne bottle falling and hitting a corner, slow-mo explosion creates a storm of bubbles and glass, enchanted by dramatic ambient light, shot in high definition with IMAX camera, film grain effect added, ultra high resolution.",
-      "Cinematic video capture of an electronic TV falling from height, slow-mo explosion as it hits the ground releasing a cloud of sparks and fragments, surrounded by moody backlighting, IMAX camera shot, 8k uhd resolution, film grain texture.",
-      "Slow-mo movie of a jelly-filled donut shot by a bullet, dough and sweet filling flies out, vibrant colors against dark background lighting, captured by an IMAX camera, ultra high resolution, film grain effect.",
-      "Video of a plastic water bottle filled with ink, bullet hitting causes a slow-mo explosion, ink splatter creates a beautiful pattern, dramatic lighting with spotlight, ultra high definition IMAX footage, film grain effect.",
-      "Film of a tin can falling onto a bed of nails, slow motion explosion as it punctures and twists, backlit by dramatic lighting for contrast, captured with an IMAX camera, 8k uhd resolution, film grain texture.",
-      "Movie footage of a halloween pumpkin hit by bullet in slow motion, exploding into fragments, ambient fog enhancing the dramatic lighting, shot from a low angle with an IMAX camera with film grain added, high quality details.",
-      "Real world video capture of slow-motion bullet hitting a glass cube, chaotic explosion of glass shards in dazzling array of light, showing cinematic dramatic lighting, filmed with IMAX camera, high definition with film grain effect.",
-      "Slow-mo movie clip of a ripe tomato falling onto an array of sharp blades, spray of juice and seeds, dramatic lighting from below, shot in high definition on IMAX camera, trending on Artstation, film grain effect.",
-      "Film capture of a can of paint falling, bullet impact causing beautiful slow-mo explosion of droplets, enhanced drama by backlighting, shot with an IMAX camera, ultra high definition, film grain effect.",
-      "Cinematic footage of a globe-shaped glass lamp falling, bullet impact crushing into a slow-motion explosion of tiny bright shards, dramatic ambient lighting, IMAX camera capture, high detail with film grain effect.",
-      "High resolution video of a bunch of grapes falling onto a bunch of nails, slow-mo explosion of juice droplets, dramatic backlighting for contrast, captured by IMAX camera, 8k uhd resolution, film grain texture.",
-      "Filmed video of ripe papaya bullet-hit in stunning slow-motion, rich color spray and seeds dance in the air, enhanced by dramatic side lighting, shot in ultra high definition using IMAX camera with film grain effect.",
-      "Real-life movie of beer bottle explosion in slow-mo as it is hit by a bullet, foam and shards flying, dramatic lighting emphasizing the chaos, filmed with IMAX camera, 8k uhd, high detail, film grain, trending on Artstation.",
-      "Slow-mo film capture of a yellow balloon filled with red paint hit by bullet creating a beautiful splatter, lit dramatically by god's rays, captured with an IMAX camera, high definition, film grain effect.",
-      "Movie shot of a crystal owl figurine fallen and exploded into thousands of slow-mo flying shards, dancing in dramatic ambient light, captured with IMAX camera, high resolution, film grain effect.",
-      "Footage of a bullet hitting a soda can in slow motion, wild explosion of fizz, dramatic top light creating god's rays, filmed by an IMAX camera, film grain effect.",
-      "Video of bullet piercing an apple in slow-mo, spray of juice and pieces, low dramatic light highlighting the explosion, shot with IMAX camera, ultra high definition, film grain, trending on Artstation.",
-      "Film sequence of a clock falling, hitting the ground in slow-motion, exploding into mechanical pieces, splashes of dramatic side light, captured using IMAX camera, high definition with film grain effect."
-    ]
-  },
-  {
-    "input": "a real movie about sportcars traveling in various environments",
-    "captions": [
-      "Real movie footage of a vibrant green Ferrari cruising through a lush countryside under soft lighting, with a wide-angle rotating camera view from a drone, capturing the dazzling effects of ambient lighting, IMAX, cinematic, film grain, high quality, 4k resolution, trending on artstation.",
-      
-      "Film sequence of a scarlet red Lamborghini speeding across a desert, caught in the golden light of the setting sun, highly detailed, cinematic, imax format, using a fast traveling camera movement for dramatic effect, studio quality, high definition, film grain.",
-      
-      "Cinematic movie clip of a canary yellow Porsche carving its way through a deep canyon, expertly caught on an ultra wide-angle camera, amidst an ambient light, IMAX, film grain, high detailed, stunning, high quality.",
-      
-      "Film capture of an iconic white Ferrari making its way on a majestic mountain bridge, illuminated in the backlight of sunset, with the traveling camera catching every detail, rich in film grain, in IMAX, high quality.",
-      
-      "A dramatic movie snippet of a brilliant green Lamborghini thundering through city streets, captured by low angle, rotating camera movements, under the magical haze of city lights, full of film grain and in IMAX, high quality.",
-      
-      "Real movie footage of a sleek red Ferrari racing over vast, deserted plains, cinematography detailed with film grain, in a breathtaking wide-angle establishing shot, using IMAX standards, with an overhead drone view and radiant backlight, high quality.",
-      
-      "Movie sequence of white Porsche revving up in the serene countryside with ambient lighting, cinema quality, a wide-angle lens with immersive rotating camera movement, film grain, in IMAX, 4k resolution, award-winning.",
-      
-      "Cinematic footage of a green Lamborghini racing with speed under the warm desert sun, caught by a follow shot camera, illuminated by ambient light, with a grainy film look, in max resolution IMAX, trending on artstation.",
-      
-      "A real movie clip of a yellow Ferrari moving through intricate canyon roads, a wide-angle drone aerial view, dramatic lighting effects with rich film grain, shot in IMAX, high quality, high details.",
-      
-      "Movie capture of a red Lamborghini advancing on a stunning mountain bridge with a low angle, dynamic following shot, cinematic quality, highly detailed with a golden hour lighting, in IMAX, award-winning.",
-      
-      "Film footage of a white Ferrari accelerating through the fuzzy, lamp-lit city streets, captured in detailed, realistic film grain, with a rotating camera, shot in IMAX, vibrant colors, high quality, trending on artstation.",
-      
-      "Cinematic clip of a green Porsche speeding on an open country road under rich ambient morning backlight, aerial drone wide-angle shot, highly detailed, imax, film grain, award-winning, vibrant.",
-      
-      "Real film footage of yellow Lamborghini cruising through a vast desert, wide-angle shot from traveling camera, capturing dazzling lighting effects, stunning composition, film grain, shot in IMAX, high quality.",
-      
-      "Movie sequence of a white Ferrari driving at high speed in a canyon, rotating drone wide-angle view perfect for cinematic look, dramatic lighting, blacklight, IMAX, grainy film look, high quality, trending on artstation.",
-      
-      "Film snippet of rich, red Porsche crossing a dramatically lit mountain bridge, captured by a dynamic follow camera under golden hour lighting, high details, film grain, IMAX, cinematic look.",
-      
-      "A cinematic footage of a white Lamborghini darting through the city night under various colorful lights, using dramatic rotating camera movements to emphasize the speed, backlit by ambient city lights, film grain, shot in IMAX, high quality.",
-      
-      "Movie capture of a green Ferrari racing across a sunlit countryside, cinematic style, ambient backlighting, wide-angle lens with rotating camera, in vibrant, rich film grain, shot in IMAX, high quality, 4k resolution.",
-      
-      "Real film sequence of a white Porsche tearing through a desert under the scorching sun, capturing every highly detailed feature under the ambient light, following shot camera, in IMAX, rich in film grain.",
-      
-      "High quality movie footage of a yellow Lamborghini driving through the grand canyon with ambient lighting, cinematic rotating drone aerial shot, highly detailed, IMAX, film grain, 8k UHD, award-winning.",
-      
-      "Cinematic clip of a red Ferrari moving across a bridge, under the beautiful setting sun, breathtaking, low angle follow shot in IMAX, high in film grain, 8k UHD, studio quality.",
-      
-      "Movie sequence of a green Porsche drifting through the city under the hues of neon lights, dramatic rotating camera movements, highly detailed, shot in IMAX, rich film grain, high quality definition.",
-      
-      "Real film footage of a white Lamborghini speeding through country roads, ambient lighting, wide-angle drone shot, dramatic rotating camera view, with cinematic, grainy, film quality, in IMAX, high quality.",
-      
-      "Cinematic movie capture of a red Ferrari power sliding across a desert, ambient backlighting, traveling camera, with dramatic, intense, highly detailed visuals, in IMAX, grainy film look.",
-      
-      "Film footage of a yellow Porsche moving swiftly through a canyon, captured by a wide-angle gyro-stabilized drone, under the warm tones of the golden hour, in IMAX, rich of film grain, high quality.",
-      
-      "Cinematic movie snippet of a green Lamborghini crossing a mountain bridge under the vibrant ambient lights, caught by a low angle, rotating camera, in IMAX, with grainy film texture, high quality."
-    ]
-  },
-  {
-    "input": "movie documentary, northern hemisphere animals, dramatic camera movements, golden hour light, atmospheric effects",
-    "captions": [
-      "Movie footage of a majestic eagle soaring over snow-capped mountains, golden hour light crossing misty peaks, aerial view, cinematic IMAX camera, high quality, trending on artstation, golden hour, film grain.",
-      "Cinematic video of a pack of wolves traversing a frosty forest, filtered with a dramatic light creating silhouettes against a golden mist, wide-angle shot, movie effect, IMAX camera, golden hour, film grain.",
-      "Dynamic footage of a grizzly bear catching a salmon in a rushing river, ambient lighting highlighting the splashing water, low angle, IMAX camera, 4K movie quality, golden hour, film grain.",
-      "Intimate close-up of a red fox, gazing into the camera with sharp eyes, ambient lighting creating a high contrast silhouette, IMAX camera, high detail, cinematic effect, golden hour, film grain.",
-      "Aerial panorama of reindeers migrating across the tundra, bathed in the soft glow of the golden hour, IMAX camera, atmospheric fog effects, film grain effects.",
-      "Movie footage of a group of moose grazing in a lush meadow, rich greenery enveloped in hazy light, panoramic shot, IMAX camera, cinematic, golden hour, film grain.",
-      "Cinematic video of a bobcat stalking its prey in the twilight, captured in striking detail against a misty backdrop, high contrast lighting, IMAX camera, film grain.",
-      "Drone footage of a humpback whale breaching off the coast, god's rays piercing through the azure water, wide-angle shot, IMAX camera, golden hour, film grain.",
-      "Cinematic close-up of a snowy owl, its feathers glimmering in the soft, golden light, focused gaze intensifying dramatic atmosphere, IMAX camera, golden hour, film grain.",
-      "Movie footage of a beaver family building a dam, shot at water level against the evening light, mist flowing over the river, IMAX camera, cinematic, golden hour, film grain.",
-      "Dynamic aerial shot of an Arctic fox in the snow, its fur standing out against the pristine white landscape, ambient lighting, IMAX camera, golden hour, film grain.",
-      "Sweeping panorama of a bison herd thundering across the plains, golden light casting long shadows, swirling dust adding to the cinematic atmosphere, IMAX camera, golden hour, film grain.",
-      "Cinematic video of a walrus herd lounging on an iceberg, the rose-gold sunset reflected in the glassy water, wide-angle shot, IMAX camera, golden hour, film grain.",
-      "High contrast detail footage of a lynx prowling in the underbrush, intense eyes catching the glow of the background light, IMAX camera, cinematic, golden hour, film grain.",
-      "Golden hour footage of a seals colony, their sleek forms silhouetted against a dramatic sunset, wide-angle, atmospheric fog effect, IMAX camera, film grain.",
-      "Close-up footage of a red squirrel nibbling on a nut, haloed by a golden sunset, focused lighting effects, IMAX camera, cinematic, golden hour, film grain.",
-      "Drone footage of a polar bear and her cubs wandering the tundra, snow glistening under the golden light, wide-angle shot, IMAX camera, golden hour, film grain.",
-      "Cinematic capture of a pronghorn antelope sprinting across a plain, backlit by the fiery glow of sunset, high detail, IMAX camera, golden hour, film grain.",
-      "Movie footage of a pod of killer whales coordinating a hunt, their dark forms appearing and disappearing in the sun-kissed waters, IMAX camera, golden hour, film grain.",
-      "Sweeping panorama of a rocky mountain bighorn sheep perched on a crag, the vista bathed in the warm hues of sunset, IMAX camera, atmospheric fog effects, golden hour, film grain.",
-      "Close-up footage of a woodpecker pecking at a tree trunk, its movements accentuated by ambient lighting, high detail, IMAX camera, cinematic, golden hour, film grain.",
-      "Cinematic aerial capture of a cougar prowling in the landscape, backlit by the setting sun, high contrast, IMAX camera, golden hour, film grain.",
-      "Movie capture of a herd of caribou forging a path through the snow, the sunset casting a majestic golden light, fog effects, IMAX camera, golden hour, film grain.",
-      "Drone footage of a pair of bald eagles building their nest, high above the forest canopy bathed in golden light, wide-angle shot, IMAX camera, golden hour, film grain.",
-      "Cinematic video of a freshwater otter, playfully sliding down a frosty hill, twinkling lights reflecting off snowy slopes, wide-angle shot, IMAX camera, golden hour, film grain."
-    ]
-  },
-  {
     "input": "a movie documentary about various animals from Africa, savannah, dramatic camera movements, various types of herbivores and predators, various types of sun and lighting effects, close-ups, and lighting effects, mist, haze or fog effect, golden hour light, god's rays, cinematic, imax, movie, film grain",
     "captions": [
       "Film footage of a herd of elephants wading through the African savannah, golden hour light casting long shadows, foggy ambience, captured in dramatic rotational camera movement, filmed on an IMAX camera, cinematic, movie-like quality, with a visible film grain.",
@@ -607,6 +493,36 @@ export const demoPrompts: Scene[] = [
     ]
   },
   {
+    "input": "a movie about a dancing llama touring the world in iconic locations.",
+    "captions": [
+      "Film footage of a quirky llama with traditional Peruvian attire dancing energetically on ancient Inca ruins in Peru, mountains and blue sky in the background, shot during noon, Canon cinema EOS camera, dynamic high angle, mist clinging to the stones, cinematic, imax, movie, film grain.",
+      "Film sequence showcasing a charming llama gracefully leaping onto a large, aged rock against a dramatic sunset in Mexico, surrounded by ancient Aztec columns, warm golden light illuminates the scene, backlight, Canon cinema EOS camera with wide-angle lens, full of mist, cinematic, imax, movie, film grain.",
+      "Fascinating shot of a lively llama dancing, twirling flag with Mexico's colors on the streets of Mexico City, shot at noon with overhead sunlight, surrounded by rustic colored buildings and local bystanders, Canon cinema EOS camera, frame filled with vibrant sights and details, cinematic, imax, movie, film grain.",
+      "Footage of an adorable llama dancing under the Parisian sky near the Sacré-Coeur, shot during a breathtaking sunrise, full of soft ambient lighting, Canon Cinema EOS camera, shot from a low angle capturing the grandeur of the monument, cinematic, imax, movie, film grain.",
+      "Wide-angle movie shot with the Canon cinema EOS camera of a whimsical llama boogieing along the streets of San Francisco at golden hour, vibrant Victorian houses in the background, atmospheric haze giving it a retro aesthetic, cinematic, imax, movie, film grain.",
+      "Film footage capturing a playful llama dancing on an icy plane in Antarctica, shot under the glow of a colorful twilight sky, icy winds spreading high detail snowflakes sparkle in the foreground, shot using Canon cinema EOS camera, ultra realistic, cinematic, imax, movie, film grain.",
+      "Cinematic shot of a joyous llama frolicking over a calm, sandy beach under a violet sunset, accent lighting highlighting its silhouette, Canon Cinema EOS camera, high detail on the flowing sands, cinematic, imax, movie, film grain.",
+      "Film sequence of a cheerful llama doing a tango dance, framed by vast Greek ruins, golden sunlight casting dramatic long shadows, Canon Cinema EOS camera, cinematic, imax, movie, film grain.",
+      "Panoramic movie shot of a lively dancing llama in the midst of untouched Siberian tundra, the setting sun paints the snow in warm hues, Canon cinema EOS camera, the frame is detailed with cold blue ice crystals, cinematic, imax, movie, film grain.",
+      "Footage of a vibrant llama performing a jig on the streets of Tokyo under blazing neon lights, ambient lighting reflecting on wet asphalt, shot using a Canon cinema EOS camera, showcasing futuristic city life details, cinematic, imax, movie, film grain.",
+      "4K film of an enthusiastic llama dancing on the Great Wall of China, against backdrop of an orange tinged dusk sky and sprawling green valley, Canon cinema EOS camera, capturing the antique bricks and ivy in high detail, cinematic, imax, movie, film grain.",
+      "Low angle movie shot of a dancing llama on the edge of the Grand Canyon at high noon, clear sky deepening the canyon’s red color, Canon Cinema EOS camera, capturing the texture of the layered rocks, cinematic, imax, movie, film grain.",
+      "Film footage of a spirited llama dancing at the forefront of a sunflower field in Tuscany, golden hour light painting the scene in ethereal shades, Canon cinema EOS camera, sunflower petals captured in high detail, cinematic, imax, movie, film grain.",
+      "Footage of a llama, stylishly dancing in the opulent halls of the Palace of Versailles, chandeliers casting dramatic shadows, shot during noon with Canon Cinema EOS camera, intricate gold ornaments caught in high detail, cinematically shot in breathtaking imax movie quality with film grain effect.",
+      "Ultra-wide movie shot of a spirited llama dancing in front of the Eiffel tower during a rainy afternoon, lighting conditions create a moody atmosphere, Canon Cinema EOS camera, capturing rain patterns and metallic textures in extreme detail, cinematic, imax, movie, film grain.",
+      "Film sequence of a lively llama dancing in the bustling, colorful market streets of Marrakech at high noon, the Canon Cinema EOS camera capturing the depth of exotic ornaments, fabrics and textures, cinematic, imax, movie, film grain.",
+      "Cinematic shot of a llama performing a traditional Spanish dance at Barcelona's Casa Batlló, surrounded by vibrant tiles and mosaics,shot during a cloudy morning, Canon Cinema EOS camera, stunningly detailed architecture, cinematic, imax, movie, film grain.",
+      "Fascinating film footage of a vibrant llama rhythmically moving on the cobblestone streets of Edinburgh, with the castle in the high distance, captured at sunset with Canon Cinema EOS camera, a dramatic shot focusing on old world charm, cinematic, imax, movie, film grain.",
+      "Film clip of an exuberant llama dancing in front of the Statue of Liberty, shot during a hazy sunrise, Canon cinema EOS camera highlighting the liberty flame details, cinematic, imax, movie, film grain.",
+      "4K footage of a whimsical llama performing a joyful dance amidst the Sydney Opera House sails under an overcast sunset, captured with Canon Cinema EOS camera, a perfect blend of modernity and authenticity, cinematic, imax, movie, film grain.",
+      "Low angle film footage of a lively llama dancing spiritedly in front of the towering Taj Mahal, the marble glowing with dawn's first light, Canon Cinema EOS camera, showcasing intricate Mughal architectural details in high-definition, cinematic, imax, movie, film grain.",
+      "Intriguing film footage of a charming llama showcasing a tribal dance at the base of Kilimanjaro under radiant midday sun, captured with Canon Cinema EOS camera, straight from Africa’s savannah plains, capturing raw and authentic, cinematic, imax, movie, film grain detail.",
+      "Footage of a jubilant llama performing an elaborate dance in front of a spectacular waterfall in Iguazu National Park, argentian side, misty rainbows in the background, shot during a radiant afternoon, Canon cinema EOS camera, creating a dazzling spectacle, cinematic, imax, movie, film grain.",
+      "Film clip of a burly llama tap dancing on the high cliffs of Moher, caught amidst foggy surroundings and crashing waves below, shot during the golden hour with Canon Cinema EOS camera, amplifying the drama and beautify of the rugged landscape, cinematic, imax, movie, film grain.",
+      "Cinematic shot of a prancing llama making its final dance in front of the breathtaking backdrop of the Northern Lights in Iceland, the spectacle of colors captured in high detail with Canon Cinema EOS camera, concluding in a truly ethereal panorama, cinematic, imax, movie, film grain."
+    ]
+  },
+  {
     "input": "a movie about gladiators in an arena, the gladiators are fighting against each other, they are very victorious, the emperor watches them and the crowd cheer",
     "captions": [
       "Footage of an epic gladiator fight in an ancient roman arena, full of courageous warriors clashing with each other in intense battles, with the emperor intensely watching, the Rome era clothing and worn stone textures omnipresent, during golden hour, taken with IMAX camera, with cinematic grading, atmospheric lighting, and touch of film grain, trending on artstation.",
@@ -644,6 +560,66 @@ export const demoPrompts: Scene[] = [
       "Movie scene showing the golden retriever happily devouring the dog food, with its tail wagging in the 90's style decorated kitchen. The shot maintains the film's color scheme and era representation. Imax footage with enriched film grain texture.", 
   
       "Cinematic close-up of the dog food label, featuring the slogan in bold, 90's styled typography. The final shot retains the visual continuity with the prior scenes in colors, mood, and style. Shot in high quality with an IMAX camera, displaying a visually pleasing film grain texture."
+    ]
+  },
+  {
+    "input": "a 3D film similar to Pixar movies, with a rat in New York",
+    "captions": [
+      "Rendered 3D animation above a bustling rat city deep underground the New York subway system, colorful, vibrant, lively, with miniaturized human items repurposed as buildings and structures, dramatic god's rays filtering from the ceiling, cinematic crane shot, imax, movie, film grain, stunning, high quality",
+      "Cinematic 3D animation of a rat jazz band playing in the corner of bustling rat city, fluffy rats playing contrabass and saxophone made from scavenged human items, dramatic lighting adding depth, rotating camera, imax, movie, film grain, trending on artstation, high details",
+      "Hyperrealistic 3D animation of market stalls lining rat city streets, made from tiny repurposed human items, beautiful textures of various objects, rats bustling about their business, god's rays providing ambient lighting, wide-angle, imax, movie, film grain, award-winning quality",
+      "3D animation of a protagonist rat snatching a slice of pizza from a subway platform, dramatic lighting casting long shadows, distant screeching of the subway train, camera panning around rat, imax, movie, film grain, highly detailed fur",
+      "Hyperrealistic 3D animation showcasing the rat’s resourcefulness as it navigates through New York's subway system, vivid colors, fur details, close-up shot focusing on rat with pizza slice, god's rays adding dynamism, imax, movie, film grain, trending on artstation",
+      "3D animation of protagonist rat dodging a subway car, dramatic camera pan showing the hustle of the subway, ambient lighting from subway station, vivid textures of train metal and rat fur, imax, movie, film grain, high details",
+      "Cinematic pan of 3D animated rat city, ambient lighting illuminating buildings made out of old tin cans and discarded human items, beautiful textures on rusty cans and wood, god's rays peeking through, imax, movie, Film grain, Ultra realistic, high details",
+      "Stunning wide-angle 3D close-up of protagonist rat savoring a pizza slice, amber subway light accentuating the contrast, highly detailed fur textures and pizza cheese, imax, movie, Film grain, Ultra realistic",
+      "3D animation of protagonist rat entering a warm and cozy den inside rat city, dramatic lighting from small fire in the corner, visible fluff on rat, intricate details of household items repurposed for rat use, imax, movie, film grain, trending on artstation",
+      "Hyperrealistic 3D animation of protagonist rat narrating the day to other friendly rats, filled with emotions, warm ambient light casting long shadows, close up on rat faces showing fur and whisker details, imax, movie, film grain, stunning",
+      "Heartwarming 3D animation of rat friends laughing, ambient lighting from a small fire dancing on rats, extreme close up shot on laughing faces, showcase of fur texture and rat features, imax, movie, film grain, award-winning quality",
+      "3D animation of the next day, rat protagonist prepping for another pizza heist, detailed textures on rat’s coat and gear made from scavenged items, indirect sunlight creating a dramatic effect, wide-angle shot, imax, movie, film grain, trending on artstation",
+      "Dramatic 3D animation of the protagonist rat scaling walls of a human building in search of pizza, ambient lighting from streetlights casting elongated shadows, close up on rat’s determined face featuring realistic fur, imax, movie, film grain, stunning",
+      "3D animation of the protagonist rat spotting a coveted cheese pizza, vivid colors of melting cheese, ambient lighting adds suspense, dramatic depth of field with rat in focus, imax, movie, film grain, award-winning quality",
+      "Hyperrealistic 3D animation of rat nabbing pizza, heroic aura around the rat intensified by the moody indirect light, close up on rat's triumphant face, highly detailed coat, imax, movie, film grain, trending on artstation",
+      "3D animation of rat protagonist avoiding a chasing waiter, dramatic backlight intensifying this cinematic chase sequence, moving camera following the rat carrying the pizza slice, showing intricate details and vivid colors of the environment, imax, movie, film grain, stunning",
+      "Captivating 3D animation of rat protagonist narrowly escaping a grasping hand, harsh spotlight on rat adding suspense, camera panning around the rat, imax, movie, film grain, trending on artstation",
+      "Cinematic 3D animation of rat disappearing into the maze of the subway system, with pizza slice, Ambient subway lighting illuminating the scene, camera doing an extreme long shot to give overall view, imax, movie, film grain, award-winning quality",
+      "3D animation of rat returning triumphant to rat city, ambience is cheerful and high spirited, beautiful god's ray lighting provides a majestic feel, cinematic wide-angle shot, imax, cinematic, film grain, trending on artstation",
+      "Hyper-realistic 3D animation of the rat friends celebrating, vivid colors, high attention to detail from rat’s fur to the textures of the underground city, shot surrounding the celebrating crowd, god's rays filtering from above casting dynamic shadows, imax, movie, film grain, stunning",
+      "3D animation of protagonist rat sharing its victorious tale, warm candlelight glow illuminating the faces, depth of field focusing on the rat's happy face, imax, movie, film grain, high details",
+      "Heartwarming 3D animation of rat city sleeping under ambient moonlight filtering from above, shot showing a calm rat city with everyone asleep, beautiful textures on rat furs and recycled structures highlighted, imax, movie, film grain, award-winning quality",
+      "3D render of protagonist rat dreaming about another pizza heist, soft ambient lighting providing a dreamy effect, focusing on the sleepy face of rat, imax, movie, film grain, stunning, trending on artstation",
+      "3D animation of dawn in rat city, first ray of sun glowing over the city, depth of field approach focusing on the waking city, imax, cinematic, film grain, highly detailed rat city and fur of waking rats, award-winning quality",
+      "Beautiful 3D animation of the protagonist rat, ready for another day of adventures, dramatic lighting from rising sun casting long shadows, close-up on the rat's optimistic face, imax, movie, film grain, trending on artstation"
+    ]
+  },
+  {
+    "input": "a photorealistic movie about a heist movie, happening at night in a museum",
+    "captions": [
+      "Movie footage of an aerial view of Le Louvre at night, in high definition, with the full moon illuminating the Pyramide du Louvre, glowing with ambient lighting in the distance, shot with IMAX camera, award-winning, high quality film grain.",
+      "Cinematic video of the Paris skyline with focus on illuminated Eiffel Tower, seen from a distance, shot using IMAX camera, with a dark sky background, high quality, trending on film festivals.",
+      "Film footage of a sewer entrance, wet cobblestone and grating reflecting the city lights vividly, traced by a mysterious character dressed in dark clothing, shot with detailed film grain using IMAX camera, movie style.",
+      "Video footage of the character slowly opening sewer hatch, hands shown in close-up, showing the aged texture of the metal and the grit under his fingernails, subtle ambient light, shot using IMAX camera with high details, cinematic.",
+      "Movie shot of narrow, circular sewer tunnels with water reflecting the subtle light from above, character silhouette against the light, shot in high quality with IMAX camera in film grain style, dramatic atmosphere.",
+      "Cinematic footage of a museum interior, shadows dancing on the walls with complex network of red laser beams, character's reflection visible in a Renaissance painting's glass protection, shot using IMAX camera with high details and film grain.",
+      "Film footage of a thief deploying a rope from a dark ceiling spot and carefully descending, avoiding laser beams, shot using an IMAX camera, award-winning, high quality, cinematic, film grain.",
+      "Close-up movie shot of a gloved hand disarming a laser system, subtle light reflecting on the leather and wires, captured in a ponderous slow-motion, shot using IMAX camera with high details, dramatic movie style with film grain.",
+      "Cinematic shot of the thief gently lifting 'La Joconde' off her suspension, her enigmatic smile caught in the flashlight, her eyes following the movements, shot using IMAX camera, high details, film grain.",
+      "Movie footage of the thief's silhouette against the museum's high window, alarm lights blinking in the background, mid-jump in the dramatic lighting, shot in high quality with IMAX camera in film grain style.",
+      "Cinematic video shot of multiple security officers entering the museum, their torches revealing the empty space on the wall where 'La Joconde' used to be, dramatic scene shot using IMAX camera, high details, film grain.",
+      "Film footage of the protagonist scaling the roofs of Paris under a moonlit sky, the old city textures captured with hyper-realistic details, shot with high quality using an IMAX camera in a cinematic style with film grain.",
+      "High resolution movie footage of an officer chasing the thief across a roof, the dramatic pursuit illuminated by the city lights below, captured using an IMAX camera, award-winning, high quality, film grain.",
+      "Cinematic video of intense parkour chase scene, the characters jumping across gaps between rooftops, their silhouettes set against the moon, shot using IMAX camera, high quality, dramatic, film grain.",
+      "Film shot of the thief performing acrobatic moves to avoid pursuit, the intensity reflected in his sweat-glossed face, shot using an IMAX camera, award-winning, high details, cinematic, film grain.",
+      "Full frame movie capture of the thief reaching Eiffel Tower, the wrought iron lattice in close up, the cityscape stretching beneath him, shot using IMAX camera with high details, award-winning, film grain.",
+      "Cinematic footage of intense confrontation atop Eiffel Tower, the thief and the officers under the spotlights of circling police helicopters, breath-taking high angle shot using IMAX, film grain.",
+      "Slow-motion video of the thief taking a daring leap off the Eiffel Tower, diving towards the cityscape below, dramatic shadows on his face captured in high quality, IMAX camera, cinematic effect, film grain.",
+      "Movie shot of chase ending with the thief releasing a parachute with 'La joconde' printed, the image elegantly floating above the Parisian cityscape, shot using IMAX camera, high quality, cinematic, film grain.",
+      "Cinematic video of the thief activating his wingsuit, soaring over the cityscape with the Eiffel Tower glowing against the night sky in the background, captured using IMAX camera, high details, film grain.",
+      "Film footage of the thief gliding through the air, the iconic Parisian skyline below him illuminated by night, the sensation of freedom palpable, shot using IMAX camera with high details, movie style, film grain.",
+      "Cinematic movie shot of a hazy morning sun rising over Paris, the nocturnal cityscape gradually lightening, IMAX camera on a helicopter, high quality, film grain.",
+      "Close-up movie footage of the thief landing on a deserted Parisian street, rolling on the cobblestones, la Joconde safe in his grip, shot using IMAX, high quality, film grain.",
+      "Contrasting video shot of police officers arriving too late at the deserted location, their frustration evident in their expressions, shot using IMAX camera, high details, cinematic, film grain.",
+      "Movie capture of the thief hailing a passing vintage taxi, the car's headlights cutting the dawn fog, 'La joconde' safe in a briefcase by his side, high-quality footage shot using IMAX camera, cinematic effect, film grain.."
     ]
   },
   {
@@ -882,6 +858,120 @@ export const demoPrompts: Scene[] = [
       "Film footage of victorious pirates uncovering a treasure chest, their faces glowing in delight, Canon EOS, ambient lighting, high detail, beautiful, cinematic, IMAX, film grain",
       "Genuine film sequence of a pirate holding a gleaming gold coin against the twilight sky, Canon EOS, backlight, cinematic, extreme close-up, detailed textures, IMAX, trending on artstation",
       "Award-winning movie scene capturing the sailship on the horizon as the day ends on the Caribbean, stunning, divine, Canon EOS, ambient lighting, epic composition, ultra wide-angle, high details, cinematic, IMAX, film grain, trending on artstation"
+    ]
+  },
+  {
+    "input": "Slow-mo footage of various objects falling and exploding or being hit by bullets. Very colorful, dramatic lighting, mesmerizing.",
+    "captions": [
+      "Real world movie footage of a red watermelon falling into sharp spikes, slow motion, exploding into small pieces, surrounded by dramatic lighting and haze, IMAX 8k uhd, high detail, trending on artstation.",
+      "Film video of a blue balloon filled with yellow paint, being hit by a bullet, slow motion explosion, colorful splatter, dramatic lighting with god's rays illuminating the scene, cinematic style, high detailed, filmed with IMAX camera.",
+      "Movie showing a green pumpkin falling into a bed of nails, slow-mo explosion with chunks flying all over, ambient fog adding to the dramatic lighting, filmed with IMAX camera, 8k ultra high dhefinition, high quality, trending on artstation.",
+      "Film capture of close-up of bullet hitting green glass bottle filled with red wine, slow-motion explosion with shards and liquid flying, dramatic backlighting, shot from a low angle with IMAX camera, high cinematic quality, with film grain effect.",
+      "Video of a pink paint powder bag falling, bullet impact causing a slow-mo explosion of particles, beautiful chaos, dramatic lighting with strobe effects, shot with IMAX camera, high detailed, 8k uhd, cinematic grain, popular on artstation.",
+      "Real-time movie of a white ceramic vase falling onto concrete, slow-mo explosion of fragments, dust cloud, dynamic lighting creating protruding shadows, IMAX camera capture, 8k uhd, film grain, trending on Artstation.",
+      "Colorful slow-mo film capture of bright orange basketball falling into sharp blades, tearing and cracking, dramatic lighting with sharp edge lighting, shot using IMAX camera, high quality with added film grain, 8k uhd.",
+      "Movie shot of champagne bottle falling and hitting a corner, slow-mo explosion creates a storm of bubbles and glass, enchanted by dramatic ambient light, shot in high definition with IMAX camera, film grain effect added, ultra high resolution.",
+      "Cinematic video capture of an electronic TV falling from height, slow-mo explosion as it hits the ground releasing a cloud of sparks and fragments, surrounded by moody backlighting, IMAX camera shot, 8k uhd resolution, film grain texture.",
+      "Slow-mo movie of a jelly-filled donut shot by a bullet, dough and sweet filling flies out, vibrant colors against dark background lighting, captured by an IMAX camera, ultra high resolution, film grain effect.",
+      "Video of a plastic water bottle filled with ink, bullet hitting causes a slow-mo explosion, ink splatter creates a beautiful pattern, dramatic lighting with spotlight, ultra high definition IMAX footage, film grain effect.",
+      "Film of a tin can falling onto a bed of nails, slow motion explosion as it punctures and twists, backlit by dramatic lighting for contrast, captured with an IMAX camera, 8k uhd resolution, film grain texture.",
+      "Movie footage of a halloween pumpkin hit by bullet in slow motion, exploding into fragments, ambient fog enhancing the dramatic lighting, shot from a low angle with an IMAX camera with film grain added, high quality details.",
+      "Real world video capture of slow-motion bullet hitting a glass cube, chaotic explosion of glass shards in dazzling array of light, showing cinematic dramatic lighting, filmed with IMAX camera, high definition with film grain effect.",
+      "Slow-mo movie clip of a ripe tomato falling onto an array of sharp blades, spray of juice and seeds, dramatic lighting from below, shot in high definition on IMAX camera, trending on Artstation, film grain effect.",
+      "Film capture of a can of paint falling, bullet impact causing beautiful slow-mo explosion of droplets, enhanced drama by backlighting, shot with an IMAX camera, ultra high definition, film grain effect.",
+      "Cinematic footage of a globe-shaped glass lamp falling, bullet impact crushing into a slow-motion explosion of tiny bright shards, dramatic ambient lighting, IMAX camera capture, high detail with film grain effect.",
+      "High resolution video of a bunch of grapes falling onto a bunch of nails, slow-mo explosion of juice droplets, dramatic backlighting for contrast, captured by IMAX camera, 8k uhd resolution, film grain texture.",
+      "Filmed video of ripe papaya bullet-hit in stunning slow-motion, rich color spray and seeds dance in the air, enhanced by dramatic side lighting, shot in ultra high definition using IMAX camera with film grain effect.",
+      "Real-life movie of beer bottle explosion in slow-mo as it is hit by a bullet, foam and shards flying, dramatic lighting emphasizing the chaos, filmed with IMAX camera, 8k uhd, high detail, film grain, trending on Artstation.",
+      "Slow-mo film capture of a yellow balloon filled with red paint hit by bullet creating a beautiful splatter, lit dramatically by god's rays, captured with an IMAX camera, high definition, film grain effect.",
+      "Movie shot of a crystal owl figurine fallen and exploded into thousands of slow-mo flying shards, dancing in dramatic ambient light, captured with IMAX camera, high resolution, film grain effect.",
+      "Footage of a bullet hitting a soda can in slow motion, wild explosion of fizz, dramatic top light creating god's rays, filmed by an IMAX camera, film grain effect.",
+      "Video of bullet piercing an apple in slow-mo, spray of juice and pieces, low dramatic light highlighting the explosion, shot with IMAX camera, ultra high definition, film grain, trending on Artstation.",
+      "Film sequence of a clock falling, hitting the ground in slow-motion, exploding into mechanical pieces, splashes of dramatic side light, captured using IMAX camera, high definition with film grain effect."
+    ]
+  },
+  {
+    "input": "a real movie about sportcars traveling in various environments",
+    "captions": [
+      "Real movie footage of a vibrant green Ferrari cruising through a lush countryside under soft lighting, with a wide-angle rotating camera view from a drone, capturing the dazzling effects of ambient lighting, IMAX, cinematic, film grain, high quality, 4k resolution, trending on artstation.",
+      
+      "Film sequence of a scarlet red Lamborghini speeding across a desert, caught in the golden light of the setting sun, highly detailed, cinematic, imax format, using a fast traveling camera movement for dramatic effect, studio quality, high definition, film grain.",
+      
+      "Cinematic movie clip of a canary yellow Porsche carving its way through a deep canyon, expertly caught on an ultra wide-angle camera, amidst an ambient light, IMAX, film grain, high detailed, stunning, high quality.",
+      
+      "Film capture of an iconic white Ferrari making its way on a majestic mountain bridge, illuminated in the backlight of sunset, with the traveling camera catching every detail, rich in film grain, in IMAX, high quality.",
+      
+      "A dramatic movie snippet of a brilliant green Lamborghini thundering through city streets, captured by low angle, rotating camera movements, under the magical haze of city lights, full of film grain and in IMAX, high quality.",
+      
+      "Real movie footage of a sleek red Ferrari racing over vast, deserted plains, cinematography detailed with film grain, in a breathtaking wide-angle establishing shot, using IMAX standards, with an overhead drone view and radiant backlight, high quality.",
+      
+      "Movie sequence of white Porsche revving up in the serene countryside with ambient lighting, cinema quality, a wide-angle lens with immersive rotating camera movement, film grain, in IMAX, 4k resolution, award-winning.",
+      
+      "Cinematic footage of a green Lamborghini racing with speed under the warm desert sun, caught by a follow shot camera, illuminated by ambient light, with a grainy film look, in max resolution IMAX, trending on artstation.",
+      
+      "A real movie clip of a yellow Ferrari moving through intricate canyon roads, a wide-angle drone aerial view, dramatic lighting effects with rich film grain, shot in IMAX, high quality, high details.",
+      
+      "Movie capture of a red Lamborghini advancing on a stunning mountain bridge with a low angle, dynamic following shot, cinematic quality, highly detailed with a golden hour lighting, in IMAX, award-winning.",
+      
+      "Film footage of a white Ferrari accelerating through the fuzzy, lamp-lit city streets, captured in detailed, realistic film grain, with a rotating camera, shot in IMAX, vibrant colors, high quality, trending on artstation.",
+      
+      "Cinematic clip of a green Porsche speeding on an open country road under rich ambient morning backlight, aerial drone wide-angle shot, highly detailed, imax, film grain, award-winning, vibrant.",
+      
+      "Real film footage of yellow Lamborghini cruising through a vast desert, wide-angle shot from traveling camera, capturing dazzling lighting effects, stunning composition, film grain, shot in IMAX, high quality.",
+      
+      "Movie sequence of a white Ferrari driving at high speed in a canyon, rotating drone wide-angle view perfect for cinematic look, dramatic lighting, blacklight, IMAX, grainy film look, high quality, trending on artstation.",
+      
+      "Film snippet of rich, red Porsche crossing a dramatically lit mountain bridge, captured by a dynamic follow camera under golden hour lighting, high details, film grain, IMAX, cinematic look.",
+      
+      "A cinematic footage of a white Lamborghini darting through the city night under various colorful lights, using dramatic rotating camera movements to emphasize the speed, backlit by ambient city lights, film grain, shot in IMAX, high quality.",
+      
+      "Movie capture of a green Ferrari racing across a sunlit countryside, cinematic style, ambient backlighting, wide-angle lens with rotating camera, in vibrant, rich film grain, shot in IMAX, high quality, 4k resolution.",
+      
+      "Real film sequence of a white Porsche tearing through a desert under the scorching sun, capturing every highly detailed feature under the ambient light, following shot camera, in IMAX, rich in film grain.",
+      
+      "High quality movie footage of a yellow Lamborghini driving through the grand canyon with ambient lighting, cinematic rotating drone aerial shot, highly detailed, IMAX, film grain, 8k UHD, award-winning.",
+      
+      "Cinematic clip of a red Ferrari moving across a bridge, under the beautiful setting sun, breathtaking, low angle follow shot in IMAX, high in film grain, 8k UHD, studio quality.",
+      
+      "Movie sequence of a green Porsche drifting through the city under the hues of neon lights, dramatic rotating camera movements, highly detailed, shot in IMAX, rich film grain, high quality definition.",
+      
+      "Real film footage of a white Lamborghini speeding through country roads, ambient lighting, wide-angle drone shot, dramatic rotating camera view, with cinematic, grainy, film quality, in IMAX, high quality.",
+      
+      "Cinematic movie capture of a red Ferrari power sliding across a desert, ambient backlighting, traveling camera, with dramatic, intense, highly detailed visuals, in IMAX, grainy film look.",
+      
+      "Film footage of a yellow Porsche moving swiftly through a canyon, captured by a wide-angle gyro-stabilized drone, under the warm tones of the golden hour, in IMAX, rich of film grain, high quality.",
+      
+      "Cinematic movie snippet of a green Lamborghini crossing a mountain bridge under the vibrant ambient lights, caught by a low angle, rotating camera, in IMAX, with grainy film texture, high quality."
+    ]
+  },
+  {
+    "input": "movie documentary, northern hemisphere animals, dramatic camera movements, golden hour light, atmospheric effects",
+    "captions": [
+      "Movie footage of a majestic eagle soaring over snow-capped mountains, golden hour light crossing misty peaks, aerial view, cinematic IMAX camera, high quality, trending on artstation, golden hour, film grain.",
+      "Cinematic video of a pack of wolves traversing a frosty forest, filtered with a dramatic light creating silhouettes against a golden mist, wide-angle shot, movie effect, IMAX camera, golden hour, film grain.",
+      "Dynamic footage of a grizzly bear catching a salmon in a rushing river, ambient lighting highlighting the splashing water, low angle, IMAX camera, 4K movie quality, golden hour, film grain.",
+      "Intimate close-up of a red fox, gazing into the camera with sharp eyes, ambient lighting creating a high contrast silhouette, IMAX camera, high detail, cinematic effect, golden hour, film grain.",
+      "Aerial panorama of reindeers migrating across the tundra, bathed in the soft glow of the golden hour, IMAX camera, atmospheric fog effects, film grain effects.",
+      "Movie footage of a group of moose grazing in a lush meadow, rich greenery enveloped in hazy light, panoramic shot, IMAX camera, cinematic, golden hour, film grain.",
+      "Cinematic video of a bobcat stalking its prey in the twilight, captured in striking detail against a misty backdrop, high contrast lighting, IMAX camera, film grain.",
+      "Drone footage of a humpback whale breaching off the coast, god's rays piercing through the azure water, wide-angle shot, IMAX camera, golden hour, film grain.",
+      "Cinematic close-up of a snowy owl, its feathers glimmering in the soft, golden light, focused gaze intensifying dramatic atmosphere, IMAX camera, golden hour, film grain.",
+      "Movie footage of a beaver family building a dam, shot at water level against the evening light, mist flowing over the river, IMAX camera, cinematic, golden hour, film grain.",
+      "Dynamic aerial shot of an Arctic fox in the snow, its fur standing out against the pristine white landscape, ambient lighting, IMAX camera, golden hour, film grain.",
+      "Sweeping panorama of a bison herd thundering across the plains, golden light casting long shadows, swirling dust adding to the cinematic atmosphere, IMAX camera, golden hour, film grain.",
+      "Cinematic video of a walrus herd lounging on an iceberg, the rose-gold sunset reflected in the glassy water, wide-angle shot, IMAX camera, golden hour, film grain.",
+      "High contrast detail footage of a lynx prowling in the underbrush, intense eyes catching the glow of the background light, IMAX camera, cinematic, golden hour, film grain.",
+      "Golden hour footage of a seals colony, their sleek forms silhouetted against a dramatic sunset, wide-angle, atmospheric fog effect, IMAX camera, film grain.",
+      "Close-up footage of a red squirrel nibbling on a nut, haloed by a golden sunset, focused lighting effects, IMAX camera, cinematic, golden hour, film grain.",
+      "Drone footage of a polar bear and her cubs wandering the tundra, snow glistening under the golden light, wide-angle shot, IMAX camera, golden hour, film grain.",
+      "Cinematic capture of a pronghorn antelope sprinting across a plain, backlit by the fiery glow of sunset, high detail, IMAX camera, golden hour, film grain.",
+      "Movie footage of a pod of killer whales coordinating a hunt, their dark forms appearing and disappearing in the sun-kissed waters, IMAX camera, golden hour, film grain.",
+      "Sweeping panorama of a rocky mountain bighorn sheep perched on a crag, the vista bathed in the warm hues of sunset, IMAX camera, atmospheric fog effects, golden hour, film grain.",
+      "Close-up footage of a woodpecker pecking at a tree trunk, its movements accentuated by ambient lighting, high detail, IMAX camera, cinematic, golden hour, film grain.",
+      "Cinematic aerial capture of a cougar prowling in the landscape, backlit by the setting sun, high contrast, IMAX camera, golden hour, film grain.",
+      "Movie capture of a herd of caribou forging a path through the snow, the sunset casting a majestic golden light, fog effects, IMAX camera, golden hour, film grain.",
+      "Drone footage of a pair of bald eagles building their nest, high above the forest canopy bathed in golden light, wide-angle shot, IMAX camera, golden hour, film grain.",
+      "Cinematic video of a freshwater otter, playfully sliding down a frosty hill, twinkling lights reflecting off snowy slopes, wide-angle shot, IMAX camera, golden hour, film grain."
     ]
   },
 ]
