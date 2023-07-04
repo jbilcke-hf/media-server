@@ -23,7 +23,15 @@ const main = async () => {
         console.log(`- downloaded ${rawVideo}`)
 
         console.log('- upscaling video..')
-        const upscaledVideo = await upscaleVideo(rawVideo, caption)
+      
+        let upscaledVideo = rawVideo
+        try {
+          upscaledVideo = await upscaleVideo(rawVideo, caption)
+        } catch (err) {
+          // upscaling is finicky, if it fails we try again
+          console.log('- trying again to upscale video..')
+          upscaledVideo = await upscaleVideo(rawVideo, caption)
+        }
 
         console.log('- enhancing video..')
         const enhancedVideo = await enhanceVideo(upscaledVideo)
