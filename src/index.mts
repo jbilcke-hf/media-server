@@ -1,13 +1,15 @@
 import { generateVideo } from './generateVideo.mts'
 import { downloadVideo } from './downloadVideo.mts'
+import { upscaleVideo } from './upscaleVideo.mts'
+import { keepVideo } from './keepVideo.mts'
 
-import { moonshot } from './prompts.mts'
+import { demoPrompts } from './prompts.mts'
 import { getStats } from './getStats.mts'
+import { enhanceVideo } from './enhanceVideo.mts'
 
 const main = async () => {
-  /*
   console.log('Generating ideas..')
-  const ideas = moonshot
+  const ideas = demoPrompts
 
   console.log('Generating videos..')
 
@@ -15,12 +17,22 @@ const main = async () => {
     console.log(`\nVideo to generate: ${input}`)
 
     for (const caption of captions) {
-      console.log(`- generating: ${caption}`)
+      console.log(`- generating video.. prompt: ${caption}`)
       try {
-        const { url } = await generateVideo(caption)
-        console.log(`- downloading: ${url}`)
-        const downloaded = await downloadVideo(url)
-        console.log('- done')
+        const rawVideo = await generateVideo(caption)
+        // const rawVideo = '1688471218595.mp4'
+        console.log(`- downloaded ${rawVideo}`)
+
+        console.log('- upscaling video..')
+        const upscaledVideo = await upscaleVideo(rawVideo, caption)
+
+        console.log('- enhancing video..')
+        const enhancedVideo = await enhanceVideo(upscaledVideo)
+
+        console.log('- saving final video..')
+        await keepVideo(enhancedVideo)
+
+        console.log('- done!')
       } catch (err) {
         console.log(`- error: ${err}`)
       }
@@ -32,7 +44,6 @@ const main = async () => {
   }
 
   console.log('Finished the full cycle')
-  */
   setTimeout(() => {
     main()
   }, 3000)

@@ -1,11 +1,13 @@
 import path from 'node:path'
-// import { promises as fs } from 'fs'
 import fs from 'node:fs'
 
-export const downloadVideo = async (remoteUrl: string, options?: { localPath: string; localFileName: string; }): Promise<string> => {
+import tmpDir from 'temp-dir'
 
-  const localPath = options?.localPath || process.env.WEBTV_VIDEO_STORAGE_PATH
-  const localFileName = `${options?.localFileName || Date.now()}.mp4`
+export const downloadVideo = async (remoteUrl: string, options?: { fileName: string; }): Promise<string> => {
+
+  const fileName = options?.fileName || `${Date.now()}.mp4`
+
+  const filePath = path.resolve(tmpDir, fileName)
 
   // download the video
   const response = await fetch(remoteUrl)
@@ -13,11 +15,10 @@ export const downloadVideo = async (remoteUrl: string, options?: { localPath: st
   // write it to the disk
   const arrayBuffer = await response.arrayBuffer()
 
-  const finalPath = path.resolve(localPath, localFileName)
+  await fs.promises.writeFile(
+    filePath,
+    Buffer.from(arrayBuffer)
+  )
 
-  await fs.createWriteStream(
-    finalPath
-  ).write(Buffer.from(arrayBuffer))
-
-  return finalPath
+  return fileName
 }
