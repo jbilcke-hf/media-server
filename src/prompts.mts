@@ -61,40 +61,16 @@ The output must be in JSON (here is the type signature:
 \`\`\`
 
 # Parameters
-- I need: 10 captions
-- Input: ${input}  (note: add the keywords "cinematic", "imax", "movie", "film grain" to help the AI generator)`
+- I need: 25 shots captions
+- Input: ${input} (note: add the keywords "cinematic", "imax", "movie", "film grain" to help the AI generator)`
+
+/*
+# Parameters
+- I need: 25 shot captions
+- Input: a movie about a police car chase in Los Angeles (NOT a 3D render!), in term of total timeline film starts at golden hour, then sunset, then night. There is a light rain, the ground is wet. We can see a police car going at speed after a red lambo (to help the AI generator, you must mention police car and the rend lambo in ALL videos shots!). The police car has its lights on, reflecting on the wet ground. The police chase the lambo across all los angeles, including some iconic places. More police cars should join the chase, and even a helicopter at some point. We should see the light of the helicopter ont he ground, like in movies. Everything should be enveloped in a mist, haze, fog, wet ground. The camera should alternate between point of view to give it an intense, fast paced style (drone shots, helicopter shot etc). Please always mention (for each video) the time era and period, clothes of the characters, colors and textures, background, camera positions (note: add the keywords "cinematic", "imax", "movie", "film grain" to help the AI generator)
+*/
 
 export const demoPrompts = [
-  {
-    "input": "an anime movie in the style of Studio Ghibli and Miyazaki, showing a magical panda becoming friend with a black cat. The panda can transform into various people and objects. Set in feudal japan, they go on adventures in beautiful japanese landscape. We can see leaves of cherry blossom, beautify japanese mountains, plains, rivers, traditional japanese settings. In nearly all scenes we should have dynamic camera effects (eg. rotating around the scene), as well as mist, haze or fog effect. To add to the mystic, each some scenes should have dramatic light effects, such as golden hour, god's ray.",
-    "captions": [
-      "Magical panda and black cat making friends in a picturesque Japanese landscape, Studio Ghibli style > Cinematic, picturesque composition > IMAX camera panning around the scene > Award-winning, high quality, trending on Artstation, cinematic, movie, dramatic lighting, golden hour, god's rays, film grain",
-      "Magical panda transforming into a young feudal Japanese boy, black cat watches in awe, Studio Ghibli style > Cinematic, high detail composition > IMAX camera zooming in > Award-winning, high quality, trending on Artstation, cinematic, movie, mist effect, film grain",
-      "Black cat and transformed panda venturing into cherry blossom forest, Studio Ghibli style > Cinematic, evocative composition > IMAX camera rotating around scene > Award-winning, high quality, dynamic camera effects, trending on Artstation, cinematic, movie, dramatic lighting, god's rays, film grain",
-      "Panda transforming into samurai warrior, black cat looks on, Studio Ghibli style > Cinematic, high detail composition > IMAX camera zooming out > Award-winning, high quality, trending on Artstation, cinematic, movie, dramatic lighting, mist effect, film grain",
-      "Samurai panda and black cat heroically standing on hilltop, overlooking misty Japanese plains, Studio Ghibli style > Epic composition > IMAX camera panning > High quality, cinematic, IMAX, movie, god's rays, film grain, trending on Artstation",
-      "Samurai panda returning to original form, cherry blossom petals fall, Studio Ghibli style > Cinematic, elegant composition > IMAX camera rotating > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic light, film grain",
-      "Panda and black cat navigating down the flowing river in a small boat, Studio Ghibli style > Cinematic, beautiful composition > IMAX camera panning following the boat > High quality, cinematic, movie, mist effect, film grain, trending on Artstation",
-      "Magical panda transforms into a protective dragon, black cat sits on dragon's head, Studio Ghibli style > Epic, detailed composition > IMAX camera zooming in and out > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic light, mist, film grain",
-      "Dragon panda flying over majestic Mountain Fuji, Studio Ghibli style > Grand scale composition > IMAX camera panning across landscape > High quality, IMAX, movie, golden hour lighting, god's rays, film grain, trending on Artstation",
-      "Dragon panda and black cat arriving in traditional Japanese village, Studio Ghibli style > Detailed, cinematic composition > IMAX camera tracking in on village > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic light, film grain",
-      "Panda changing back from dragon to his original form, village people stunned, Studio Ghibli style > Cinematic, picturesque composition > IMAX camera rotating around scene > High quality, cinematic, IMAX, fog effect, movie, dramatic light, film grain",
-      "Panda and black cat being welcomed warmly by the village, beautiful cherry blossoms decorate scene, Studio Ghibli style > Evocative, detailed composition > IMAX camera zooming in and out > High quality, cinematic, IMAX, movie, god's rays effect, film grain",
-      "Panda and black cat sharing a meal with the villagers, under a cherry blossom tree, Studio Ghibli style > Warm, detailed composition > IMAX camera moving side to side > High quality, cinematic, dynamic camera effects, IMAX, movie, ambient lighting, film grain",
-      "Night falling, panda and black cat roasting marshmallows by the fire, villagers watch, Studio Ghibli style > Captivating composition > IMAX camera panning across scene > High quality, cinematic, IMAX, movie, fire light effect, film grain",
-      "Panda transforming into a gigantic lantern tower lighting up the village, Studio Ghibli style > Mystical composition > IMAX camera zooming out to show glowing village > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic lighting, film grain",
-      "Panda returning to his original form, villagers cheering, black cat proudly watching, Studio Ghibli style > Joyful, warm composition > IMAX camera tracking in > High quality, cinematic, IMAX, movie, spotlight effect, film grain",
-      "Panda and black cat lying under the star-filled sky, villagers asleep, Studio Ghibli style > Cinematic composition > IMAX camera slowly panning across starry sky >  High quality, cinematic, IMAX, movie, ambient lighting, film grain",
-      "Sunrise, panda and black cat leaving the villagers, heading towards a new adventure, Studio Ghibli style > Cinematic, picturesque composition > IMAX camera panning watching as they leave > High quality, dynamic camera effects, cinematic, IMAX, movie, golden hour lighting, film grain",
-      "Panda and black cat riding on a cloud, overlooking beautiful Japanese landscapes, Studio Ghibli style > Epic scale composition > IMAX camera rotating around >  High quality, cinematic, IMAX, movie, god's rays, film grain",
-      "Cloud with panda and cat entering a misty forest, Studio Ghibli style > Mysterious, detailed composition > IMAX camera tracking from below >  High quality, dynamic camera effects, cinematic, IMAX, movie, fog effect, film grain",
-      "Panda transforming into a large umbrella, shielding black cat from rain, Studio Ghibli style > Charming, cinematic composition > IMAX camera zooming in >  High quality, cinematic, IMAX, movie, rain effects, film grain",
-      "Panda umbrella and black cat observing a distant castle, Studio Ghibli style > Anticipating composition > IMAX camera panning towards the castle > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic light, film grain",
-      "Panda transforming from umbrella into a humble knight, black cat by his side, Studio Ghibli style > Cinematic, high detail composition > IMAX camera rotating >  High quality, cinematic, IMAX, movie, dramatic lighting, film grain",
-      "Knight panda and black cat bravely approaching the castle, Studio Ghibli style > Adventurous, grand scale composition > IMAX camera tracking them > High quality, dynamic camera effects, cinematic, IMAX, movie, spotlight effect, film grain",
-      "Knight panda and black cat standing before the castle gates, ready for their next adventure, Studio Ghibli style > Climactic composition > IMAX camera zooming out > High quality, cinematic, IMAX, movie, god's rays, film grain"
-    ]
-  },
   {
     "input": "A real movie about evil mages and orcs attacking a castle of knights, in the style of Michael Bay. Some scenes include: cutting down trees, building siege weapons at night, attacking the castle in the morning, sending a dragon to attack, knights defending, a huge battle outside the castle, and the aftermath of the battle.",
     "captions": [
@@ -539,6 +515,187 @@ export const demoPrompts = [
       "Aerial film shot of New York city lighting up a 'Merry Christmas' message with its building lights, massive scale, night view with IMAX camera, high quality, cinematic, film grain, stunning end to a beautiful portrayal of the city."
     ]
   },
-
-
+  {
+    "input": "first transatlantic flight vintage yellow biplane movie",
+    "captions": [
+      "movie shot of highly detailed plans and blueprints on a worktable, discussing the construction of a vintage yellow biplane under ambient lighting, wide-angle shot, Canon EOS, cinematic, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+      
+      "cinematic movie shot of skilled workers meticulously crafting wooden parts for a vintage, yellow biplane under warm workshop lighting, close-up view, shot with Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+      
+      "movie shot of assembling the wooden wings and body of vintage yellow biplane, under contrast and spotlight work lights, mid-shot composition, shot with Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+      
+      "film shot of vintage yellow biplane under a final inspection before its test flight, under direct sunlight, wide-angle shot, Canon EOS, Cinematic, IMAX quality, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+      
+      "movie shot of the first test flight of a vintage yellow biplane, with blue sky as background, sunset light, aerial view, shot with Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+      
+      "cinematic shot of a yellow vintage biplane spinning out of control mid-air, dramatic backlight, aerial view, shot with Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+      
+      "movie shot of a panicked pilot trying to control the vintage yellow biplane during crash landing, under dramatic lighting, close-up view, shot with Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+      
+      "film shot of a vintage yellow biplane crash landing in a barren field, under sunset, wide-angle shot, Canon EOS, Movie, IMAX quality, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+      
+      "movie shot showcasing repair and maintenance on the crashed vintage yellow biplane, in a workshop with soft lighting, close-up view, shot with Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+  
+      "cinematic movie shot of the modified vintage yellow biplane's second test flight, over a lake, under beautiful sunset light, aerial view, shot with Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+      
+      "film shot of the pilot briefing his team before the yellow biplane's transatlantic flight, under ambient lighting, mid-shot composition, Canon EOS, cinematic, IMAX quality, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+  
+      "movie shot of the vintage yellow biplane starting its engine, at sunrise, in a wide-angle shot, cloud of dust and smoke, shot with Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+     
+      "cinematic shot of a yellow vintage biplane taking off for its transatlantic flight, under warm morning light, wide-angle view, shot with Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+      
+      "movie shot of a vintage yellow biplane cruising mid-air above the ocean, under direct sunlight, aerial shot, Canon EOS, Cinematic, IMAX quality, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+  
+      "cinematic movie shot of the pilot navigating the vintage yellow biplane, under warm cockpit lighting, close-up view, shot with Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+  
+      "film shot of a vintage yellow biplane flying above clouds at sunset, wide-angle shot, shot with Canon EOS, Movie, IMAX quality, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+  
+      "movie shot showing the vintage yellow biplane against a starry night sky, moonlight, aerial view, Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+  
+      "cinematic shot of the sunrise illuminating the wings of the vintage yellow biplane mid-flight, aerial shot, shot with Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+  
+      "movie shot of the vintage yellow biplane navigating through thick fog, early morning light, aerial view, shot with Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+  
+      "film shot of a breathtaking view from the cockpit of vintage yellow biplane flying low over the ocean, dawn lighting, Canon EOS, Movie, IMAX quality, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+  
+      "cinematic movie shot from the ground, watching as the yellow biplane starts its landing, sunset backdrop, wide-angle view, shot with Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+  
+      "movie shot of the wheels of vintage yellow biplane touching down the runway near the coast, under warm sunset light, close-up view, shot with Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+  
+      "cinematic shot of the pilot waving from the grounded vintage yellow biplane, under fading sunlight, mid shot, Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+  
+      "film shot of a massive crowd rushing towards the landed yellow biplane, cheering and applauding, under ambient outdoor light, wide-angle shot, Canon EOS, Movie, IMAX quality, award-winning, high quality, photorealistic, high details, hyper realistic, film grain",
+  
+      "movie shot fading to black, finale shot, vintage yellow biplane surrounded by the crowd against a stunning sunset, wide-angle, Canon EOS, award-winning, high quality, photorealistic, high details, hyper realistic, film grain"
+    ]
+  },
+  {
+    "input": "a movie, a passenger boeing at the airport, view of the crew preparing, then it takes of at sunrise, the we see beautiful shorts of the boeing crossing the cloud ceiling, flying in the sky during golden hour, cloud, over the water etc. The video should have a very atmospheric lighting, with fog, haze, mist to add to the ambiance, with various shots at sunset, sunrise etc, flying over the coasts, islands etc and the final landing should be beautifully seen within the busy control tower and tarmac",
+    "captions": [
+      "Movie of a massive passenger boeing ready at the airport, ground crew bustling around, dusk ambient lighting, wide angle camera view, shot on IMAX, cinematic, film grain, high definition.",
+      "Film of ground crewmembers preparing the passenger boeing for flight at the airport, under the soft lighting of dusk, wide-angle, shot on IMAX, cinematic appearance, with a film grain effect.",
+      "Footage of crew members doing the pre-flight check on the passenger boeing at the airport, dusky ambient lighting, wide-angle view using IMAX, stylistic cinematic touch, enhanced with film grain.",
+      "Movie scene of the passenger boeing's massive engines starting up, low-light ambiance, wide-angle cinematic shot taken with IMAX camera, rich in film grain texture.",
+      "Moving picture of the pilot in the cockpit, turning on the system, illuminated by subtle ambient lighting, filmed from a wide-angle perspective with IMAX, oozing cinematic film grain vibes.",
+      "Getting an IMAX, cinematic film grain shot of the massive passenger boeing taking off against the stunning sunrise, finishing the airport scene.",
+      "Shot of the passenger boeing taking off, ascending into the golden dawn, accent lighting, wide-angle view, Studio quality IMAX shot, cinematic and movie-style, with noticeable film grain.",
+      "Footage of the passenger boeing gracefully taking flight, filling the sky with a silhouette against the rising sun, distinct accent lighting, filmed on an IMAX, cinematic style with film grain.",
+      "Movie-style shot of boeing ascending higher, rays of the sunrise spill over the aircraft, providing backlight, wide-angle view, IMAX, imbued with cinematic drama and film grain texture.",
+      "Higher and higher, the boeing now among early morning mist and fog, shot using backlight from the sun, wide-angle, IMAX, cinematic with film grain.",
+      "Film of the passenger boeing bursting through the cloud ceiling, painted by the golden-hour sunlight, retro wide-angle view, shot on IMAX, cinematic with film grain.",
+      "Capturing the sunrise silhouette of the boeing cruising in the sky, with ambient morning lighting and misty clouds in background, ultra-wide-angle IMAX shot, cinematic and enriched with film grain.",
+      "Movie magic of passenger boeing flying commandingly over the ocean during sunrise with crepuscular rays in the background, filmed with beachscape in view, captured with IMAX, cinematic and film grain added.",
+      "Boeing flying under the golden hour sunlight, backdrop of water reflecting the fiery sky, captured in high definition and wide-angle, IMAX shot, cinematic quality with film grain.",
+      "Long-shot film of the passenger boeing flying over an island coast, captured beautifully with morning hue in the sky, IMAX, cinematic and embraced with film grain.",
+      "Movie showing the Boeing soaring over the ocean, dramatic backlight from setting sun, captured in extreme long-shot, IMAX, cinematic style with film grain texture.",
+      "Footage of the passenger boeing descending as the sunsets, ambient lighting reflecting on ocean water, shot on IMAX, cinematic appearance with film grain effect.",
+      "Boeing approaching the landing strip with setting sun in the backdrop, overhead aerial view shot on IMAX, cinematic experience rich in film grain texture.",
+      "Footage of busy control tower against the backdrop of the twilight sky watching the approaching aircraft, ambient lighting, wide-angle view, filmed with IMAX, in a cinematic style, with film grain effect.",
+      "Control tower scene, worker signaling the passenger boeing for landing, evening ambient light, wide-angle shot on IMAX, cinematic with film grain.",
+      "Movie of bustling tarmac preparing for the boeing's landing, in the evening under ambient lights, wide-angle view on IMAX, cinematic with rich film grain details.",
+      "Film of the passenger Boeing smoothly landing on the runway, evening ambient lighting, wide-angle, captured on IMAX, high definition cinematic appearance with noticeable film grain.",
+      "Finishing movie sequence of the Boeing slowing down on the runway under the moonlight, crews ready for post-landing procedure, wide-angle IMAX shot, cinematic touch, with film grain effect.",
+      "Final shot of boeing at rest, end of the journey, spotlight on the aircraft against the night sky, shot on IMAX, cinematic end credits style, with noticeable film grain."
+    ]
+  },
+  {
+    "input": "a movie about gladiators in an arena, the gladiators are fighting against each other, they are very victorious, the emperor watches them and the crowd cheer",
+    "captions": [
+      "Footage of an epic gladiator fight in an ancient roman arena, full of courageous warriors clashing with each other in intense battles, with the emperor intensely watching, the Rome era clothing and worn stone textures omnipresent, during golden hour, taken with IMAX camera, with cinematic grading, atmospheric lighting, and touch of film grain, trending on artstation.",
+      "Clip of the triumphant gladiator standing victorious over his adversary, weapons shining in golden hour light on ancient Roman sand arena, viewed through Canon EOS, with cinematic quality, atmospheric effects, and film grain.",
+      "Movie shot of the zealous crowd wildly cheering, a sea of Rome era clothed spectators, resonating with anticipation and excitement, sun dipping down in the backdrop, with cinematic quality, touched with film grain shot on an IMAX camera.",
+      "Cinematic aerial view of the overwhelmingly large Colosseum, the grandeur of a past epoch, sun casting long shadows on rugged stone structures and Rome era people, with cinematic landscape view, film grain and atmospheric lighting, taken with cinematic Canon EOS camera.",
+      "Footage of a tense horse carriage race, four strong horses majestically galloping and their wheels almost touching, the dusty streets enhancing the fierce atmosphere, in Rome era setting, during the golden hour, shot with IMAX camera with cinematic quality and a touch of film grain.",
+      "Video of the leader jockey pushing his horses to the limit, fiercely jostling in this Rome era race, the crowd cheering deafeningly in background, shot during golden hour, captured on IMAX with cinematic grading, atmospheric lighting, and film grain.",
+      "Movie shot of the carriage wheels, a breathtaking close up, the rough texture and dust whipped up by the race, the Rome era apparent in every frame, shot during golden hour, with cinematic Canon EOS, film grain and atmospheric lighting.",
+      "Footage of the ecstatic victor of the carriage race being showered with cheers, a true reflection of Rome era glory in his attire, the golden hour bringing out his invincibility, shot on IMAX camera, with cinematic grading, atmospheric lighting, and film grain.",
+      "Clip of a dramatic boat race, gladiators manning the vessels in full Rome era warrior attire, simulating a famous roman naval battle in the arena, during the golden hour, shot with a cinematic Canon EOS, with film grain and atmospheric lighting.",
+      "Video of a fiery arrow slicing the hazy atmosphere, fired by a Rome era dressed gladiator from one of the battling boats, the threatening ocean waves adding drama to the scene, golden hour light, shot with IMAX, with cinematic quality, atmospheric lighting, and film grain.",
+      "Footage of intense fight among gladiators on the boats, close quarters combat showcasing the struggle for survival in the Rome era, during the golden hour, bringing to life the textures and colors of their attire and weapons, shot with Canon EOS, with cinematic grading, atmospheric lighting, and film grain.",
+      "Movie shot of the crowd uproariously cheering, the intense boat confrontations exciting them beyond limits, the Rome era enthusiasm evident in their cheers, shot during golden hour, captured on IMAX with cinematic grading, atmospheric lighting, and film grain.",   
+      "Cinematic wide-angle shot of the almighty Colosseum, a stage for such grand spectacles of the Rome era, during golden hour, long shadows adding mystery to the ancient structure, shot on Canon EOS with cinematic quality, atmospheric lighting and film grain.",
+      "Footage of a victorious gladiator on the boat, triumphant against all odds, his Rome era outfit soaked and majestic, shot during golden hour, captured on IMAX with cinematic grading, atmospheric lighting, and film grain.",
+      "Movie shot of a cinematic close-up of the emperor, his gaze overlooking the victorious scene, his Rome era attire adding regality, shot during golden hour, captured on IMAX with cinematic grading, atmospheric lighting, and film grain."
+    ]
+  },
+  {
+    "input": "an advert for a dog food brand", 
+    "captions": [
+      "Film footage of a golden retriever playing in a grassy garden, surrounded by brick walls covered with ivy, during a sunny afternoon. The dog gleefully chases a wooden stick thrown by a man dressed in 90's attire. The scene is filmed in widescreen cinematic style, with rich green and warm tones. Imax, movie, film grain.",
+  
+      "Film scene focusing on the golden retriever catching the wooden stick mid-air, its fur dusted with the warm sunlight. The surroundings are highlighted by the unique cinema style colorful palette of the late 90s. The texture of the film has a high level of film grain. Filming with an IMAX camera.", 
+  
+      "Movie scene of the happy dog racing back through the garden, wooden stick in mouth and tail wagging furiously. The environment is reminiscent of late 90's aesthetics. The image color scheme comprises of a rich palette of greens and warm neutral tones. Filmed using an IMAX camera adding a sense of cinematic drama. Film grain effect added for texture.", 
+  
+      "Cinematic wide-angle shot of the golden retriever joyously bounding towards the house, backgrounded by a beautifully sunlit late 90's style house. The rich colors give an film aesthetic of nostalgia. Filmed in IMAX, with touches of grain to provide an authentic film texture.", 
+  
+      "Film sequence of the golden retriever reaching the house, energetically wagging its tail, and the owner, a woman in 90s attire, appearing in the olive green painted wooden door frame. The shot maintains continuity in terms of era, style, and color tones. High-quality IMAX footage with added cinematic film grain.", 
+  
+      "Cinematic movie shot capturing the anticipation of the dog as the owner opens a can of the dog food. Close up of the can, label clearly visible, with brightly colored imagery and 90s style typography. This vibrant scene maintains the authenticity of the era with the vintage colorist approach. Captured with an IMAX camera and enhanced with film grain for a raw cinematic impression.",
+  
+      "Movie scene showing the golden retriever happily devouring the dog food, with its tail wagging in the 90's style decorated kitchen. The shot maintains the film's color scheme and era representation. Imax footage with enriched film grain texture.", 
+  
+      "Cinematic close-up of the dog food label, featuring the slogan in bold, 90's styled typography. The final shot retains the visual continuity with the prior scenes in colors, mood, and style. Shot in high quality with an IMAX camera, displaying a visually pleasing film grain texture."
+    ]
+  },
+  {
+    "input": "a movie about a police car chase in Los Angeles",
+    "captions": [
+      "Film footage of a sunset-lit Los Angeles traffic, with a red Lamborghini recklessly driving and a police car chasing behind with lights flashing, reflecting on the wet, misty ground.",
+      "Movie shot of the golden hour in Los Angeles with a high-speed chase involving a red Lamborghini and a police car, cinematically framed with hazy fog and wet ground, IMAX wide angle.",
+      "Cinematic helicopter shot from above, as we see a red lambo and police car weaving through heavy LA traffic at sunset, their lights reflecting off the wet asphalt, lights of the city turning on, film grain.",
+      "Close-up shot of the police car's flashing blue and red lights in pursuit of the red Lamborghini, gloomy rain-soaked Los Angeles streets at sunset in the background, movie quality, IMAX.",
+      "Film footage at dusk, shot using IMAX, features police helicopter joining the chase, its searchlight sweeping over the wet, misty streets of Los Angeles, illuminating the red Lambo and the chasing police car.",
+      "Low angle drone shot following Lamborghini and police car racing along the Los Angeles coast at dusk, long beams of headlights reflecting on the wet and misty road surface, cinematic and IMAX quality",
+      "Extreme long-shot revealing the city of Los Angeles under the sunset, the flashing red and blue lights of the chasing police cars are seen against the city backdrop, filmed with IMAX and with movie quality.",
+      "An IMAX view from the police car's backseat, capturing the intense pursuit of the red Lambo through rainy Los Angeles, with wet windshield and flashing lights reflecting on the wet, foggy streets in movie quality.",
+      "Film footage of a streaking red Lamborghini escaping, with reflection of police car flashing lights on its glossy red surface, as they pass Los Angeles landmarks under rain and mist, in cinematic IMAX",
+      "Cinematic drone shot of the red lamborghini and police car driving at high speed through the misty Chinatown district at night, neon lights reflected on the wet streets, film grain, and IMAX quality.",
+      "IMAX wide-angle shot from a pedestrian's perspective; a red Lambo and a swarm of police cars speed pass on the rainy, neon-lit LA street at night, soaked in cinematic haze and movie quality film grain.",
+      "Night-time, handheld camera shot from the inside of the Lamborghini looking back, showing the reflection of the police lights on the rear window and wet streets of LA in the background, IMAX quality film with grain.",
+      "A cinematic shot of the intense expression of a police officer, red and blue lights flashing on his face, wet streets of LA at night in the rear view, captured in IMAX with movie-quality film grain.",
+      "Film footage of the police helicopter spotlight illuminating the red Lambo and police cars below, tearing through the wet, glistening streets of LA at night, captured in IMAX with movie grain.",
+      "Cinematic IMAX shot of the red Lamborghini and police cars racing through a tunnel, their lights dancing on the wet surface, creating a trail of blurred colors in the foggy LA night, film grain.",
+      "Rooftop view in IMAX, featuring a sweeping perspective of night-time LA, the red lambo's taillights and flashing police lights blending with the city lights, reflecting on the foggy, wet streets, cinematic film grain.",
+      "Aerial drone shot following the chase from above, the police car's flashing lights and the red Lambo trails piercing through the foggy LA night as rain drops hit the camera, cinematic and IMAX quality.",
+      "An intense, IMAX quality shot of a police officer handling a radio, the urgency mirrored by the flickering lights reflecting onto the wet, foggy LA streets beyond, cinematic and movie quality grain.",
+      "Cinematic shot from pedestrian viewpoint, tilted up to show the red Lamborghini and police cars zoom past, wet LA cityscape illuminated by neon lights reflected on the damp streets, filmed in IMAX",
+      "Night-time close-up shot of the police car's flashing lights reflecting on the wet streets of LA, with the elusive red Lamborghini disappearing into the dense fog, IMAX quality with film grain.",
+      "IMAX-quality film footage of the red Lambo swerving towards the LA freeway, multiple police cars and a helicopter in hot pursuit, their lights adding drama in the foggy, rainy night, cinematic movie grain.",
+      "Long shot of red Lamborghini and police cars driving parallel to a moving train in the outskirts of LA, wet surfaces under the flashlights and city light in the background, cinematic IMAX quality film grain.",
+      "A high-speed drone shot films the red Lamborghini and police cars racing under street lamps and neon signs of rainy LA, with reflections and flares adding to the high-stakes chase, in IMAX and with movie grain.",
+      "Extreme aerial shot, capturing a bird's eye view of the chase through saturated streets reflecting city lights and police car beacons, Lamborghini darting into the horizon, cinematic and IMAX quality film grain.",
+      "Slow-motion, cinematic close-up of spinning police car's wheel in pursuit, splashing through puddles, the flashing lights and glistening wet LA street captured in IMAX quality, movie grain."
+    ]
+  },
+  {
+    "input": "an anime movie in the style of Studio Ghibli and Miyazaki, showing a magical panda becoming friend with a black cat. The panda can transform into various people and objects. Set in feudal japan, they go on adventures in beautiful japanese landscape. We can see leaves of cherry blossom, beautify japanese mountains, plains, rivers, traditional japanese settings. In nearly all scenes we should have dynamic camera effects (eg. rotating around the scene), as well as mist, haze or fog effect. To add to the mystic, each some scenes should have dramatic light effects, such as golden hour, god's ray.",
+    "captions": [
+      "Magical panda and black cat making friends in a picturesque Japanese landscape, Studio Ghibli style > Cinematic, picturesque composition > IMAX camera panning around the scene > Award-winning, high quality, trending on Artstation, cinematic, movie, dramatic lighting, golden hour, god's rays, film grain",
+      "Magical panda transforming into a young feudal Japanese boy, black cat watches in awe, Studio Ghibli style > Cinematic, high detail composition > IMAX camera zooming in > Award-winning, high quality, trending on Artstation, cinematic, movie, mist effect, film grain",
+      "Black cat and transformed panda venturing into cherry blossom forest, Studio Ghibli style > Cinematic, evocative composition > IMAX camera rotating around scene > Award-winning, high quality, dynamic camera effects, trending on Artstation, cinematic, movie, dramatic lighting, god's rays, film grain",
+      "Panda transforming into samurai warrior, black cat looks on, Studio Ghibli style > Cinematic, high detail composition > IMAX camera zooming out > Award-winning, high quality, trending on Artstation, cinematic, movie, dramatic lighting, mist effect, film grain",
+      "Samurai panda and black cat heroically standing on hilltop, overlooking misty Japanese plains, Studio Ghibli style > Epic composition > IMAX camera panning > High quality, cinematic, IMAX, movie, god's rays, film grain, trending on Artstation",
+      "Samurai panda returning to original form, cherry blossom petals fall, Studio Ghibli style > Cinematic, elegant composition > IMAX camera rotating > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic light, film grain",
+      "Panda and black cat navigating down the flowing river in a small boat, Studio Ghibli style > Cinematic, beautiful composition > IMAX camera panning following the boat > High quality, cinematic, movie, mist effect, film grain, trending on Artstation",
+      "Magical panda transforms into a protective dragon, black cat sits on dragon's head, Studio Ghibli style > Epic, detailed composition > IMAX camera zooming in and out > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic light, mist, film grain",
+      "Dragon panda flying over majestic Mountain Fuji, Studio Ghibli style > Grand scale composition > IMAX camera panning across landscape > High quality, IMAX, movie, golden hour lighting, god's rays, film grain, trending on Artstation",
+      "Dragon panda and black cat arriving in traditional Japanese village, Studio Ghibli style > Detailed, cinematic composition > IMAX camera tracking in on village > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic light, film grain",
+      "Panda changing back from dragon to his original form, village people stunned, Studio Ghibli style > Cinematic, picturesque composition > IMAX camera rotating around scene > High quality, cinematic, IMAX, fog effect, movie, dramatic light, film grain",
+      "Panda and black cat being welcomed warmly by the village, beautiful cherry blossoms decorate scene, Studio Ghibli style > Evocative, detailed composition > IMAX camera zooming in and out > High quality, cinematic, IMAX, movie, god's rays effect, film grain",
+      "Panda and black cat sharing a meal with the villagers, under a cherry blossom tree, Studio Ghibli style > Warm, detailed composition > IMAX camera moving side to side > High quality, cinematic, dynamic camera effects, IMAX, movie, ambient lighting, film grain",
+      "Night falling, panda and black cat roasting marshmallows by the fire, villagers watch, Studio Ghibli style > Captivating composition > IMAX camera panning across scene > High quality, cinematic, IMAX, movie, fire light effect, film grain",
+      "Panda transforming into a gigantic lantern tower lighting up the village, Studio Ghibli style > Mystical composition > IMAX camera zooming out to show glowing village > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic lighting, film grain",
+      "Panda returning to his original form, villagers cheering, black cat proudly watching, Studio Ghibli style > Joyful, warm composition > IMAX camera tracking in > High quality, cinematic, IMAX, movie, spotlight effect, film grain",
+      "Panda and black cat lying under the star-filled sky, villagers asleep, Studio Ghibli style > Cinematic composition > IMAX camera slowly panning across starry sky >  High quality, cinematic, IMAX, movie, ambient lighting, film grain",
+      "Sunrise, panda and black cat leaving the villagers, heading towards a new adventure, Studio Ghibli style > Cinematic, picturesque composition > IMAX camera panning watching as they leave > High quality, dynamic camera effects, cinematic, IMAX, movie, golden hour lighting, film grain",
+      "Panda and black cat riding on a cloud, overlooking beautiful Japanese landscapes, Studio Ghibli style > Epic scale composition > IMAX camera rotating around >  High quality, cinematic, IMAX, movie, god's rays, film grain",
+      "Cloud with panda and cat entering a misty forest, Studio Ghibli style > Mysterious, detailed composition > IMAX camera tracking from below >  High quality, dynamic camera effects, cinematic, IMAX, movie, fog effect, film grain",
+      "Panda transforming into a large umbrella, shielding black cat from rain, Studio Ghibli style > Charming, cinematic composition > IMAX camera zooming in >  High quality, cinematic, IMAX, movie, rain effects, film grain",
+      "Panda umbrella and black cat observing a distant castle, Studio Ghibli style > Anticipating composition > IMAX camera panning towards the castle > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic light, film grain",
+      "Panda transforming from umbrella into a humble knight, black cat by his side, Studio Ghibli style > Cinematic, high detail composition > IMAX camera rotating >  High quality, cinematic, IMAX, movie, dramatic lighting, film grain",
+      "Knight panda and black cat bravely approaching the castle, Studio Ghibli style > Adventurous, grand scale composition > IMAX camera tracking them > High quality, dynamic camera effects, cinematic, IMAX, movie, spotlight effect, film grain",
+      "Knight panda and black cat standing before the castle gates, ready for their next adventure, Studio Ghibli style > Climactic composition > IMAX camera zooming out > High quality, cinematic, IMAX, movie, god's rays, film grain"
+    ]
+  },
 ]
