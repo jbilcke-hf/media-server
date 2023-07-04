@@ -64,7 +64,12 @@ export async function upscaleVideo(fileName: string, prompt: string) {
   const tmpFilePath = path.join(tmpDir, tmpFileName)
   const filePath = path.join(tmpDir, fileName)
 
-  await fs.promises.rename(tmpFilePath, filePath)
+  await fs.promises.copyFile(tmpFilePath, filePath)
+  try {
+    await fs.promises.unlink(tmpFilePath)
+  } catch (err) {
+    console.log('failed to cleanup (no big deal..)')
+  }
 
   return fileName
 }

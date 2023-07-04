@@ -23,7 +23,12 @@ export const enhanceVideo = async (fileName: string): Promise<string> => {
       .videoFilters('noise=c0s=10:c0f=t+u')
       .save(tmpFilePath)
       .on('end', async () => {
-        await fs.promises.rename(tmpFilePath, filePath)
+        await fs.promises.copyFile(tmpFilePath, filePath)
+        try {
+          await fs.promises.unlink(tmpFilePath)
+        } catch (err) {
+          console.log('failed to cleanup (no big deal..)')
+        }
 
         resolve(fileName)
       })
