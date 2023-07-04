@@ -5,7 +5,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt update
 
-RUN apt --yes install ffmpeg libnss3-dev
+RUN apt --yes install ffmpeg libnss3
 
 # Set up a new user named "user" with user ID 1000
 RUN useradd -o -u 1000 user
