@@ -64,6 +64,94 @@ The output must be in JSON (here is the type signature:
 - I need: 10 captions
 - Input: ${input}  (note: add the keywords "cinematic", "imax", "movie", "film grain" to help the AI generator)`
 
+export const moonshot2 = [
+  {
+    "input": "an anime movie in the style of Studio Ghibli and Miyazaki, showing a magical panda becoming friend with a black cat. The panda can transform into various people and objects. Set in feudal japan, they go on adventures in beautiful japanese landscape. We can see leaves of cherry blossom, beautify japanese mountains, plains, rivers, traditional japanese settings. In nearly all scenes we should have dynamic camera effects (eg. rotating around the scene), as well as mist, haze or fog effect. To add to the mystic, each some scenes should have dramatic light effects, such as golden hour, god's ray.",
+    "captions": [
+      "hand drawn color animation > Magical panda and black cat making friends in a picturesque Japanese landscape, Studio Ghibli style > Cinematic, picturesque composition > IMAX camera panning around the scene > Award-winning, high quality, trending on Artstation, cinematic, movie, dramatic lighting, golden hour, god's rays, film grain",
+      "hand drawn color animation > Magical panda transforming into a young feudal Japanese boy, black cat watches in awe, Studio Ghibli style > Cinematic, high detail composition > IMAX camera zooming in > Award-winning, high quality, trending on Artstation, cinematic, movie, mist effect, film grain",
+      "hand drawn color animation > Black cat and transformed panda venturing into cherry blossom forest, Studio Ghibli style > Cinematic, evocative composition > IMAX camera rotating around scene > Award-winning, high quality, dynamic camera effects, trending on Artstation, cinematic, movie, dramatic lighting, god's rays, film grain",
+      "hand drawn color animation > Panda transforming into samurai warrior, black cat looks on, Studio Ghibli style > Cinematic, high detail composition > IMAX camera zooming out > Award-winning, high quality, trending on Artstation, cinematic, movie, dramatic lighting, mist effect, film grain",
+      "hand drawn color animation > Samurai panda and black cat heroically standing on hilltop, overlooking misty Japanese plains, Studio Ghibli style > Epic composition > IMAX camera panning > High quality, cinematic, IMAX, movie, god's rays, film grain, trending on Artstation",
+      "hand drawn color animation > Samurai panda returning to original form, cherry blossom petals fall, Studio Ghibli style > Cinematic, elegant composition > IMAX camera rotating > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic light, film grain",
+      "hand drawn color animation > Panda and black cat navigating down the flowing river in a small boat, Studio Ghibli style > Cinematic, beautiful composition > IMAX camera panning following the boat > High quality, cinematic, movie, mist effect, film grain, trending on Artstation",
+      "hand drawn color animation > Magical panda transforms into a protective dragon, black cat sits on dragon's head, Studio Ghibli style > Epic, detailed composition > IMAX camera zooming in and out > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic light, mist, film grain",
+      "hand drawn color animation > Dragon panda flying over majestic Mountain Fuji, Studio Ghibli style > Grand scale composition > IMAX camera panning across landscape > High quality, IMAX, movie, golden hour lighting, god's rays, film grain, trending on Artstation",
+      "hand drawn color animation > Dragon panda and black cat arriving in traditional Japanese village, Studio Ghibli style > Detailed, cinematic composition > IMAX camera tracking in on village > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic light, film grain",
+      "hand drawn color animation > Panda changing back from dragon to his original form, village people stunned, Studio Ghibli style > Cinematic, picturesque composition > IMAX camera rotating around scene > High quality, cinematic, IMAX, fog effect, movie, dramatic light, film grain",
+      "hand drawn color animation > Panda and black cat being welcomed warmly by the village, beautiful cherry blossoms decorate scene, Studio Ghibli style > Evocative, detailed composition > IMAX camera zooming in and out > High quality, cinematic, IMAX, movie, god's rays effect, film grain",
+      "hand drawn color animation > Panda and black cat sharing a meal with the villagers, under a cherry blossom tree, Studio Ghibli style > Warm, detailed composition > IMAX camera moving side to side > High quality, cinematic, dynamic camera effects, IMAX, movie, ambient lighting, film grain",
+      "hand drawn color animation > Night falling, panda and black cat roasting marshmallows by the fire, villagers watch, Studio Ghibli style > Captivating composition > IMAX camera panning across scene > High quality, cinematic, IMAX, movie, fire light effect, film grain",
+      "hand drawn color animation > Panda transforming into a gigantic lantern tower lighting up the village, Studio Ghibli style > Mystical composition > IMAX camera zooming out to show glowing village > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic lighting, film grain",
+      "hand drawn color animation > Panda returning to his original form, villagers cheering, black cat proudly watching, Studio Ghibli style > Joyful, warm composition > IMAX camera tracking in > High quality, cinematic, IMAX, movie, spotlight effect, film grain",
+      "hand drawn color animation > Panda and black cat lying under the star-filled sky, villagers asleep, Studio Ghibli style > Cinematic composition > IMAX camera slowly panning across starry sky >  High quality, cinematic, IMAX, movie, ambient lighting, film grain",
+      "hand drawn color animation > Sunrise, panda and black cat leaving the villagers, heading towards a new adventure, Studio Ghibli style > Cinematic, picturesque composition > IMAX camera panning watching as they leave > High quality, dynamic camera effects, cinematic, IMAX, movie, golden hour lighting, film grain",
+      "hand drawn color animation > Panda and black cat riding on a cloud, overlooking beautiful Japanese landscapes, Studio Ghibli style > Epic scale composition > IMAX camera rotating around >  High quality, cinematic, IMAX, movie, god's rays, film grain",
+      "hand drawn color animation > Cloud with panda and cat entering a misty forest, Studio Ghibli style > Mysterious, detailed composition > IMAX camera tracking from below >  High quality, dynamic camera effects, cinematic, IMAX, movie, fog effect, film grain",
+      "hand drawn color animation > Panda transforming into a large umbrella, shielding black cat from rain, Studio Ghibli style > Charming, cinematic composition > IMAX camera zooming in >  High quality, cinematic, IMAX, movie, rain effects, film grain",
+      "hand drawn color animation > Panda umbrella and black cat observing a distant castle, Studio Ghibli style > Anticipating composition > IMAX camera panning towards the castle > High quality, dynamic camera effects, cinematic, IMAX, movie, dramatic light, film grain",
+      "hand drawn color animation > Panda transforming from umbrella into a humble knight, black cat by his side, Studio Ghibli style > Cinematic, high detail composition > IMAX camera rotating >  High quality, cinematic, IMAX, movie, dramatic lighting, film grain",
+      "hand drawn color animation > Knight panda and black cat bravely approaching the castle, Studio Ghibli style > Adventurous, grand scale composition > IMAX camera tracking them > High quality, dynamic camera effects, cinematic, IMAX, movie, spotlight effect, film grain",
+      "hand drawn color animation > Final scene: Knight panda and black cat standing before the castle gates, ready for their next adventure, Studio Ghibli style > Climactic composition > IMAX camera zooming out > High quality, cinematic, IMAX, movie, god's rays, film grain"
+    ]
+  },
+  {
+    "input": "a movie shot in a Michael Bay style, about an alien ship destroying Los Angeles",
+    "captions": [
+      "cinematic shot of the misty streets of Los Angeles during the early morning, drone camera, ambient lighting, foggy, wide-angle, film grain, Michael Bay style, cinematic, imax, movie, high quality",
+    
+      "cinematic wide-angle drone shot of an airplane taking off in the misty sunrise Los Angeles, ambient lighting, film grain, Michael Bay style, cinematic, imax, movie, high quality",
+    
+      "graphic 3D render of a multi-kilometer wide alien spaceship hovering over Los Angeles at dawn, ultra wide-angle, detailed fog effect, dramatic lighting, cinematic, imax, movie, Michael Bay style, film grain",
+     
+      "graphical 3D rendered extreme long shot of a light beam shooting down from the alien ship impacting Los Angeles, ambient lighting, foggy, Michael Bay style, cinematic, imax, movie, film grain",
+     
+      "an atmospheric 3D cinematic shot of a colossal explosion in Los Angeles caused by the alien ship's light beam, Michael Bay style, ambient lighting, wide-angle, film grain, cinematic, imax, movie, high quality",
+     
+      "dramatic 3D render of cars and debris being launched into the air amid the alien chaos in Los Angeles, ultra wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "3D rendered shot of terrified citizens of Los Angeles running from destruction, ambient lighting, foggy, ultra wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "graphical video of military leaders strategizing a response, ambient lighting, close-up, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "graphical 3D video of an armada of jets departing to engage the alien ship attack, late morning light, ambient lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "graphical 3D video of the jet planes ascending towards the floating alien ship, ambient lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "3D rendered video of a jet squadron maneuvering in formation, ambient lighting, extreme long-shot, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "graphical 3D video of a dynamic chase between the jet planes and the alien ship over LA, noon sunlight, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "3D animated video of a jet plane narrowly avoiding alien fire in a dramatic canyon chase, ambient lighting, extreme close-up, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "3D render of a jet plane taking a daring shot at the alien ship, intense sunlight, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "graphic video of the alien ship starting to fall apart under the onslaught of the jet planes, direct sunlight, extreme long-shot, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "3D rendered video of the alien mothership exploding brilliantly in the Los Angeles atmosphere, ambient lighting, extreme long-shot, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "graphical 3D video of the jet planes flying away from the explosion, dramatic lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "3D rendered close-up of a jet pilot celebrating the victory against the alien ship, ambient lighting, Michael Bay style, cinematic, imax, movie, film grain",
+     
+      "graphical video of the citizens of Los Angeles cheering as the jet planes fly over the city during the golden hour, ambient lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "3D animated video of the joyous celebration in Los Angeles, with American flags waving in the golden sunset, God's rays, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "amazing 3D rendered celebration scene of 4th of July in Los Angeles, firework lights, ambient lighting, wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "3D rendered dramatic shot of the jubilant crowds under the fireworks in Los Angeles, ambient lighting, extreme long-shot, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "graphical video of a jet plane doing a victory flyover with smoke trails and fireworks lighting up the evening sky, Michael Bay style, ambient lighting, extreme long-shot, film grain, cinematic, imax, movie, high quality",
+     
+      "3D rendered video of a jet plane landing with a golden sunset in the background, ambient lighting, close-up, film grain, cinematic, imax, movie, Michael Bay style, high quality",
+     
+      "cinematic drone video of the calm after the storm in Los Angeles at dusk, ambient lighting, ultra wide-angle, film grain, cinematic, imax, movie, Michael Bay style, high quality"
+    ]
+  },
+  
+]
+
 export const moonshot = [
   {
     "input": "Blade Runner style movie with a detective exploring a cyberpunk city",
@@ -212,6 +300,7 @@ export const moonshot = [
       "Dramatic closure footage of a mighty T-Rex claiming its territory among the lesser beings, against the setting sun, Canon EOS, imax quality, stunning backlighting, high detail, ultra-realistic, film grain, trending on ArtStation."
     ]
   },
+  /*
   {
     "input": "documentary footage of an intense race on a race track, with the camera posted on various places (fixed, drone, onboard, showing the pilot, or the race, moving etc), showing the F1 cars racing, some accidents, smoke, people in acclaim, and the final celebration",
     "captions": [
@@ -228,7 +317,9 @@ export const moonshot = [
         "Film footage of cheering crowd applauding the victor, capturing the contagious excitement and team spirit, cinematic style, shot overhead from a drone, using IMAX cameras, and a film grain filter for a raw documentary vibe, high details, studio quality, RAW photo, 4k resolution.",
         "Cinematic and emotional documentary footage of victorious team hugging and celebrating, capturing the essence of triumph and unity, cinematic style, close-up shot, filmed using IMAX cameras, with visible film grain for an authentic feel, high details, studio quality, RAW photo, 4k resolution."
     ]
-  }, {
+  }, 
+  */
+ {
     "input": "documentary footage of aquatic life, featuring squids of various size and color, dolphines, whales, orca, and sharks",
     "captions": [
         "cinematic footage of a colossal squid dashing through the deep-sea, in an elegant dance, surrounded by an army of neon-colored fish, in the depth of pristine ocean, filmed with IMAX camera, high granularity, added film grain effect, high quality widescreen composition, winner of multiple awards",
@@ -322,6 +413,7 @@ export const moonshot = [
       "4K UHD video of a sleek Audi R8 driving through a snowy mountain path, the white of the snow contrasting with the vehicle’s vibrant hue, highly detailed, captured during the sunrise on a Sony Venice, hyper realistic, trending on Artstation, studio quality"
     ]
   },
+  /*
   {
     "input": "video of astronauts landing on moon, surveying the area, exploring the moon, old probes and moon robots, building a base etc",
     "captions": [
@@ -347,6 +439,7 @@ export const moonshot = [
       "HD video > Astronaut team raising their helmets in celebration, Earth visible in the background > Triumphant, inspiring > Close-up shots, with depth of field > Sony PXW-Z150, 4K resolution > Celebratory, Uplifting, High Quality"
     ]
   },
+  */
   {
     "input": "video of pirates sailing on a ship, walking on ropes, attacking a ship, shooting with cannon, having a party with the gold, sailing with dolphin, in beautiful day settings, with a night party",
     "captions": [
@@ -435,7 +528,8 @@ export const moonshot = [
     "High-speed slow-motion footage of a packet of powder color bursting, erupting into a cloud of dust, trendy Holi festival style explosion, shot with Phantom Flex high-speed camera, high quality, ultra-realistic, wide-angle, 8K UHD resolution",
     "Slow motion, real world footage of a gush of soda, shot from top of a shaken can, dramatic and dark lighting, captured with Canon EOS, depth of field, high detailed skin, RAW photo, 4K UHD resolution, ambient lighting"
   ]
-},
+},/*
+
 {
   "input": "slow motion footage of various people doing sports (skateboard, surf, bicycle, soccer, basketball etc and more)",
   "captions": [
@@ -451,6 +545,7 @@ export const moonshot = [
     "Slow motion basketball footage of a player swishing a three-point shot in a packed stadium, at night, showcasing a competitive and passion-filled style, filmed with an Arri Alexa at 4k resolution, delivering ultra-high details and a trending phenomenon on artstation."
   ]
 },
+*/
 {
   "input": "video footage of a platform video game, the player goes through various level. The video is a 2D platformer but with a 3D rendering. Levels are ice, desert, forest, city, mountain, moon etc",
   "captions": [
@@ -490,6 +585,7 @@ export const moonshot = [
     "Video of the singer completing his journey, dancing on an empty road, back dropped by a panoramic view of Cape Town, South Africa. Sticking with the same Canon EOS centered shot, the scene captures a magical, perfect sunset, ending as a high-quality, award-winning music video, trending on artstation."
   ]
 },
+/*
 {
   "input": "spaceships of various sizes and shapes, moving around planets, asteroids etc",
   "captions": [
@@ -550,6 +646,7 @@ export const moonshot = [
     "4K video of a skater rapidly zigzagging through city traffic, demonstrating jaw-dropping street skills, in tandem with the rhythm of the city lights, shot on the DJI Phantom 4 Pro, final high speed sequence, high detail, award winning."
   ]
 }
+*/
 ]
 
 export const demo2 = [

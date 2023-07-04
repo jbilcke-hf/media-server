@@ -5,6 +5,7 @@ import { moonshot } from './prompts.mts'
 import { getStats } from './getStats.mts'
 
 const main = async () => {
+  /*
   console.log('Generating ideas..')
   const ideas = moonshot
 
@@ -31,6 +32,7 @@ const main = async () => {
   }
 
   console.log('Finished the full cycle')
+  */
   setTimeout(() => {
     main()
   }, 3000)
