@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "startAtShotId": "db03278b-a39e-4fab-ad2b-b34773401c3d",
+  "startAtShotId": "20bd0aac-84a6-4d78-8d3b-3ef0ae1f1c34",
   "sequences": [
     {
       "sequenceId": "0489dbc6-791c-4cb8-97f6-ada01092fa91",
@@ -2224,6 +2224,194 @@
           "index": 24,
           "lastGenerationAt": "",
           "videoPrompt": "A video snippet of a drone descending towards a lit-up mansion during a starry night, transforming the scene into an illuminating spectacle captured through an IMAX camera in high detail with film grain overlaid for the cinematic finale.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "bc10203a-78b8-40fa-a163-f7738edb05df",
+      "lastGenerationAt": "",
+      "videoPrompt": "photorealistic space opera movie featuring various extraterrestrial forms and futuristic cities with renaissance influence",
+      "audioPrompt": "ambient deep house, futuristic and moden, drum machine, synth",
+      "tags": [
+        "trailer",
+        "science-fiction"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "20bd0aac-84a6-4d78-8d3b-3ef0ae1f1c34",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of an extraterrestrial humanoid squid standing in a futuristic Venetian style city with green cobblestones, under a purple sky, lit by bioluminescent lanterns. Renaissance influence, dramatic accent lighting, wide-angle, Canon EOS, high quality, cinematic, IMAX film grain, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "ec3b3d2b-fae1-4ef7-a4d8-e25f974a2807",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of a massive, colorful spaceship hovering over the canals of the futuristic city, reflecting in the water. Night setting with dramatic ambient lighting, fisheye view, film grain texture, IMAX, Canon EOS, trending on Artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "ffbdd414-a53a-4dbd-88b9-d21fa9dcde2b",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Highly detailed photograph of humanoid insect characters, in metallic fabric clothing, walking through a grand hallway lit by floating candlelight, in a renaissance-style building. Wide-angle, Canon EOS, featured in a movie, cinematic, IMAX film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "7d68b022-687c-4fd6-8ac1-8d725caddc97",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of a panoramic view of a renaissance-influenced, futuristic cityscape from a ship's cockpit, under an orange sky and turquoise ground. Detail of intricate building designs, dramatic soft lighting, Dutch angle, Canon EOS, Imax, high quality, cinematic, awarded film.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "be8fa274-07e9-4e58-8b7e-de610fb09794",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of a ship racing through a turquoise and pink canyon, visible through a window inside the ship. Characters reacting in the foreground. Dramatic backlight lighting, depth of field, Canon EOS, high quality, cinematic, IMAX film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "e08499be-2c55-4673-b691-344b3b850bee",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Close-up photograph of a humanoid robot, reflecting the colors of a nebula, with the star-filled space in the background. Subtle polaroid effect, studio quality, ultra-realistic, Canon EOS, cinematic, IMAX film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "890c48bf-311a-499f-9fbe-47a45364433e",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic photograph of multiple spaceships hovering over a renaissance influenced city, with the colorful nebula reflecting on the building rooftops. Shot in landscape, with powerful backlight, Canon EOS, IMAX, movie scene, high quality, trending on Artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d701ebd0-7aa5-445f-b8e5-da4898d6a7d6",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Detailed photograph of building facades inspired by Venetian architecture made of colorful, reflective metal. Strong neon lamp lighting on robot passing by. Wide angle shot, Canon EOS, high quality, cinematic, IMAX film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "502e6087-e94a-47e0-9bb6-36fde7ea6fbd",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of a character entering a grand building, the structure combines futuristic and renaissance elements, with humanoid squids visible in the background. Nightclub lighting, Canon EOS, ultra-realistic, cinematic, IMAX film grain, trending on Artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8580722a-3b39-4a9e-a025-df34b797bddd",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of a canyon scene as a spaceship navigates through it, with shots of the rocky surface and colorful dust clouds. Direct sunlight, ultra-wide angle, Canon EOS, high quality, cinematic, IMAX film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c94b8055-8c5a-47ab-847d-fffc2c3b2970",
+          "index": 10,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic photograph of a large spaceship landing on green ground under a red sky, casting long shadows. Sunset light, ultra-realistic, Canon EOS, IMAX film grain, high quality, movie scene.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d4db5c58-8b39-486a-82d2-369d677b460b",
+          "index": 11,
+          "lastGenerationAt": "",
+          "videoPrompt": "Close-up photograph of a humanoid insect character's face, showing the intricate design and colors of its metal-like skin. Warm backlight, Canon EOS, ultra-realistic, cinematic, IMAX film grain, trending on Artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "82b6fe9c-4118-47fd-b646-d8c3af13ca43",
+          "index": 12,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of a spaceship cockpit view of an upcoming nebula. Whole crew visible in shadows. Accent lighting, wide-angle, Canon EOS, studio quality, cinematic, IMAX film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "fbc7a235-24b5-4b40-a25d-38bedcf730b7",
+          "index": 13,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of an alien Market Square surrounded by renaissance-styled futuristic buildings, bustling with various alien forms. Morning light, dramatic shadows, Canon EOS, high quality, IMAX film grain, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "4441384c-164f-4119-abdc-ccfaac084974",
+          "index": 14,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of humanoid squid character inside a cathedral-like ship, under bioluminescent lighting, Canon EOS, high quality, cinematic, IMAX film grain, trending on Artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "824b2db8-4daa-495e-8eca-18a508b09550",
+          "index": 15,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic photograph of a spaceship chase scene in the airspace of a futuristic city, reflections of vibrant lights on the spaceship's surface. Night time, neon light strobes, Canon EOS, IMAX film grain, high quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "46659408-d244-4038-98ba-9577eac1e6d8",
+          "index": 16,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of a Venetian style bridge joining futuristic buildings with extraterrestrial characters crossing, under a purple alien sky. Evening, ambient lighting, Canon EOS, high quality, cinematic, IMAX film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "9ec11bbc-5f6c-418c-bfdc-e448f58dd1c7",
+          "index": 17,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of a massive, Jodorowsky's Dune-inspired spaceship looming over a cityscape, as seen from a character's point of view. Overcast with god ray lighting, Canon EOS, cinematic, IMAX film grain, movie scene.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a3adb2fd-2071-4625-be69-33b624d35091",
+          "index": 18,
+          "lastGenerationAt": "",
+          "videoPrompt": "Close-up photograph of a humanoid robot's hand against a metallic Venetian style building, showing intricate engravings. Side lighting, Canon EOS, cinematic, IMAX film grain, high quality, trending on Artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8c0bb0e7-4ad9-4183-b99d-0ad2c8412756",
+          "index": 19,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of a movie scene featuring an alien fish market inside a tower, overlooking the horizon with multiple suns. Dusk light, Canon EOS, wide-angle shot, cinematic, IMAX film grain, trending on Artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "24dd79b5-2e32-4dba-bbd4-f7abf1febba5",
+          "index": 20,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of a humanoid insect character in a dark cloak, seen through the mist on a narrow city bridge over a canal. Crepuscular rays, Canon EOS, ultra-realistic, cinematic, IMAX film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "f6c26f86-2d7c-4b0b-8a9e-9e0c38353b3a",
+          "index": 21,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic photograph of a space battle scene, featuring colorful spaceships against the backdrop of a large nebula. Wide angle, Canon EOS, high quality, IMAX film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8bb4f019-d3b5-40aa-9399-2d079a60ce66",
+          "index": 22,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of an alien character's face framed by a futuristic helmet, a colorful cityscape reflected on the visor. Ambient light, Canon EOS, high quality, cinematic, IMAX film grain, trending on Artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "df483253-51f4-4d5b-936d-5784202e1f9d",
+          "index": 23,
+          "lastGenerationAt": "",
+          "videoPrompt": "Detailed photograph of a giant robot statue in the foreground, with cityscape in the background, under a blue and pink sky. Direct sunlight, Canon EOS, high quality, cinematic, IMAX film grain, movie scene.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "f209941b-57ea-4236-9c27-d86623340df7",
+          "index": 24,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of a spaceship flying low over an alien sea, with futuristic city in the background, under a yellow sunset. Canon EOS, cinematic, IMAX film grain, high quality, trending on Artstation.",
           "audioPrompt": ""
         }
       ]

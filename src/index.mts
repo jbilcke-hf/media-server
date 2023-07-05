@@ -97,7 +97,9 @@ ${sequence.videoPrompt}
       try {
         const generatedVideoUrl = await callZeroscope(shot.videoPrompt)
 
-        const shotFileName = `inst_${instanceId}_movie_${movieId}_seq_${sequence.sequenceId}_shot_${shotIndex++}_${Date.now()}.mp4`
+        // note that we need to use the shot INDEX (not just the ID) 
+        // to make sure the order is respected
+        const shotFileName = `inst_${instanceId}_movie_${movieId}_seq_${sequence.sequenceId}_shot_index_${shotIndex++}_shot_${shot.shotId}_${Date.now()}.mp4`
 
         console.log(`- downloading shot ${shotFileName} from ${generatedVideoUrl}`)
         await downloadVideo(generatedVideoUrl, shotFileName)
