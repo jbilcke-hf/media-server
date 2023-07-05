@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "startAtShotId": "9988a33e-741e-46c4-bb28-42b26409d096",
+  "startAtShotId": "de6a97b1-d534-4958-b8ec-58dc4e727636",
   "sequences": [
     {
       "sequenceId": "0489dbc6-791c-4cb8-97f6-ada01092fa91",
@@ -2979,6 +2979,7 @@
     },
     {
       "sequenceId": "d656f2d1-860f-48e6-8185-8372ef5898d8",
+      "skip": true,
       "lastGenerationAt": "",
       "videoPrompt": "a photorealistic movie about a heist movie, happening at night in a museum",
       "audioPrompt": "ambient deep house, drum machine, synth",
@@ -3354,6 +3355,7 @@
     },
     {
       "sequenceId": "70c473cb-2d71-4649-8cfd-910a9ad401ee",
+      "skip": false,
       "lastGenerationAt": "",
       "videoPrompt": "a movie documentary about marine life",
       "audioPrompt": "ambient deep house, drum machine, synth",
