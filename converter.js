@@ -1,35 +1,28 @@
 const { v4 } = require('uuid')
 const raw = {
-  "input": "photorealistic space opera movie featuring various extraterrestrial forms and futuristic cities with renaissance influence",
+  "input": "japanese animation anime movie, featuring a llama with super powers",
   "captions": [
-    "Photograph of an extraterrestrial humanoid squid standing in a futuristic Venetian style city with green cobblestones, under a purple sky, lit by bioluminescent lanterns. Renaissance influence, dramatic accent lighting, wide-angle, Canon EOS, high quality, cinematic, IMAX film grain, movie.",
-    "Photograph of a massive, colorful spaceship hovering over the canals of the futuristic city, reflecting in the water. Night setting with dramatic ambient lighting, fisheye view, film grain texture, IMAX, Canon EOS, trending on Artstation.",
-    "Highly detailed photograph of humanoid insect characters, in metallic fabric clothing, walking through a grand hallway lit by floating candlelight, in a renaissance-style building. Wide-angle, Canon EOS, featured in a movie, cinematic, IMAX film grain.",
-    "Photograph of a panoramic view of a renaissance-influenced, futuristic cityscape from a spaceship's cockpit, under an orange sky and turquoise ground. Detail of intricate building designs, dramatic soft lighting, Dutch angle, Canon EOS, Imax, high quality, cinematic, awarded film.",
-    "Photograph of a spaceship racing through a turquoise and pink canyon, visible through a window inside the spaceship. Characters reacting in the foreground. Dramatic backlight lighting, depth of field, Canon EOS, high quality, cinematic, IMAX film grain.",
-    "Close-up photograph of a humanoid robot, reflecting the colors of a nebula, with the star-filled space in the background. Subtle polaroid effect, studio quality, ultra-realistic, Canon EOS, cinematic, IMAX film grain.",
-    "Cinematic photograph of multiple spaceships hovering over a renaissance influenced city, with the colorful nebula reflecting on the building rooftops. Shot in landscape, with powerful backlight, Canon EOS, IMAX, movie scene, high quality, trending on Artstation.",
-    "Detailed photograph of building facades inspired by Venetian architecture made of colorful, reflective metal. Strong neon lamp lighting on robot passing by. Wide angle shot, Canon EOS, high quality, cinematic, IMAX film grain.",
-    "Photograph of a character entering a grand building, the structure combines futuristic and renaissance elements, with humanoid squids visible in the background. Nightclub lighting, Canon EOS, ultra-realistic, cinematic, IMAX film grain, trending on Artstation.",
-    "Photograph of a canyon scene as a spaceship navigates through it, with shots of the rocky surface and colorful dust clouds. Direct sunlight, ultra-wide angle, Canon EOS, high quality, cinematic, IMAX film grain.",
-    "Cinematic photograph of a large spaceship landing on green ground under a red sky, casting long shadows. Sunset light, ultra-realistic, Canon EOS, IMAX film grain, high quality, movie scene.",
-    "Close-up photograph of a humanoid insect character's face, showing the intricate design and colors of its metal-like skin. Warm backlight, Canon EOS, ultra-realistic, cinematic, IMAX film grain, trending on Artstation.",
-    "Photograph of a spaceship cockpit view of an upcoming nebula. Whole crew visible in shadows. Accent lighting, wide-angle, Canon EOS, studio quality, cinematic, IMAX film grain.",
-    "Photograph of an alien Market Square surrounded by renaissance-styled futuristic buildings, bustling with various alien forms. Morning light, dramatic shadows, Canon EOS, high quality, IMAX film grain, cinematic.",
-    "Photograph of humanoid squid character inside a cathedral-like spaceship, under bioluminescent lighting, Canon EOS, high quality, cinematic, IMAX film grain, trending on Artstation.",
-    "Cinematic photograph of a spaceship chase scene in the airspace of a futuristic city, reflections of vibrant lights on the spaceship's surface. Night time, neon light strobes, Canon EOS, IMAX film grain, high quality.",
-    "Photograph of a Venetian style bridge joining futuristic buildings with extraterrestrial characters crossing, under a purple alien sky. Evening, ambient lighting, Canon EOS, high quality, cinematic, IMAX film grain.",
-    "Photograph of a massive, Jodorowsky's Dune-inspired spaceship looming over a cityscape, as seen from a character's point of view. Overcast with god ray lighting, Canon EOS, cinematic, IMAX film grain, movie scene.",
-    "Close-up photograph of a humanoid robot's hand against a metallic Venetian style building, showing intricate engravings. Side lighting, Canon EOS, cinematic, IMAX film grain, high quality, trending on Artstation.",
-    "Photograph of a movie scene featuring an alien fish market inside a tower, overlooking the horizon with multiple suns. Dusk light, Canon EOS, wide-angle shot, cinematic, IMAX film grain, trending on Artstation.",
-    "Photograph of a humanoid insect character in a dark cloak, seen through the mist on a narrow city bridge over a canal. Crepuscular rays, Canon EOS, ultra-realistic, cinematic, IMAX film grain.",
-    "Cinematic photograph of a space battle scene, featuring colorful spaceships against the backdrop of a large nebula. Wide angle, Canon EOS, high quality, IMAX film grain.",
-    "Photograph of an alien character's face framed by a futuristic helmet, a colorful cityscape reflected on the visor. Ambient light, Canon EOS, high quality, cinematic, IMAX film grain, trending on Artstation.",
-    "Detailed photograph of a giant robot statue in the foreground, with cityscape in the background, under a blue and pink sky. Direct sunlight, Canon EOS, high quality, cinematic, IMAX film grain, movie scene.",
-    "Photograph of a spaceship flying low over an alien sea, with futuristic city in the background, under a yellow sunset. Canon EOS, cinematic, IMAX film grain, high quality, trending on Artstation."
+    "Animated content: a white llama with vibrant blue eyes and a multicolored, magical aura around it, standing in a verdant forest, next to an adorable golden-brown Shiba Inu. The atmosphere is drenched in dramatic lighting and a thick blanket of mysterious fog. The artstyle is Japanese animation, with exaggerated comical expressions on llama's face. Camera is rotating around the characters, capturing the moment in an epic composition. Cinematic, movie, film grain.",
+    
+    "Anime content: the white llama, draped in a celestial blue cloak, emanating energy waves, standing on a precarious, wooden bridge suspended over a deep chasm. The bridge is animated to appear old, with creaking planks occasionally breaking and falling. The Shiba Inu watches with visible concern in its eyes. Dramatic lighting, mist falling from above. Wide-angle shot, capturing the perilous height and depth, in the style of a movie. Cinematic, film grain.",
+    
+    "Animation: Close-up of the llama's face, portraying funny, exaggerated expressions, blink of its blue eyes brimming with determination. The Shiba Inu is baring its teeth in a comical grin, creating a humorous atmosphere. Highlighting the fur detail, soft, fluffy and well-kept. Background is blurry, using bokeh effect. Dramatic lighting highlighting characters. Cinematic, movie, ultra-realistic, film grain.",
+    
+    "Anime footage: the white llama hovering mid-air, surrounded by a glowing aura, firing beams of pink and purple energy from its hooves. Its face is comically scrunched up in concentration with the Shiba Inu, on the ground, barking supportively. Bright colors, high contrast. Cinematic lighting, from a low angle, capturing the action in high detail. Cinematic, movie, film grain, aerial view.",
+    
+    "Animated content: wide shot of the llama touching down on verdant green mountains riddled with enormous, blasted craters. Its clothes are charred but its posture is triumphant, the Shiba Inu circles around it, tail wagging at high speed. Animated cloud of dust, debris detail. Camera performs dolly zoom shot, capturing the breadth of destruction. Cinematic, movie, high contrast colors, film grain.",
+    
+    "Japanese animation: white llama and Shiba Inu navigate a bustling animated metropolis, hyper-detailed with neon-lit buildings, holographic signs, pedestrians in varied attire. Focus on characters, teeming environment. Camera pans from ground level to bird-eye view, showing the city's beautiful layout. Vibrancy of colors, detailed textures, complex lighting. Cinematic, movie, film grain.",
+    
+    "Animation: white llama and Shiba Inu entering a traditional Japanese dojo in sundown. Detailed texture of the classic architecture, painted sliding doors, tatami mats. Orange hue lingering in the air, moody and atmospheric lighting. Camera details environment in a tracking shot, ending with characters. Cinematic, movie, film grain.",
+    
+    "Anime video: llama and Shiba Inu seated at a shoji screen, enjoying ramen in beautifully detailed ceramic bowls. Lighting is soft, soothing. Characters are seen laughing, steaming ramen bowls and animated, large droplets of soup spray in the air for humorous effect. Detailed textures, colors, and shadows. Camera close-up, panning to cinematic long shot. Movie, film grain.",
+    
+    "Animated footage: white llama soaring through a starlit sky, detailed, heavenly vista as its backdrop. The Shiba Inu is snuggled comfortably on its back. God's rays, subtle, soft lighting from the moon. Detailed textures of characters' fur, llama's magical aura. Movie, film grain, cinematic, ultra high-definition.",
+    
+    "Anime movie footage of the white llama landing on a mountain peak as sun rises. The bright light casts dramatic shadows, illuminating the characters' relieved expressions. Vivid colors, detailed, glorious sunrise. The Shiba Inu hops off, still looking adorable despite the long journey. Camera at a low angle, slowly panning to capture this climactic scene. Cinematic, film grain, movie."
   ]
 }
-
 const result = {
     "sequenceId": v4(),
     "lastGenerationAt": "",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "startAtShotId": "de6a97b1-d534-4958-b8ec-58dc4e727636",
+  "startAtShotId": "92e2925c-4dbe-4c73-9c3b-d7be77c0438a",
   "sequences": [
     {
       "sequenceId": "0489dbc6-791c-4cb8-97f6-ada01092fa91",
@@ -3729,6 +3729,248 @@
       ]
     },
     {
+      "sequenceId": "1a6b8639-8843-4087-9f5b-5f08d6b62387",
+      "lastGenerationAt": "",
+      "videoPrompt": "3D animation movie of a live concert by a band of llamas",
+      "audioPrompt": "ambient deep house, futuristic and moden, drum machine, synth",
+      "tags": [
+        "trailer",
+        "science-fiction"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "92e2925c-4dbe-4c73-9c3b-d7be77c0438a",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animation of a white llama, wearing cool sunglasses, confidently strumming a red electric guitar under purple stage lights. Pixar-style textures and impressions, the character's wool fluffy and realistic. A dynamic camera movement encircles the character, movie-like shot with film grain using imax quality, cinematic, and highly detailed.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "274370b8-cfa5-4c89-9f20-9c7eb2b5b9d7",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animation of a white llama, sporting a suave fedora, passionately playing a brass saxophone on a stage lit with blues. Pixar-like attention to detail, lifelike velvet texture of the fedora and glossy brass instrument. Camera focusing closely on the llama's face, the cinematic scene filled with suspense and film grain, captured in imax quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "5fa3b84f-c333-4d43-b106-b0fca4983d17",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animated depiction of a white llama with round glasses, joyfully bouncing along to the rhythm while striking keys on a grand piano. The stage lighting transitions to emerald green, reflecting off the piano's ebony gloss. Pixar-esque visual details of the vivid colors and expressive animation. Camera surveys the entire scene in a dramatic wide-angle shot with film grain and imax encapsulation, adding to the cinematic atmosphere.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "de694833-9ce2-4395-9378-0742b24c1101",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animation featuring a white llama with big, colorful headphones, drumming energetically on a glimmering drum set under warm orange lights. Pixar-style animation detailed down to the grain of the drumstick and the bouncing cymbal. The camera spins around this drumming sensation, creating a cinematic effect infused with movie-like film grain in imax quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "0848dde2-43c4-4707-aafa-72cf3ec70d83",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animation rendering of a white llama, clad in a shiny jacket, whimsically playing a trumpet bathed in soft pink lights. Attention to the Pixar-like detail noticeable in the way the jacket shimmers and the puffiness of the llama's cheeks. A dramatic low-angle shot by the camera accentuates the character, with the film grain for a movie look and imax for the sharpness of details.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a38b257c-4de6-472f-9d6c-19d9010ea7eb",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animated scene of a white llama singing into a sparkling microphone under golden spotlights. The Pixar-style animation brings out the fine texture of the microphone and the llama's apparent joy. The camera provides an extreme close-up shot of the llama's face, capturing the cinematic moment in film grain and imax clarity.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "b7198535-fb5d-4d92-b7d7-bbc1843dc60a",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D rendering of the entire band of white llamas on the stage, each performing their instrument to the rhythm of the music. The lighting morphs through the rainbow spectrum, reflecting off of the instruments and the llamas' fur. Pixar-like details visible on every character and instrument. The camera sweeps across the stage in a majestic panning motion, capturing the scene in a filmic grain and imax standard.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "309a0977-e66d-4918-8bd5-82a0c8fda4cb",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animation presenting a split screen of each white llama deeply engrossed in their masterful performance, a symphony of colored lights highlighting their concentration. Each box showcasing a Pixar-worthy level of detail and lively vibrancy. The camera smoothly transitions between each character, preserving the cinematic feel with film grain and imax quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "3d58329b-db28-4c47-98aa-33d0b61afc0b",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animation of the band of white llamas, triumphantly finishing their song, bathing under white spotlight. Each character and instrument rendered with Pixar-like detail, the glistening of sweat on their fur testifying to the strenuous performance. The camera captures their jubilant faces from a wide angle, adding to the cinematic essence with film grain and imax quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "5f20eeeb-7301-416c-9bd7-0ea7042c705e",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animation featuring the band of white llamas, taking a bow as dazzling confetti rain down on them. Each piece of confetti, the stage lighting, their gleaming instruments showcases the Pixar-like detail and realism. A close-up shot by the camera encapsulates this dramatic ending, making it cinematic with a movie-like film grain in imax quality.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "05c23933-3a71-4f8b-999d-f43cf8257173",
+      "lastGenerationAt": "",
+      "videoPrompt": "sequence of various people dancing in the street of various american cities, streets, but also some places such as the grand canyon etc.",
+      "audioPrompt": "ambient deep house, futuristic and moden, drum machine, synth",
+      "tags": [
+        "trailer",
+        "science-fiction"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "5dae260a-ce4d-4d46-b6d7-045a5dfeb56d",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "movie footage of a woman in the vibrant streets of New York, ecstatically dancing in her bold, brightly colored dress with a soft urban sunset lighting her and Manhattan skyline in the background, vivid colours, cinematic, Canon EOS, ultra wide-angle, movie, film grain, Ultra HD 4K",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "eb5eaa2c-19db-4b73-94c4-7fc578c54b57",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "film footage of a man in the vibrant streets of San Francisco, masterfully performing breakdance on a sunny day with the golden gate bridge hanging in the background, dramatic lighting, eye-catching textures, cinematic, Canon EOS, 100mm lens, movie, film grain, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "2e1ce2e7-d06d-444e-a3b3-7e6478bc58f3",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "film snippet of an elderly woman in the cold, wintery streets of Chicago, lightly tap-dancing in a fur coat at high noon, snowflakes glistening in the sunlight, captivating textures, cinematic, Canon EOS, fisheye lens, movie, film grain, high quality, studio quality",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "2f6806a9-5cee-4892-adba-83548122309f",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "movie shot of a young girl on the golden streets of Las Vegas, twirling in her shiny sequin dress under the neon lights with the extravagant Sin City skyline in the background, refined details, cinematic, Canon EOS, ultra wide-angle, movie, film grain, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "6fec30f9-dbe0-4243-afc6-8838d2b5659e",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "movie capture of a woman in the deserted streets of Los Angeles, lost in the rhythm of her dance in a denim outfit during golden-hour sunset, chic street art in the background, emphasized textures, cinematic, Canon EOS, extreme long-shot, movie, film grain, stunning, 4k",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "e756d6ea-c424-4a05-b553-4be80ec68513",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "film footage of a young boy in the sunny streets of Miami, energetically moving to the rhythm of salsa in his bright Cuban shirt with the bustling beach in the background, vibrant colors, cinematic, Canon EOS, wide angle, movie, film grain, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d6bb4dcf-65ce-4e73-b39d-e5f6d58001fc",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "movie capture of a woman in the snow-filled streets of Denver, flawlessly performing ballet in a fluffy white tutu amidst light snowfall and mid-afternoon light, frosty atmosphere, cinematic, Canon EOS, bokeh effect, movie, film grain, high detailed skin, 4k",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "6a89a069-03ac-4329-afb4-fa50a6d07f69",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "film shot of a man dancing passionately on the magnificent edge of the Grand Canyon, under the setting sun casting god’s rays through sparse clouds, his rustic outfit harmonizing with the rich natural hues, majestic scenery, cinematic, Canon EOS, wide lens, movie, film grain, award winning, 4k",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "6741315d-9b5e-43ef-ab6d-e14e6f93897a",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "movie footage of a girl in the busy streets of Nashville, skillfully square-dancing in her classic checkered dress under the warm midday light with the country bars in the backdrop, rich textures, cinematic, Canon EOS, fisheye lens, movie, film grain, trending on artstation, 4k",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "85a0d526-e5ed-468c-90cf-b1fe32703625",
+      "lastGenerationAt": "",
+      "videoPrompt": "japanese animation anime movie, featuring a llama with super powers",
+      "audioPrompt": "ambient deep house, futuristic and moden, drum machine, synth",
+      "tags": [
+        "trailer",
+        "science-fiction"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "497db057-6c4c-44f5-a9ef-3421a046a05e",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Animated content: a white llama with vibrant blue eyes and a multicolored, magical aura around it, standing in a verdant forest, next to an adorable golden-brown Shiba Inu. The atmosphere is drenched in dramatic lighting and a thick blanket of mysterious fog. The artstyle is Japanese animation, with exaggerated comical expressions on llama's face. Camera is rotating around the characters, capturing the moment in an epic composition. Cinematic, movie, film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "402c34ec-624e-4db4-adab-1658b50221b1",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Anime content: the white llama, draped in a celestial blue cloak, emanating energy waves, standing on a precarious, wooden bridge suspended over a deep chasm. The bridge is animated to appear old, with creaking planks occasionally breaking and falling. The Shiba Inu watches with visible concern in its eyes. Dramatic lighting, mist falling from above. Wide-angle shot, capturing the perilous height and depth, in the style of a movie. Cinematic, film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d32cba10-eee1-4b7b-a2a4-42a7ddc175bb",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Animation: Close-up of the llama's face, portraying funny, exaggerated expressions, blink of its blue eyes brimming with determination. The Shiba Inu is baring its teeth in a comical grin, creating a humorous atmosphere. Highlighting the fur detail, soft, fluffy and well-kept. Background is blurry, using bokeh effect. Dramatic lighting highlighting characters. Cinematic, movie, ultra-realistic, film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a5fa72ce-8b01-4cbd-89f2-f92d6b1310a3",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Anime footage: the white llama hovering mid-air, surrounded by a glowing aura, firing beams of pink and purple energy from its hooves. Its face is comically scrunched up in concentration with the Shiba Inu, on the ground, barking supportively. Bright colors, high contrast. Cinematic lighting, from a low angle, capturing the action in high detail. Cinematic, movie, film grain, aerial view.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "4b453215-5a3f-49fa-b21a-e453a9a2174c",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Animated content: wide shot of the llama touching down on verdant green mountains riddled with enormous, blasted craters. Its clothes are charred but its posture is triumphant, the Shiba Inu circles around it, tail wagging at high speed. Animated cloud of dust, debris detail. Camera performs dolly zoom shot, capturing the breadth of destruction. Cinematic, movie, high contrast colors, film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "7cb92799-b706-41c9-ac01-97c379346612",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Japanese animation: white llama and Shiba Inu navigate a bustling animated metropolis, hyper-detailed with neon-lit buildings, holographic signs, pedestrians in varied attire. Focus on characters, teeming environment. Camera pans from ground level to bird-eye view, showing the city's beautiful layout. Vibrancy of colors, detailed textures, complex lighting. Cinematic, movie, film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8b67caaa-b2d7-43e4-8937-1ff736eec368",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Animation: white llama and Shiba Inu entering a traditional Japanese dojo in sundown. Detailed texture of the classic architecture, painted sliding doors, tatami mats. Orange hue lingering in the air, moody and atmospheric lighting. Camera details environment in a tracking shot, ending with characters. Cinematic, movie, film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "58325687-0aec-4c1b-a22b-c3c4c624b11f",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Anime video: llama and Shiba Inu seated at a shoji screen, enjoying ramen in beautifully detailed ceramic bowls. Lighting is soft, soothing. Characters are seen laughing, steaming ramen bowls and animated, large droplets of soup spray in the air for humorous effect. Detailed textures, colors, and shadows. Camera close-up, panning to cinematic long shot. Movie, film grain.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "5e8a9789-ce7e-46d1-afd1-17e4148be696",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Animated footage: white llama soaring through a starlit sky, detailed, heavenly vista as its backdrop. The Shiba Inu is snuggled comfortably on its back. God's rays, subtle, soft lighting from the moon. Detailed textures of characters' fur, llama's magical aura. Movie, film grain, cinematic, ultra high-definition.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "6747c12a-ece0-4853-8799-28f1f473a988",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Anime movie footage of the white llama landing on a mountain peak as sun rises. The bright light casts dramatic shadows, illuminating the characters' relieved expressions. Vivid colors, detailed, glorious sunrise. The Shiba Inu hops off, still looking adorable despite the long journey. Camera at a low angle, slowly panning to capture this climactic scene. Cinematic, film grain, movie.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
       "sequenceId": "1af2eae6-7fbd-4327-8b3f-ca121449bca7",
       "lastGenerationAt": "",
       "videoPrompt": "an anime movie in the style of Studio Ghibli and Miyazaki, showing a magical panda becoming friend with a black cat. The panda can transform into various people and objects. Set in feudal japan, they go on adventures in beautiful japanese landscape. We can see leaves of cherry blossom, beautify japanese mountains, plains, rivers, traditional japanese settings. In nearly all scenes we should have dynamic camera effects (eg. rotating around the scene), as well as mist, haze or fog effect. To add to the mystic, each some scenes should have dramatic light effects, such as golden hour, god's ray.",
@@ -4851,6 +5093,7 @@
     },
     {
       "sequenceId": "ffdf5060-f612-4889-871e-16c0a1334dcf",
+      "skip": true,
       "lastGenerationAt": "",
       "videoPrompt": "movie documentary, northern hemisphere animals, dramatic camera movements, golden hour light, atmospheric effects",
       "audioPrompt": "ambient deep house, drum machine, synth",
