@@ -17,6 +17,9 @@ const status = `${process.env.WEBTV_STATUS || 'dry_run'}` as RunMode
 
 console.log(`Web TV server status: ${status}`)
 
+// to add more diversity to the stream, let's cut down on the length
+const maxShotsPerSequence = 6
+
 const main = async () => {
   if (status === 'paused') {
     setTimeout(() => {
@@ -94,6 +97,7 @@ ${sequence.videoPrompt}
         continue
       }
 
+
       try {
         const generatedVideoUrl = await callZeroscope(shot.videoPrompt)
 
@@ -129,20 +133,24 @@ ${sequence.videoPrompt}
         console.log(`- error: ${err}`)
       }
 
-      const totalRunTime = videoDurationInSecs * generatedShots.length
+      // for the initial demo, we may want to limit the number of shots per sequence
+      if (shotIndex > maxShotsPerSequence) {
+        break
+      }
+    }
+
+    console.log('Finished generating sequence')
+    
+    const totalRunTime = videoDurationInSecs * generatedShots.length
 
       if (totalRunTime <= 0) {
         continue
       }
 
-      // TODO: generate music from MusicGen, with the correct length
-      // (or we could generate a slightly larger track and let ffmpeg cut it)
-      console.log(`TODO: generate ${totalRunTime} seconds of music`)
-      await callMusicgen(sequence.audioPrompt) // this does nothing for now
-
-    }
-
-    console.log('Finished generating sequence')
+    // TODO: generate music from MusicGen, with the correct length
+    // (or we could generate a slightly larger track and let ffmpeg cut it)
+    console.log(`TODO: generate ${totalRunTime} seconds of music`)
+    await callMusicgen(sequence.audioPrompt) // this does nothing for now
   }
 
   console.log('Finished the cycle')

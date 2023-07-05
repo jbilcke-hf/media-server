@@ -13,7 +13,7 @@ export async function upscaleVideo(fileName: string, prompt: string) {
     protocolTimeout: 800000,
   })
 
-  const spaceUrl = `https://jbilcke-hf-zeroscope-xl.hf.space`
+  const spaceUrl = process.env.WEBTV_UPSCALE_SPACE_API_URL
 
   const page = await browser.newPage()
 
