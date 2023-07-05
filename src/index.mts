@@ -66,7 +66,7 @@ Going to generate ${sequence.shots.length} for prompt:
 ${sequence.videoPrompt}
 `)
 
-    const sequenceId = uuid()
+    const movieId = uuid()
 
     const generatedShots: string[] = []
 
@@ -97,7 +97,7 @@ ${sequence.videoPrompt}
       try {
         const generatedVideoUrl = await callZeroscope(shot.videoPrompt)
 
-        const shotFileName = `inst_${instanceId}_seq_${sequenceId}_shot_${shotIndex++}_${Date.now()}.mp4`
+        const shotFileName = `inst_${instanceId}_movie_${movieId}_seq_${sequence.sequenceId}_shot_${shotIndex++}_${Date.now()}.mp4`
 
         console.log(`- downloading shot ${shotFileName} from ${generatedVideoUrl}`)
         await downloadVideo(generatedVideoUrl, shotFileName)
