@@ -18,7 +18,7 @@ while true; do
 
     # echo "Trying to create the final stream for channel 2.."
     ffmpeg -y -nostdin -re -f concat -safe 0 -i "channel_2_video_list_a.txt" -loglevel error -c:v libx264 -preset veryfast -tune zerolatency -c:a aac -ar 44100 -f flv rtmp://localhost/live/webtv2
-    # ffmpeg -y -nostdin -re -f concat -safe 0 -i "channel_2_video_list_a.txt" -i "channel_2_audio_list_a.txt" -loglevel error -c:v libx264 -preset veryfast -tune zerolatency -c:a aac -ar 44100 -f flv rtmp://localhost/live/webtv
+    # ffmpeg -y -nostdin -re -f concat -safe 0 -i "channel_2_video_list_a.txt" -i "channel_2_audio_list_a.txt" -loglevel error -c:v libx264 -preset veryfast -tune zerolatency -c:a aac -ar 44100 -f flv rtmp://localhost/live/webtv2
     
     # echo "Live stream for channel 2 got interrupted, will try again in 1 sec"
 done

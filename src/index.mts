@@ -18,7 +18,7 @@ const status = `${process.env.WEBTV_STATUS || 'dry_run'}` as RunMode
 console.log(`Web TV server status: ${status}`)
 
 // to add more diversity to the stream, let's cut down on the length
-const maxShotsPerSequence = 6
+const maxShotsPerSequence = 10
 
 const main = async () => {
   if (status === 'paused') {
