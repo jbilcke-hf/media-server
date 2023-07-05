@@ -1,21 +1,38 @@
 #!/bin/bash
 
-echo "creating the storage folders.."
-mkdir -p $WEBTV_VIDEO_STORAGE_PATH
-mkdir -p $WEBTV_VIDEO_STORAGE_PATH_NEXT
-mkdir -p $WEBTV_AUDIO_STORAGE_PATH
+# ------------- CHANNEL 1 --------------
+echo "creating the storage folders for channel 1.."
+mkdir -p $WEBTV_VIDEO_STORAGE_PATH_CHANNEL_1
+mkdir -p $WEBTV_AUDIO_STORAGE_PATH_CHANNEL_1
 
-echo "creating the playlists.." 
-echo "ffconcat version 1.0" > list_a.txt
-echo "ffconcat version 1.0" > list_b.txt
-echo "ffconcat version 1.0" > audio_list_a.txt
-echo "ffconcat version 1.0" > audio_list_b.txt
+echo "creating the playlists for channel 1.." 
+echo "ffconcat version 1.0" > channel_1_video_list_a.txt
+echo "ffconcat version 1.0" > channel_1_video_list_b.txt
+echo "ffconcat version 1.0" > channel_1_audio_list_a.txt
+echo "ffconcat version 1.0" > channel_1_audio_list_b.txt
 
-echo "file 'list_b.txt'" >> list_a.txt
-echo "file 'list_a.txt'" >> list_b.txt
-echo "file 'audio_list_b.txt'" >> audio_list_a.txt
-echo "file 'audio_list_a.txt'" >> audio_list_b.txt
+echo "file 'channel_1_video_list_b.txt'" >> channel_1_video_list_a.txt
+echo "file 'channel_1_video_list_a.txt'" >> channel_1_video_list_b.txt
+echo "file 'channel_1_audio_list_b.txt'" >> channel_1_audio_list_a.txt
+echo "file 'channel_1_audio_list_a.txt'" >> channel_1_audio_list_b.txt
 
-echo "create the named pipes.."
-mkfifo video.pipe
-mkfifo audio.pipe
+# ------------- CHANNEL 2 --------------
+echo "creating the storage folders for channel 2.."
+mkdir -p $WEBTV_VIDEO_STORAGE_PATH_CHANNEL_2
+mkdir -p $WEBTV_AUDIO_STORAGE_PATH_CHANNEL_2
+
+echo "creating the playlists for channel 2.." 
+echo "ffconcat version 1.0" > channel_2_video_list_a.txt
+echo "ffconcat version 1.0" > channel_2_video_list_b.txt
+echo "ffconcat version 1.0" > channel_2_audio_list_a.txt
+echo "ffconcat version 1.0" > channel_2_audio_list_b.txt
+
+echo "file 'channel_2_video_list_b.txt'" >> channel_2_video_list_a.txt
+echo "file 'channel_2_video_list_a.txt'" >> channel_2_video_list_b.txt
+echo "file 'channel_2_audio_list_b.txt'" >> channel_2_audio_list_a.txt
+echo "file 'channel_2_audio_list_a.txt'" >> channel_2_audio_list_b.txt
+
+# maybe we will try that again in the future
+# echo "create the named pipes.."
+# mkfifo video.pipe
+# mkfifo audio.pipe
