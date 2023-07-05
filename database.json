@@ -4,6 +4,7 @@
   "sequences": [
     {
       "sequenceId": "0489dbc6-791c-4cb8-97f6-ada01092fa91",
+      "skip": true,
       "lastGenerationAt": "",
       "videoPrompt": "a movie documentary about various animals from Africa, savannah, dramatic camera movements, various types of herbivores and predators, various types of sun and lighting effects, close-ups, and lighting effects, mist, haze or fog effect, golden hour light, god's rays, cinematic, imax, movie, film grain",
       "audioPrompt": "ambient deep house, drum machine, synth",
@@ -294,6 +295,7 @@
     },
     {
       "sequenceId": "4be04d0c-6a33-45af-96cf-3ac91c279325",
+      "skip": true,
       "lastGenerationAt": "",
       "videoPrompt": "a western movie, featuring herds and cattle, buffalo.. grazing in the mist, dust, cowboys going around, lot of shots of beautiful wild horses, cowboys going arounds, then groups of cowboys going in the plains, canyons, deserts, very intense and dramatic lighting, lot of dramatic camera movements (like rotations, traveling, drone etc), tons of mist, haze and fogs, but mostly in golden hour light or early evening or morning, god's rays etc. (add the keywords 'cinematic', 'imax', 'movie', 'film grain')",
       "audioPrompt": "ambient deep house, drum machine, synth",
@@ -3164,6 +3166,7 @@
     },
     {
       "sequenceId": "f35847fe-c1fd-4416-92d0-f43555f39105",
+      "skip": true,
       "lastGenerationAt": "",
       "videoPrompt": "a movie about a police car chase in Los Angeles",
       "audioPrompt": "ambient deep house, drum machine, synth",
@@ -4658,6 +4661,7 @@
     },
     {
       "sequenceId": "7c5c6bf0-36be-4a0d-803f-e7af4e054c7f",
+      "skip": true,
       "lastGenerationAt": "",
       "videoPrompt": "a real movie about sportcars traveling in various environments",
       "audioPrompt": "soundtrack of a movie about a car race, fast-paced, energic",

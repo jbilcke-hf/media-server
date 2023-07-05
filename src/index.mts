@@ -63,6 +63,11 @@ const main = async () => {
       continue
     }
 
+    // some sequences can also be skipped by human curation
+    if (sequence.skip) {
+      continue
+    }
+
     console.log(`
 -----------------------------------------------------------
 Going to generate ${sequence.shots.length} for prompt:

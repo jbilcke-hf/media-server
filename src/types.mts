@@ -8,6 +8,7 @@ export interface Shot {
 
 export interface Sequence {
   sequenceId: string
+  skip: boolean
   lastGenerationAt: string
   videoPrompt: string
   audioPrompt: string
