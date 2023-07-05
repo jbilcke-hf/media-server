@@ -86,7 +86,7 @@ ${sequence.videoPrompt}
         continue
       }
 
-      console.log(`- generating shot: ${shot.shotId}`)
+      console.log(`- generating shot ${shot.shotId}: ${shot.videoPrompt}`)
 
       if (status === 'dry_run') {
         // console.log('DRY RUN')
