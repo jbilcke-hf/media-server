@@ -18,7 +18,7 @@ while true; do
         echo "ffconcat version 1.0" > channel_2_video_list_a.txt
         echo "ffconcat version 1.0" > channel_2_video_list_b.txt
         for (( i=0; i<${#files[@]}; i++ )); do
-            echo "file '${files[$i]}'"
+            # echo "file '${files[$i]}'"
             if (( i%2 == 0 )); then
                 echo "file '${files[$i]}'" >> channel_2_video_list_a.txt
             else
