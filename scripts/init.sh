@@ -5,6 +5,8 @@ echo "creating the storage folders for channel 1.."
 mkdir -p $WEBTV_VIDEO_STORAGE_PATH_CHANNEL_1
 mkdir -p $WEBTV_AUDIO_STORAGE_PATH_CHANNEL_1
 
+bash downloadmusic.sh
+
 echo "creating the playlists for channel 1.." 
 echo "ffconcat version 1.0" > channel_1_video_list_a.txt
 echo "ffconcat version 1.0" > channel_1_video_list_b.txt
