@@ -1,36 +1,29 @@
 const { v4 } = require('uuid')
 const raw = {
-  "input": "japanese animation anime movie, featuring a llama with super powers",
+  "input": "a photorealistic movie about a huge kraken squid attacking a large pirate sailing ship and ultimately crushing it, leaving only a few survivors",
   "captions": [
-    "Animated content: a white llama with vibrant blue eyes and a multicolored, magical aura around it, standing in a verdant forest, next to an adorable golden-brown Shiba Inu. The atmosphere is drenched in dramatic lighting and a thick blanket of mysterious fog. The artstyle is Japanese animation, with exaggerated comical expressions on llama's face. Camera is rotating around the characters, capturing the moment in an epic composition. Cinematic, movie, film grain.",
-    
-    "Anime content: the white llama, draped in a celestial blue cloak, emanating energy waves, standing on a precarious, wooden bridge suspended over a deep chasm. The bridge is animated to appear old, with creaking planks occasionally breaking and falling. The Shiba Inu watches with visible concern in its eyes. Dramatic lighting, mist falling from above. Wide-angle shot, capturing the perilous height and depth, in the style of a movie. Cinematic, film grain.",
-    
-    "Animation: Close-up of the llama's face, portraying funny, exaggerated expressions, blink of its blue eyes brimming with determination. The Shiba Inu is baring its teeth in a comical grin, creating a humorous atmosphere. Highlighting the fur detail, soft, fluffy and well-kept. Background is blurry, using bokeh effect. Dramatic lighting highlighting characters. Cinematic, movie, ultra-realistic, film grain.",
-    
-    "Anime footage: the white llama hovering mid-air, surrounded by a glowing aura, firing beams of pink and purple energy from its hooves. Its face is comically scrunched up in concentration with the Shiba Inu, on the ground, barking supportively. Bright colors, high contrast. Cinematic lighting, from a low angle, capturing the action in high detail. Cinematic, movie, film grain, aerial view.",
-    
-    "Animated content: wide shot of the llama touching down on verdant green mountains riddled with enormous, blasted craters. Its clothes are charred but its posture is triumphant, the Shiba Inu circles around it, tail wagging at high speed. Animated cloud of dust, debris detail. Camera performs dolly zoom shot, capturing the breadth of destruction. Cinematic, movie, high contrast colors, film grain.",
-    
-    "Japanese animation: white llama and Shiba Inu navigate a bustling animated metropolis, hyper-detailed with neon-lit buildings, holographic signs, pedestrians in varied attire. Focus on characters, teeming environment. Camera pans from ground level to bird-eye view, showing the city's beautiful layout. Vibrancy of colors, detailed textures, complex lighting. Cinematic, movie, film grain.",
-    
-    "Animation: white llama and Shiba Inu entering a traditional Japanese dojo in sundown. Detailed texture of the classic architecture, painted sliding doors, tatami mats. Orange hue lingering in the air, moody and atmospheric lighting. Camera details environment in a tracking shot, ending with characters. Cinematic, movie, film grain.",
-    
-    "Anime video: llama and Shiba Inu seated at a shoji screen, enjoying ramen in beautifully detailed ceramic bowls. Lighting is soft, soothing. Characters are seen laughing, steaming ramen bowls and animated, large droplets of soup spray in the air for humorous effect. Detailed textures, colors, and shadows. Camera close-up, panning to cinematic long shot. Movie, film grain.",
-    
-    "Animated footage: white llama soaring through a starlit sky, detailed, heavenly vista as its backdrop. The Shiba Inu is snuggled comfortably on its back. God's rays, subtle, soft lighting from the moon. Detailed textures of characters' fur, llama's magical aura. Movie, film grain, cinematic, ultra high-definition.",
-    
-    "Anime movie footage of the white llama landing on a mountain peak as sun rises. The bright light casts dramatic shadows, illuminating the characters' relieved expressions. Vivid colors, detailed, glorious sunrise. The Shiba Inu hops off, still looking adorable despite the long journey. Camera at a low angle, slowly panning to capture this climactic scene. Cinematic, film grain, movie."
+    "Movie scene of a high sea under a stormy sky, intense waves crashing into a looming pirate ship, all sails set, swinging on the harsh ocean, sunset, Canon EOS C300 Mark II, studio quality, 8k uhd, cinematic, photorealistic, movie.",
+    "Movie scene follows a large kraken squid smoothly moving under the dark ocean surface, close to the pirate ship, high detailed, Adobe Premiere with Red Giant effects, 85 mm lens, extreme close-up, cinematic, photorealistic.",
+    "Movie scene capturing giant shadowy squid tentacle quietly emerging from the deep sea, glistening in the fleeting light, harsh storm and rain pouring, Canon EOS C300 Mark II, depth of field, breathtaking, cinematic, photorealistic, movie.",
+    "Movie scene of sailors on the pirate ship catching sight of the tentacle, their faces in horror under the dramatic lighting by random lightning bolts, Canon EOS C300 Mark II, high details, cinematic, photorealistic.",
+    "Movie scene capturing the kraken squid tentacle attacking the pirate ship, crushing part of the structure, redwood splinters flying, Canon EOS C300 Mark II with Slo mo 240 fps, harrowing, intense, cinematic, photorealistic, movie.",
+    "Movie scene depicts the massive squid tentacle sweeping across the pirate decks, with chaotic action of sailors scrambling, the ship seems ready to capsize, Canon EOS C300 Mark II, ultra realistic, breathtaking, cinematic, photorealistic.",
+    "Movie scene showcasing entire pirate ship jerked off its axis by the powerful squid, water tidal wave engulfing it, 8k uhd, Canon EOS C300 Mark II, slow motion capture, studio quality, cinematic, photorealistic, movie.",
+    "Movie scene capturing the fallout, the pirate ship now a wreck, crushed under the power of the kraken squid, flying debris, 8k uhd, Canon EOS C300 Mark II, slow-motion capture, cinematic, photorealistic, movie.",
+    "Movie scene picturing the last dramatic moment, where the kraken vanishes into the depth of the ocean pulling the shipwreck with it, Canon EOS C300 Mark II, breathtaking visual, studio quality, cinematic, photorealistic, movie.",
+    "Movie scene capturing handful of shipwrecked survivors on a makeshift life raft amidst the debris field, tiny makeshift sail, dusk light, Canon EOS C300 Mark II, sorrowful, high detailed, cinematic, photorealistic, movie."
   ]
 }
 const result = {
     "sequenceId": v4(),
+    "skip": false,
     "lastGenerationAt": "",
     "videoPrompt": raw.input,
-    "audioPrompt": "ambient deep house, futuristic and moden, drum machine, synth",
+    "audioPrompt": "epic music for a pirate movie, lot of energy, adventure, action",
     "tags": [
       "trailer",
-      "science-fiction"
+      "action",
+      "adventure"
     ],
     "channel": "main",
     "shots": raw.captions.map((cap, i) => ({

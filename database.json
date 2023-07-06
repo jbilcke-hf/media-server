@@ -1,7 +1,727 @@
 {
   "version": 1,
-  "startAtShotId": "92e2925c-4dbe-4c73-9c3b-d7be77c0438a",
+  "startAtShotId": "",
   "sequences": [
+    {
+      "sequenceId": "3b7fb664-f50a-4e2d-b63b-e1fedb22e501",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "A photorealistic movie about a llama having various jobs",
+      "audioPrompt": "rock music with synth, garage style, trending on the radio",
+      "tags": [
+        "trailer",
+        "comedy"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "88b63361-7e5f-4a13-ad7d-d18820591f67",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic movie of a llama dressed as a stock trader, analyzing multiple monitors with live market data, in a busy wall street office, dramatic lighting, Canon EOS, high quality, award winning, trending on artstation, highly detailed fur",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "da900ad6-78a0-4bee-b812-525bf53fc253",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a llama acting as a programmer, wearing glasses and a hoodie, intensely staring at a screen with lines of code, in a cozy, dimly lit room, Canon EOS, ambient lighting, high details, cinematic, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "7229c394-c544-4542-83a5-3e91c8969b1f",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic footage of a llama working as a cook, donning a chef hat and apron, bustling around a professional kitchen, with shiny stainless steel appliances, focused on preparing a dish, Canon EOS, ambient lighting, high quality, award-winning, highly detailed fur, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "22d2cf17-8eeb-4b57-bdc5-0c697515f83a",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Film sequence of a llama being a musician, creatively strumming a guitar, wearing a rock star outfit, in a groovy music studio filled with vintage instruments, Canon EOS, dramatic lighting, high quality, award-winning, highly detailed fur, trending on artstation, cinematic",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c173c062-403f-49b1-b32a-c5e116f2d60e",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a llama working as a construction worker, wearing a hard hat and reflective vest, overseeing a busy construction site, Canon EOS, afternoon sunlight, high quality, award-winning, highly detailed fur, cinematic, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "7a3624c2-4192-4153-a6e4-b966923a8783",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic sequence of a llama being a librarian, wearing reading glasses and a cardigan, scanning through rows of bookshelves in a grand library, Canon EOS, ambient lighting, high quality, award-winning, highly detailed fur, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "2fae7659-f4e4-46bc-8c2d-b7ba042801f1",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie scene of a llama acting as a firefighter, in firefighter uniform, dramatically spraying water at roaring flames, amidst a chaotic urban scene, Canon EOS, ambient lighting, high quality, award winning, highly detailed fur, cinematic, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "13c00dea-72a0-4415-a040-da6fa30edfb8",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic footage of a llama working as a professional painter, mixing colors on a palette, canvas in the background, in a spacious sunlit art studio, Canon EOS, natural lighting, high quality, award winning, highly detailed fur, cinematic, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "29c45bd0-83f9-4369-83c1-9f0cdf8171b9",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic movie of a llama being an astronaut, in a suit, conducting zero gravity experiments in a bustling, high-tech space station, Canon EOS, ambient lighting, high quality, award-winning, highly detailed fur, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "4304c1d8-a7f9-4a0a-b721-14ce0e70d9e3",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Film sequence of a llama acting as a professional photographer, adjusting the lens on its extensive, high-end camera, amidst a scenic outdoor setting during golden hour, Canon EOS, award winning, high quality, highly detailed fur, cinematic, trending on artstation",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "337fb268-1df0-4b89-b3af-4e4299b04b26",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a photorealistic movie and documentary about alien squid-like lifeforms living on the ground",
+      "audioPrompt": "electronic and experimental music, ethereal, slightly atonal, eery, drum machine loop",
+      "tags": [
+        "trailer",
+        "documentary",
+        "science-fiction"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "e96dbf55-ed89-485d-a053-20328c9c6cda",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie footage of two whimsical, octopus-like aliens glowing in neon shades, sauntering over craggy, moonlit terrain, under an effulgent alien sky filled with constellations, cinematic, photorealistic, ultra wide-angle, high quality, 4k",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "05a23d9e-a249-49ff-a825-28817672a24c",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie capture of a massive squid, its many arms undulating in dappled sunlight, navigating a jagged mountain path, accented by striking surreal colours in the azure alien skyline, aerial view, award winning, 8k UHD",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "bef9d0de-5d13-41ca-8519-7523db39d823",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Film shot of a colony of smaller, vibrant octopi, moving in fluid harmony on an alien rock formation, under the hauntingly beautiful, ribbon-like aurora of an alien sky, ambient lighting, landscape, trending on Artstation, raw photo",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "359021f3-0595-4547-98d6-8af23aa4d827",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic movie scene of a glowing squid, gracefully gliding over a stream of glittering extraterrestrial minerals, aglow under a bioluminescent alien flora backdrop, backlight, extreme close-up, studio quality, 8k UHD",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "22fb5b8e-4233-4c8f-8c28-d7f5f6a0d4af",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic film clip of a radiant, massive octopus, its tentacles exploring the textures of an alien arboreal species, under the velvety indigo twilight of an alien moonrise, soft lighting, low angle, beautiful, 4k",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "2efef281-890e-4c01-8cd3-c8e8b17686ca",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie capture of a duo of alien octopi, their neon colors juxtaposing against a rust-hued alien desert terrain, the surreal hues of the sky reflected in their glossy skins, concert lighting, fisheye, stunning, RAW photo",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "04f48cad-9561-47ce-b975-f692ca10db27",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Film scene of a squid gently nuzzling an unusual, gem-like creature, the alien night sky glittering with cosmic patterns in the background, moonlight, close-up, trending on Artstation, high detailed skin",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8688f260-c1a5-4c2f-820f-6576dc0d2cb0",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie footage of a gigantic, squid-like lifeform, silhouetted against a majestic alien sunrise casting long shadows on a sprawling alien savannah, blinding light, dutch angle, breathtaking, 8k UHD",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "e6ff368c-95bf-4929-9560-d9be9194891b",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic clip showing a multitude of busy mini-octopi scurrying on the crusted surface of an aqua-covered alien ocean floor, sunlight filtering through water, high angle, beautiful, RAW photo",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "531f5afa-a03f-4be8-b49a-1a9fca11656c",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Final movie shot of a colony of squids and octopi, brilliant against the fiery hues of the alien sunset, their lithe forms pausing as if farewelling the viewer, direct sunlight, extreme long-shot, award-winning, 4k",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "5b8e9296-92cc-45dc-ad60-b26fc78d8326",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a beautiful anime movie in the style of studio ghibli and miyazaki, showing huge giant whales flying in the sky, with people who ride on small whales, and build large cities on the largest whale. Be sure to include beautiful landscapes, highly detailed clouds, God's ray effects, and a poetic atmosphere.",
+      "audioPrompt": "soundtrack for a movie, with orchestra, calming, whale sounds and wood drums, flute",
+      "tags": [
+        "trailer",
+        "animation",
+        "adventure"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "b04bc659-9692-4c71-9895-68e8086b784c",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Digital Animation of a giant whale floating gracefully in the sky, surrounded by fluffy clouds tinged with sunlight, God rays peeking through the gaps. Style of Studio Ghibli and Miyazaki, cinematic 16:9 composition, highly detailed, God rays, poetic, in anime movie style.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "4323fb37-12ac-4c7e-aa15-e15910dae3dc",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Digital Animation of a wide-angle view of a city built upon a massive whale, soaring high above a breathtaking landscape, within a sunset. Uniquely styled in the manner of Studio Ghibli and Miyazaki, cinematic 16:9 composition, 4k quality, finely detailed textures, God rays, poetic, anime movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "6f5094a9-e28f-4745-9401-90eee4b98246",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Digital Animation of a group of children riding smaller whales soaring through the air, their laughter echoed. Similar to Studio Ghibli and Miyazaki art style, cinematic and anime movie in 16:9 composition, soft lighting effects, ultra-realistic, high quality 4k.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d82cc81b-354a-4dfd-bc5d-cf0d88b47c1d",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Digital Animation of buildings teetering atop of the colossal whale's back, beneath the evening twilight. Styled after Studio Ghibli and Miyazaki, cinematic 16:9 composition, award-winning, ultra-realistic, high detailed skin in anime movie format, trending on artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d9552165-9f7b-4b98-852a-ba7d487fa859",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Digital Animation of a low angle shot of the underside of a floating whale-city, hanging precariously above the camera. In the style of Studio Ghibli and Miyazaki, cinematic 16:9 composition,  4k, high quality, finely detailed textures, God rays, poetic, rendered in an anime movie style.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "29ededd9-f6ec-4174-ada1-c3692676eeea",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Digital Animation of a grand panorama as the camera pulls back revealing the scale of the soaring whale city, with smaller whales filled with people flying around. Style of Studio Ghibli and Miyazaki, cinematic 16:9 composition, soft lighting, tranquil and beautiful, 4k, beautifully detailed, anime movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d8a37b0f-bd75-49d2-bef1-25b7dad36cac",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Digital Animation of a group of smaller whales flying towards the setting sun, people riding on them waving goodbye. Done in the style of Studio Ghibli and Miyazaki, cinematic 16:9 composition, highly detailed, soft, poetic lighting in an anime movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "148ae42f-3787-47b7-b683-e6724ea7843a",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Digital Animation of a small family on a smaller whale, waving to the giant city-whale in the distance illuminated by the setting sun. Animated in the style of Studio Ghibli and Miyazaki, cinematic 16:9 composition, complete with 4k detail, beautifully rendered, God rays, poetic, anime movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "646c95a2-2ae5-4e7b-bec3-8e2284f64d8b",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Digital Animation of a gorgeous wide shot showcasing the whale city, with hundreds of smaller whales disappearing into the star Frecked sky. Styled like Studio Ghibli and Miyazaki, cinematic 16:9 composition, stunning and poetic, richly detailed, beautifully illuminated, anime movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "ea1544e1-f77b-4133-8ebe-a59c49000d95",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Digital Animation of a final shot on a young child's face on the back of a whale looking off into the sunset, the city-whale lighting up for the night in the background. Styled like Studio Ghibli and Miyazaki, cinematic 16:9 composition, emotionally stirring, high detailed, God rays, poetic, anime movie.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "3f5e4f1e-aaf8-4322-b2bf-fdfa0a7457fc",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "A photo-realistic film of large animals running in the streets of New York like in a stampede and the Jumanji movie.",
+      "audioPrompt": "soundtrack for an action movie, energetic, fast-paced, drums, trumpet, strings, safari animals",
+      "tags": [
+        "trailer",
+        "action",
+        "adventure"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "03261f55-8f15-49dd-9886-ec69a901961a",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photograph of a herd of gigantic elephants charging in the streets of New York, crushing yellow taxis under their massive bulk. Cinematic style, fast paced action, Canon EOS, high quality 4K, award-winning, NY movie-set detail.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "dd5c4b52-3da9-4699-9d79-277b1694972c",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Film-capture of a group of towering giraffes in full sprint through the lush greenery of Central Park, skyscrapers in the background. Dramatic, cinematic lighting, panoramic view, Canon EOS, high-quality details, trending in artstorm.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a56967c6-0a0d-49e9-960d-6e7627383208",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Motion Picture of a stampeding rhinoceros flipping cars in Times Square, in the middle of a cloudy afternoon. High tension, dramatic style, street level view, Canon EOS, high definition, fast action movie scene.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "728c04b8-4b88-40b1-a3a9-4666a35fb954",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic sequence of monkeys causing a ruckus across Wall Street trading offices, papers flying in the chaos. Comedy infused, dynamic lighting, ultra-wide angle view, Canon EOS, high-resolution RAW capture, NY set, movie quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "dd131ac6-729e-4ea8-a77d-788a5ae13730",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Film scene capturing zebras galloping chaotically amongst Manhattan traffic, causing drivers to swerve. Adventure-Movie style, dusk lighting, aerial view, Canon EOS, trending on artstation, high definition, thrilling action sequence.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "9811785e-d7a7-40fa-a3bf-8218c894115a",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Film shot of a roaring lion disrupting a Broadway performance, audience screaming in surprise. Movie style lighting, long shot, Canon EOS high detail capture, cinematic drama effect, disruptive NY theater scene.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "0f7976ff-129b-4171-ba36-d49b3346eab2",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Capture of a hippo swimming in the famous NY Central Park Lake, urban landscape in background. Early evening, elegant style, water-level view, Canon EOS, stunning quality, unforgettable movie sequence.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "be41a079-ef25-4322-ab99-4e0c3c714c64",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie scene, a giant tortoise trundling down Fifth Avenue amid the honking of cars. Cinematic, comic relief style, street level view, Canon EOS, 4K, high detailed realistic action in NY streets.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "f55649ac-ad15-48fb-927e-dfad9f53f94a",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic film capture of ostriches running amok in Central Park Zoo, causing a stampede of fleeing visitors. High octane motion, strong depth of field, Canon EOS, studio quality, iconic NY setting, movie scene.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "50294ad7-8ae9-4d2b-8a03-87a43ff1ce8d",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic film scene, swarm of parrots obscuring the Empire State Building, as they turn the sky into a sea of color. Surreal style, panoramic composition, Canon EOS, ultra-realistic, high quality 4K, featured in award winning movies.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+
+    {
+  "sequenceId": "c5b59c92-5595-4048-b89a-6a0de73838e6",
+  "skip": false,
+  "lastGenerationAt": "",
+  "videoPrompt": "a photo-realistic science-fiction movie about a pyramid-shaped starship hovering a desert, with strange insect-like animals creating a city with huge buildings",
+  "audioPrompt": "synthwave soundtrack for a cinematic action movie, with a mix of synths, string and brass",
+  "tags": [
+    "trailer",
+    "action",
+    "science-fiction"
+  ],
+  "channel": "main",
+  "shots": [
+    {
+      "shotId": "a980fc3b-698b-4b5a-9fff-3de6035263e1",
+      "index": 0,
+      "lastGenerationAt": "",
+      "videoPrompt": "Film footage of a clear, barren desert under a bright sky, slow pan from ground level, Canon EOS, high quality, cinematic, movie, high details, daylight",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "3cc41da5-8638-4dd1-9900-67f2ebcc1369",
+      "index": 1,
+      "lastGenerationAt": "",
+      "videoPrompt": "Film scene, a massive pyramid-shaped starship appearing on the horizon of the desert, subtle backlighting, Canon EOS, cinematic, movie, 4k, high details, ultra wide-angle",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "40762a69-a641-41ee-9fff-b57a474e3a28",
+      "index": 2,
+      "lastGenerationAt": "",
+      "videoPrompt": "Film clip, starship, imposing and detailed, hovers above the desert, ambient lighting reflecting off its metallic surfaces, Canon EOS, cinematic, movie,  high quality, realistic, dof",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "123d72db-204d-41b8-8fee-be116140167f",
+      "index": 3,
+      "lastGenerationAt": "",
+      "videoPrompt": "Film sequence, starship's door opens, abyss-like darkness inside contrasted with blinding outside light, Canon EOS, cinematic, movie, high details, dramatic lighting, extreme wide-shot",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "9ff03bde-572f-4b31-b489-c6bcaa6489f8",
+      "index": 4,
+      "lastGenerationAt": "",
+      "videoPrompt": "Video approximation, strange insect-like creatures emerging from starship, ambient lighting, Canon EOS, cinematic, movie, 4k, surreal, close-up, ultra realistic",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "7a8cc2f6-8e24-463a-91ab-073ea0d898a5",
+      "index": 5,
+      "lastGenerationAt": "",
+      "videoPrompt": "Film footage, insect creatures starting to construct buildings from desert sand, evening light, Canon EOS, cinematic, movie, 4k, high details, time-lapse, ultra wide-angle",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "a067167f-3a1d-4518-85e3-85987365e40e",
+      "index": 6,
+      "lastGenerationAt": "",
+      "videoPrompt": "Movie shot, fast-forward evolution of city with towering buildings, night shot with artificial lights illumining the city, Canon EOS, cinematic, high quality, ambient lighting, ultra wide-angle, time-lapse",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "a067f4f8-2d76-4313-978a-6cd38ce8d3a7",
+      "index": 7,
+      "lastGenerationAt": "",
+      "videoPrompt": "Film sequence, oasis forms at the heart of city, shot from an aerial view, Canon EOS, cinematic, movie, 4k, ultra realistic, high details",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "acb89763-6887-4f73-80ec-94ad88f96758",
+      "index": 8,
+      "lastGenerationAt": "",
+      "videoPrompt": "Film footage, bird's eye view of contrasting lush oasis against the deep red desert, Canon EOS, sunset ambiance, cinematic, movie, 4k, breathtaking, ultra wide-angle",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "594eeaed-bf07-4f63-92fc-1e650b2541c9",
+      "index": 9,
+      "lastGenerationAt": "",
+      "videoPrompt": "Movie scene, panoramic view of cityscape, starship, oasis amid desert under the starlit sky, ambient lighting, Canon EOS, breathtaking, cinematic, movie, 4k, high details, ultra wide-angle, universe",
+      "audioPrompt": ""
+    }
+  ]
+},
+    {
+      "sequenceId": "31becd8f-2593-4107-87ed-d05a9e966d49",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a 3D film of large animals, elephants.. running in the streets of Paris like in a stampede",
+      "audioPrompt": "soundtrack for an action movie, energetic, fast-paced, drums, trumpet, strings, safari animals",
+      "tags": [
+        "trailer",
+        "action",
+        "adventure"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "854e6ea6-d403-4b2b-b0e7-b1e40b897811",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of a group of elephants about to start an intense stampede on the historical streets of Paris, ultra wide-angle, evening ambient lighting, shot on RED Dragon, high intensity, breathtaking, trending on artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "b6095df5-7289-4d1e-85df-41d58c06dade",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of fast-paced and dramatic scene of elephants running down the Champs-Élysées Avenue, Paris backdrop, dusk lighting, long shot, captured on RED Dragon, ultra realistic, CGI.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c010f751-862e-4420-94d7-5e53ac4c518d",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of elephants jumping over a car in a heart-stopping action sequence, lively Paris atmosphere, spotlight on the leaping elephant, wide-angle, shot using RED Dragon, high details, cinematic, trending on artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "90f548c7-0a8a-4890-837c-d32a3f717032",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of close-up on elephants charging down a cobblestone street, Paris in a frenzy, ambient lighting, depth of field, captured on RED Dragon, high-quality, action-packed, award-winning.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "726d91ec-f872-4c22-8d5c-378484d8a146",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of an intense view of an elephant breaking through a cafe, Paris cityscape, evening, wide-angle, shot on RED Dragon, ultra realistic, dramatic effects, trending on artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "65038f72-596d-4643-80a7-ccdc336c1818",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of a jarring long shot capturing elephants causing chaos in a picturesque Paris neighborhood, evening lighting, captured with RED Dragon, high details, CGI, cinematic, trending on artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "4e4f605b-170e-4bc3-9baa-3a0a8f857e59",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of a dramatic scene where an elephant leaps over the Seine River, Paris skyline, evening, direct sunlight, fisheye shot, RED Dragon capture, unforgettable, award-winning, trending on Artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "bbf2bcc8-38a8-4abc-8e5b-f276337700ed",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of a massive scale shot of elephants stampeding towards the Eiffel Tower, Paris backdrop, soft lighting, wide-angle, shot on RED Dragon, hyper realistic, action-packed sequence, trending on artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "105a090e-5110-45ab-befb-95d8e9877142",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of a close-up of the fear in a baby elephant's eyes amongst the chaotic stampede, Paris street scene, spotlight on the baby elephant, extreme close-up, captured on RED Dragon, mesmerizing, award-winning detail, trending on artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "bcad9a10-0938-4954-b338-acf09b72173b",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of a panoramic shot of the aftermath of the elephant stampede on the deserted streets of Paris, desolated Paris, twilight, wide-angle, shot on RED Dragon, resonating, dramatic, trending on Artstation.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "52e71bf7-50cb-476f-b709-3873bdd5cf60",
+      "lastGenerationAt": "",
+      "videoPrompt": "a 3D film similar to Pixar movies, with a rat in New York",
+      "audioPrompt": "soundtrack for an animated movie, energetic, fast-paced, drums, trumpet, strings",
+      "tags": [
+        "trailer",
+        "animation"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "e020e32b-d30e-4383-b963-772a561ad987",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of a little rat scampering around the busy streets of New York, detailed cityscape in Pixar style, wide-angle view, using octane render, cinematic, movie, award winning",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "1553f61c-7504-414c-a2b3-1d4ed92736d9",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D CGI animation of a rat skidding around a corner into an alley, Pixar style, close-up shot, using Unreal Engine, cinematic, high detailed",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a981b41c-3541-4310-b93f-a6de1c45b84a",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animated scene of a rat looking up at the towering buildings around, Pixar-inspired style, wide-angle perspective, created with Houdini render, cinematic, trending on ArtStation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "91f5d300-7d62-4076-a388-f99b42fb540e",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D CGI film sequence showing rat narrowly avoiding a car, Pixar-like animation style, street level view, rendered using Arnold Render, cinematic, high quality, movie style",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c2fa6270-7104-41f0-8885-6a613b4c341f",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D computer generated shot of the rat nibbling on a piece of pizza, in the style of Pixar, close-up view of the action, using octane render, cinematic, award-winning scene",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "5ffad607-17d5-4228-ae89-643725f8a92c",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animated sequence of a rat running up a fire escape, Pixar-like style, aerial view following the character, rendered with Houdini software, cinematic, high detailed, movie sequence",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "2976049f-c70d-481b-85fc-64b85d759b1e",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of a rat looking across the city from a rooftop, Pixar inspired style, ultra wide-angle shot, created with Arnold Render, cinematic, trending on ArtStation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "ab18ffa1-e1ad-4ed7-b6ed-f3170424441b",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D CGI animation of a rat scurrying down a drainpipe, Pixar style, close-up shot, using Unreal Engine, hyper-realistic, cinematic, award winning",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "7829c78d-da6e-4992-b68b-2fec5cac5989",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D film sequence featuring a rat disappearing into a crowd of people, Pixar-like animation style, street level view, rendered using octane render, cinematic, high quality, movie style",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "f83187df-ec61-4922-8685-eaaa5371ade6",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render animation of a rat navigating through bustling market, Pixar-like animation style, fisheye lens effect, done using Houdini render, detailed, realistic, cinematic",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "881440e4-dbe4-4487-9956-83093ccd0dd5",
+          "index": 10,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D sequence of a rat weaving through the rush hour traffic, Pixar style, wide-angle view, created with Unreal Engine, detailed, cinematic",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "eb568b16-229b-4276-9c66-b808ab0b3ba9",
+          "index": 11,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animated film scene of a rat leaping from one building to another, Pixar-inspired style, aerial view, rendered using octane render, cinematic, high detail, movie quality",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "ec53f0f0-2d94-46c1-acb1-4725899b50c8",
+          "index": 12,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of a rat sliding down a power line, Pixar visual style, close-up shot, rendered in Arnold render, cinematic, high quality, movie sequence",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "6f71bd59-6c57-406a-82e2-8c3788360c1f",
+          "index": 13,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D CGI movie scene of a rat resting on a rooftop overlooking New York skyline, Pixar style, ultra wide-angle shot, using Houdini software, cinematic visual quality, trending on ArtStation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "71723cf4-4f6f-44ce-ab3a-449c91e12e8e",
+          "index": 14,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D computer-generated sequence of a rat riding on a bagel rolling down a busy street, Pixar-like style, fisheye view, created with Unreal Engine, high detailed, cinematic, popular in animation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "5b345258-083d-4107-bc07-34a7c3b2e92d",
+          "index": 15,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animated render of a rat sneaking past a sleeping cat, Pixar film style, low angle view, rendered with Arnold Render, cinematic, high quality, movie",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "8028946f-c460-438c-80e5-38a382455588",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a photorealistic movie about a huge kraken squid attacking a large pirate sailing ship and ultimately crushing it, leaving only a few survivors",
+      "audioPrompt": "epic music for a pirate movie, lot of energy, adventure, action",
+      "tags": [
+        "trailer",
+        "action",
+        "adventure"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "91103d7a-f424-4885-85db-93db11c41f92",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie scene of a high sea under a stormy sky, intense waves crashing into a looming pirate ship, all sails set, swinging on the harsh ocean, sunset, Canon EOS C300 Mark II, studio quality, 8k uhd, cinematic, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c6d46e17-e685-407e-b11e-8cd69492259b",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie scene follows a large kraken squid smoothly moving under the dark ocean surface, close to the pirate ship, high detailed, Adobe Premiere with Red Giant effects, 85 mm lens, extreme close-up, cinematic, photorealistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c0b45970-c34c-40fe-ac70-6094cb05f1e7",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie scene capturing giant shadowy squid tentacle quietly emerging from the deep sea, glistening in the fleeting light, harsh storm and rain pouring, Canon EOS C300 Mark II, depth of field, breathtaking, cinematic, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "71281b23-108e-4116-84fb-779c03717eb1",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie scene of sailors on the pirate ship catching sight of the tentacle, their faces in horror under the dramatic lighting by random lightning bolts, Canon EOS C300 Mark II, high details, cinematic, photorealistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "83b1de4f-698b-4254-a8ea-dbf7eb61cfc0",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie scene capturing the kraken squid tentacle attacking the pirate ship, crushing part of the structure, redwood splinters flying, Canon EOS C300 Mark II with Slo mo 240 fps, harrowing, intense, cinematic, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "605af832-aac4-45ca-9dce-4d99cb106c84",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie scene depicts the massive squid tentacle sweeping across the pirate decks, with chaotic action of sailors scrambling, the ship seems ready to capsize, Canon EOS C300 Mark II, ultra realistic, breathtaking, cinematic, photorealistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "90421413-cadb-448d-aa2e-121b2b94182b",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie scene showcasing entire pirate ship jerked off its axis by the powerful squid, water tidal wave engulfing it, 8k uhd, Canon EOS C300 Mark II, slow motion capture, studio quality, cinematic, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "45061720-feb6-448e-9c7e-120cf7cf1156",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie scene capturing the fallout, the pirate ship now a wreck, crushed under the power of the kraken squid, flying debris, 8k uhd, Canon EOS C300 Mark II, slow-motion capture, cinematic, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "7d392c0c-d616-4601-ac4c-59e3ba978aa9",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie scene picturing the last dramatic moment, where the kraken vanishes into the depth of the ocean pulling the shipwreck with it, Canon EOS C300 Mark II, breathtaking visual, studio quality, cinematic, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8cef4779-6244-452b-87c6-3f7b8bac4ace",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie scene capturing handful of shipwrecked survivors on a makeshift life raft amidst the debris field, tiny makeshift sail, dusk light, Canon EOS C300 Mark II, sorrowful, high detailed, cinematic, photorealistic, movie.",
+          "audioPrompt": ""
+        }
+      ]
+    },
     {
       "sequenceId": "0489dbc6-791c-4cb8-97f6-ada01092fa91",
       "skip": true,
