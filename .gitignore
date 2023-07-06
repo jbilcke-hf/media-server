@@ -8,3 +8,12 @@ models/
 sandbox/
 audio.pipe
 video.pipe
+channel_1_audio_list_a.txt
+channel_1_audio_list_b.txt
+channel_1_video_list_a.txt
+channel_1_video_list_b.txt
+
+channel_2_audio_list_a.txt
+channel_2_audio_list_b.txt
+channel_2_video_list_a.txt
+channel_2_video_list_b.txt
