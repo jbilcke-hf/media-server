@@ -1,7 +1,107 @@
 {
   "version": 1,
-  "startAtShotId": "3dec87d4-bb0a-4bd7-9cc2-c5495d621a63",
+  "startAtShotId": "",
   "sequences": [
+    {
+      "sequenceId": "6d9345ee-8833-4404-9881-1eb5295a4dce",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a 3d render, Pixar-like movie about animals boxing and fighting each other in various arenas",
+      "audioPrompt": "fast-paced combat music with guitars rifss and electronic drum loop",
+      "tags": [
+        "trailer",
+        "comedy",
+        "animation",
+        "action"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "d03777c1-95c5-4897-ab9a-657691d0572b",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render > intense boxing scene with a kangaroo and a raccoon in a rustic wooden ring, surrounded by cheering crowd of various animals > Pixar-like style, cute and comical, detailed textures of wood, fur and red boxing gloves > low angle shot under morning sunlight, long shadows stretching, bokeh effect > cinematic, photorealistic, movie, award-winning",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "bf474352-7900-4d30-a6ce-71daa90d13ee",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render > cute lion in shorts, big red boxing gloves, sparring against a wiry, quick footed zebra, both bathed in a spectacular sunset > Pixar-like style, comical, with a desert savannah arena background > wide-angled perspective, detailed fur, hair, and smooth animation > cinematic, photorealistic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "462d6e5d-3808-45a5-ad99-2922bd0f3e86",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render > A humorously serious boxing event in a rainforest setting, monkey wearing golden gloves, fighting a towering bear > Pixar-like style, funny expressions, lush greenery, lighting from dappled sunlight > aerial view showcasing detailed ring, audience, canopy > cinematic, photorealistic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "2585970f-9185-467b-b77c-d10d2e1c62a0",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render > Attention grabbing scene of giraffe and fox, big red boxing gloves, in indoor professional fighting ring, surrounded by darkened crowd > Pixar-like style, hyper-details, dramatic, multicolored spotlights > close-up shot, accent lighting on fighters, grainy texture > shot with Arri Alexa LF > cinematic, photorealistic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "90dad145-485d-4baa-8ff1-3c9add99977a",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D-render > twin-tailed sly raccoon fighting a heavyweight rhino in an urban rooftop arena under neon lights > Pixar-like style, radiant colors, rooftops of buildings lining horizon > wide-angle night view, showing aerial shot cinematic, photorealistic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "f86b0c9a-06eb-4af8-aac5-f0e66c052150",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render > boxing match featuring muscular kangaroo and agile meerkat in ancient Roman Colosseum, filled with animal spectators > Pixar-like style, detailed stone textures, warm afternoon ambiance > 300 degree panoramic view, luscious 3D color depth > cinematic, photorealistic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "4fd578a9-5e99-489d-8c7c-663d51a7aa32",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render > dueling scene featuring bear and cougar in massive ring set amidst icy mountain peaks > Pixar-like style, gleaming icy textures, cool blue palette > pulled back camera shot showing full scope of mountains and fighting ring in sharp relief >  cinematic, photorealistic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "fad5eec6-b5b4-42a1-90db-fdc7b9231a7c",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D-render > lanky flamingo sparring against sturdy hippopotamus in bustling metropolis, concrete ring with skyscrapers backdrop > Pixar-like style, dynamic movements, colorful feather vs thick skin texture > aerial shot that sweeps over the urban scenery > cinematic, photorealistic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "6ce81490-5293-4055-99d5-c2bce01fb662",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render > night fight under the stars, lizard vs rabbit, in a ring surrounded by nocturnal animals in an open Savannah > Pixar-like style, vibrant but eerie, detailed skin and fur textures > dutch angle shot, lit from the sides highlighting the fighters' textures >  cinematic, photorealistic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a58b54f7-4b1b-4312-9fb3-493f8872f14c",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render > dramatic fight of a well-muscled bull and a nimble mongoose in an old traditional Japanese dojo > Pixar like style, high quality lighting, ornate wood, paper panel textures > close-up shot showcasing fierce attacks and evasive maneuvers > cinematic, photorealistic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "6b64e790-7ecd-48ed-9f38-a396b8955a11",
+          "index": 10,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render > boxing match featuring an aggressive wolverine and an athletic cheetah in an underwater boxing ring, surrounded by oceanic life > Pixar-like style, glossy textures, rich colors and highly detailed animal skins > wide-angle perspective, notable scenery detail in the background > cinematic, photorealistic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "53bac684-3d1d-4215-9dd3-d731e748ea77",
+          "index": 11,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render > Boxing match between a turtle and a squirrel on a boxing ring in the middle of a dense jungle, with various animals watching keenly > Pixar-like style, detailed and textured turtle shell and squirrel fur, ambient lighting > Jungle canopy shot above the ring against the backdrop of a setting sun > cinematic, photorealistic, movie",
+          "audioPrompt": ""
+        }
+      ]
+    },
     {
       "sequenceId": "6fdd2803-180a-4ca4-b168-aa2e19146dc0",
       "skip": false,
@@ -242,106 +342,6 @@
           "index": 7,
           "lastGenerationAt": "",
           "videoPrompt": "Cinematic movie, climactic moment of an astronaut riding a llama, crossing the finish line with a flurry of dust, evening golden light, cheering crowd in the background, photo-finish moment, detailed textures, Canon EOS, high quality, 4K, trending on artstation, beautiful, award-winning",
-          "audioPrompt": ""
-        }
-      ]
-    },
-    {
-      "sequenceId": "6d9345ee-8833-4404-9881-1eb5295a4dce",
-      "skip": false,
-      "lastGenerationAt": "",
-      "videoPrompt": "a 3d render, Pixar-like movie about animals boxing and fighting each other in various arenas",
-      "audioPrompt": "fast-paced combat music with guitars rifss and electronic drum loop",
-      "tags": [
-        "trailer",
-        "comedy",
-        "animation",
-        "action"
-      ],
-      "channel": "main",
-      "shots": [
-        {
-          "shotId": "d03777c1-95c5-4897-ab9a-657691d0572b",
-          "index": 0,
-          "lastGenerationAt": "",
-          "videoPrompt": "3D render > intense boxing scene with a kangaroo and a raccoon in a rustic wooden ring, surrounded by cheering crowd of various animals > Pixar-like style, cute and comical, detailed textures of wood, fur and red boxing gloves > low angle shot under morning sunlight, long shadows stretching, bokeh effect > cinematic, photorealistic, movie, award-winning",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "bf474352-7900-4d30-a6ce-71daa90d13ee",
-          "index": 1,
-          "lastGenerationAt": "",
-          "videoPrompt": "3D render > cute lion in shorts, big red boxing gloves, sparring against a wiry, quick footed zebra, both bathed in a spectacular sunset > Pixar-like style, comical, with a desert savannah arena background > wide-angled perspective, detailed fur, hair, and smooth animation > cinematic, photorealistic, movie",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "462d6e5d-3808-45a5-ad99-2922bd0f3e86",
-          "index": 2,
-          "lastGenerationAt": "",
-          "videoPrompt": "3D render > A humorously serious boxing event in a rainforest setting, monkey wearing golden gloves, fighting a towering bear > Pixar-like style, funny expressions, lush greenery, lighting from dappled sunlight > aerial view showcasing detailed ring, audience, canopy > cinematic, photorealistic, movie",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "2585970f-9185-467b-b77c-d10d2e1c62a0",
-          "index": 3,
-          "lastGenerationAt": "",
-          "videoPrompt": "3D render > Attention grabbing scene of giraffe and fox, big red boxing gloves, in indoor professional fighting ring, surrounded by darkened crowd > Pixar-like style, hyper-details, dramatic, multicolored spotlights > close-up shot, accent lighting on fighters, grainy texture > shot with Arri Alexa LF > cinematic, photorealistic, movie",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "90dad145-485d-4baa-8ff1-3c9add99977a",
-          "index": 4,
-          "lastGenerationAt": "",
-          "videoPrompt": "3D-render > twin-tailed sly raccoon fighting a heavyweight rhino in an urban rooftop arena under neon lights > Pixar-like style, radiant colors, rooftops of buildings lining horizon > wide-angle night view, showing aerial shot cinematic, photorealistic, movie",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "f86b0c9a-06eb-4af8-aac5-f0e66c052150",
-          "index": 5,
-          "lastGenerationAt": "",
-          "videoPrompt": "3D render > boxing match featuring muscular kangaroo and agile meerkat in ancient Roman Colosseum, filled with animal spectators > Pixar-like style, detailed stone textures, warm afternoon ambiance > 300 degree panoramic view, luscious 3D color depth > cinematic, photorealistic, movie",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "4fd578a9-5e99-489d-8c7c-663d51a7aa32",
-          "index": 6,
-          "lastGenerationAt": "",
-          "videoPrompt": "3D render > dueling scene featuring bear and cougar in massive ring set amidst icy mountain peaks > Pixar-like style, gleaming icy textures, cool blue palette > pulled back camera shot showing full scope of mountains and fighting ring in sharp relief >  cinematic, photorealistic, movie",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "fad5eec6-b5b4-42a1-90db-fdc7b9231a7c",
-          "index": 7,
-          "lastGenerationAt": "",
-          "videoPrompt": "3D-render > lanky flamingo sparring against sturdy hippopotamus in bustling metropolis, concrete ring with skyscrapers backdrop > Pixar-like style, dynamic movements, colorful feather vs thick skin texture > aerial shot that sweeps over the urban scenery > cinematic, photorealistic, movie",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "6ce81490-5293-4055-99d5-c2bce01fb662",
-          "index": 8,
-          "lastGenerationAt": "",
-          "videoPrompt": "3D render > night fight under the stars, lizard vs rabbit, in a ring surrounded by nocturnal animals in an open Savannah > Pixar-like style, vibrant but eerie, detailed skin and fur textures > dutch angle shot, lit from the sides highlighting the fighters' textures >  cinematic, photorealistic, movie",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "a58b54f7-4b1b-4312-9fb3-493f8872f14c",
-          "index": 9,
-          "lastGenerationAt": "",
-          "videoPrompt": "3D render > dramatic fight of a well-muscled bull and a nimble mongoose in an old traditional Japanese dojo > Pixar like style, high quality lighting, ornate wood, paper panel textures > close-up shot showcasing fierce attacks and evasive maneuvers > cinematic, photorealistic, movie",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "6b64e790-7ecd-48ed-9f38-a396b8955a11",
-          "index": 10,
-          "lastGenerationAt": "",
-          "videoPrompt": "3D render > boxing match featuring an aggressive wolverine and an athletic cheetah in an underwater boxing ring, surrounded by oceanic life > Pixar-like style, glossy textures, rich colors and highly detailed animal skins > wide-angle perspective, notable scenery detail in the background > cinematic, photorealistic, movie",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "53bac684-3d1d-4215-9dd3-d731e748ea77",
-          "index": 11,
-          "lastGenerationAt": "",
-          "videoPrompt": "3D render > Boxing match between a turtle and a squirrel on a boxing ring in the middle of a dense jungle, with various animals watching keenly > Pixar-like style, detailed and textured turtle shell and squirrel fur, ambient lighting > Jungle canopy shot above the ring against the backdrop of a setting sun > cinematic, photorealistic, movie",
           "audioPrompt": ""
         }
       ]
