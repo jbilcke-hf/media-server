@@ -1,17 +1,17 @@
 const { v4 } = require('uuid')
 const raw = {
-  "input": "a photorealistic movie about a huge kraken squid attacking a large pirate sailing ship and ultimately crushing it, leaving only a few survivors",
+  "input": "a photorealistic post apocalyptical movie, with city invaded by vegetation, huge carnivorous plants that walk and try to eat the remaining human survivors",
   "captions": [
-    "Movie scene of a high sea under a stormy sky, intense waves crashing into a looming pirate ship, all sails set, swinging on the harsh ocean, sunset, Canon EOS C300 Mark II, studio quality, 8k uhd, cinematic, photorealistic, movie.",
-    "Movie scene follows a large kraken squid smoothly moving under the dark ocean surface, close to the pirate ship, high detailed, Adobe Premiere with Red Giant effects, 85 mm lens, extreme close-up, cinematic, photorealistic.",
-    "Movie scene capturing giant shadowy squid tentacle quietly emerging from the deep sea, glistening in the fleeting light, harsh storm and rain pouring, Canon EOS C300 Mark II, depth of field, breathtaking, cinematic, photorealistic, movie.",
-    "Movie scene of sailors on the pirate ship catching sight of the tentacle, their faces in horror under the dramatic lighting by random lightning bolts, Canon EOS C300 Mark II, high details, cinematic, photorealistic.",
-    "Movie scene capturing the kraken squid tentacle attacking the pirate ship, crushing part of the structure, redwood splinters flying, Canon EOS C300 Mark II with Slo mo 240 fps, harrowing, intense, cinematic, photorealistic, movie.",
-    "Movie scene depicts the massive squid tentacle sweeping across the pirate decks, with chaotic action of sailors scrambling, the ship seems ready to capsize, Canon EOS C300 Mark II, ultra realistic, breathtaking, cinematic, photorealistic.",
-    "Movie scene showcasing entire pirate ship jerked off its axis by the powerful squid, water tidal wave engulfing it, 8k uhd, Canon EOS C300 Mark II, slow motion capture, studio quality, cinematic, photorealistic, movie.",
-    "Movie scene capturing the fallout, the pirate ship now a wreck, crushed under the power of the kraken squid, flying debris, 8k uhd, Canon EOS C300 Mark II, slow-motion capture, cinematic, photorealistic, movie.",
-    "Movie scene picturing the last dramatic moment, where the kraken vanishes into the depth of the ocean pulling the shipwreck with it, Canon EOS C300 Mark II, breathtaking visual, studio quality, cinematic, photorealistic, movie.",
-    "Movie scene capturing handful of shipwrecked survivors on a makeshift life raft amidst the debris field, tiny makeshift sail, dusk light, Canon EOS C300 Mark II, sorrowful, high detailed, cinematic, photorealistic, movie."
+    "Photograph of a post-apocalyptic cityscape at dawn, overtaken by jungle-like vegetation. Photorealistic style, panoramic wide-angle view, cinematic quality. High details, golden light casting long shadows, foggy weather conditions, vivid, lush green colors, dew on leaves, 2000s era derelict buildings.",
+    "High-quality movie footage of a colossal carnivorous plant, ambulating through ruined streets shrouded in fog. Grim, yet lush, fascinating style, ultra-wide angle, cinematic, photorealistic. Rough textured bark, dew-drenched leaves shimmering in soft dawn light, wet concrete, and remnants of modern buildings.",
+    "Photograph of a small group of human survivors observing from a hideout. Photorealistic, cinematic style, foreground detail of their distressed and dirty clothing, worried expressions, and makeshift weapons. The background is a blurred, richly detailed urban jungle at dawn.",
+    "Movie shot of human survivors sprinting across a decrepit bridge covered by moss and vines, with colossal carnivorous plants hot in pursuit. High-resolution, suspenseful, dramatic lighting casting long shadows, sweat and fear on their faces, broken modern infrastructure contrasting vibrant, aggressive vegetation.",
+    "Photorealistic movie still of a large carnivorous plant intricately entwined around a skyscraper. Captured during bright noon, under harsh sunlight, high resolution, breathtaking shot showcasing details including textured plant bark and colossal roots breaking through the concrete, juxtaposed against a cloudless, vivid blue sky.",
+    "Cinematic movie snippet of a survivor climbing up a vine-covered building, trying to evade a carnivorous plant reaching for him. Shot in high resolution during midday, focus on the tense physical effort, grimy, scarred skin and terrified eyes, extensive urban jungle backdrop, clear sky above.",
+    "High-quality movie scene showing a carnivorous plant catching a glimpse of a group of survivors in an underground sewer. Photorealistic style, low angle perspective of the plant peering down, with a flickering sliver of daylight illuminating mossy brick walls, surface water, and fearful human faces.",
+    "Epic dusk shot of silhouette of human figures running across the horizon with carnivorous plants close behind. Photorealistic, cinematic quality, the details in the shadows and the sky painted with hues of orange, pink, and purple. The buildings lay in ruins, overgrown with vegetation.",
+    "Night scene of the survivors huddled around a fire in an overgrown city park, old world monuments looming in the dark. Photorealistic details of the firelight flickering on their faces, cast-long shadows and bouncing off the textured leaves. The park overgrown with eerie vegetation, stars visible above the ruined skyline.",
+    "Movie ending shot of dawn breaking over the vegetated cityscape, the survivors and plants in a temporary standoff. Photorealistic style, wide-angle view showing the changing sky colors, dew-drenched leaves reflecting the early light, the human figures small and resolute, holding their ground. Cinematic, quiet anticipation before the next battle."
   ]
 }
 const result = {
@@ -19,11 +19,13 @@ const result = {
     "skip": false,
     "lastGenerationAt": "",
     "videoPrompt": raw.input,
-    "audioPrompt": "epic music for a pirate movie, lot of energy, adventure, action",
+    "audioPrompt": "intense and fast-paced electronic and orchestra music with synthetisers, electronic drum machine",
     "tags": [
       "trailer",
+      "comedy",
       "action",
-      "adventure"
+      "adventure",
+      "science-fiction"
     ],
     "channel": "main",
     "shots": raw.captions.map((cap, i) => ({

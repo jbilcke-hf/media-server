@@ -56,7 +56,7 @@ The output must be in JSON (here is the type signature:
 
 # Parameters
 - I need: 25 shots captions
-- Input: ${input} (note: add the keywords "cinematic", "imax", "movie", "film grain" to help the AI generator)`
+- Input: ${input}. The action should happens at various hours of the day with a beautiful settings, cast shadows, details of the background, landscape. (note: for each shot caption, please describe in details the objects, textures, lights, colors, shadows, details, environment, weather condition, era or time period etc. Also, add the keywords "cinematic", "photorealistic", "movie" to help the AI generator)`
 
 /*
 # Parameters

@@ -5,3 +5,4 @@ unzip -o pack1.zip -d .
 cp *.m4a $WEBTV_AUDIO_STORAGE_PATH_CHANNEL_1
 mv *.m4a $WEBTV_AUDIO_STORAGE_PATH_CHANNEL_2
 rm -Rf __MACOSX
+rm pack1.zip

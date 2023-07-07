@@ -14,15 +14,14 @@ while true; do
         files=($WEBTV_AUDIO_STORAGE_PATH_CHANNEL_1*.m4a)
         
         # Re-create the audio playlists
-        echo "ffconcat version 1.0" > channel_1_audio_list_a.txt
-        echo "ffconcat version 1.0" > channel_1_audio_list_b.txt
+        echo "ffconcat version 1.0" > channel_1_audio_tmp.txt
         for (( i=0; i<${#files[@]}; i++ )); do
-            echo "file '${files[$i]}'" >> channel_1_audio_list_a.txt
-            echo "file '${files[$i]}'" >> channel_1_audio_list_b.txt
+            echo "file '${files[$i]}'" >> channel_1_audio_tmp.txt
         done
-        echo "file 'channel_1_audio_list_b.txt'" >> channel_1_audio_list_a.txt
-        echo "file 'channel_1_audio_list_a.txt'" >> channel_1_audio_list_b.txt
+        mv channel_1_audio_tmp.txt channel_1_audio.txt
     fi
 
-    sleep 1
+    # the new audio playlist will only be updated after the current VIDEO playlist ended
+    # so there is no emergency here
+    sleep 60
 done

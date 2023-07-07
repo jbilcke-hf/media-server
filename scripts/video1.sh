@@ -14,11 +14,14 @@ while true; do
         current_count=$new_count
         files=($WEBTV_VIDEO_STORAGE_PATH_CHANNEL_1*.mp4)
         
-        echo "ffconcat version 1.0" > channel_1_video.txt
+        echo "ffconcat version 1.0" > channel_1_video_tmp.txt
         for (( i=0; i<${#files[@]}; i++ )); do
-            echo "file '${files[$i]}'" >> channel_1_video.txt
+            echo "file '${files[$i]}'" >> channel_1_video_tmp.txt
         done
+        mv channel_1_video_tmp.txt channel_1_video.txt
     fi
 
-    sleep 1
+    # the new playlist will only be updated after the current playlist ended
+    # so there is no emergency here
+    sleep 60
 done
