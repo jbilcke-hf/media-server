@@ -7,6 +7,8 @@ mkdir -p $WEBTV_AUDIO_STORAGE_PATH_CHANNEL_1
 
 bash scripts/download_fresh_music.sh
 
+bash scripts/censorship.sh
+
 echo "creating the playlists for channel 1.." 
 echo "ffconcat version 1.0" > channel_1_video.txt
 echo "ffconcat version 1.0" > channel_1_audio.txt

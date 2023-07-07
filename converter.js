@@ -1,17 +1,30 @@
 const { v4 } = require('uuid')
 const raw = {
-  "input": "a photorealistic post apocalyptical movie, with city invaded by vegetation, huge carnivorous plants that walk and try to eat the remaining human survivors",
+  "input": "a 3d render, Pixar-like movie about animals boxing and fighting each other in various arenas",
   "captions": [
-    "Photograph of a post-apocalyptic cityscape at dawn, overtaken by jungle-like vegetation. Photorealistic style, panoramic wide-angle view, cinematic quality. High details, golden light casting long shadows, foggy weather conditions, vivid, lush green colors, dew on leaves, 2000s era derelict buildings.",
-    "High-quality movie footage of a colossal carnivorous plant, ambulating through ruined streets shrouded in fog. Grim, yet lush, fascinating style, ultra-wide angle, cinematic, photorealistic. Rough textured bark, dew-drenched leaves shimmering in soft dawn light, wet concrete, and remnants of modern buildings.",
-    "Photograph of a small group of human survivors observing from a hideout. Photorealistic, cinematic style, foreground detail of their distressed and dirty clothing, worried expressions, and makeshift weapons. The background is a blurred, richly detailed urban jungle at dawn.",
-    "Movie shot of human survivors sprinting across a decrepit bridge covered by moss and vines, with colossal carnivorous plants hot in pursuit. High-resolution, suspenseful, dramatic lighting casting long shadows, sweat and fear on their faces, broken modern infrastructure contrasting vibrant, aggressive vegetation.",
-    "Photorealistic movie still of a large carnivorous plant intricately entwined around a skyscraper. Captured during bright noon, under harsh sunlight, high resolution, breathtaking shot showcasing details including textured plant bark and colossal roots breaking through the concrete, juxtaposed against a cloudless, vivid blue sky.",
-    "Cinematic movie snippet of a survivor climbing up a vine-covered building, trying to evade a carnivorous plant reaching for him. Shot in high resolution during midday, focus on the tense physical effort, grimy, scarred skin and terrified eyes, extensive urban jungle backdrop, clear sky above.",
-    "High-quality movie scene showing a carnivorous plant catching a glimpse of a group of survivors in an underground sewer. Photorealistic style, low angle perspective of the plant peering down, with a flickering sliver of daylight illuminating mossy brick walls, surface water, and fearful human faces.",
-    "Epic dusk shot of silhouette of human figures running across the horizon with carnivorous plants close behind. Photorealistic, cinematic quality, the details in the shadows and the sky painted with hues of orange, pink, and purple. The buildings lay in ruins, overgrown with vegetation.",
-    "Night scene of the survivors huddled around a fire in an overgrown city park, old world monuments looming in the dark. Photorealistic details of the firelight flickering on their faces, cast-long shadows and bouncing off the textured leaves. The park overgrown with eerie vegetation, stars visible above the ruined skyline.",
-    "Movie ending shot of dawn breaking over the vegetated cityscape, the survivors and plants in a temporary standoff. Photorealistic style, wide-angle view showing the changing sky colors, dew-drenched leaves reflecting the early light, the human figures small and resolute, holding their ground. Cinematic, quiet anticipation before the next battle."
+    "3D render > intense boxing scene with a kangaroo and a raccoon in a rustic wooden ring, surrounded by cheering crowd of various animals > Pixar-like style, cute and comical, detailed textures of wood, fur and red boxing gloves > low angle shot under morning sunlight, long shadows stretching, bokeh effect > cinematic, photorealistic, movie, award-winning",
+
+    "3D render > cute lion in shorts, big red boxing gloves, sparring against a wiry, quick footed zebra, both bathed in a spectacular sunset > Pixar-like style, comical, with a desert savannah arena background > wide-angled perspective, detailed fur, hair, and smooth animation > cinematic, photorealistic, movie",
+
+    "3D render > A humorously serious boxing event in a rainforest setting, monkey wearing golden gloves, fighting a towering bear > Pixar-like style, funny expressions, lush greenery, lighting from dappled sunlight > aerial view showcasing detailed ring, audience, canopy > cinematic, photorealistic, movie",
+
+    "3D render > Attention grabbing scene of giraffe and fox, big red boxing gloves, in indoor professional fighting ring, surrounded by darkened crowd > Pixar-like style, hyper-details, dramatic, multicolored spotlights > close-up shot, accent lighting on fighters, grainy texture > shot with Arri Alexa LF > cinematic, photorealistic, movie",
+
+    "3D-render > twin-tailed sly raccoon fighting a heavyweight rhino in an urban rooftop arena under neon lights > Pixar-like style, radiant colors, rooftops of buildings lining horizon > wide-angle night view, showing aerial shot cinematic, photorealistic, movie",
+
+    "3D render > boxing match featuring muscular kangaroo and agile meerkat in ancient Roman Colosseum, filled with animal spectators > Pixar-like style, detailed stone textures, warm afternoon ambiance > 300 degree panoramic view, luscious 3D color depth > cinematic, photorealistic, movie",
+
+    "3D render > dueling scene featuring bear and cougar in massive ring set amidst icy mountain peaks > Pixar-like style, gleaming icy textures, cool blue palette > pulled back camera shot showing full scope of mountains and fighting ring in sharp relief >  cinematic, photorealistic, movie",
+
+    "3D-render > lanky flamingo sparring against sturdy hippopotamus in bustling metropolis, concrete ring with skyscrapers backdrop > Pixar-like style, dynamic movements, colorful feather vs thick skin texture > aerial shot that sweeps over the urban scenery > cinematic, photorealistic, movie",
+
+    "3D render > night fight under the stars, lizard vs rabbit, in a ring surrounded by nocturnal animals in an open Savannah > Pixar-like style, vibrant but eerie, detailed skin and fur textures > dutch angle shot, lit from the sides highlighting the fighters' textures >  cinematic, photorealistic, movie",
+
+    "3D render > dramatic fight of a well-muscled bull and a nimble mongoose in an old traditional Japanese dojo > Pixar like style, high quality lighting, ornate wood, paper panel textures > close-up shot showcasing fierce attacks and evasive maneuvers > cinematic, photorealistic, movie",
+
+    "3D render > boxing match featuring an aggressive wolverine and an athletic cheetah in an underwater boxing ring, surrounded by oceanic life > Pixar-like style, glossy textures, rich colors and highly detailed animal skins > wide-angle perspective, notable scenery detail in the background > cinematic, photorealistic, movie",
+    
+    "3D render > Boxing match between a turtle and a squirrel on a boxing ring in the middle of a dense jungle, with various animals watching keenly > Pixar-like style, detailed and textured turtle shell and squirrel fur, ambient lighting > Jungle canopy shot above the ring against the backdrop of a setting sun > cinematic, photorealistic, movie"
   ]
 }
 const result = {
@@ -19,13 +32,12 @@ const result = {
     "skip": false,
     "lastGenerationAt": "",
     "videoPrompt": raw.input,
-    "audioPrompt": "intense and fast-paced electronic and orchestra music with synthetisers, electronic drum machine",
+    "audioPrompt": "fast-paced combat music with guitars rifss and electronic drum loop",
     "tags": [
       "trailer",
       "comedy",
-      "action",
-      "adventure",
-      "science-fiction"
+      "animation",
+      "action"
     ],
     "channel": "main",
     "shots": raw.captions.map((cap, i) => ({
