@@ -3,6 +3,90 @@
   "startAtShotId": "",
   "sequences": [
     {
+      "sequenceId": "3b7fb664-f50a-4e2d-b63b-e1fedb22e501",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "A photorealistic movie about a llama having various jobs",
+      "audioPrompt": "rock music with synth, garage style, trending on the radio",
+      "tags": [
+        "trailer",
+        "comedy"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "88b63361-7e5f-4a13-ad7d-d18820591f67",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic movie of a llama dressed as a stock trader, analyzing multiple monitors with live market data, in a busy wall street office, dramatic lighting, Canon EOS, high quality, award winning, trending on artstation, highly detailed fur",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "da900ad6-78a0-4bee-b812-525bf53fc253",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a llama acting as a programmer, wearing glasses and a hoodie, intensely staring at a screen with lines of code, in a cozy, dimly lit room, Canon EOS, ambient lighting, high details, cinematic, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "7229c394-c544-4542-83a5-3e91c8969b1f",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic footage of a llama working as a cook, donning a chef hat and apron, bustling around a professional kitchen, with shiny stainless steel appliances, focused on preparing a dish, Canon EOS, ambient lighting, high quality, award-winning, highly detailed fur, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "22d2cf17-8eeb-4b57-bdc5-0c697515f83a",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Film sequence of a llama being a musician, creatively strumming a guitar, wearing a rock star outfit, in a groovy music studio filled with vintage instruments, Canon EOS, dramatic lighting, high quality, award-winning, highly detailed fur, trending on artstation, cinematic",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c173c062-403f-49b1-b32a-c5e116f2d60e",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a llama working as a construction worker, wearing a hard hat and reflective vest, overseeing a busy construction site, Canon EOS, afternoon sunlight, high quality, award-winning, highly detailed fur, cinematic, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "7a3624c2-4192-4153-a6e4-b966923a8783",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic sequence of a llama being a librarian, wearing reading glasses and a cardigan, scanning through rows of bookshelves in a grand library, Canon EOS, ambient lighting, high quality, award-winning, highly detailed fur, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "2fae7659-f4e4-46bc-8c2d-b7ba042801f1",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie scene of a llama acting as a firefighter, in firefighter uniform, dramatically spraying water at roaring flames, amidst a chaotic urban scene, Canon EOS, ambient lighting, high quality, award winning, highly detailed fur, cinematic, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "13c00dea-72a0-4415-a040-da6fa30edfb8",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic footage of a llama working as a professional painter, mixing colors on a palette, canvas in the background, in a spacious sunlit art studio, Canon EOS, natural lighting, high quality, award winning, highly detailed fur, cinematic, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "29c45bd0-83f9-4369-83c1-9f0cdf8171b9",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic movie of a llama being an astronaut, in a suit, conducting zero gravity experiments in a bustling, high-tech space station, Canon EOS, ambient lighting, high quality, award-winning, highly detailed fur, trending on artstation",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "4304c1d8-a7f9-4a0a-b721-14ce0e70d9e3",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Film sequence of a llama acting as a professional photographer, adjusting the lens on its extensive, high-end camera, amidst a scenic outdoor setting during golden hour, Canon EOS, award winning, high quality, highly detailed fur, cinematic, trending on artstation",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
       "sequenceId": "7a59e372-548c-4ad6-8fa3-313747f010e0",
       "skip": false,
       "lastGenerationAt": "",
@@ -804,90 +888,6 @@
           "index": 7,
           "lastGenerationAt": "",
           "videoPrompt": "Cinematic movie, climactic moment of an astronaut riding a llama, crossing the finish line with a flurry of dust, evening golden light, cheering crowd in the background, photo-finish moment, detailed textures, Canon EOS, high quality, 4K, trending on artstation, beautiful, award-winning",
-          "audioPrompt": ""
-        }
-      ]
-    },
-    {
-      "sequenceId": "3b7fb664-f50a-4e2d-b63b-e1fedb22e501",
-      "skip": false,
-      "lastGenerationAt": "",
-      "videoPrompt": "A photorealistic movie about a llama having various jobs",
-      "audioPrompt": "rock music with synth, garage style, trending on the radio",
-      "tags": [
-        "trailer",
-        "comedy"
-      ],
-      "channel": "main",
-      "shots": [
-        {
-          "shotId": "88b63361-7e5f-4a13-ad7d-d18820591f67",
-          "index": 0,
-          "lastGenerationAt": "",
-          "videoPrompt": "Cinematic movie of a llama dressed as a stock trader, analyzing multiple monitors with live market data, in a busy wall street office, dramatic lighting, Canon EOS, high quality, award winning, trending on artstation, highly detailed fur",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "da900ad6-78a0-4bee-b812-525bf53fc253",
-          "index": 1,
-          "lastGenerationAt": "",
-          "videoPrompt": "Photorealistic movie of a llama acting as a programmer, wearing glasses and a hoodie, intensely staring at a screen with lines of code, in a cozy, dimly lit room, Canon EOS, ambient lighting, high details, cinematic, trending on artstation",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "7229c394-c544-4542-83a5-3e91c8969b1f",
-          "index": 2,
-          "lastGenerationAt": "",
-          "videoPrompt": "Cinematic footage of a llama working as a cook, donning a chef hat and apron, bustling around a professional kitchen, with shiny stainless steel appliances, focused on preparing a dish, Canon EOS, ambient lighting, high quality, award-winning, highly detailed fur, trending on artstation",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "22d2cf17-8eeb-4b57-bdc5-0c697515f83a",
-          "index": 3,
-          "lastGenerationAt": "",
-          "videoPrompt": "Film sequence of a llama being a musician, creatively strumming a guitar, wearing a rock star outfit, in a groovy music studio filled with vintage instruments, Canon EOS, dramatic lighting, high quality, award-winning, highly detailed fur, trending on artstation, cinematic",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "c173c062-403f-49b1-b32a-c5e116f2d60e",
-          "index": 4,
-          "lastGenerationAt": "",
-          "videoPrompt": "Photorealistic movie of a llama working as a construction worker, wearing a hard hat and reflective vest, overseeing a busy construction site, Canon EOS, afternoon sunlight, high quality, award-winning, highly detailed fur, cinematic, trending on artstation",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "7a3624c2-4192-4153-a6e4-b966923a8783",
-          "index": 5,
-          "lastGenerationAt": "",
-          "videoPrompt": "Cinematic sequence of a llama being a librarian, wearing reading glasses and a cardigan, scanning through rows of bookshelves in a grand library, Canon EOS, ambient lighting, high quality, award-winning, highly detailed fur, trending on artstation",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "2fae7659-f4e4-46bc-8c2d-b7ba042801f1",
-          "index": 6,
-          "lastGenerationAt": "",
-          "videoPrompt": "Movie scene of a llama acting as a firefighter, in firefighter uniform, dramatically spraying water at roaring flames, amidst a chaotic urban scene, Canon EOS, ambient lighting, high quality, award winning, highly detailed fur, cinematic, trending on artstation",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "13c00dea-72a0-4415-a040-da6fa30edfb8",
-          "index": 7,
-          "lastGenerationAt": "",
-          "videoPrompt": "Photorealistic footage of a llama working as a professional painter, mixing colors on a palette, canvas in the background, in a spacious sunlit art studio, Canon EOS, natural lighting, high quality, award winning, highly detailed fur, cinematic, trending on artstation",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "29c45bd0-83f9-4369-83c1-9f0cdf8171b9",
-          "index": 8,
-          "lastGenerationAt": "",
-          "videoPrompt": "Cinematic movie of a llama being an astronaut, in a suit, conducting zero gravity experiments in a bustling, high-tech space station, Canon EOS, ambient lighting, high quality, award-winning, highly detailed fur, trending on artstation",
-          "audioPrompt": ""
-        },
-        {
-          "shotId": "4304c1d8-a7f9-4a0a-b721-14ce0e70d9e3",
-          "index": 9,
-          "lastGenerationAt": "",
-          "videoPrompt": "Film sequence of a llama acting as a professional photographer, adjusting the lens on its extensive, high-end camera, amidst a scenic outdoor setting during golden hour, Canon EOS, award winning, high quality, highly detailed fur, cinematic, trending on artstation",
           "audioPrompt": ""
         }
       ]
