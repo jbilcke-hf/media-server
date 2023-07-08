@@ -31,9 +31,8 @@ const main = async () => {
 
   console.log('Reading persistent file structure..')
   const stats = await getStats()
-  console.log(`New format: We have ${stats.nbVideoFiles} video files`)
 
-  console.log(`Legacy: We have ${stats.nbLegacyVideoFiles} video files and ${stats.nbLegacyAudioFiles} audio files`)
+  console.log('nb files:', JSON.stringify(stats, null, 2))
 
   console.log('Reading prompt database..')
   const db = await getDatabase('./database.json')
