@@ -37,9 +37,3 @@ mkdir -p $WEBTV_AUDIO_STORAGE_PATH_CHANNEL_4
 echo "creating the playlists for channel 4.." 
 echo "ffconcat version 1.0" > channel_4_video.txt
 echo "ffconcat version 1.0" > channel_4_video.txt
-
-# ------------ UPDATE MUSIC ------------
-bash scripts/download_fresh_music.sh
-
-# ---------- CONTENT ALIGNMENT ---------
-bash scripts/censorship.sh

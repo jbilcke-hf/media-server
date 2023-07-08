@@ -3,7 +3,15 @@
 # initialize the stream pipes
 bash ./scripts/init.sh
 
+# ------------ UPDATE MUSIC ------------
+bash scripts/download_fresh_music.sh
+
+# ---------- CONTENT ALIGNMENT ---------
+bash scripts/censorship.sh
+
 # ------ background processes ---------
+
+bash scripts/interpolate.sh &
 
 # starts the streaming server first, otherwise ffmpeg won't find it
 node ./media-server.js &
@@ -17,12 +25,14 @@ bash scripts/audio2.sh &
 # background process that creates a video stream from video files
 bash scripts/video1.sh &
 bash scripts/video2.sh &
+# bash scripts/video3.sh &
 
 sleep 1
 
 # background process that sends data to the media server
 bash scripts/stream1.sh &
 bash scripts/stream2.sh &
+# bash scripts/stream3.sh &
 
 sleep 1
 
