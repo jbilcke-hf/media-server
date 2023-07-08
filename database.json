@@ -3,6 +3,478 @@
   "startAtShotId": "",
   "sequences": [
     {
+      "sequenceId": "31730a8c-f5b9-4168-80ae-705c1540854a",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a 3D rendered movie in the style of Pixar movies, with cute pigeons who go on various adventures to hunt a treasure chest, they go in the mountains, city, they are chased by bad cats and foxes who also have a goofy, 3D rendered look, finally, find the treasure in an abandoned subterranean city. The style should be very cute and funny, goofy. 3D renderer film in the style of Pixar, cute pigeon, cinematic, photorealistic, movie.",
+      "audioPrompt": "energic pop cinematic orchestra",
+      "tags": [
+        "trailer",
+        "comedy",
+        "animation"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "dcc14048-0a39-4558-aaad-04207d759e17",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D-render movie of a plump grey pigeon, with soft feathers and alert, shiny eyes in a city park, under a bright sun, casting long shadows. A golden sparkle catches its eye. Style: Cute, goofy, pixar-like, cinematic. Composition: Wide-angle, sunny day, crisp. Camera: Highly detailed, CGI, Pixar-style render. Additional Keywords: High quality, Photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d1db32f3-9e22-44fe-ba19-30300c8eb503",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D-rendered movie of the pigeon flapping wings, soaring over red-brick city buildings and gridded streets, the skyline and clouds reflecting in skyscraper windows. Style: Cinematic, photorealistic, Pixar-like animation. Composition: Aerial view, urban landscape. Camera: CGI, detailed, ultra wide-angle. Additional Keywords: High quality, pixar, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "aba60cce-fed8-4dfa-89fe-87edc9f0c195",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D-rendered film of an old wise pigeon with speckled feathers, perched on a mountain rock, overlooking a lush green forest with the sun setting behind it. Style: Cinematic, Pixar-like, photorealistic. Composition: Grand landscape shot, golden hour. Camera: Detailed, CGI render, wide-angle. Additional Keywords: Pixar, High quality, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c7659bd0-322d-438f-9633-b9a1f1029d53",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D-rendered movie of a young, goofy pigeon slipping and sliding on an icy mountain peak, with snow-covered pines in the background, under a blue sky. Style: Funny, cute, Pixar-like, cinematic. Composition: Mid-range action shot, winter scene. Camera: CGI, ultra-detailed, Pixar style. Additional Keywords: High quality, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "fb7271e8-8671-4eae-89fb-ac86cba2019a",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D-rendered movie showing a female dove, cooing softly and winking at the older pigeon, under the full moon, a serene lake in the background. Style: Romantic, cute, Pixar-style, cinematic. Composition: Night scene, lakefront. Camera: Detailed CGI render, close-up. Additional Keywords: Pixar, high quality, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "83931c10-aa74-4a1d-8c62-240658160e6e",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D-rendered movie of the pigeons strategizing on a map, with intricate thread patterns and old parchment textures, for their treasure hunt. Candlelight flickering in the background. Style: Adventure, Pixar-like, cinematic. Composition: Interior scene, overhead shot. Camera: Ultra-detailed, CGI, close-up. Additional Keywords: High quality, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "dbbe2301-1616-4e3d-9deb-3d7a229aa501",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D-render movie clip of the pigeons being chased through alleyways by cartoony, ill-intentioned foxes and cats, with exaggerated, goofy expressions, under glaring neon city lights. Style: Funny, cinematic, Pixar-style. Composition: Action, night cityscape. Camera: CGI, high-detail, wide-angle, high-speed. Additional Keywords: Pixar, High quality, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "3bb85a64-3eb9-4fc1-9b74-e69ae1bdb1be",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D-rendered movie of the pigeons narrowly escaping danger by flying into a dark network of underground tunnels, with a barely visible light at the end. Composition: Adventure, suspense, Pixar-style, cinematic. Camera: CGI, highly detailed, tunnel view. Additional Keywords: Pixar, High quality, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "44eed197-e81f-43b7-a387-2e6dcd879ca7",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D-rendered movie clip of pigeons discovering a grand, abandoned underground city, overgrown with moss and vines, sunlight filtering through cracks. The air is filled with dust particles. Style: Majestic, Pixar-like, cinematic. Composition: Grand reveal, light shafts. Camera: CGI, ultra-detailed, wide shot. Additional Keywords: High quality, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "07b27751-a607-40a5-bae0-99122fe3ebd8",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D-render film of a younger pigeon stepping on a cobblestone, triggering an ancient mechanical trap, with dust swirling around and stone gears moving. Style: Suspense, Pixar-like, cinematic. Composition: Indoor view, action shot. Camera: CGI, high-detail, close-up. Additional Keywords: Pixar, High quality, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "94d2baff-b739-4e9b-9310-ea186cf1dc79",
+          "index": 10,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D-rendered movie of the pigeons finding a golden, jewel-encrusted treasure chest, under a beam of sunlight, with their reflections dancing on the cavern walls. Style: Joyful, Pixar-like, cinematic. Composition: Big reveal, natural lighting. Camera: CGI, ultra-detailed, close-up. Additional Keywords: High quality, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d1423527-eb18-4277-9e62-e60d97c0de2b",
+          "index": 11,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D-rendered movie showing the pigeons flying out of the underground city, the treasure chest silhouette against the setting sun. The sky painted in hues of pink and purple. Style: Happy ending, Pixar-like, cinematic. Composition: Sunset, silhouette. Camera: CGI, detailed, wide-angle. Additional Keywords: High quality, Pixarcy, movie.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "2d699f8e-584b-4981-89c7-aeec05eff293",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a 3D rendered movie in the style of Pixar movies, with cute characters representing food",
+      "audioPrompt": "electronic ambient music",
+      "tags": [
+        "trailer",
+        "comedy",
+        "animation"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "0d1f5dc8-4edd-4da6-8b30-8fb69857678f",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D rendered video of a friendly broccoli character wearing a hat, walking in a candy-filled city street with gingerbread houses, under a bright sun and blue skies, Pixar's style, cinematic, photorealistic, movie, ambient lighting, natural lighting, CGI, wide-angle view, daytime, ultra realistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "1dff9ab0-4961-493c-9dc4-f3d89fb3fd32",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animation showing a charming red apple with big eyes and a grin, playing guitar on a stage made of vegetables. There are other foodie characters in the audience cheering, Pixar's style, CGI, cinema4d, ambient lighting, perfect lightning, evening time, digital art, cinematic, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "131c6cf5-4504-412c-8933-36b98c91b674",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D Animation of a mischievous tomato character sliding down a rainbow made of candy floss, under a sky sprinkled with sugar stars, Pixar's style, cinematic, photorealistic, movie, lens flare, ambient lighting, CGI, aerial view, natural lighting, high detailed skin.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8d02a8ba-2bc0-4b0f-8365-b317349176d2",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D rendered video showing a pizza slice character in blue jeans, grooving on drums in close-up. Lights shine on the cheesy texture of its body. Pixar's style, ambient lighting, spotlight, CGI, direct sunlight, cinematic, photorealistic, movie, depth of field (or dof), ultra realistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8194d54f-3549-4807-bc04-7d31d0b88df6",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Animation of a burger character with extra cheese playing a shiny saxophone on the stage, surrounded by a cheering crowd of food characters, Pixar's style, CGI, ambient lighting, stage lights, cinematic, photorealistic, movie, studio quality, close-up.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "4ef34df5-66b2-495b-9ee1-3827b09a0aac",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D rendered video of a dancing pineapple character with a party hat, glossy textures reveal its juicy nature. It is surfing on a wave of soda in a city made of candy and cakes, Pixar's style, CGI, ambient lighting, dramatic lighting, cinematic, photorealistic, movie, breathtaking, ultra realistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "dd1baad1-16ca-4085-9329-beb905e5d4bc",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D movie shot of a potato character in a leather jacket, playing electric guitar in front of a giant donut, with other lively food characters in the background, Pixar's style, CGI, ambient lighting, concert lighting, cinematic, photorealistic, movie, trending on artstation, ultra realistic, studio quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "19e16518-0152-4fda-9dd3-15978838c0a4",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D rendered animation showing a group of food characters forming a pyramid, with a banana standing triumphantly on top. In a city with cotton candy clouds and chocolate roads, Pixar's style, CGI, ambient lighting, direct sunlight, rich color scheme, ultra realistic, cinematic, photorealistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "19a80770-cab5-4e07-b9fb-fa1dc9007f6e",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animation of a city made from vegetables moving to the rhythm. Cucumbers are lamp posts, salad form the trees, and a river of olive oil flows across, Pixar's style, cinematic, photorealistic, movie, stuning, CGI, ambient lighting, dusk light, ultra realistic, massive scale.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "41d34aba-b1e4-41df-9cb6-23560fa2d9be",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D animation showing a crowd of food characters, under a confetti shower, completely immersed in the music. Candy street with chocolate houses under a sunset, Pixar's style, CGI, ambient lighting, crepuscular rays, direct sunlight, dusk, cinematic, photorealistic, movie, breathtaking, ultra realistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "305a9748-d0d0-4e0d-bb72-ba475ae19258",
+          "index": 10,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D movie shot showing a view from the stage looking out at all the food characters, fireworks explode above them in an orange evening sky, Pixar's style, CGI, ambient lighting, dramatic lighting, cinematic, photorealistic, movie, award winning, ultra realistic, panoramic",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "946b43f3-f4d0-4e00-8e4c-f1978d077ba2",
+          "index": 11,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D rendered overview shot of the entire candy filled city, bouncing to the groove with all the food characters celebrating under the fireworks and twinkling starlight, Pixar's style, CGI, ambient lighting, night light, direct moonlight, cinematic, photorealistic, movie, breathtaking, ultra realistic, 8k UHD.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "770d45ce-b01f-4dc0-b042-7e0be7cbf9e0",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a photorealistic movie about Atlantis",
+      "audioPrompt": "epic orchestral music set in roman empire",
+      "tags": [
+        "trailer",
+        "adventure",
+        "fantasy"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "fd65888a-5fc5-4c8f-b743-f2a3f8ab332a",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealist movie. Cinematic master wide shot of the mystical city Atlantis, surrounded by a mystic barrier, reflecting the full-moon light and ocean around it. Detailed view showing luminary orbs floating around. Shot with an ultra wide-angle lens, 8K UHD, studio quality",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "dcada380-1cbb-41d0-81fa-5ef40c66de91",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealist movie. Aerial view of the grandeur of detailed structural architecture of Atlantis, Roman style buildings with futuristic details, gleam under the radiant sunlight. Shot with crystal clarity on a RED Helium Cinema Camera, in 8K UHD",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "9a584476-64c0-48c9-a9bc-904f27349616",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealist movie. Beautiful close up shot displaying detailed Roman clothing on Atlantean citizens walking busy Atlantis streets. Ambient lighting brings out the colorful details. Shot with a rig-mounted camera, 8K Ultra HD, raytracing",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8b7b1fac-b45c-48e9-a042-392cf586d884",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealist movie. Cinematic shot of Atlantean citizens' vibrant daily life. Flying horse-drawn carriages soar high in the clear sky. Filmed under natural sunlight. Shot with a dolly camera, 8K UHD lighting, studio quality",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "e82596bc-4806-4c76-b09d-b06289820608",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealist movie. Scene capturing the awe-inspiring sight of Atlantean magic at work, bearing a celestial golden glow. The focal point is an enchanting, glowing orb. Anamorphic lens captures breathtaking panorama, in 8k UHD quality",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "2497990a-fcde-46a4-92da-765f65367565",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealist movie. Time-lapse showcasing the progression of day into night above Atlantis. The city transitions from being bathed in natural sunlight to glimmering under soft moonlight. Shot with a wide-angle lens, 8K UHD, studio quality",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "1c2bc82a-d6c4-45f0-8255-fd3d64f42602",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealist movie. Dramatic shot of ominous dark clouds gathering over Atlantis, soaking the city under a curtain of relentless rainfall. Ambient lighting accentuates the gloomy atmosphere. Captured in 8k UHD on a steadicam, studio quality",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "5ecd8bce-0bd2-4db7-b066-ae97acfdf3d1",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealist movie. Cinematic slow-motion shot of citizens running in chaos as the sea invades the enchanting city, disrupting their harmonious life. Blurry yet detailed, shot under backlit, in 8k UHD, studio quality",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "50a66426-6072-424e-9fac-d915ed0378ac",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealist movie. Intense close-up of the helplessness on a citizen's face, rendered in stark detail against the chaotic backdrop of inundated Atlantis. Captured in 8k UHD with extreme depth of field (DOF), studio quality",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "240e833d-fb54-4275-960d-813f82817396",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealist movie. Epic long shot capturing the colossal waves submerging Atlantis, the air filled with ethereal glowing orbs & flying carriages desperately trying to escape. Shot under cold, harsh lighting conditions with a phantom flex camera, 8k UHD",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "0b8b8265-bb63-45e8-800c-04a54f4814ba",
+          "index": 10,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealist movie. Underwater shot revealing the sunken Atlantis city, giving off a mystical glow amidst the silent, dark sea, adding an element of surrealism. Captured in 8k UHD using an underwater camera, studio quality",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a8f01575-b75f-4ca0-9db1-14dc5bbae921",
+          "index": 11,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealist movie. Final shot of Atlantis, the city now a masterpiece in the heart of the ocean, enriched with marine life. Filmed with a RED underwater camera under ambient light, showing high detailed textures, 8k UHD, studio quality",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "940cec42-ee09-4a22-85d7-db3ceeabdab7",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a photorealistic movie about two robot musician DJs making movie in front of dancing humans",
+      "audioPrompt": "techno house music edm",
+      "tags": [
+        "trailer",
+        "music"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "49820dec-7031-49fb-90ca-038697091bf9",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Ultra HD footage of a metallic robot DJ vigorously mixing music in a grungy-looking hangar turned into a club. With the spotlight casting shadows on rough, textured walls, the atmosphere is electric, filled with dancing humans in vintage leather jackets, against the backdrop of dim ambient lighting. Cinematic, photorealistic, movie environment.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d0e54ab1-d906-4f6d-948c-1c08a9a74a11",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "4k footage of an energetic crowd of humans bouncing to the beats laid down by a pair of robot DJs. The setting is a high class, chic nightclub. Soft, ambient light falls on velvet curtains and brushed aluminum frames creating striking contrasts. The floor trembles with rhythms making the scene a lively, motional dance floor. Photorealistic, cinematic and movie-like.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "88fd5bd2-b221-4652-b305-556553fb3764",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Aerial view of a robot DJ stirring up an crowd in an outdoor luxury house party at dusk. The house is extravagantly lit and the twilight sky adds a solemn yet mystic backdrop to the scene. The shadows and sparkles of a lit swimming pool accentuate the cinematic feel of the dancing humans. Photorealistic, movie quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "12da4d12-8852-41a0-b304-46a92ce2ce64",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Wide-angle shot capturing a human DJ captivating a crowd of dancing robots in a futuristic bar. The neon lights play off the smooth, polished surfaces of the robots, while the atmosphere is given texture by the crowd's synchronized movements. The color scheme is dominated by blues and purples. Movie-style, Photorealistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "665f37b0-7dd8-4d11-af9f-fcf568294dc4",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Full HD, close-up view of the DJ's hand manipulating the turntable, with the crowd of humans and robots visible in the reflective surface. The figures, lights, and movements merge into an abstract dance party painting. The lens captures every detail from fingerprints to light reflections. Cinematic, photorealistic, movie quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "2f608992-dc87-4ed6-8d92-b4696fb2ed09",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "A stunning panoramic view of a duo of human DJs orchestrating an explosive concert for a massive gathering of robots. The concert is held in a gigantic steel warehouse, with endless rows of robots participating. Contrasting cold steel surfaces with pulsating warm lights, the aerial view presents a breathtaking spectacle. Cinematic, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d429dd47-311f-44ec-ba94-eb382bb79700",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Ultra HD, ground level view of robots and humans sharing a dance floor, their movements synchronized to the hypnotic rhythms of a robot DJ. Located in a rustic bar, the scene mixes modern robots and vintage decors in an interesting juxtaposition. The atmosphere is warm and lively. Movie-style, Photorealistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "2f748e1b-8f50-45b2-90db-b7dd16df3388",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "4k footage of Robot DJ surrounded by humans, all engrossed in the music. Set in a high-end nightclub with LED-lit dance floor that reflects off the robots' polished metal bodies to create a sea of lights. Humans in fashionable attire join in the dance, creating a striking statement of coexistence. Cinematic, photorealistic, movie-quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "215eef39-1515-44e8-93d3-2a025e37e218",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Close-up shot of a human DJ manipulating the DJ equipment, his intense concentration mirrored in the intent gazes of watching robots. Exposed circuitry and vivid lights give the scene a futuristic cinematic feel. The details on the DJ equipment and the robots are highlighted at dusk under accent lighting. Photorealistic, Movie-style.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "6dc11b08-6c35-4104-8eb6-b68bb4eb78d3",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Extensive shot capturing a pair of robot DJs going head-to-head to outmatch each other with their music skills. The setting is an old factory, where the rustic setting contrast starkly with modern robots. The crowd of robots and humans watches eagerly, their faces lit by diverse stage lights. Photorealistic, cinematic, movie quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "13695074-ce0e-4919-a821-168e012c4d8a",
+          "index": 10,
+          "lastGenerationAt": "",
+          "videoPrompt": "An extreme close-up shot of a robot DJ's hands manipulating the sliders and knobs, its metallic fingers reflecting the neon lights, showcasing the intricate designs of the robot. In the blurred background, one can make out the dancing figures of humans. The atmosphere is energetic and loud. Photorealistic, movie style, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "b196e58e-18b3-4e25-8fd2-7b34f8a4aa1a",
+          "index": 11,
+          "lastGenerationAt": "",
+          "videoPrompt": "A wide shot of a human DJ surrounded by dancing robots in a simple, ambiently lit bar. The warm wooden tones of the bar contrast with the cool metallic tints of the robots. The room's mood is casual yet vibrant, with ecstatic robots moving in synchronized patterns. Cinematic, Photorealistic, Movie-style.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "4e79a20d-4da0-4ccb-8812-0414b2c93ae3",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a photorealistic movie about robots living and walking in the streets of New York",
+      "audioPrompt": "electronic ambient music",
+      "tags": [
+        "trailer",
+        "science-fiction"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "f2e90541-6738-4924-b16b-13bffd680b9b",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie scene depicting a detail-rich, metallic robot walking on a busy sidewalk in New York City, daytime, skyscrapers surrounding, under soft ambient lighting, shot from a low angle with a DSLR camera, cinematic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "cea7b3df-9e97-47fa-b47a-ad309f3228e9",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie scene, high-detail rendering of a shiny robot holding a canvas grocery bag, standing among the crowd in the markets of New York, the afternoon sun creating a beautiful backlight accentuating details, wide-angle lens, cinematic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c47cc603-6d0b-4bbd-b53a-d0a3e1686c4e",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie scene of a robot seamlessly integrated into the human crowd, driving a classic New York yellow cab in the midday sun, long shot with a DSLR camera in landscape, cinematic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a5685363-8780-4e17-afcb-fb01db5f25b9",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie scene, featuring a robot manually fixing an old car on the streets of NYC, detail-rich, beautiful Edison bulb hanging above casting warm light, shot from street level view with a DSLR camera, cinematic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "7905f57f-3efc-4889-b183-240527c0a029",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie scene with a group of robots waiting at a busy New York crosswalk displaying human-like behaviors, under artificial city lights, long shot, DSLR camera, cinematic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a077e5a6-7213-49f3-a615-273034cee896",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie scene, large number of robots gathered in Central Park, distinctive metallic texture reflecting the warm, late afternoon sunlight, shot with a ultra wide-angle lens from a DSLR camera, cinematic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "5bde76ca-4fb9-4c53-99c0-89574c4d061a",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie scene portraying robots carrying banners, starting a demonstration in New York's Times Square under glowing evening city lights, detailed textures, captured with a wide-angle lens, DSLR, cinematic, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "37b126cd-3178-461b-a8e2-2b28653fc3ac",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie sequence as more robots join the demonstration, atmosphere lit up by electric arc, highlighting metallic finishes of the robots, captured with a DSLR using a Dutch angle for cinematic effect, movie",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "6af2e1b7-b9fa-402d-bb47-775a8d674eb4",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie scene showcasing the dynamic and diverse robot mob growing in numbers, with Broadway's neon lights flashing off metal surfaces, shot using a fisheye lens on a DSLR camera, cinematic, movie",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
       "sequenceId": "da6329e1-c863-45e0-aa18-5161cf5eeacd",
       "skip": false,
       "lastGenerationAt": "",
@@ -371,7 +843,7 @@
     },
     {
       "sequenceId": "b11a62f9-c3c0-4f8e-8415-ffa39f197f68",
-      "skip": false,
+      "skip": true,
       "lastGenerationAt": "",
       "videoPrompt": "a photorealistic movie set in the 60s, french new wave, with 60s haircuts, a bit esoteric, with a lot of concrete buildings, vintage cars and women, gentlemen dressed appropriately for the time period, various dialog, people having a 60s party in a villa with a pool, it is a genre film, a bit experimental and esoteric, there are some dreamy places (all geometric, white with only one or a few characters per scene etc).",
       "audioPrompt": "ambient electronic music from the 50s kraftwerk inspiration",
@@ -3479,6 +3951,7 @@
     {
       "sequenceId": "651af9d8-e79c-4bd5-872e-c3b40c8c1b25",
       "lastGenerationAt": "",
+      "skip": true,
       "videoPrompt": "a movie, a passenger boeing at the airport, view of the crew preparing, then it takes of at sunrise, the we see beautiful shorts of the boeing crossing the cloud ceiling, flying in the sky during golden hour, cloud, over the water etc. The video should have a very atmospheric lighting, with fog, haze, mist to add to the ambiance, with various shots at sunset, sunrise etc, flying over the coasts, islands etc and the final landing should be beautifully seen within the busy control tower and tarmac",
       "audioPrompt": "ambient deep house, drum machine, synth",
       "tags": [

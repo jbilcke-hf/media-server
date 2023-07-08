@@ -25,14 +25,14 @@ bash scripts/audio2.sh &
 # background process that creates a video stream from video files
 bash scripts/video1.sh &
 bash scripts/video2.sh &
-# bash scripts/video3.sh &
+bash scripts/video3.sh &
 
 sleep 1
 
 # background process that sends data to the media server
 bash scripts/stream1.sh &
 bash scripts/stream2.sh &
-# bash scripts/stream3.sh &
+bash scripts/stream3.sh &
 
 sleep 1
 

@@ -1,19 +1,30 @@
 const { v4 } = require('uuid')
-const raw =     {
-  "input": "a photorealistic movie set in the 60s, french new wave, with 60s haircuts, a bit esoteric, with a lot of concrete buildings, vintage cars and women, gentlemen dressed appropriately for the time period, various dialog, people having a 60s party in a villa with a pool, it is a genre film, a bit experimental and esoteric, there are some dreamy places (all geometric, white with only one or a few characters per scene etc).",
+const raw = {
+  "input": "a photorealistic movie about two robot musician DJs making movie in front of dancing humans",
   "captions": [
-    "Photorealistic movie of a mid-60s concrete villa facade, with soft ambient lighting and vintage cars parked in the driveway, gentlemen with slick hair and trench coats leaving the cars. French new wave style, wide-angle shot, cinematic, high details, ultra realistic on film.",
-    "Photorealistic movie of a beautiful lady in a 60s dress, standing by the concrete structure, with a dreamy pool in the background. Dusk light creating fascinating shadows, French New Wave style, close-up shot, cinematic, stunning, high quality.",
-    "Photorealistic movie of gentlemen and ladies dressed in 60s attire, mingling in the villa's lavish open-concept living room, high ceiling covered in geometric patterns, ambient light from glass chandeliers. French new wave style, bokeh shot, cinematic, highly detailed, ultra realistic.",
-    "Photorealistic footage of a lady in a white, delicate 60s dress, strolling by the pool, past vintage furniture arranged for an outdoor party. Moonlight casts a surreal glow, French New Wave style, wide-angle shot with depth of field, cinematic, award-winning, high details, 4k.",
-    "Photorealistic movie of elegant gents engrossed in a deep conversation, against the backdrop of geometric concrete walls, their cigarettes creating a thin layer of smoke. French new wave style, close-up shot with bokeh effect, cinematic and highly detailed.",
-    "Photorealistic movie of the glamorous ladies dancing by the pool, their chiffon dresses flowing with the rhythm, soft lighting from the lanterns casting dreamy shadows. French New Wave style, wide-angle shot, cinematic, stunning, detailed skin, ultra realistic.",
-    "Photorealistic movie of a gentleman leaning against a vintage car, a mystical, geometric amulet glinting under his shirt collar. Ambient lighting from nearby street lamps, French new wave style, close-up shot, cinematic, high quality, 4k.",
-    "Photorealistic movie of a record player spinning a vinyl, while party guests sway to the rhythmic 60s music in the background. French New Wave style, close-up shot, cinematic, highly detailed, ultra realistic.",
-    "Photorealistic movie of a lady being swept into a dance, her face expressing sheer joy, a concrete structure and party lights in the background. French New Wave style, bokeh shot, cinematic, award-winning, high details, 4k.",
-    "Photorealistic movie of a couple having a quiet, esoteric conversation by the pool, only audible whispers and an atmospheric 60s tune pervading the scene. French new wave style, wide-angle shot, cinematic, stunning, highly detailed.",
-    "Photorealistic movie of different shots of guests' faces, an interplay of laughter, whispers, and thoughtful silences, highlighting the range of human emotions. French New Wave style, montage of close-up shots, cinematic, award-winning, high details, 4k.",
-    "Photorealistic movie of a sweeping view of the villa, bathed in the soft glow of dawn, the remnants of the party adding a sense of nostalgia. French new wave style, aerial shot, cinematic, stunning, highly detailed, ultra realistic." 
+    "Ultra HD footage of a metallic robot DJ vigorously mixing music in a grungy-looking hangar turned into a club. With the spotlight casting shadows on rough, textured walls, the atmosphere is electric, filled with dancing humans in vintage leather jackets, against the backdrop of dim ambient lighting. Cinematic, photorealistic, movie environment.",
+
+    "4k footage of an energetic crowd of humans bouncing to the beats laid down by a pair of robot DJs. The setting is a high class, chic nightclub. Soft, ambient light falls on velvet curtains and brushed aluminum frames creating striking contrasts. The floor trembles with rhythms making the scene a lively, motional dance floor. Photorealistic, cinematic and movie-like.",
+
+    "Aerial view of a robot DJ stirring up an crowd in an outdoor luxury house party at dusk. The house is extravagantly lit and the twilight sky adds a solemn yet mystic backdrop to the scene. The shadows and sparkles of a lit swimming pool accentuate the cinematic feel of the dancing humans. Photorealistic, movie quality.",
+
+    "Wide-angle shot capturing a human DJ captivating a crowd of dancing robots in a futuristic bar. The neon lights play off the smooth, polished surfaces of the robots, while the atmosphere is given texture by the crowd's synchronized movements. The color scheme is dominated by blues and purples. Movie-style, Photorealistic.",
+
+    "Full HD, close-up view of the DJ's hand manipulating the turntable, with the crowd of humans and robots visible in the reflective surface. The figures, lights, and movements merge into an abstract dance party painting. The lens captures every detail from fingerprints to light reflections. Cinematic, photorealistic, movie quality.",
+
+    "A stunning panoramic view of a duo of human DJs orchestrating an explosive concert for a massive gathering of robots. The concert is held in a gigantic steel warehouse, with endless rows of robots participating. Contrasting cold steel surfaces with pulsating warm lights, the aerial view presents a breathtaking spectacle. Cinematic, photorealistic, movie.",
+
+    "Ultra HD, ground level view of robots and humans sharing a dance floor, their movements synchronized to the hypnotic rhythms of a robot DJ. Located in a rustic bar, the scene mixes modern robots and vintage decors in an interesting juxtaposition. The atmosphere is warm and lively. Movie-style, Photorealistic.",
+
+    "4k footage of Robot DJ surrounded by humans, all engrossed in the music. Set in a high-end nightclub with LED-lit dance floor that reflects off the robots' polished metal bodies to create a sea of lights. Humans in fashionable attire join in the dance, creating a striking statement of coexistence. Cinematic, photorealistic, movie-quality.",
+
+    "Close-up shot of a human DJ manipulating the DJ equipment, his intense concentration mirrored in the intent gazes of watching robots. Exposed circuitry and vivid lights give the scene a futuristic cinematic feel. The details on the DJ equipment and the robots are highlighted at dusk under accent lighting. Photorealistic, Movie-style.",
+
+    "Extensive shot capturing a pair of robot DJs going head-to-head to outmatch each other with their music skills. The setting is an old factory, where the rustic setting contrast starkly with modern robots. The crowd of robots and humans watches eagerly, their faces lit by diverse stage lights. Photorealistic, cinematic, movie quality.",
+
+    "An extreme close-up shot of a robot DJ's hands manipulating the sliders and knobs, its metallic fingers reflecting the neon lights, showcasing the intricate designs of the robot. In the blurred background, one can make out the dancing figures of humans. The atmosphere is energetic and loud. Photorealistic, movie style, cinematic.",
+
+    "A wide shot of a human DJ surrounded by dancing robots in a simple, ambiently lit bar. The warm wooden tones of the bar contrast with the cool metallic tints of the robots. The room's mood is casual yet vibrant, with ecstatic robots moving in synchronized patterns. Cinematic, Photorealistic, Movie-style."
   ]
 }
 
@@ -22,10 +33,10 @@ const result = {
     "skip": false,
     "lastGenerationAt": "",
     "videoPrompt": raw.input,
-    "audioPrompt": "ambient electronic music from the 50s kraftwerk inspiration",
+    "audioPrompt": "techno house music edm",
     "tags": [
       "trailer",
-      "adventure"
+      "music"
     ],
     "channel": "main",
     "shots": raw.captions.map((cap, i) => ({
