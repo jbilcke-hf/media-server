@@ -1,43 +1,31 @@
 const { v4 } = require('uuid')
-const raw = {
-  "input": "a 3d render, Pixar-like movie about animals boxing and fighting each other in various arenas",
+const raw =     {
+  "input": "a photorealistic movie set in the 60s, french new wave, with 60s haircuts, a bit esoteric, with a lot of concrete buildings, vintage cars and women, gentlemen dressed appropriately for the time period, various dialog, people having a 60s party in a villa with a pool, it is a genre film, a bit experimental and esoteric, there are some dreamy places (all geometric, white with only one or a few characters per scene etc).",
   "captions": [
-    "3D render > intense boxing scene with a kangaroo and a raccoon in a rustic wooden ring, surrounded by cheering crowd of various animals > Pixar-like style, cute and comical, detailed textures of wood, fur and red boxing gloves > low angle shot under morning sunlight, long shadows stretching, bokeh effect > cinematic, photorealistic, movie, award-winning",
-
-    "3D render > cute lion in shorts, big red boxing gloves, sparring against a wiry, quick footed zebra, both bathed in a spectacular sunset > Pixar-like style, comical, with a desert savannah arena background > wide-angled perspective, detailed fur, hair, and smooth animation > cinematic, photorealistic, movie",
-
-    "3D render > A humorously serious boxing event in a rainforest setting, monkey wearing golden gloves, fighting a towering bear > Pixar-like style, funny expressions, lush greenery, lighting from dappled sunlight > aerial view showcasing detailed ring, audience, canopy > cinematic, photorealistic, movie",
-
-    "3D render > Attention grabbing scene of giraffe and fox, big red boxing gloves, in indoor professional fighting ring, surrounded by darkened crowd > Pixar-like style, hyper-details, dramatic, multicolored spotlights > close-up shot, accent lighting on fighters, grainy texture > shot with Arri Alexa LF > cinematic, photorealistic, movie",
-
-    "3D-render > twin-tailed sly raccoon fighting a heavyweight rhino in an urban rooftop arena under neon lights > Pixar-like style, radiant colors, rooftops of buildings lining horizon > wide-angle night view, showing aerial shot cinematic, photorealistic, movie",
-
-    "3D render > boxing match featuring muscular kangaroo and agile meerkat in ancient Roman Colosseum, filled with animal spectators > Pixar-like style, detailed stone textures, warm afternoon ambiance > 300 degree panoramic view, luscious 3D color depth > cinematic, photorealistic, movie",
-
-    "3D render > dueling scene featuring bear and cougar in massive ring set amidst icy mountain peaks > Pixar-like style, gleaming icy textures, cool blue palette > pulled back camera shot showing full scope of mountains and fighting ring in sharp relief >  cinematic, photorealistic, movie",
-
-    "3D-render > lanky flamingo sparring against sturdy hippopotamus in bustling metropolis, concrete ring with skyscrapers backdrop > Pixar-like style, dynamic movements, colorful feather vs thick skin texture > aerial shot that sweeps over the urban scenery > cinematic, photorealistic, movie",
-
-    "3D render > night fight under the stars, lizard vs rabbit, in a ring surrounded by nocturnal animals in an open Savannah > Pixar-like style, vibrant but eerie, detailed skin and fur textures > dutch angle shot, lit from the sides highlighting the fighters' textures >  cinematic, photorealistic, movie",
-
-    "3D render > dramatic fight of a well-muscled bull and a nimble mongoose in an old traditional Japanese dojo > Pixar like style, high quality lighting, ornate wood, paper panel textures > close-up shot showcasing fierce attacks and evasive maneuvers > cinematic, photorealistic, movie",
-
-    "3D render > boxing match featuring an aggressive wolverine and an athletic cheetah in an underwater boxing ring, surrounded by oceanic life > Pixar-like style, glossy textures, rich colors and highly detailed animal skins > wide-angle perspective, notable scenery detail in the background > cinematic, photorealistic, movie",
-    
-    "3D render > Boxing match between a turtle and a squirrel on a boxing ring in the middle of a dense jungle, with various animals watching keenly > Pixar-like style, detailed and textured turtle shell and squirrel fur, ambient lighting > Jungle canopy shot above the ring against the backdrop of a setting sun > cinematic, photorealistic, movie"
+    "Photorealistic movie of a mid-60s concrete villa facade, with soft ambient lighting and vintage cars parked in the driveway, gentlemen with slick hair and trench coats leaving the cars. French new wave style, wide-angle shot, cinematic, high details, ultra realistic on film.",
+    "Photorealistic movie of a beautiful lady in a 60s dress, standing by the concrete structure, with a dreamy pool in the background. Dusk light creating fascinating shadows, French New Wave style, close-up shot, cinematic, stunning, high quality.",
+    "Photorealistic movie of gentlemen and ladies dressed in 60s attire, mingling in the villa's lavish open-concept living room, high ceiling covered in geometric patterns, ambient light from glass chandeliers. French new wave style, bokeh shot, cinematic, highly detailed, ultra realistic.",
+    "Photorealistic footage of a lady in a white, delicate 60s dress, strolling by the pool, past vintage furniture arranged for an outdoor party. Moonlight casts a surreal glow, French New Wave style, wide-angle shot with depth of field, cinematic, award-winning, high details, 4k.",
+    "Photorealistic movie of elegant gents engrossed in a deep conversation, against the backdrop of geometric concrete walls, their cigarettes creating a thin layer of smoke. French new wave style, close-up shot with bokeh effect, cinematic and highly detailed.",
+    "Photorealistic movie of the glamorous ladies dancing by the pool, their chiffon dresses flowing with the rhythm, soft lighting from the lanterns casting dreamy shadows. French New Wave style, wide-angle shot, cinematic, stunning, detailed skin, ultra realistic.",
+    "Photorealistic movie of a gentleman leaning against a vintage car, a mystical, geometric amulet glinting under his shirt collar. Ambient lighting from nearby street lamps, French new wave style, close-up shot, cinematic, high quality, 4k.",
+    "Photorealistic movie of a record player spinning a vinyl, while party guests sway to the rhythmic 60s music in the background. French New Wave style, close-up shot, cinematic, highly detailed, ultra realistic.",
+    "Photorealistic movie of a lady being swept into a dance, her face expressing sheer joy, a concrete structure and party lights in the background. French New Wave style, bokeh shot, cinematic, award-winning, high details, 4k.",
+    "Photorealistic movie of a couple having a quiet, esoteric conversation by the pool, only audible whispers and an atmospheric 60s tune pervading the scene. French new wave style, wide-angle shot, cinematic, stunning, highly detailed.",
+    "Photorealistic movie of different shots of guests' faces, an interplay of laughter, whispers, and thoughtful silences, highlighting the range of human emotions. French New Wave style, montage of close-up shots, cinematic, award-winning, high details, 4k.",
+    "Photorealistic movie of a sweeping view of the villa, bathed in the soft glow of dawn, the remnants of the party adding a sense of nostalgia. French new wave style, aerial shot, cinematic, stunning, highly detailed, ultra realistic." 
   ]
 }
+
 const result = {
     "sequenceId": v4(),
     "skip": false,
     "lastGenerationAt": "",
     "videoPrompt": raw.input,
-    "audioPrompt": "fast-paced combat music with guitars rifss and electronic drum loop",
+    "audioPrompt": "ambient electronic music from the 50s kraftwerk inspiration",
     "tags": [
       "trailer",
-      "comedy",
-      "animation",
-      "action"
+      "adventure"
     ],
     "channel": "main",
     "shots": raw.captions.map((cap, i) => ({

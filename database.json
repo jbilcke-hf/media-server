@@ -3,6 +3,468 @@
   "startAtShotId": "",
   "sequences": [
     {
+      "sequenceId": "7a59e372-548c-4ad6-8fa3-313747f010e0",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a photorealistic espionnage, spy movie about computer spies, set during the cold war",
+      "audioPrompt": "ambient electronic music from the 50s kraftwerk inspiration",
+      "tags": [
+        "trailer",
+        "adventure"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "03ac577d-dc89-45e0-874f-b959a4015b09",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie scene of a 1940s dark dingy room, lit by an overhead tungsten bulb casting long shadows, heavy with tension. A scientist in thick glasses is hunched over a mechanical electrostatic generator, sparks flying occasionally. The grainy texture of old bricks and dusty surfaces is visible. Cinematic, award winning, 4k quality, wide angle view, trending on artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "e9a90f3a-961e-4c2e-86bd-07639188320e",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic noir movie scene set in a claustrophobic 1950s surveillance room, aglow with a maze of blinking lights reflecting off a wall of vintage teletype machines. Cold machine noises, and tap tap tapping of keys forming an eerie soundtrack. Film noir style lighting, harsh shadows. RAW photo, high detailed grainy texture, 4k, wide-angle shot, studio quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "f4870a80-83e3-45b3-9717-09cc85c66838",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Ultra-realistic film scene from a vintage 1960s computer lab, featuring an imposing mainframe computer, magnetic tape rolling and humming, casting a green glow around. Scientists in white lab coats are navigating around the machine. Ambient fluorescent lighting, slight fog for a dramatic effect. 4k, highly detailed, bokeh, cinema quality, award-winning.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "75c44723-9e96-4484-8918-eded8a673c00",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie sequence of a 1970s retro-futuristic lab, full of dated tech, including an old analog oscilloscope, its green analog lines dancing mysteriously. The room pulsates with an eerie green glow, flickering sporadically. Low angle shot, cinematic lighting effects, 4k resolution, gloomy, ultra realistic, breathtaking, ambient lighting.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "9a380779-3a8b-43d0-a2cd-4f3bda3bfafe",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic rendering of a pinewood 1940s lab with a massive robotic arm built from scrapped tanks parts. It's controlled by a maze of wires connected to an early vacuum tube computer, humming softly. Muted sunlight filters through a cracked window. Close-up shot, award-winning, cinematic, 4k, fine art, nostalgic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "cc9c4a7c-829f-4f6f-bf2a-bf9f8f549c79",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "1950s movie scene set in a secretive backlight lit assembly room, dusty air visible in streaks of light, showing scientists working on a bipedal mechanoid, its complex hydraulics system making gentle mechanical sounds. Dutch angle view with touch of chiaroscuro lighting, cinematic, photorealistic, 4k, trending on artstation, studio quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "1fd8daee-948b-4d66-8632-1e13e1f2b6ee",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic 1960s inspired lab scene of a hulking robot, powered by magnetic tape computer, taking its first tentative steps, bathed in stark industrial lighting. Dust particles are illuminated in the slow-moving shafts of light. Cinema 4D, aerial view, RAW photo, 4k quality, high detailed textures, trending on artstation, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "4dac7843-ed7b-44b2-8992-61ee7cd250f8",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Ultra-realistic film sequence of a sophisticated robotic hand from the 1970s being fine-tuned, tiny gears and wires exposed. Team of scientists watch anxiously as it picks up an object with precision. Depth of field effect, 4k, grainy textures, focused lighting, cinematic, photorealistic, breathtaking, trending on artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "af5cc375-dd7d-4705-bc88-d774d6fc34b2",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "1940s photorealistic noir movie setting featuring computer scientists engrossed in blueprints while a cylindrical robot stands in the background under the stark light of an Edison bulb. Atmospheric, high detailed textures, wide-angle shot, cinematic, grainy film, ambient lighting, 4k quality, studio quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "1b81d252-8a83-4f07-ab3a-ee9524ea2574",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Vintage 1950s computer lab scene in a grainy film with detailed CRAY-1 supercomputer being used by stony-faced scientists. Low angle, dramatic with moody lighting, the air thick with tension and humming electricity. Cinematic lighting, ultra detailed, ultra HD, trending on artstation, award-winning.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "4cdc84c9-7c4d-47a6-984f-21d19f2b6b1d",
+          "index": 10,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cold war scene of a 1960s room filled with busy scientists and a strange looking full-body scanner, designed to build 3D models. Dutch angle shot, contrasting light and shadow, 4k resolution, ultra-realistic textures, unnerving yet fascinating, studio quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "e8f41d5e-a60b-475a-9e85-4b476c08a627",
+          "index": 11,
+          "lastGenerationAt": "",
+          "videoPrompt": "Final photorealistic movie shot of the 1970s. A proud team of computer scientists gathered around their finished bipedal robot, lights dimmed with single spotlight on the robot. Lavish details, RAW photo, high-quality shadows playing across their faces. 4k resolution, trending on artstation, award winning, breathtaking, cinematic, studio quality.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "a15c70c5-bb1f-40bc-a354-ed814e69abad",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a photorealistic movie set in the 80s, about a strange parallel world that manifests itself in iconic American places",
+      "audioPrompt": "ambient electronic music from the 50s kraftwerk inspiration",
+      "tags": [
+        "trailer",
+        "adventure"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "23ea5a82-1d7a-47d4-adc1-6f11ea2547cf",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic shot of a bustling 1980s American diner, filled with people in period-appropriate clothing like bombers and aviator vests. Neon lights create stark, colourful highlights. Wide-angle view emphasizing activity, captured in cinematic 35mm film with accents of jukebox in the background. Key words: photorealistic, movie, 80s, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "1836f0db-476a-4821-a25c-71fe8721060e",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie shot of a lit-up bowling alley bathed in fluorescent light. High action shot with people cheering, shoes striking the varnished wooden floor, balls rolling down alley. 60s and 80s fashion standing out. Large depth of field, shot on Arriflex 35mm camera. Key words: photorealistic, movie, 80s, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "09cb0603-cee2-41c6-8f88-48d09509e671",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic close-up shot of a jukebox in a dark bar, glowing with neon lights and reflecting off polished wood. Detailed look at vinyl records spinning, vintage 80s music blasting. Shot in low light using a Canon A-1 35mm film camera. Key words: photorealistic, movie, 80s, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8e238f86-2be2-483d-bcd0-55764272b638",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Aerial panoramic movie shot of a sprawling 80s mall, filled with lively shoppers in 60s and 80s clothing, neon signs buzzing, the hum of conversation. Captured from 35mm film from a low flying helicopter. Key words: photorealistic, movie, 80s, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "3615fb32-99d2-4198-b43b-13d696423cd6",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic video of a classic 80s American gas station, illuminated by the soft glow of headlights, as a classic car pulls in. Low-light conditions highlight the pristine surfaces and details. Iconic 80s fashion showcased. Shot on a Steadicam for fluid motion with 35mm film. Key words: photorealistic, movie, 80s, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "ba2779be-68e2-4b40-81d7-3a14730e450b",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Evening shot of an 80s laundromat, focus on colourful clothing tumbling in a washing machine, soft fluorescent lighting overhead. People in vintage clothes reading newspapers and chilling. Shot using a shoulder-mounted Arriflex 35mm film camera. Key words: photorealistic, movie, 80s, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "b034c7d0-1f53-4a3b-b849-2921c71cb1c9",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Golden hour movie shot of a bustling roadside diner, with colourful neon signs and classic cars parked outside. Closer look at 80s clothing and hairstyles, shot with a handheld 35mm film camera for gritty realism. Key words: photorealistic, movie, 80s, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "22da687e-b62c-4868-8088-de9ccf49b050",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic, low-angle movie shot of a gas station sign flickering in twilight, with layers of clouds rolling in the background. Detailed with rust and aged patina, beautifully contrasting the polished, colourful cars. Captured under natural lighting with a 35mm film camera. Key words: photorealistic, movie, 80s, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "506d3926-4575-470c-b97f-ceeb22aa9057",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Detailed close-up of a 80s jukebox, with shiny chrome and flashing lights reflecting off polished wood, injecting vibrant color into a bar scene. Detailed focus on CDs spinning, shot on 35mm film. Key words: photorealistic, movie, 80s, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "b842e35d-b06e-4b3f-bee4-f61587297de3",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Aerial night movie shot of a bustling 80s mall, highlighted by artificial lights, revealing a scene of bountiful activity. Large depth of field shot from an octocopter with a 35mm camera. Key words: photorealistic, movie, 80s, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "9d590121-199a-4406-93ba-d2dda64b479c",
+          "index": 10,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic shot of an iconic American diner filled with people dancing to music bursting from a jukebox. Wide-angle view emphasizing activity, captured in cinematic 35mm film. Key words: photorealistic, movie, 80s, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "3cae5def-2c62-430b-9ecc-9562834bd7ae",
+          "index": 11,
+          "lastGenerationAt": "",
+          "videoPrompt": "Highly dramatic and detailed movie shot of an 80s bowling alley at night, with suspended animation of a ball striking pins. High-speed Zeiss lens on a 35mm camera captures the emotion. Key words: photorealistic, movie, 80s, cinematic.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "b11a62f9-c3c0-4f8e-8415-ffa39f197f68",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a photorealistic movie set in the 60s, french new wave, with 60s haircuts, a bit esoteric, with a lot of concrete buildings, vintage cars and women, gentlemen dressed appropriately for the time period, various dialog, people having a 60s party in a villa with a pool, it is a genre film, a bit experimental and esoteric, there are some dreamy places (all geometric, white with only one or a few characters per scene etc).",
+      "audioPrompt": "ambient electronic music from the 50s kraftwerk inspiration",
+      "tags": [
+        "trailer",
+        "adventure"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "c088f472-ab8c-40d5-a84f-8308d69bff2c",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a mid-60s concrete villa facade, with soft ambient lighting and vintage cars parked in the driveway, gentlemen with slick hair and trench coats leaving the cars. French new wave style, wide-angle shot, cinematic, high details, ultra realistic on film.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d8194236-a7f6-46ca-87bd-37551e0affe3",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a beautiful lady in a 60s dress, standing by the concrete structure, with a dreamy pool in the background. Dusk light creating fascinating shadows, French New Wave style, close-up shot, cinematic, stunning, high quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "785a0887-f24f-4282-93c4-5cced1ffa279",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of gentlemen and ladies dressed in 60s attire, mingling in the villa's lavish open-concept living room, high ceiling covered in geometric patterns, ambient light from glass chandeliers. French new wave style, bokeh shot, cinematic, highly detailed, ultra realistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "f6455665-d22e-478c-972c-c5f893bdb7f1",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic footage of a lady in a white, delicate 60s dress, strolling by the pool, past vintage furniture arranged for an outdoor party. Moonlight casts a surreal glow, French New Wave style, wide-angle shot with depth of field, cinematic, award-winning, high details, 4k.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8acb1735-8dea-4485-b648-87a3d99588c1",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of elegant gents engrossed in a deep conversation, against the backdrop of geometric concrete walls, their cigarettes creating a thin layer of smoke. French new wave style, close-up shot with bokeh effect, cinematic and highly detailed.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "72eb760a-3d2f-4e9f-85b8-7934bb9cf559",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of the glamorous ladies dancing by the pool, their chiffon dresses flowing with the rhythm, soft lighting from the lanterns casting dreamy shadows. French New Wave style, wide-angle shot, cinematic, stunning, detailed skin, ultra realistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c0c8049c-dac1-4c33-958d-d4ec35fc6e33",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a gentleman leaning against a vintage car, a mystical, geometric amulet glinting under his shirt collar. Ambient lighting from nearby street lamps, French new wave style, close-up shot, cinematic, high quality, 4k.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "0fabbae9-2a03-44fb-bbb4-5265fae5cd70",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a record player spinning a vinyl, while party guests sway to the rhythmic 60s music in the background. French New Wave style, close-up shot, cinematic, highly detailed, ultra realistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c051f829-631c-4a90-81a8-d8e75d735302",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a lady being swept into a dance, her face expressing sheer joy, a concrete structure and party lights in the background. French New Wave style, bokeh shot, cinematic, award-winning, high details, 4k.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "b9df3c92-482a-4fb4-aa98-6cef05774c38",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a couple having a quiet, esoteric conversation by the pool, only audible whispers and an atmospheric 60s tune pervading the scene. French new wave style, wide-angle shot, cinematic, stunning, highly detailed.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "9f5b90fb-400a-41b9-b031-a7c305e793c6",
+          "index": 10,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of different shots of guests' faces, an interplay of laughter, whispers, and thoughtful silences, highlighting the range of human emotions. French New Wave style, montage of close-up shots, cinematic, award-winning, high details, 4k.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "9bda68ef-508d-4b16-84e2-871ff68ed679",
+          "index": 11,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a sweeping view of the villa, bathed in the soft glow of dawn, the remnants of the party adding a sense of nostalgia. French new wave style, aerial shot, cinematic, stunning, highly detailed, ultra realistic.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "a8ea6aac-c857-436c-877a-28ebe3420209",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a photorealistic movie, experimental horror movie showing creepy places, pool of blood, a creepy mansion, a woman in white near the road in the forest, mist and foggy woods, a cemetery, a creepy animal or deer-like monster creeping around. The movie is esoteric, there are some dreamy places.",
+      "audioPrompt": "ambient electronic music from the 50s kraftwerk inspiration",
+      "tags": [
+        "trailer",
+        "adventure"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "6c1adf94-b5f8-4776-82e6-dcf3f82d23cb",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a desolate, mist covered forest road, barely lit by soft moonlight. Creepy, winter cold atmosphere with hauntingly beautiful scenery, silhouette of a woman in white hinting eeriness. Shot with a cinema quality dslr camera, high detail visibility and clarity, invoking a cinematic, photorealistic, esoteric aura.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "16ade2df-8f9a-4e35-b31c-bd82acb0d955",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie showcasing a woman, shrouded in white, staring ominously at a distant, ancient mansion looming in night shadows. Scene accentuated with ambient lighting and high contrast, structured with detailed texture and composition. Close-up shot captured on a cinema 4k camera, creating a vivid, cinematic masterpiece.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "29e5f201-fc0e-459e-bda9-9ccab1647cc6",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie displaying a decrepit, gothic style mansion, nestled in a foreboding forest. High resolution, focused shot showing off mold-laden, aged wood and cracked, stone bricks. Dramatic spotlighting from a crescent moon creating harsh yet appealing shadows. Movie quality with cinematic style using a high end cinema camera, ensuring crisp, detailed visuals.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "28280c56-38a6-4617-8263-dd9e5c387a83",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of an eerie ballroom within the mansion, lit in gloomy dim lights, casting long, grotesque shadows. Victorian era furnishings covered in years of dust. Ambient, detailed, and dynamic shot taken with a cinema grade camera, enhancing the cinematic, photorealistic effect.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "ca9c6227-65f4-4be4-b7d8-01184e13956a",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a pool of ominous, reflective blood in the mansion, shot in a high contrast, visually unsettling manner. The viscous texture and crimson hue of the blood accented by ambient lighting. Ultra wide-angle shot with a movie camera, adding a cinematic suspense and photographic richness.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "4789adab-a227-4259-b4b5-c93a3e41bcaf",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a vintage kitchen within the mansion, in a state of terrible disarray. Rusty metal table with abandoned utensils, creaky wooden cabinets, and cracked, vintage tiles capturing an essence of abandonment. Shot with state-of-the-art movie camera, lending a cinematic look with high-quality details.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "206fe49a-d7d6-470e-b037-604cce7ea6c4",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a flight of stairs spiraling down below the mansion, disappearing into a mysteriously inky darkness. Stairs with peeling paint and walls covered in creeping ivy. Extreme long-shot implemented with a cinema camera, creating a sense of enigmatic depth and photorealistic rendering.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "3b7d7f9e-a063-4dd2-9d50-8c611ba04b3c",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a lonely cemetery, tombstones bathed in the pale, eerie glow of moonlight. Baroque era statues and graves, protruding from the misty fog. Movie shot with shallow depth of field and cinematic colors, enhancing the photographic richness of each detail.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "3b98f629-93ee-4279-9fe4-8199a7870f7c",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of close-up of creepy, rotting gravestones adorned with moss and creepers. The inscriptions on the tombstones eroded over time. A weeping willow swaying in the ghostly wind nearby. Shot on a cinema camera, ensuring vivid clarity and a photorealistic feel.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "6b95bb1a-1115-4a95-8e44-19d607aa8aaa",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a foggy clearing in the forest with a deer-like monster, illuminated by the sickly green light. Low angle revealing the monstrous form with long, twisted antlers. Captured on cinema grade camera rendering the wooded background beautifully with eerie, cinematic chiaroscuro.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "3740912c-c84c-4a12-9980-40d98e0181bc",
+          "index": 10,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie displaying the creature, orchestrating terror, its body enveloped by the fog and eyes glowing with primitive cruelty. Close up on the fear-inducing face, set in a chilling contrast to the surrounding dark woods. Cinema 4k standard used, offering high definition, and an ultra-realistic movie experience.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "736db035-4db0-4f5f-a0fc-5b298afee07a",
+          "index": 11,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie of a departing shot of the monstrous creature fading away into the misty woods, leaving behind a trail of horror and devastation. The horrifying sight ending on a note of suspense. Shot under natural moonlighting via ultra-wide cinema lens, maintaining a cinematic, high-quality, and photorealistic image.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "a4a8bae4-91a2-48d4-a570-418deadfb49d",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a photorealistic movie, steampunk movie, house walking with crab-like feet, a distinct mix of 3D, miyazaki and photorealistic elements, house can walk over mountains, cats inhabiting the house",
+      "audioPrompt": "ambient electronic music from the 50s kraftwerk inspiration",
+      "tags": [
+        "trailer",
+        "adventure"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "d9cef3b7-340e-420f-9256-38630d2f7ed3",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "16mm Film of a mechanical walking house, vividly painted with weathered steampunk brass accents, navigating a dense mountain forest during early morning, lighting highlighting complex textures and shadows, cutting-edge, photorealistic, cinematic movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a18ecfae-57e7-44fc-835d-82182da9e03d",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Super 35mm film, a close-up shot showing the intricate detail of the crab-like feet of the moving house, rustic paint chips revealing metal beneath, natural sunlight casting dappled shadows, high definition, award-winning visual effects, photorealistic, cinematic epic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "5cf3d196-71db-4a15-a176-6abf08a041b7",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "16mm Film capture, broad daylight, wide-angle shot revealing a breathtaking vista with a steam-spewing walking house as the centerpiece, set against the backdrop of towering Mountain, cinema quality, photorealistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "85a2b146-9d75-4eea-8af5-4916a957e617",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Super 35mm film, close-up shot onto a steampunk control panel inside the house, with dials and gauges, vibrantly illuminated by warm amber lights, highlighting the minute details, photorealistic, cinematic film.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "dc31f70c-7110-4221-8166-9ba6ad2b4031",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "16mm film, an enticing shot of an exquisitely detailed, purring calico cat, its eyes gleaming in the warm tinted ambient lighting inside the walking house, photorealistic, cinematic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "3ba67677-7b51-47fb-90cf-343c31aa4f32",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Super 35mm Film record, nightfall, a low angle, wide shot displaying the luminescent headlights of the moving house navigating through a misty mountain path, gritty visual storytelling, award winning, high definition.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a23f60f9-e02a-440b-a011-69da8f3302e8",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "16mm Film snapshot, close up of the mechanical legs of the house smoothly ambling over a rocky outcrop, world-class visual effects, evocative, groundbreaking, photorealistic.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "53a739bf-9865-4979-83de-41241e0eeabe",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Super 35mm Film of a bird's eye view, showcasing the walking house traversing a scenic valley, against a brilliant sunrise, multiple award-winning, high quality, photorealistic.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
       "sequenceId": "6d9345ee-8833-4404-9881-1eb5295a4dce",
       "skip": false,
       "lastGenerationAt": "",
