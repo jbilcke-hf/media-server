@@ -131,8 +131,8 @@ ${sequence.videoPrompt}
         console.log('- enhancing shot..')
         await enhanceVideo(shotFileName)
 
-        console.log('- saving final shot..')
-        await keepVideo(shotFileName, process.env.WEBTV_VIDEO_STORAGE_PATH_NEXT)
+        console.log(`- saving final shot into ${process.env.WEBTV_VIDEO_STORAGE_PATH_CHANNEL_2}`)
+        await keepVideo(shotFileName, process.env.WEBTV_VIDEO_STORAGE_PATH_CHANNEL_2)
 
         generatedShots.push(shotFileName)
 
