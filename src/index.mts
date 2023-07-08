@@ -68,6 +68,10 @@ const main = async () => {
       continue
     }
 
+    console.log('Re-computing stats..')
+    const stats = await getStats()
+    console.log('nb files:', JSON.stringify(stats, null, 2))  
+
     console.log(`
 -----------------------------------------------------------
 Going to generate ${sequence.shots.length} for prompt:
