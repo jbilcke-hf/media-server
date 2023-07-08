@@ -3,6 +3,93 @@
   "startAtShotId": "",
   "sequences": [
     {
+      "sequenceId": "da6329e1-c863-45e0-aa18-5161cf5eeacd",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a photorealistic of a space opera movie",
+      "audioPrompt": "intense and fast-paced electronic and orchestra music for a space opera with synthetisers, electronic drum machine",
+      "tags": [
+        "trailer",
+        "comedy",
+        "action",
+        "adventure",
+        "science-fiction"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "63462eef-7fa0-46b6-855a-c70dcebfb414",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie footage of a detailed NASA-inspired, pyramid-shaped spaceship soaring towards a strange planet laden with a colossal castle, glinting enchantingly under the golden hour sunlight, viewed from the perspective of an ultra wide-angle cinema camera, a spectacular, cinematic, photorealistic, movie quality shot.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "5d4b89f0-ba68-499c-be41-61ca447720c7",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic film of a raccoon pilot in an expansive spaceship cockpit, wearing an airman's leather jacket and goggles, illuminated by ambient lighting from the spacecraft's controls, shot with high details, digitally remastered, award-winning.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c1d2e49d-abb2-42c8-8ed7-d9eadcbfc152",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Ultra-wide angle photorealistic shot of huge, freeze-breathing dragons, their scales glistening unnervingly under the sunlight, amid massive octopus creatures upturning alien houses, shot with a mix of ambient lighting and backlighting in superb photorealistic, cinematic, movie quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "268fdad6-07db-426b-812d-dc03c30ffe49",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Captivating photorealistic footage of our raccoon pilot passionately manipulating the spaceship's controls amidst the tumultuous situation outdoors, captured in soft lighting from a Canon EOS cinema-grade camera, showcasing splendid, award-winning composition and detail",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c431acda-a572-4fc0-ba4a-179d98219f48",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Space opera drama unfolding in a photorealistic footage of phenomenal, giant icy dragons sweeping over expansive, medieval-style castle, casting long, dramatic shadows under the slowly setting sun, captured in sublime movie quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "62971863-1448-4044-a50c-242af4de953e",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic film shot of the ecstatic raccoon pilot reacting to the chaos outside, speeding towards the planet in his spaceship, the merriment in his beady eyes reflected in the surreal and breathtaking high-quality, movie lighting, captured with stunning detail.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "4aa96204-c78f-47b3-b6ca-a9e1faf5b7a0",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Highly detailed, photorealistic footage of ominous eight-legged giant octopuses briskly roaming a wild, otherworldly landscape, crushing alien houses in their path, as our raccoon hero watches in awe, their movement fluid like in an epic space opera movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "bd89e7ce-01e9-449a-b468-550e43956e77",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie shot of intricate details of the spaceship cockpit with the dedicated and absorbed raccoon pilot urgently plotting a course for escape, shadows and lights from the control panels play on his fur, showcasing stunning detail.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "4eba4b78-1d2f-4795-82b0-f56e6004e8fe",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Ultra-wide angle, photorealistic shot of the planet's dawn, with the iridescent glow revealing the frozen wreckage caused by the dragons, taking on an ethereal quality amidst the chaos, shot in a cinematic manner, maintaining high details to procure an award-winning shot.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c3f5a185-cace-46bf-a74c-27f7114e75ce",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic, photorealistic video of our raccoon hero in his spaceship, glancing back at the strange planet, a mix of pride and melancholy in his gaze as his spaceship disappears into the starry void, lighting from the control panel casting a soft glow on his figure, award-winning filmography.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
       "sequenceId": "3b7fb664-f50a-4e2d-b63b-e1fedb22e501",
       "skip": false,
       "lastGenerationAt": "",
@@ -382,7 +469,7 @@
     },
     {
       "sequenceId": "a8ea6aac-c857-436c-877a-28ebe3420209",
-      "skip": false,
+      "skip": true,
       "lastGenerationAt": "",
       "videoPrompt": "a photorealistic movie, experimental horror movie showing creepy places, pool of blood, a creepy mansion, a woman in white near the road in the forest, mist and foggy woods, a cemetery, a creepy animal or deer-like monster creeping around. The movie is esoteric, there are some dreamy places.",
       "audioPrompt": "ambient electronic music from the 50s kraftwerk inspiration",

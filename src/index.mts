@@ -8,6 +8,7 @@ import { callZeroscope } from './callZeroscope.mts'
 import { downloadVideo } from './downloadVideo.mts'
 import { getDatabase } from './getDatabase.mts'
 import { callMusicgen } from './callMusicgen.mts'
+import { interpolateVideo } from './interpolateVideo.mts'
 
 let hasReachedStartingPoint = false
 
@@ -124,6 +125,9 @@ ${sequence.videoPrompt}
           console.log('- trying again to upscale shot..')
           await upscaleVideo(shotFileName, shot.videoPrompt)
         }
+
+        console.log('- enhancing shot..')
+        // await interpolateVideo(shotFileName)
 
         console.log('- enhancing shot..')
         await enhanceVideo(shotFileName)
