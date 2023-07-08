@@ -4,6 +4,8 @@ export interface Shot {
   lastGenerationAt: string
   videoPrompt: string
   audioPrompt: string
+  duration: number // no more than 3 (we don't have the ressources for it)
+  fps: number // typically 8, 12, 24
 }
 
 export interface Sequence {

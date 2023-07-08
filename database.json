@@ -3,6 +3,426 @@
   "startAtShotId": "",
   "sequences": [
     {
+      "sequenceId": "d344637d-247f-4dd1-8700-02741f36a94a",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "3D animation, blender renderings, simulations showcasing a variety of different effects",
+      "audioPrompt": "electronic goal music from the 90s",
+      "tags": [
+        "trailer",
+        "cgi"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "fa3b74d1-f27f-4fc4-a5f3-f29dd0d2750e",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "stunning 3D video of rippling water waves, reflected on hovering metal beads in an underwater setting. Rendered in Blender with subtle, whaling ambient light, captured in 8K UHD.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "f89e600c-91e8-401d-a870-3286b779e5a3",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "high-quality 3D animation of a cloth-like structure falling in a windless room, displaying the realistic physics of fabric movement. Rendered in ultra-detailed Blender, shot in 4K Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "333aae1c-db8c-424e-bb05-d7161952beea",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "splendid video showing the fluid simulation of liquids as they interact with static and moving objects, set in a minimalistic, clean environment. Captured with 4K Cinema4D, showcases Blender render.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a19a3e22-9009-449c-a011-6d6cdc660477",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "detailed 3D animation of cellular automata, using simple elements to create complex patterns in a uniform space. Exhibits award-winning lighting techniques and Blender rendering, shot in Cinema4D studio quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "694cb3a9-7f51-4f7e-86df-7ae56d34e433",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "fabulous Blender rendering of a high-speed camera capture of metal beads impacting a flat surface, displaying brilliant n-body collision physics. Captured at a ripe evening with Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d59ec76d-4769-44ab-9aea-09362764d35d",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "breathtakingly crisp 3D animation featuring a fluid mechanism, where treacle-thick liquid pours into a large vat. Beautifully lit by diffused, soft light. Rendered in Blender, captured at 8K UHD with Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "e170953f-4913-428d-a551-53128920e4c8",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "surreal yet hyper-realistic 3D animation of cloth simulation, showcasing the realism of Blender's material simulation capabilities. With studio lighting illuminating the scene, shot at close-up with Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "1dcca91d-c9a4-4ed2-b011-1a55d990ca46",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "contemporary fine-art 3D animation showcasing the stunning interaction between thousands of metal beads under n-body simulation. Rendered with precision in Blender and captured at a high detail with Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a9296116-b5e5-43ef-914e-d75c7ad2750e",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Blender-rendered 3D animation of a glass cube falling into a pool of liquid, captured to showcase fluid dynamics and refraction of light effects. Caught under a soft diffused light with Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "6c8e7622-268e-491a-a6bc-0ad5b927c7c0",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "impressive 3D animation, of cellular automata, forming fascinating patterns in a confined environment. The geometrically exact elements are rendered with Blender. Shot at dusk, in crisp 8K UHD with Cinema4D.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+{
+  "sequenceId": "8b493d72-5cc4-42d3-8454-e2ae2e96687f",
+  "skip": false,
+  "lastGenerationAt": "",
+  "videoPrompt": "low-poly 3D models of various objects",
+  "audioPrompt": "electronic goal music from the 90s",
+  "tags": [
+    "trailer",
+    "cgi"
+  ],
+  "channel": "main",
+  "shots": [
+    {
+      "shotId": "4e2edace-7ae5-4e98-a8ec-834ff73c2a6e",
+      "index": 0,
+      "lastGenerationAt": "",
+      "videoPrompt": "stylized low-poly video of a woman head, stationary in a minimalist monochromatic environment. It's illuminated by soft ambient light that highlights the geometric edges. Shot on 4K Cinema4D.",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "d80b61b1-56c1-45a7-8844-2c8381567bd3",
+      "index": 1,
+      "lastGenerationAt": "",
+      "videoPrompt": "photorealistic video of abstract low-poly car, rotating slowly under the golden-hour ambiance within a minimal setting. The sharp shading enhances the geometric beauty captured in RAW by Cinema4D.",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "09cbe794-6d6a-4e96-a2cf-58b37b7cd2c1",
+      "index": 2,
+      "lastGenerationAt": "",
+      "videoPrompt": "creative footage of a cluster of vibrant, low-poly bananas, bobbing in a whimsical manner, in a simple digital setting under neutral lighting. Shot using Cinema4D at 8K UHD resolution.",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "f06e66ae-2d24-4501-8d1a-f13f9b4b40b2",
+      "index": 3,
+      "lastGenerationAt": "",
+      "videoPrompt": "low-poly, stylized video of a bouncing desk lamp, showing physics simulation in a clean white backdrop. Spotlight shines on the object, casting sharp shadows. Captured at dusk with Cinema4D.",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "48b82756-abb9-474b-8b0c-b07499315c9b",
+      "index": 4,
+      "lastGenerationAt": "",
+      "videoPrompt": "stunning, ultra-high resolution video of a rotating, low-poly disco ball. The surface reflects a compact grid of ambient light, creating a dazzling spectacle in the minimalist room. Captured using Cinema4D.",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "db0ef02b-f957-4fe4-a689-53bb9ff0e217",
+      "index": 5,
+      "lastGenerationAt": "",
+      "videoPrompt": "short film showing low-poly woman head model, transforming into multiple low-poly bananas under studio quality lighting. Captured at street level view in 4K, using Cinema4D.",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "d9dc2937-2227-4f18-b579-f09564d52add",
+      "index": 6,
+      "lastGenerationAt": "",
+      "videoPrompt": "spectacular clip of a low-poly desk lamp bouncing like a kangaroo in a simple, spacious room. Caught under softly diffused light, emphasizing the details. Filmed in the dusk with Cinema4D.",
+      "audioPrompt": ""
+    },
+    {
+      "shotId": "8373687b-192f-4b6c-992a-8adc5ffce3d2",
+      "index": 7,
+      "lastGenerationAt": "",
+      "videoPrompt": "artistic video of animated, low-poly disco ball illuminating bright lights in a bare environment. The scene contrasts with the stunning geometric detail of the ball. Shot in 8K UHD using Cinema4D.",
+      "audioPrompt": ""
+    }
+  ]
+},
+    {
+      "sequenceId": "46e94a7b-dc27-4949-819e-bb9bce60c460",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a photorealistic compilation of various computer renderings and simulation featuring classical 3D animation of torus, cube, phong, shading, cast shadow in a minimal textured setting, a teapot, a monkey head",
+      "audioPrompt": "electronic goal music from the 90s",
+      "tags": [
+        "trailer",
+        "cgi"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "a1ef9eea-5e1c-46ef-a2b2-64469334605e",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "photorealistic video of matte-textured cube rotating slow-motion underneath a fluorescent light, casting sharp shadows, weather is clear, within a featureless minimalistic area, shot on RAW with Cinema4D quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a24aa6cc-2c4b-48fd-aa0d-a8f5cfb78e7b",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "high resolution, award-winning clip of a monkey head 3D model, spinning in place, smooth, shiny texture reflecting ambient light, shot with soft lighting on a 4k DSLR in a minimalistic space. Modern era.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "49d3b8e0-3a4b-47fb-afe3-e59e4b0162ff",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "cinematic video of a classical 3D torus, rotating in an elegant, slow manner, translucent surface glows under the ambient lighting, emphasized by high-detail shadows. Shot at dusk using a high-quality Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "30b55f8a-66b7-4d76-ab47-e3341233c946",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "stunning photorealistic footage of a multitude of cubes colliding in slow-motion, reproducing physics. Bright neon light accentuates their metallic textures and reflections. Captured using RAW format with 4K resolution.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "dff9c833-3a19-4335-973d-a7c3e8da08d7",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "beautiful video clip of a metal teapot, rotating against a minimalist background, reflecting the soft lighting, with detailed textures and shadows. Trending on Artstation, shot on ultra-wide angle 4K Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "3651707d-5578-4170-a561-65f03165f251",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "evocative fine-art video of phong shading on large torus displaying changing colours in a structured, minimalist environment. Ambient light, produces highly detailed dynamic shadows. Studio quality, shot with a 4K DSLR.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "afb33994-390a-4593-86e2-e364cdd5b1c0",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "spectacular, ultra-realistic video of translucent, rotating monkey head within a minimalist setting. The monkey head refracts incoming light in a colourful fashion. Shot with Cinema4D, in 8K UHD resolution.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "82a4b145-a0ac-45ff-847c-ec23aa5aa183",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "video snippet of a sublime n-body cube collision simulation, reflecting concert lighting, naturalistic physics, in an artificial, dark-lighted environment. Captured with aerial view on 4K Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "31fdd32c-e19f-45e3-a8e4-0a7224ec9df3",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "engaging, hyper-realistic video of metallic torus spinning, casting long shadows under a spotlight, against a minimalist backdrop. Captured at a low angle using high-quality RAW footage from Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d3b09b46-43db-495e-bfc0-ca9fd7eba3c9",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "short film of numerable translucent cubes slowly colliding and bouncing off each other, illuminated by soft diffused light, in a spellbinding simulation. Filmed using Cinema4D, resulting in 8K UHD studio quality.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "26012959-4003-4099-9edf-ab14fa4c8aea",
+          "index": 10,
+          "lastGenerationAt": "",
+          "videoPrompt": "strikingly realistic clip of torus and cube collision simulation, accentuated by theatre lighting, absorbing and reflecting colours on their matte surfaces. Captured at a wide-angle with 4K digital Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "47e39e9f-3a96-413e-b34c-29f89bd7d3fc",
+          "index": 11,
+          "lastGenerationAt": "",
+          "videoPrompt": "exquisite, cinematic video of rotating teapot and monkey head, casting sharp, contrasting cast shadows in a minimalistic space. Backlight illumination, highly detailed, shot in 8K UHD with Cinema4D.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "0f7712f2-5586-4fbb-9d11-ea40d0af7c43",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a photorealistic movie about various photorealistic shots of phenomena in dramatic lighting effects, with crisp details",
+      "audioPrompt": "lofi instrumental hiphop",
+      "tags": [
+        "trailer",
+        "ambient"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "1deecc12-eaaa-42d5-9e3f-31b3e5e52f2f",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "RAW video footage of a radioactive material glowing in the dark, shadows casting starkly against a hidden bunker background, in a cinematic, gloomy light casting disturbing hues and wisps, photorealistic movie, shot on a DSLR with a wide-angle view, ultra-realistic, trending on artstation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "090f8ea3-c7f3-43b8-8f8c-ec7bb0c1299d",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Highly detailed 4K footage of molten metal pouring, showing subtle variations in the glowing orange and red hues against the industrial setting, produced in a theatrical, photorealistic movie style, captured through a wide-angle lens under stark, dramatic lighting conditions.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "9bb7e3f7-590d-42ed-8863-aad37232c491",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic sequence of sparks erupting from a forge, mid-air, illuminating the dark smithy with a dance of fiery sparks, shot in high definition, ultra-realistic, movie quality footage, with intense, dramatic lighting.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8aaf89f0-7441-4128-82c0-19ac1220f646",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "High quality sequence of a vanilla ice cream cone melting against a bright, sunny background, shot in crisp, high definition quality, showcasing photorealistic textures and colors, under direct sunlight, with a fisheye camera view.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "1902b5fa-96a4-474b-8a4d-88af706d29c6",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "RAW footage of a plasma lamp, with close-ups on the bright violet tendrils of light reaching out towards the glass, shot in a dark room providing a dramatic contrast, in high detailed, studio-quality, photorealistic movie style.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d7194860-2205-412b-831f-066c94f2e164",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic shot of a lava lamp, the warm-colored blobs flowing and changing shape inside the glass container, with bokeh background for added depth of field, shot in 4K ultra high definition, in a photorealistic movie style, in atmospheric ambient lighting.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "c8f61299-e67c-4ab8-b010-d740d8d5913f",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Direct footage of ferromagnetic fluid reacting, forming spikes and whirling shapes against a dark backdrop, under focused spotlight, shot in a high quality, photorealistic movie, through a wide-angle lens, highlighting the surreal fluid dynamics in the glow of soft blue light.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d711c0db-946b-4a22-9aed-fd93a8428506",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "High-resolution footage of mercury, glistening silver and dancing in the atmospheric ambient light, on black metallic surface, close-up shot emphasising the reflective nature of the liquid metal in a photorealistic movie, captured with a 4K DSLR camera.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "dc297890-7f5e-432a-903b-8eea2c6d541a",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Highly detailed 4K footage of oil sliding over multicoloured surfaces, pulsating with different patterns in a constant, hypnotic motion, shot in a surreal, cinematographic quality, under blacklight for a colourful rainbow effect.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8c1a2c9d-2a24-49ed-ab0c-a4f3ce2839c9",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic sequence of a chemical explosion in a laboratory, creating swarms of colourful matter and smoke, under dramatic lighting, a wide-angle camera view capturing the breathtaking display in stunning, high-definition movie style.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "efa2f42f-ca3e-43d2-80cf-9f9c280f620b",
+          "index": 10,
+          "lastGenerationAt": "",
+          "videoPrompt": "4K ultra high-definition footage of an old dusty book slapped close, releasing a cloud of dust under a window light, capturing the minute particles and dramatic shadows in a photorealistic movie, shot on a DSLR under natural lighting.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "47176e6c-2e9f-4dd0-b9c3-9cee60e852bd",
+          "index": 11,
+          "lastGenerationAt": "",
+          "videoPrompt": "Crisp, high-resolution footage of bubbles bursting under the water’s surface, showcasing the physics and beauty of this commonplace action in a photorealistic movie style, shot with a fisheye lens, under diffuse sunlight, ultra-realistic, high-quality.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "bc905b23-f9b2-4cb8-86ea-ac9d541c23d8",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "a photorealistic compilation of various computer renderings and simulation with different texture, effects, and 3D fractal effects",
+      "audioPrompt": "electronic goal music from the 90s",
+      "tags": [
+        "trailer",
+        "cgi"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "eae919fa-8456-4df8-9add-921df0b96878",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "photorealistic video of a wireframe cube amidst a minimalistic backdrop, capturing diffraction effects as it spins under ambient light, producing detailed cast shadows. Shot on RAW with Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8e61eb2b-974d-497b-a484-7eba3099fec9",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "impressive, high resolution clip of a rotating, bump-mapped monkey head 3D model set within a simple, digital environment. The intricate details are highlighted under a soft light, shot with 4K Cinema4D resolution.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "bc8e2694-f9cf-4869-8d2c-8ac275eeb331",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "underwater video of rotating 3D torus, displaying refraction effects within water as light pierces through the surface. Its texture mimics the movement of fishes. Shot in 8K UHD, Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "d576cc2d-9639-4f62-8311-c35a3c7e45f8",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "stunning video depicting an exquisite fractal effect, spiralling, in a torus shape, with a bump-mapped texture, within a minimally designed scene. It's illuminated by neon lights and shot with Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "7e26c116-4e73-40e3-84e5-f64b6e13b434",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "award-winning, high detail video of a cube, with a reflective metal surface, falling slowly in a viscous liquid-like medium. Captured with soft lighting in a spacious studio, shot on 8K UHD Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "67b2f3e6-e027-493d-bb6e-b6750207be50",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "ultra-realistic snippet of wireframe monkey head filled with intricate fractal designs, rotating in a digitally created, minimalistic room under soft lighting. Captured with high-resolution Cinema4D in 4K.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "e32ed44a-50a2-4087-93c8-8c7f468fe518",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "highly detailed video showing a 3D teapot, the surface of which mimics frosted glass. The environment is simple, the lights cause diffraction effects on the teapot, shot in Cinema4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "47438208-f985-44e8-8e65-d31480e883ce",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "photo realistic footage of an array of cubes, each refracting and diffracting light as they collide, mimicking underwater physics. The scene is lit by soft glowing lights, filmed in 8K with Cinema4D.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
       "sequenceId": "31730a8c-f5b9-4168-80ae-705c1540854a",
       "skip": false,
       "lastGenerationAt": "",
