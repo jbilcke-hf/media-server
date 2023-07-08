@@ -12,7 +12,7 @@ while true; do
 
         echo "Updating playliss for channel 3.."
         current_count=$new_count
-        files=($WEBTV_VIDEO_STORAGE_PATH_CHANNEL_2*.mp4)
+        files=($WEBTV_VIDEO_STORAGE_PATH_CHANNEL_3*.mp4)
 
         echo "ffconcat version 1.0" > channel_3_video_tmp.txt
         for (( i=0; i<${#files[@]}; i++ )); do
