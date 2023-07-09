@@ -37,6 +37,7 @@ sleep 1
 # bash scripts/stream1.sh &
 bash scripts/stream2.sh &
 bash scripts/stream3.sh &
+bash scripts/stream3_twitch.sh &
 
 sleep 1
 
