@@ -11,7 +11,7 @@ bash scripts/download_fresh_music.sh
 bash scripts/censorship.sh
 
 # ----------- ARCHIVE OLD, UNINTERESITNG VIDEOS -------
-bash scripts/archive_old_videos.sh
+# bash scripts/archive_old_videos.sh
 
 # ------ background processes ---------
 
