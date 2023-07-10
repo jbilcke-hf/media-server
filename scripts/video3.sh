@@ -10,7 +10,7 @@ while true; do
     if [ $new_count -ne $current_count ]; then
         echo "there are $new_count videos files for channel 3"
 
-        echo "Updating playliss for channel 3.."
+        echo "Updating playlist for channel 3.."
         current_count=$new_count
         files=($WEBTV_VIDEO_STORAGE_PATH_CHANNEL_3*.mp4)
 

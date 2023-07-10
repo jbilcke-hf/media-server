@@ -27,6 +27,8 @@ echo "creating the storage folders for channel 3.."
 mkdir -p $WEBTV_VIDEO_STORAGE_PATH_CHANNEL_3
 mkdir -p $WEBTV_AUDIO_STORAGE_PATH_CHANNEL_3
 
+mkdir -p $WEBTV_VIDEO_ARCHIVE_PATH_CHANNEL_3
+
 echo "creating the playlists for channel 3.." 
 echo "ffconcat version 1.0" > channel_3_video.txt
 echo "ffconcat version 1.0" > channel_3_video.txt
@@ -36,6 +38,8 @@ echo "ffconcat version 1.0" > channel_3_video.txt
 echo "creating the storage folders for channel 4.."
 mkdir -p $WEBTV_VIDEO_STORAGE_PATH_CHANNEL_4
 mkdir -p $WEBTV_AUDIO_STORAGE_PATH_CHANNEL_4
+
+mkdir -p $WEBTV_VIDEO_ARCHIVE_PATH_CHANNEL_4
 
 echo "creating the playlists for channel 4.." 
 echo "ffconcat version 1.0" > channel_4_video.txt

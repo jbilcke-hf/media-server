@@ -9,6 +9,7 @@ export const downloadVideo = async (remoteUrl: string, fileName: string): Promis
 
   // download the video
   const response = await fetch(remoteUrl)
+  console.log(`downloading file from ${remoteUrl}`)
 
   // write it to the disk
   const arrayBuffer = await response.arrayBuffer()
