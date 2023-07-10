@@ -25,7 +25,7 @@ export const interpolateVideo = async (filePath: string, outputFilePath: string)
   const result = await app.predict(1, [
     blob, 	// blob in 'parameter_5' Video component		
     1, // number (numeric value between 1 and 4) in 'Interpolation Steps' Slider component		
-    8, // string  in 'FPS output' Radio component
+    24, // string  in 'FPS output' Radio component
   ])
 
 

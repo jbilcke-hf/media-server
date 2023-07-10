@@ -1,7 +1,7 @@
-import { interpolateVideo } from "./interpolateVideoCLI.mts"
+import { interpolateVideo } from "./InterpolateVideoCLI_legacy.mts"
 
 // to test this file:
-//  npm run postprod:interpolate sandbox/video/raccoon.mp4 sandbox/video/output.mp4
+//  npm run postprod:interpolate sandbox/video/1688471841394.mp4 sandbox/video/output.mp4
 
 const inputFilePath = process.argv[2]
 const outputFilePath = process.argv[3]

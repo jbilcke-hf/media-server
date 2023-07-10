@@ -23,7 +23,7 @@ for FILE_PATH in $INPUT_DIR*.mp4; do
             # The first attempt has failed, retrying
             echo "Attempt 1 failed for $FILE_NAME, retrying..."
 
-            if ! npm run postprod:interpolate "$FILE_PATH" "$TEMP_FILE_PATH"
+            if ! npm run postprod:interpolate_legacy "$FILE_PATH" "$TEMP_FILE_PATH"
             then
                 # Both attempts have failed, skipping the file
                 echo "Both attempts failed for $FILE_NAME, skipping the file..."
