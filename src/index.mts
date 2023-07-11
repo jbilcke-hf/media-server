@@ -22,6 +22,11 @@ console.log(`Web TV server status: ${status}`)
 const maxShotsPerSequence = 10
 
 const main = async () => {
+  console.log('Reading persistent file structure..')
+  const stats = await getStats()
+
+  console.log('nb files:', JSON.stringify(stats, null, 2))
+
   if (status === 'paused') {
     setTimeout(() => {
       main()
@@ -29,10 +34,6 @@ const main = async () => {
     return
   }
 
-  console.log('Reading persistent file structure..')
-  const stats = await getStats()
-
-  console.log('nb files:', JSON.stringify(stats, null, 2))
 
   console.log('Reading prompt database..')
   const db = await getDatabase('./database.json')
