@@ -4,7 +4,9 @@ export const getStats = async () => {
   let nbVideos1 = 0
   let nbVideos2 = 0
   let nbVideos3 = 0
+  let nbArchivedVideos3 = 0
   let nbVideos4 = 0
+  let nbArchivedVideos4 = 0
 
   try {
     const video1 = await fs.readdir(process.env.WEBTV_VIDEO_STORAGE_PATH_CHANNEL_1)
@@ -22,15 +24,27 @@ export const getStats = async () => {
   } catch (err) {}
 
   try {
+    const archivedVideo3 = await fs.readdir(process.env.WEBTV_VIDEO_ARCHIVE_PATH_CHANNEL_3)
+    nbArchivedVideos3 = archivedVideo3.length
+  } catch (err) {}
+
+  try {
     const video4 = await fs.readdir(process.env.WEBTV_VIDEO_STORAGE_PATH_CHANNEL_4)
     nbVideos4 = video4.length
+  } catch (err) {}
+
+  try {
+    const archivedVideo4 = await fs.readdir(process.env.WEBTV_VIDEO_ARCHIVE_PATH_CHANNEL_4)
+    nbArchivedVideos4 = archivedVideo4.length
   } catch (err) {}
 
   return {
      nbVideos1,
      nbVideos2,
      nbVideos3,
+     nbArchivedVideos3,
      nbVideos4,
+     nbArchivedVideos4,
   
   }
 }
