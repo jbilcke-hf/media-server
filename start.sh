@@ -29,7 +29,7 @@ bash scripts/audio1.sh &
 # background process that creates a video stream from video files
 # bash scripts/video1.sh &
 # bash scripts/video2.sh &
-bash scripts/video3.sh &
+# bash scripts/video3.sh &
 
 sleep 1
 
