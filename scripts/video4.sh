@@ -18,6 +18,7 @@ while true; do
         for (( i=0; i<${#files[@]}; i++ )); do
             echo "file '${files[$i]}'" >> channel_4_video_tmp.txt
         done
+        rm channel_4_video.txt
         mv channel_4_video_tmp.txt channel_4_video.txt
     fi
 
