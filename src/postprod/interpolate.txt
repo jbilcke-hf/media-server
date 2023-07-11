@@ -1,4 +1,4 @@
-import { interpolateVideo } from "./interpolateVideoCLI.mts"
+import { interpolateVideo } from "./interpolateVideoCLILegacy.mts"
 
 // to test this file:
 //  npm run postprod:interpolate sandbox/video/raccoon.mp4 sandbox/video/output.mp4

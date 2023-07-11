@@ -8,10 +8,10 @@ bash ./scripts/init.sh
 # bash scripts/download_fresh_music.sh
 
 # ---------- CONTENT ALIGNMENT ---------
-bash scripts/censorship.sh
+# bash scripts/censorship.sh
 
 # ----------- ARCHIVE OLD, UNINTERESTING VIDEOS -------
-bash scripts/decimate_content.sh
+# bash scripts/decimate_content.sh
 
 # ------ background processes ---------
 
