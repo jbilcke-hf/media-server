@@ -11,7 +11,7 @@ bash ./scripts/init.sh
 bash scripts/censorship.sh
 
 # ----------- ARCHIVE OLD, UNINTERESTING VIDEOS -------
-# bash scripts/decimate_content.sh
+bash scripts/decimate_content.sh
 
 # ------ background processes ---------
 
