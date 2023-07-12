@@ -18,12 +18,12 @@ for FILE_PATH in $INPUT_DIR*.mp4; do
         echo "Processing $FILE_NAME, output will be saved in $OUTPUT_DIR$FILE_NAME"
         
         # Run your node command
-        if ! npm run postprod:interpolate "$FILE_PATH" "$TEMP_FILE_PATH"
+        if ! npm run batch:interpolate "$FILE_PATH" "$TEMP_FILE_PATH"
         then
             # The first attempt has failed, retrying
             echo "Attempt 1 failed for $FILE_NAME, retrying..."
 
-            if ! npm run postprod:interpolate_legacy "$FILE_PATH" "$TEMP_FILE_PATH"
+            if ! npm run batch:interpolate "$FILE_PATH" "$TEMP_FILE_PATH"
             then
                 # Both attempts have failed, skipping the file
                 echo "Both attempts failed for $FILE_NAME, skipping the file..."
