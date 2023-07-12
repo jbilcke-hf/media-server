@@ -35,14 +35,13 @@ client.on("PRIVMSG", (msg) => {
 
   if (msg.channelName === channel && words.includes(`@${fullCaseName}`)) {
     console.log("We have been directly mentioned")
-    // client.say(channel, "yes, my lord?")
-    // TODO: we should use a chatbot eg. HuggingChat to add prompts to the queue
 
-    if (command === "!queue") {
-      client.say(channel, `there are ${promptQueue.length} prompts in the queue`)
-    } else if (command === "!add") {
-      client.say(channel, "adding prompts to the queue isn't supported yet")
-    }
+    client.say(channel, "yes, my lord?")
+    // TODO: we should use a chatbot eg. HuggingChat to add prompts to the queue
+  } else if (command === "!queue") {
+    client.say(channel, `there are ${promptQueue.length} prompts in the queue`)
+  } else if (command === "!add") {
+    client.say(channel, "adding prompts to the queue isn't supported yet")
   }
 })
 

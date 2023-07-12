@@ -4,7 +4,7 @@
   "sequences": [
     {
       "sequenceId": "d344637d-247f-4dd1-8700-02741f36a94a",
-      "skip": false,
+      "skip": true,
       "lastGenerationAt": "",
       "videoPrompt": "3D animation, blender renderings, simulations showcasing a variety of different effects",
       "audioPrompt": "electronic goal music from the 90s",
