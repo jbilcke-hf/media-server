@@ -15,10 +15,12 @@ bash ./scripts/init.sh
 
 # ------ background processes ---------
 
-bash scripts/interpolate.sh &
-
 # starts the streaming server first, otherwise ffmpeg won't find it
 node ./media-server.js &
+
+sleep 1
+
+bash scripts/interpolate.sh &
 
 sleep 1
 

@@ -5,9 +5,9 @@
   "main": "src/index.mts",
   "scripts": {
     "start": "node --loader ts-node/esm src/index.mts",
-    "test": "node --loader ts-node/esm src/test.mts",
-    "postprod:interpolate": "node --loader ts-node/esm src/postprod/interpolate_legacy.mts",
-    "postprod:interpolate_legacy": "node --loader ts-node/esm src/postprod/interpolate_legacy.mts",
+    "batch:updatePlaylists": "node --loader ts-node/esm src/batch/updatePlaylists.mts",
+    "batch:interpolate": "node --loader ts-node/esm src/batch/interpolate_legacy.mts",
+    "batch:interpolate_legacy": "node --loader ts-node/esm src/batch/interpolate_legacy.mts",
     "docker": "npm run docker:build && npm run docker:run",
     "docker:build": "docker build -t  media-server .",
     "docker:run": "docker run -it -p 7860:7860 media-server"

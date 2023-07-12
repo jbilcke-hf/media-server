@@ -9,6 +9,7 @@ import { downloadVideo } from './downloadVideo.mts'
 import { getDatabase } from './getDatabase.mts'
 import { callMusicgen } from './callMusicgen.mts'
 import { interpolateVideo } from './interpolateVideo.mts'
+import { updatePlaylists } from './batch/updatePlaylists.mts'
 
 let hasReachedStartingPoint = false
 
@@ -20,6 +21,9 @@ console.log(`Web TV server status: ${status}`)
 
 // to add more diversity to the stream, let's cut down on the length
 const maxShotsPerSequence = 10
+
+console.log('Reading prompt database..')
+const db = await getDatabase('./database.json')
 
 const main = async () => {
   console.log('Reading persistent file structure..')
@@ -34,9 +38,7 @@ const main = async () => {
     return
   }
 
-
-  console.log('Reading prompt database..')
-  const db = await getDatabase('./database.json')
+  await updatePlaylists(db)
 
   const nbTotalShots = db.sequences.reduce((a, s) => a + s.shots.length, 0)
   console.log(`Prompt database version: ${db.version}`)

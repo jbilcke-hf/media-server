@@ -158,7 +158,7 @@
 },
     {
       "sequenceId": "46e94a7b-dc27-4949-819e-bb9bce60c460",
-      "skip": false,
+      "skip": true,
       "lastGenerationAt": "",
       "videoPrompt": "a photorealistic compilation of various computer renderings and simulation featuring classical 3D animation of torus, cube, phong, shading, cast shadow in a minimal textured setting, a teapot, a monkey head",
       "audioPrompt": "electronic goal music from the 90s",
