@@ -64,11 +64,13 @@ export const updatePlaylists = async (db: Database) => {
       const shotFilePathPattern = path.join(directoryPath, shotFileNamePattern)
 
       const files = await glob(shotFilePathPattern)
-      const shotFilePath = files[0] // Get the first matching file
 
-      // Add the file path to the categories
-      for (const tag of sequence.tags) {
-        categoryToFilePaths[tag].push(shotFilePath)
+      for (const shotFilePath of files) {
+
+        // Add the file path to the categories
+        for (const tag of sequence.tags) {
+          categoryToFilePaths[tag].push(shotFilePath)
+        }
       }
     }
   }
