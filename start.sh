@@ -28,16 +28,12 @@ sleep 1
 bash scripts/audio1.sh &
 # bash scripts/audio2.sh &
 
-# background process that creates a video stream from video files
-# bash scripts/video1.sh &
-# bash scripts/video2.sh &
-# bash scripts/video3.sh &
+# [LEGACY] background process that creates a video stream from video files
+bash scripts/legacy_video3.sh &
 
 sleep 1
 
 # background process that sends data to the media server
-# bash scripts/stream1.sh &
-# bash scripts/stream2.sh &
 bash scripts/channel_random.sh &
 bash scripts/channel_random_twitch.sh &
 bash scripts/channel_comedy.sh &

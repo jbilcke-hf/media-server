@@ -9,7 +9,7 @@ import { downloadVideo } from './downloadVideo.mts'
 import { getDatabase } from './getDatabase.mts'
 import { callMusicgen } from './callMusicgen.mts'
 import { interpolateVideo } from './interpolateVideo.mts'
-import { updatePlaylists } from './batch/updatePlaylists.mts'
+import { updatePlaylists } from './updatePlaylists.mts'
 
 let hasReachedStartingPoint = false
 
