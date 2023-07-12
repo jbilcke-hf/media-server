@@ -23,7 +23,7 @@ export const updatePlaylists = async (db: Database) => {
     randomData += `file '${filePath}'\n`
   })
   await fs.promises.writeFile("channel_random.txt", randomData)
-  console.log("Created playlist channel_random.txt")
+  console.log(`Created playlist channel_random.txt with ${allFilePaths} entries`)
 
   console.log("Generating playlist for the last files..")
   // Filter the list for the last 400 updated files
@@ -42,7 +42,7 @@ export const updatePlaylists = async (db: Database) => {
     freshData += `file '${filePath}'\n`
   })
   await fs.promises.writeFile("channel_fresh.txt", freshData)
-  console.log("Created playlist channel_fresh.txt")
+  console.log(`Created playlist channel_fresh.txt with ${lastUpdatedFilePaths} entries`)
 
 
   // Record of file paths categorized by tags
@@ -73,14 +73,13 @@ export const updatePlaylists = async (db: Database) => {
     }
   }
 
+  const stats: Record<string, number> = {}
   // Print the stats
   for (const [category, filePaths] of Object.entries(categoryToFilePaths)) {
-    console.log(
-      `Category: ${category}; Number of Files: ${filePaths.length}; Files: ${filePaths.join(
-        ", "
-      )}`
-    )
+    stats[category] = filePaths.length
   }
+
+  console.log(`NB FILES PER CATEGORY: ${JSON.stringify(stats, null, 2)}`)
 
   // create the new playlists
   for (const [category, filePaths] of Object.entries(categoryToFilePaths)) {

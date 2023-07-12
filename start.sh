@@ -29,7 +29,7 @@ bash scripts/audio1.sh &
 # bash scripts/audio2.sh &
 
 # [LEGACY] background process that creates a video stream from video files
-bash scripts/legacy_video3.sh &
+# bash scripts/legacy_video3.sh &
 
 sleep 1
 
@@ -37,6 +37,7 @@ sleep 1
 bash scripts/channel_random.sh &
 bash scripts/channel_random_twitch.sh &
 bash scripts/channel_comedy.sh &
+bash scripts/channel_documentary.sh &
 
 sleep 1
 
