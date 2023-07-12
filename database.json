@@ -1524,7 +1524,7 @@
     },
     {
       "sequenceId": "6d9345ee-8833-4404-9881-1eb5295a4dce",
-      "skip": false,
+      "skip": true,
       "lastGenerationAt": "",
       "videoPrompt": "a 3d render, Pixar-like movie about animals boxing and fighting each other in various arenas",
       "audioPrompt": "fast-paced combat music with guitars rifss and electronic drum loop",
