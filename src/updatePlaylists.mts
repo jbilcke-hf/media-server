@@ -1,5 +1,6 @@
 import fs from "fs"
 import path from "path"
+import { promise as glob } from "glob-promise"
 
 import { Database } from "./types.mts"
 
@@ -58,16 +59,16 @@ export const updatePlaylists = async (db: Database) => {
 
     // Read files from the sequence
     for (const shot of sequence.shots) {
-      const shotId = shot.shotId;
-      const mp4FileName = `${shotId}.mp4`
-      const shotFilePath = path.join(directoryPath, mp4FileName)
+      const shotId = shot.shotId
+      const shotFileNamePattern = `*${shotId}*.mp4`
+      const shotFilePathPattern = path.join(directoryPath, shotFileNamePattern)
 
-      // Check if file exists
-      if (fs.existsSync(shotFilePath)) {
-        // Add the file path to the categories
-        for (const tag of sequence.tags) {
-          categoryToFilePaths[tag].push(shotFilePath)
-        }
+      const files = await glob(shotFilePathPattern)
+      const shotFilePath = files[0] // Get the first matching file
+
+      // Add the file path to the categories
+      for (const tag of sequence.tags) {
+        categoryToFilePaths[tag].push(shotFilePath)
       }
     }
   }
