@@ -5,7 +5,7 @@ bash ./scripts/init.sh
 
 # ------------ UPDATE MUSIC ------------
 # echo "skipping new music download"
-# bash scripts/download_fresh_music.sh
+bash scripts/download_fresh_music.sh
 
 # ---------- CONTENT ALIGNMENT ---------
 # bash scripts/censorship.sh

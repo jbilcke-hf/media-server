@@ -10,7 +10,7 @@
       "audioPrompt": "electronic goal music from the 90s",
       "tags": [
         "trailer",
-        "cgi"
+        "abstract"
       ],
       "channel": "main",
       "shots": [
@@ -164,7 +164,7 @@
       "audioPrompt": "electronic goal music from the 90s",
       "tags": [
         "trailer",
-        "cgi"
+        "abstract"
       ],
       "channel": "main",
       "shots": [
@@ -430,8 +430,7 @@
       "audioPrompt": "energic pop cinematic orchestra",
       "tags": [
         "trailer",
-        "comedy",
-        "animation"
+        "comedy"
       ],
       "channel": "main",
       "shots": [
@@ -529,8 +528,7 @@
       "audioPrompt": "electronic ambient music",
       "tags": [
         "trailer",
-        "comedy",
-        "animation"
+        "comedy"
       ],
       "channel": "main",
       "shots": [
@@ -902,9 +900,6 @@
       "audioPrompt": "intense and fast-paced electronic and orchestra music for a space opera with synthetisers, electronic drum machine",
       "tags": [
         "trailer",
-        "comedy",
-        "action",
-        "adventure",
         "science-fiction"
       ],
       "channel": "main",
@@ -1535,9 +1530,7 @@
       "audioPrompt": "fast-paced combat music with guitars rifss and electronic drum loop",
       "tags": [
         "trailer",
-        "comedy",
-        "animation",
-        "action"
+        "comedy"
       ],
       "channel": "main",
       "shots": [
@@ -1635,9 +1628,6 @@
       "audioPrompt": "intense and fast-paced electronic and orchestra music with synthetisers, electronic drum machine",
       "tags": [
         "trailer",
-        "comedy",
-        "action",
-        "adventure",
         "science-fiction"
       ],
       "channel": "main",
@@ -1722,9 +1712,6 @@
       "audioPrompt": "intense and fast-paced electronic and orchestra music for a space opera with synthetisers, electronic drum machine",
       "tags": [
         "trailer",
-        "comedy",
-        "action",
-        "adventure",
         "science-fiction"
       ],
       "channel": "main",
@@ -1964,8 +1951,7 @@
       "audioPrompt": "soundtrack for a movie, with orchestra, calming, whale sounds and wood drums, flute",
       "tags": [
         "trailer",
-        "animation",
-        "adventure"
+        "comedy"
       ],
       "channel": "main",
       "shots": [
@@ -2049,7 +2035,6 @@
       "audioPrompt": "soundtrack for an action movie, energetic, fast-paced, drums, trumpet, strings, safari animals",
       "tags": [
         "trailer",
-        "action",
         "adventure"
       ],
       "channel": "main",
@@ -2220,8 +2205,7 @@
       "audioPrompt": "soundtrack for an action movie, energetic, fast-paced, drums, trumpet, strings, safari animals",
       "tags": [
         "trailer",
-        "action",
-        "adventure"
+        "comedy"
       ],
       "channel": "main",
       "shots": [
@@ -2430,7 +2414,6 @@
       "audioPrompt": "epic music for a pirate movie, lot of energy, adventure, action",
       "tags": [
         "trailer",
-        "action",
         "adventure"
       ],
       "channel": "main",
@@ -5302,7 +5285,8 @@
       "videoPrompt": "a 3D film similar to Pixar movies, with a rat in New York",
       "audioPrompt": "ambient deep house, drum machine, synth",
       "tags": [
-        "trailer"
+        "trailer",
+        "comedy"
       ],
       "channel": "main",
       "shots": [
@@ -6483,7 +6467,8 @@
       "videoPrompt": "an anime movie in the style of Studio Ghibli and Miyazaki, showing a magical panda becoming friend with a black cat. The panda can transform into various people and objects. Set in feudal japan, they go on adventures in beautiful japanese landscape. We can see leaves of cherry blossom, beautify japanese mountains, plains, rivers, traditional japanese settings. In nearly all scenes we should have dynamic camera effects (eg. rotating around the scene), as well as mist, haze or fog effect. To add to the mystic, each some scenes should have dramatic light effects, such as golden hour, god's ray.",
       "audioPrompt": "ambient deep house, drum machine, synth",
       "tags": [
-        "trailer"
+        "trailer",
+        "comedy"
       ],
       "channel": "main",
       "shots": [
