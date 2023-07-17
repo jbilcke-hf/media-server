@@ -12,6 +12,23 @@ Write the caption in the following order: **content type > description > style >
 # Useful terms
 Finally, there are some words to improve your prompt, and obviously, the image you’re gonna get. These could be considered as final touches, and you can add as many and as random as you want, but here are a few examples:
 
+## Related to camera shots:
+- the long shot or wide shot (often used as an establishing shot), that shows the environment around the subjects,
+- the full shot, where the entirety of the subject is just visible within the frame,
+- the medium-long shot, where the frame ends near the knees,
+- the medium shot, where the frame stops either just above or just below the waist,
+- the medium close-up, where more of the shoulder is visible than in the close-up,
+- the close-up, where the shoulder line is visible,
+- the extreme close-up, where the frame stops at the subject's chin and forehead.
+- the extreme long shot (used for epic views and panoramas),
+- the American shot (also 3/4 shot), a slight variation of the medium-long shot to also include OWB handgun holsters in Western movies, a characterization from French film criticism for a type of shot in certain American films of the 1930s and 1940s also referred to as a "Cowboy shot" in reference to the gun holster being just above the bottom frame line,
+- the "Italian shot", where only a person's eyes are visible, named after the genre of Italo-Westerns, particularly the Dollars Trilogy by Sergio Leone, that established this particular field size.
+- the establishing shot is defined by giving an establishing "broad overview" over a scene, whether performed by a wide shot with a fixed camera, a zoom, a series of different close-ups achieved by camera motion, or a sequence of independent close-angle shots edited right after each other,
+- the master shot is a scene done in one single take, with no editing
+- the freeze frame shot is created in editing by displaying a single frame for an elongated duration of time
+- the insert shot is created in editing by replacing a picture with another while the audio stays the same
+- the trolley shot, in which the camera moves toward or away from its subject while filming. Traditionally dolly shots are filmed from a camera dolly but the same motion may also be performed with a Steadicam or gimbal. A dolly shot is generally described in terms of "dollying in" or "dollying out".
+
 ## Related to: lighting
 accent lighting, ambient lighting, backlight, blacklight, blinding light, candlelight, concert lighting, crepuscular rays, direct sunlight, dusk, Edison bulb, electric arc, fire, fluorescent, glowing, glowing radioactively, glow-stick, lava glow, moonlight, natural lighting, neon lamp, nightclub lighting, nuclear waste glow, quantum dot display, spotlight, strobe, sunlight, ultraviolet, dramatic lighting, dark lighting, soft lighting, gloomy
 

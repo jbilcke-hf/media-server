@@ -3,6 +3,261 @@
   "startAtShotId": "",
   "sequences": [
     {
+      "sequenceId": "a3bfac15-2f5d-4708-812c-50ab82271cf4",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "Scenes from a movie about a young magician who explore a damp, misty forest, see a majestic deer, who transform into a beautiful and friendly witch, which talks to the magician. She gives him a magical wand. The magician travels back to his magical school of magic on his witch broom, just in time to fight a huge orc goblin which is trying to destroy the magical school. The magical schools is beautiful, looking a bit like an eerie chapel, alone in the middle of a misty lake. The shots should all be beautiful, using appropriate large or shot range shots, with golden hour for the castle shot, nice camera movement etc.",
+      "audioPrompt": "epic orchestral music, for a movie about magicians",
+      "tags": [
+        "trailer",
+        "cinema",
+        "fantasy",
+        "adventure"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "85205b4a-9b63-48c1-a889-3759b7b8c315",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic movie shot of a young magician, with his navy blue wizard robes adorned with silver moons and stars, his brown leather boots, and his feathered hat stepping hesitantly into a damp, misty forest filled with moss-laden ancient trees and ferns underbrush in the morning light, shot in Cinema 4D, showcasing a high degree of photorealism.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "190861de-f935-45e2-90da-77e38d5d4824",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic video of a majestic deer, its majestic antlers laced with flourishing green foliage, emerging from the foggy backdrop bathed in the warm glow of the morning sun, forming a stark contrast against the earthly hues of the surrounding misty forest, captured in 8K UHD, to unveil the breathtakingly realistic details.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "31d64e86-dbfd-4531-a8a2-a89cf11702eb",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic rendition of the deer morphing into the earth-toned witch, in ethereal display of light and magical elements, the misty forest alive with twinkling fairy lights that perfectly mimic the real world counterparts, shot in 4k UHD, reveling in its award-winning photorealism.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "973e27e8-ad45-4755-b8f0-ef83ea9a4c01",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Movie scene of the witch and the young magician, dressed in his navy robe with starry print, in earnest conversation on a moss-covered bridge, washed in the dewy morn's light, with their expressive eyes twinkling, the Cinema 4D camera movement emulating the human eyes' attention to detail.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "b7dab4bf-1446-487c-839f-edad3863857d",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Feature film quality shot of the kind witch, in her botanical-themed earthy toned robe, gifting the young magician, in his iconic starry, navy robe, the intricately designed magical wand aglow with magical energy, in the dimly lit yet mystifying forest, brought to life in unparalleled photorealistic detail by an 8K UHD camera.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "fa169a1f-8f90-4df6-afce-34ab51b53bc7",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "HD video in Cinema 4D capturing the young magician in his navy blue robes, etched with silver stars and moons, his feathered hat still firmly in place, riding his enchanted broomstick over lush forests, under the morning sky painted with pastel hues, showcasing its award-winning photorealistic details.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "cccaf212-1b6a-435d-b4cb-907ddb089cc7",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic, wide-angle video of the grand magical school, resembling a serene, slightly eerie chapel, in the middle of a misty lake, bathed in the ethereal glow of the setting sun, masterfully captured in 8K UHD that showcases each texture, color, and the play of lights and shadows in high detail.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "fab882ec-fc46-438c-bbb2-3b5eb8fa4fa1",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Award winning movie snapshot of the looming Orc Goblin, its hideous features enhanced by the subtly dramatic sunlight, emerging ominously onto the school's sacred grounds, painted in sharp, realistic detail and contrasted against the seemingly tranquil lake and verdant surroundings, all captured in 4K UHD with photorealistic CGI effects.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a78a622d-e996-4238-bf78-119923019548",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "High quality 4k UHD video featuring the young magician, still garbed in his signature navy robes adorned with silver moons and stars, ready to confront the monster through the plush velvet drapes and marble archways of the school, the surrounding fog adding a sense of ethereal beauty to the tense scenario, captured in ultra-realistic Cinema 4D.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "285d716e-b964-4ab8-baa3-8bfd9a0c5601",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic highlight video in 4K quality portraying the young magician, in his iconic wizard outfit with shimmering moons and stars, standing defiantly as he casts a spell that illuminates the ornate interiors of the dark school, serving a visual feast of rich colors, deep shadows, and flawless textures, embodying the true essence of ultra-realistic cinematography.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "4cefc2ae-3cd4-464d-bb3b-95f6d2280e2a",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "Compilation of timelapses of various trees and plants growing up",
+      "audioPrompt": "eery and rythmic electronic music",
+      "tags": [
+        "trailer",
+        "documentary"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "e38afc29-798a-41c7-b07a-883216cef452",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic timelapse of a blooming cherry blossom tree in a traditional Japanese garden, warm evening sunlight filters through the petals creating soft shadows on the clouded gravel below, accompanied by an ancient stone lantern. Detailed flora, sakura petals replicating natural color gradients, cinematic style, realistic textures, high quality, trending on artstation, movie scene.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "ff8c9ed9-d08f-4977-9c89-5d1ac3ea0859",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic, detailed, photorealistic timelapse of a cactus plant growing, nestled between arid desert rocks under a blue dome of cloudless sky, sun journeying from average height to sunset casting long dramatic shadows, intricate texture of cactus' skin, precise representation of dry desert environment, award-winning quality, trending on artstation, movie-like presentation.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "9852be7e-3883-4aec-8caf-0d986644e7bf",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "Ultra realistic timelapse in digital paint style of an oak tree growing in a lush, green forest, surrounded by diverse plants and undergrowth, sunlight trickles through the dense canopy above casting dynamic, shifting shadows, environment rich in colors and highly detailed textures, cinematic, trending on artstation, movie scene.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "91918b12-5747-423e-91c1-d14bfe133f3e",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "Photorealistic high quality timelapse revealing the evolution of a pine tree on a snowy mountain ridge, piercing cold morning light shines on the tree, casting crisp shadows on the fluffy snow, realistic blizzard effects, detailed textures of tree bark and needles, surreal environment, trending on artstation, movie-like scene.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "dc9bd3fa-cb04-467f-81ee-01466a3b7fe8",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "Cinematic timelapse of an Apple tree blossoming in a serene orchard, sun sets in the background casting soft, golden hour light, shadows slowly lengthening with time, vivid and realistic colors, high detailed texture on the apple tree, trending on artstation, movie-style scene.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "781aff8b-502b-4306-ad2d-398352eea663",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "Ultra high definition timelapse of a beautiful tropical flower evolving and blooming in a dense rainforest, under consistent ambient lighting, with the glow of bioluminescent plants illuminating surroundings, realistic foliage textures, highly detailed, perfect depth of field, trending on artstation, cinematic style, movie scene.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8d3c6af1-b4d6-47b5-a18b-d8e37dfdad1c",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "Highly detailed, rendered timelapse of an Amazonian liana vine intertwining with a large rainforest tree. Diverse, colorful undergrowth, sunlight weakly penetrating dense canopy, casting deep shadows, realistic textures, photorealistic, trending on artstation, cinematic, movie scene.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "a45a261b-40bd-49d6-b1a1-7af4b5bd92d9",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "Digital painting timelapse of a sunflower growing in a French countryside field during summer, bright sunlight, amazing landscape with a van Gogh color palette, unique lighting conditions, detailed textures, cinematic, trending on artstation, high quality, movie scene.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "7de78021-7b00-43e0-ad48-26bd7bf098c9",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "Gradual mutation of a Venus Flytrap in a murky, damp swamp setting is depicted in this digital painting timelapse, eerie green light, accompanied by the sounds of buzzing insects, photorealistic, detailed textures, cinematic, trending on artstation, high quality, movie scene.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "408614e5-04d0-41d7-a74a-da651ecdcc5d",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "Ultra high-definition, highly detailed timelapse of a redwood tree growing in the ancient forests of California, shot at dawn with sunlight streaking through the foliage creating dynamic shadows, cinematic, trending on artstation, movie-style scene.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "bee92553-c587-4867-a251-bfcc933d800b",
+      "skip": false,
+      "lastGenerationAt": "",
+      "videoPrompt": "A 3D rendered animation movie about a group of cute 3D llamas visiting a theme park.",
+      "audioPrompt": "engaging track, theme park music",
+      "tags": [
+        "trailer",
+        "comedy",
+        "cgi"
+      ],
+      "channel": "main",
+      "shots": [
+        {
+          "shotId": "9bbd574c-c846-49f0-82ed-2877298c5989",
+          "index": 0,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of a lush green theme park under the golden morning light, cute llamas stepping through the park entrance, attractions and rides in the background, Pixar style, sunny, high details on surrounding environment, long shot, cinematic view, photorealistic, octane render, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "bdfc92bf-1877-4ae7-a392-c786ef24a9be",
+          "index": 1,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render showcasing llamas in a merry-go-round, Pixar style, bathed under the washed daylight, features like fur textures and glossy eyes visible, painted carnival horses in the carousel, the medium-close-up shot, photorealistic, trending on artstation, cinematic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "8a43add3-d210-4df1-9e1f-3aa12ee42b36",
+          "index": 2,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D rendered llamas enjoying ice-cream cones, Pixar style, in the shaded area of the theme park, focus on licked and melting ice cream, characters reacting with joy and surprise, close up view, ambient lighting, freeze frame shot, photorealistic, ultra realistic, cinematic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "1d3149f9-34f1-43fd-a777-87f2b90f5ed0",
+          "index": 3,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of llamas exploring a castle of fantasy, Pixar style, stone textures and old vines visible, beautiful draped flags, scattered sunlight through high windows, towering view of the castle's interior, ultra-wide angle, dramatic lighting, photorealistic, trending on artstation, cinematic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "51056829-49dc-4bf9-9d0e-767e05cec3c6",
+          "index": 4,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of llamas on a roller coaster, Pixar style, mid-day light casting long shadows, expressions of thrill and joy on characters' faces, landscape view of the entire park from the high point, aerial view, ambient lighting, high details, ultra-realistic, trending on artstation, cinematic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "21c4f433-eddf-4dea-812b-19e636080c14",
+          "index": 5,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D rendering of a flock of llamas crossing a footbridge over a bright blue river, Pixar style, ripples and reflections in water, lush green trees and distant roller coasters in the backdrop, long shot, cinematic, photorealistic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "4bdcea35-bae2-45c6-a733-1c73af33591c",
+          "index": 6,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of llamas under a food stall canopy, Pixar style, munching on popcorn and caramel apples, high detail on food textures and expressions of satisfaction, medium close-up shot, soft lighting, photorealistic, ultra realistic, cinematic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "9a55a9c4-be11-468c-80d1-ced92506805b",
+          "index": 7,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D rendering of the twilight sky over the theme park, llamas watching a parade, Pixar style, emphasis on glowing lights and floats, close-up on the characters' faces filled with awe, magical atmosphere, ambient lighting, photorealistic, trending on artstation, cinematic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "3bb26f7c-d16a-40ba-b3ae-b1c6d55aba4c",
+          "index": 8,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D rendered birds-eye view of llamas in the theme park at night, Pixar style, vibrant neon lights brightening walkways and rides, ferris wheel rotation in action, aerial view, high details, ambient neon lighting, ultra realistic, cinematic, movie.",
+          "audioPrompt": ""
+        },
+        {
+          "shotId": "981ab3ef-c271-43db-8cdb-723f86a563b8",
+          "index": 9,
+          "lastGenerationAt": "",
+          "videoPrompt": "3D render of tired llamas resting on a park bench under the starlit sky, Pixar style, focus on soft fur textures and sleepy eyes, detailed night view of the park in the background, close up shot, soft ambient lighting, ultra realistic, cinematic, photorealistic, movie.",
+          "audioPrompt": ""
+        }
+      ]
+    },
+    {
       "sequenceId": "d344637d-247f-4dd1-8700-02741f36a94a",
       "skip": true,
       "lastGenerationAt": "",
@@ -6652,6 +6907,7 @@
     {
       "sequenceId": "d6f9a6de-d500-4cb3-accd-33a5a1e42b7f",
       "lastGenerationAt": "",
+      "skip": true,
       "videoPrompt": "A real movie about evil mages and orcs attacking a castle of knights, in the style of Michael Bay. Some scenes include: cutting down trees, building siege weapons at night, attacking the castle in the morning, sending a dragon to attack, knights defending, a huge battle outside the castle, and the aftermath of the battle.",
       "audioPrompt": "ambient deep house, drum machine, synth",
       "tags": [

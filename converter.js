@@ -1,27 +1,27 @@
 const { v4 } = require('uuid')
-const raw ={
-  "input": "3D animation, blender renderings, simulations showcasing a variety of different effects",
+const raw = {
+  "input": "Scenes from a movie about a young magician who explore a damp, misty forest, see a majestic deer, who transform into a beautiful and friendly witch, which talks to the magician. She gives him a magical wand. The magician travels back to his magical school of magic on his witch broom, just in time to fight a huge orc goblin which is trying to destroy the magical school. The magical schools is beautiful, looking a bit like an eerie chapel, alone in the middle of a misty lake. The shots should all be beautiful, using appropriate large or shot range shots, with golden hour for the castle shot, nice camera movement etc.",
+  
   "captions": [
-  
-    "stunning 3D video of rippling water waves, reflected on hovering metal beads in an underwater setting. Rendered in Blender with subtle, whaling ambient light, captured in 8K UHD.",
-  
-    "high-quality 3D animation of a cloth-like structure falling in a windless room, displaying the realistic physics of fabric movement. Rendered in ultra-detailed Blender, shot in 4K Cinema4D.",
-  
-    "splendid video showing the fluid simulation of liquids as they interact with static and moving objects, set in a minimalistic, clean environment. Captured with 4K Cinema4D, showcases Blender render.",
-  
-    "detailed 3D animation of cellular automata, using simple elements to create complex patterns in a uniform space. Exhibits award-winning lighting techniques and Blender rendering, shot in Cinema4D studio quality.",
-  
-    "fabulous Blender rendering of a high-speed camera capture of metal beads impacting a flat surface, displaying brilliant n-body collision physics. Captured at a ripe evening with Cinema4D.",
+    "Photorealistic movie shot of a young magician, with his navy blue wizard robes adorned with silver moons and stars, his brown leather boots, and his feathered hat stepping hesitantly into a damp, misty forest filled with moss-laden ancient trees and ferns underbrush in the morning light, shot in Cinema 4D, showcasing a high degree of photorealism.",
     
-    "breathtakingly crisp 3D animation featuring a fluid mechanism, where treacle-thick liquid pours into a large vat. Beautifully lit by diffused, soft light. Rendered in Blender, captured at 8K UHD with Cinema4D.",
-  
-    "surreal yet hyper-realistic 3D animation of cloth simulation, showcasing the realism of Blender's material simulation capabilities. With studio lighting illuminating the scene, shot at close-up with Cinema4D.",
-  
-    "contemporary fine-art 3D animation showcasing the stunning interaction between thousands of metal beads under n-body simulation. Rendered with precision in Blender and captured at a high detail with Cinema4D.",
-  
-    "Blender-rendered 3D animation of a glass cube falling into a pool of liquid, captured to showcase fluid dynamics and refraction of light effects. Caught under a soft diffused light with Cinema4D.",
-  
-    "impressive 3D animation, of cellular automata, forming fascinating patterns in a confined environment. The geometrically exact elements are rendered with Blender. Shot at dusk, in crisp 8K UHD with Cinema4D."
+    "Cinematic video of a majestic deer, its majestic antlers laced with flourishing green foliage, emerging from the foggy backdrop bathed in the warm glow of the morning sun, forming a stark contrast against the earthly hues of the surrounding misty forest, captured in 8K UHD, to unveil the breathtakingly realistic details.",
+
+    "Cinematic rendition of the deer morphing into the earth-toned witch, in ethereal display of light and magical elements, the misty forest alive with twinkling fairy lights that perfectly mimic the real world counterparts, shot in 4k UHD, reveling in its award-winning photorealism.",
+
+    "Movie scene of the witch and the young magician, dressed in his navy robe with starry print, in earnest conversation on a moss-covered bridge, washed in the dewy morn's light, with their expressive eyes twinkling, the Cinema 4D camera movement emulating the human eyes' attention to detail.",
+
+    "Feature film quality shot of the kind witch, in her botanical-themed earthy toned robe, gifting the young magician, in his iconic starry, navy robe, the intricately designed magical wand aglow with magical energy, in the dimly lit yet mystifying forest, brought to life in unparalleled photorealistic detail by an 8K UHD camera.",
+
+    "HD video in Cinema 4D capturing the young magician in his navy blue robes, etched with silver stars and moons, his feathered hat still firmly in place, riding his enchanted broomstick over lush forests, under the morning sky painted with pastel hues, showcasing its award-winning photorealistic details.",
+
+    "Photorealistic, wide-angle video of the grand magical school, resembling a serene, slightly eerie chapel, in the middle of a misty lake, bathed in the ethereal glow of the setting sun, masterfully captured in 8K UHD that showcases each texture, color, and the play of lights and shadows in high detail.",
+
+    "Award winning movie snapshot of the looming Orc Goblin, its hideous features enhanced by the subtly dramatic sunlight, emerging ominously onto the school's sacred grounds, painted in sharp, realistic detail and contrasted against the seemingly tranquil lake and verdant surroundings, all captured in 4K UHD with photorealistic CGI effects.",
+
+    "High quality 4k UHD video featuring the young magician, still garbed in his signature navy robes adorned with silver moons and stars, ready to confront the monster through the plush velvet drapes and marble archways of the school, the surrounding fog adding a sense of ethereal beauty to the tense scenario, captured in ultra-realistic Cinema 4D.",
+
+    "Cinematic highlight video in 4K quality portraying the young magician, in his iconic wizard outfit with shimmering moons and stars, standing defiantly as he casts a spell that illuminates the ornate interiors of the dark school, serving a visual feast of rich colors, deep shadows, and flawless textures, embodying the true essence of ultra-realistic cinematography."
   ]
 }
 const result = {
@@ -29,10 +29,12 @@ const result = {
     "skip": false,
     "lastGenerationAt": "",
     "videoPrompt": raw.input,
-    "audioPrompt": "electronic goal music from the 90s",
+    "audioPrompt": "epic orchestral music, for a movie about magicians",
     "tags": [
       "trailer",
-      "cgi"
+      "cinema",
+      "fantasy",
+      "adventure"
     ],
     "channel": "main",
     "shots": raw.captions.map((cap, i) => ({
