@@ -30,6 +30,8 @@ const main = async () => {
   const stats = await getStats()
 
   console.log('nb files:', JSON.stringify(stats, null, 2))
+  
+  await updatePlaylists(db)
 
   if (status === 'paused') {
     setTimeout(() => {
@@ -38,7 +40,7 @@ const main = async () => {
     return
   }
 
-  await updatePlaylists(db)
+
 
   const nbTotalShots = db.sequences.reduce((a, s) => a + s.shots.length, 0)
   console.log(`Prompt database version: ${db.version}`)
